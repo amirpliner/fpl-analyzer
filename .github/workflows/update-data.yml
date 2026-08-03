@@ -19,7 +19,7 @@ jobs:
           python-version: "3.x"
 
       - name: Fetch latest FPL data
-        run: python3 scripts/fetch_data.py --team-id 2528374 --league-id 367147
+        run: python3 scripts/fetch_data.py --league-id 367147
 
       - name: Commit and push if changed
         run: |

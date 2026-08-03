@@ -106,49 +106,86 @@ function renderTopPlayers() {
   wrap.innerHTML = html;
 }
 
-async function renderMyTeam() {
+async function renderManagerTeam(teamId) {
   const container = document.getElementById("myTeamContent");
   const cfg = state.config;
-  if (!cfg || !cfg.team_ids?.length) return;
-
-  let html = "";
-  for (const teamId of cfg.team_ids) {
-    const entry = await fetchJSON(`data/entry_${teamId}.json`);
-    const picks = await fetchJSON(`data/entry_${teamId}_picks_gw${cfg.picks_gw}.json`);
-    if (!entry || !picks) continue;
-
-    html += `<h2>${entry.name} (${entry.player_first_name} ${entry.player_last_name})</h2>`;
-    html += `<div class="table-wrap"><table><thead><tr><th>שחקן</th><th>עמדה</th><th>קבוצה</th><th>מחיר</th><th>פורם</th><th>ריצת משחקים</th><th>המלצה</th></tr></thead><tbody>`;
-
-    const squadPlayers = picks.picks.map(pk => state.playersById.get(pk.element)).filter(Boolean);
-
-    for (const pk of picks.picks) {
-      const p = state.playersById.get(pk.element);
-      if (!p) continue;
-      const team = state.teamsById.get(p.team);
-      const run = fixtureRunScore(p.team);
-      const runClass = run <= 2.34 ? "fdr-1" : run <= 3 ? "fdr-2" : run <= 3.67 ? "fdr-3" : "fdr-4";
-
-      let recommendation = "";
-      if (run >= 3.67 || parseFloat(p.form) < 2) {
-        const alt = bestReplacement(p, squadPlayers);
-        if (alt) recommendation = `<span class="suggest-out">שקול להחליף</span> ← <span class="suggest-in">${alt.web_name}</span>`;
-      }
-
-      html += `<tr>
-        <td>${p.web_name}${p.chance_of_playing_next_round !== null && p.chance_of_playing_next_round < 100 ? " ⚠️" : ""}</td>
-        <td>${POSITION_NAMES[p.element_type]}</td>
-        <td>${team?.short_name || "?"}</td>
-        <td>£${playerPrice(p)}</td>
-        <td>${p.form}</td>
-        <td><span class="fdr-cell ${runClass}">${run.toFixed(1)}</span></td>
-        <td>${recommendation || "<span class=\"pill\">בסדר</span>"}</td>
-      </tr>`;
-    }
-    html += "</tbody></table></div>";
+  const entry = await fetchJSON(`data/entry_${teamId}.json`);
+  const picks = await fetchJSON(`data/entry_${teamId}_picks_gw${cfg.picks_gw}.json`);
+  if (!entry || !picks) {
+    container.innerHTML = `<p class="empty-state">לא נמצאו נתונים למנהל הזה.</p>`;
+    return;
   }
 
-  if (html) container.innerHTML = html;
+  let html = `<h2>${entry.name} (${entry.player_first_name} ${entry.player_last_name})</h2>`;
+  html += `<div class="table-wrap"><table><thead><tr><th>שחקן</th><th>עמדה</th><th>קבוצה</th><th>מחיר</th><th>פורם</th><th>ריצת משחקים</th><th>המלצה</th></tr></thead><tbody>`;
+
+  const squadPlayers = picks.picks.map(pk => state.playersById.get(pk.element)).filter(Boolean);
+
+  for (const pk of picks.picks) {
+    const p = state.playersById.get(pk.element);
+    if (!p) continue;
+    const team = state.teamsById.get(p.team);
+    const run = fixtureRunScore(p.team);
+    const runClass = run <= 2.34 ? "fdr-1" : run <= 3 ? "fdr-2" : run <= 3.67 ? "fdr-3" : "fdr-4";
+
+    let recommendation = "";
+    if (run >= 3.67 || parseFloat(p.form) < 2) {
+      const alt = bestReplacement(p, squadPlayers);
+      if (alt) recommendation = `<span class="suggest-out">שקול להחליף</span> ← <span class="suggest-in">${alt.web_name}</span>`;
+    }
+
+    html += `<tr>
+      <td>${p.web_name}${p.chance_of_playing_next_round !== null && p.chance_of_playing_next_round < 100 ? " ⚠️" : ""}</td>
+      <td>${POSITION_NAMES[p.element_type]}</td>
+      <td>${team?.short_name || "?"}</td>
+      <td>£${playerPrice(p)}</td>
+      <td>${p.form}</td>
+      <td><span class="fdr-cell ${runClass}">${run.toFixed(1)}</span></td>
+      <td>${recommendation || "<span class=\"pill\">בסדר</span>"}</td>
+    </tr>`;
+  }
+  html += "</tbody></table></div>";
+  container.innerHTML = html;
+}
+
+function selectManager(teamId) {
+  if (teamId) {
+    localStorage.setItem("fplManagerId", teamId);
+    location.hash = `manager=${teamId}`;
+    renderManagerTeam(teamId);
+  } else {
+    document.getElementById("myTeamContent").innerHTML =
+      `<p class="empty-state">בחר את עצמך מהרשימה למעלה כדי לראות את הקבוצה שלך.</p>`;
+  }
+}
+
+async function renderMyTeam() {
+  const container = document.getElementById("myTeamContent");
+  const picker = document.getElementById("managerPicker");
+  const select = document.getElementById("managerSelect");
+  const cfg = state.config;
+
+  if (!cfg || !cfg.managers?.length) return;
+
+  picker.style.display = "flex";
+  select.innerHTML = '<option value="">-- בחר את עצמך --</option>' +
+    cfg.managers
+      .sort((a, b) => a.name.localeCompare(b.name, "he"))
+      .map(m => `<option value="${m.id}">${m.name} (${m.team_name})</option>`)
+      .join("");
+
+  select.addEventListener("change", () => selectManager(select.value));
+
+  const hashMatch = location.hash.match(/manager=(\d+)/);
+  const savedId = hashMatch?.[1] || localStorage.getItem("fplManagerId");
+  const isKnown = savedId && cfg.managers.some(m => String(m.id) === String(savedId));
+
+  if (isKnown) {
+    select.value = savedId;
+    renderManagerTeam(savedId);
+  } else {
+    container.innerHTML = `<p class="empty-state">בחר את עצמך מהרשימה למעלה כדי לראות את הקבוצה שלך.</p>`;
+  }
 }
 
 function bestReplacement(player, currentSquad) {

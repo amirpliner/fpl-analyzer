@@ -34,11 +34,14 @@
   </section>
 
   <section id="tab-myteam" class="tab-panel">
+    <div class="manager-picker" id="managerPicker" style="display:none;">
+      <label for="managerSelect">מי אתה?</label>
+      <select id="managerSelect"><option value="">-- בחר את עצמך --</option></select>
+    </div>
     <div id="myTeamContent">
       <p class="empty-state">
-        עדיין לא חוברה קבוצה אישית. כדי לראות כאן את הקבוצה שלך והצעות לחילופים,
-        תריץ את סקריפט העדכון עם ה-ID של הקבוצה שלך ב-FPL:<br>
-        <code>python3 scripts/fetch_data.py --team-id YOUR_TEAM_ID --league-id YOUR_LEAGUE_ID</code>
+        אין עדיין נתוני קבוצות זמינים. הנתונים נפתחים אוטומטית לכולם ברגע שדדליין המחזור עובר
+        (כדי שאף אחד לא יעתיק קבוצות לפני שהן ננעלות).
       </p>
     </div>
   </section>

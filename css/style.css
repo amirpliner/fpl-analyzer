@@ -125,6 +125,27 @@ tr:last-child td { border-bottom: none; }
 .fdr-4 { background: var(--fdr-4); }
 .fdr-5 { background: var(--fdr-5); }
 
+.manager-picker {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.manager-picker label { font-weight: 600; }
+.manager-picker select {
+  flex: 1;
+  padding: .5rem .7rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: .95rem;
+}
+
 .position-tabs { display: flex; gap: .4rem; margin-bottom: .6rem; }
 .pos-btn { background: var(--card-bg); border: 1px solid var(--border); border-radius: 999px; padding: .45rem 1rem; font-size: .85rem; }
 .pos-btn.active { background: var(--pl-purple); color: white; border-color: var(--pl-purple); }

@@ -40,12 +40,32 @@ def current_event(bootstrap):
     return None, False
 
 
+def fetch_entry_picks(team_id, pick_gw):
+    """Fetches and saves one manager's entry info + picks. Returns a
+    manager summary dict for config.json, or None if picks aren't public
+    yet (e.g. before the gameweek deadline has passed)."""
+    try:
+        entry = get_json(f"{BASE}/entry/{team_id}/")
+        picks = get_json(f"{BASE}/entry/{team_id}/event/{pick_gw}/picks/")
+    except Exception as e:
+        print(f"no picks available for entry {team_id} gw {pick_gw}: {e}")
+        return None
+    save(f"entry_{team_id}.json", entry)
+    save(f"entry_{team_id}_picks_gw{pick_gw}.json", picks)
+    return {
+        "id": team_id,
+        "name": f"{entry['player_first_name']} {entry['player_last_name']}",
+        "team_name": entry["name"],
+    }
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--team-id", type=int, action="append", default=[],
-                         help="Your FPL team (entry) ID, repeatable for multiple managers")
+                         help="Extra FPL team (entry) ID to fetch, repeatable. "
+                              "Not needed for members of --league-id, who are all fetched automatically.")
     parser.add_argument("--league-id", type=int, default=None,
-                         help="Classic mini-league ID")
+                         help="Classic mini-league ID; every manager in it gets fetched")
     args = parser.parse_args()
 
     bootstrap = get_json(f"{BASE}/bootstrap-static/")
@@ -56,27 +76,24 @@ def main():
 
     gw, is_upcoming = current_event(bootstrap)
     print(f"gameweek: {gw} (upcoming={is_upcoming})")
+    pick_gw = gw - 1 if is_upcoming and gw and gw > 1 else gw
 
-    config = {"team_ids": [], "league_id": args.league_id, "picks_gw": None}
+    config = {"managers": [], "league_id": args.league_id, "picks_gw": pick_gw}
+
+    team_ids = list(args.team_id)
 
     if args.league_id:
         league = get_json(f"{BASE}/leagues-classic/{args.league_id}/standings/")
         save(f"league_{args.league_id}.json", league)
+        league_entries = [row["entry"] for row in league["standings"]["results"]] \
+            or [row["entry"] for row in league["new_entries"]["results"]]
+        team_ids += [t for t in league_entries if t not in team_ids]
 
-    for team_id in args.team_id:
-        entry = get_json(f"{BASE}/entry/{team_id}/")
-        save(f"entry_{team_id}.json", entry)
-        # picks for a future gameweek don't exist yet; fall back to the
-        # last finished one (or the previous season's final squad) if needed
-        pick_gw = gw - 1 if is_upcoming and gw and gw > 1 else gw
-        if pick_gw:
-            try:
-                picks = get_json(f"{BASE}/entry/{team_id}/event/{pick_gw}/picks/")
-                save(f"entry_{team_id}_picks_gw{pick_gw}.json", picks)
-                config["team_ids"].append(team_id)
-                config["picks_gw"] = pick_gw
-            except Exception as e:
-                print(f"no picks available for entry {team_id} gw {pick_gw}: {e}")
+    if pick_gw:
+        for team_id in team_ids:
+            manager = fetch_entry_picks(team_id, pick_gw)
+            if manager:
+                config["managers"].append(manager)
 
     save("config.json", config)
     save("meta.json", {"gameweek": gw, "is_upcoming": is_upcoming})
