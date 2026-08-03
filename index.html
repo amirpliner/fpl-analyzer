@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FPL מנתח - ליגת הפנטזי</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>⚽ מנתח הפנטזי שלי</h1>
+  <div class="gw-badge" id="gwBadge">טוען...</div>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="gameweek">ניתוח מחזור</button>
+  <button class="tab-btn" data-tab="myteam">הקבוצה שלי</button>
+  <button class="tab-btn" data-tab="league">ליגת החברים</button>
+</nav>
+
+<main>
+  <section id="tab-gameweek" class="tab-panel active">
+    <h2>לוח קושי משחקים (FDR) - 5 המחזורים הקרובים</h2>
+    <div id="fdrTable" class="table-wrap"></div>
+
+    <h2>שחקנים חמים לפי עמדה</h2>
+    <div class="position-tabs" id="posTabs">
+      <button class="pos-btn active" data-pos="1">שוערים</button>
+      <button class="pos-btn" data-pos="2">מגנים</button>
+      <button class="pos-btn" data-pos="3">קשרים</button>
+      <button class="pos-btn" data-pos="4">חלוצים</button>
+    </div>
+    <div id="topPlayers" class="table-wrap"></div>
+  </section>
+
+  <section id="tab-myteam" class="tab-panel">
+    <div id="myTeamContent">
+      <p class="empty-state">
+        עדיין לא חוברה קבוצה אישית. כדי לראות כאן את הקבוצה שלך והצעות לחילופים,
+        תריץ את סקריפט העדכון עם ה-ID של הקבוצה שלך ב-FPL:<br>
+        <code>python3 scripts/fetch_data.py --team-id YOUR_TEAM_ID --league-id YOUR_LEAGUE_ID</code>
+      </p>
+    </div>
+  </section>
+
+  <section id="tab-league" class="tab-panel">
+    <div id="leagueContent">
+      <p class="empty-state">
+        עדיין לא חוברה ליגה. תריץ את הסקריפט עם <code>--league-id</code> של הליגה הפרטית שלכם.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>נתונים: Fantasy Premier League API &middot; עדכון אחרון: <span id="lastUpdated">-</span></p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
