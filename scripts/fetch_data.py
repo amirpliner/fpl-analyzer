@@ -12,6 +12,8 @@ import json
 import os
 import urllib.request
 
+from analysis import build_analysis
+
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
@@ -59,6 +61,54 @@ def fetch_entry_picks(team_id, pick_gw):
     }
 
 
+def load_json_file(name):
+    path = os.path.join(DATA_DIR, name)
+    if not os.path.exists(path):
+        return None
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def resolve_my_squad(gw):
+    """Tries the real FPL picks endpoint first (only public after the
+    gameweek deadline); falls back to the manually-filled my_squad.json."""
+    manual = load_json_file("my_squad.json")
+    entry_id = manual.get("entry_id") if manual else None
+
+    if entry_id and gw:
+        try:
+            picks = get_json(f"{BASE}/entry/{entry_id}/event/{gw}/picks/")
+            return {
+                "entry_id": entry_id,
+                "gameweek": gw,
+                "bank": picks["entry_history"]["bank"] / 10,
+                "free_transfers": picks.get("entry_history", {}).get("event_transfers", None),
+                "picks": [
+                    {"id": pk["element"], "is_captain": pk["is_captain"],
+                     "is_vice": pk["is_vice_captain"], "on_bench": pk["position"] > 11}
+                    for pk in picks["picks"]
+                ],
+            }
+        except Exception as e:
+            print(f"my_squad: real picks not available yet ({e}), falling back to my_squad.json")
+
+    if manual and len(manual.get("picks", [])) == 15:
+        return manual
+
+    print("my_squad: no valid squad found (fill in data/my_squad.json)")
+    return None
+
+
+def fetch_element_summaries(player_ids):
+    summaries = {}
+    for pid in player_ids:
+        try:
+            summaries[pid] = get_json(f"{BASE}/element-summary/{pid}/")
+        except Exception as e:
+            print(f"could not fetch element-summary for {pid}: {e}")
+    return summaries
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--team-id", type=int, action="append", default=[],
@@ -97,6 +147,13 @@ def main():
 
     save("config.json", config)
     save("meta.json", {"gameweek": gw, "is_upcoming": is_upcoming})
+
+    my_squad = resolve_my_squad(pick_gw)
+    if my_squad:
+        player_ids = [pk["id"] for pk in my_squad["picks"]]
+        summaries = fetch_element_summaries(player_ids)
+        analysis = build_analysis(my_squad, bootstrap, fixtures, summaries, from_event=gw)
+        save("analysis_mine.json", analysis)
 
 
 if __name__ == "__main__":
