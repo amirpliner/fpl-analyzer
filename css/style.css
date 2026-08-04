@@ -181,6 +181,89 @@ code {
 .suggest-out { color: var(--fdr-5); }
 .suggest-in { color: var(--fdr-1); }
 
+.summary-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.summary-stat { text-align: center; }
+.summary-stat .value { font-size: 1.8rem; font-weight: 800; }
+.summary-stat .label { font-size: .78rem; color: var(--text-muted); margin-top: .2rem; }
+.summary-stat .sub { font-size: .8rem; color: var(--text-muted); margin-top: .3rem; line-height: 1.4; }
+.rating-score { color: var(--pl-purple); }
+@media (prefers-color-scheme: dark) { .rating-score { color: var(--pl-green); } }
+
+.injury-tag {
+  display: inline-block;
+  font-size: .72rem;
+  padding: .1rem .4rem;
+  border-radius: 5px;
+  background: var(--fdr-4);
+  color: white;
+  margin-inline-start: .3rem;
+}
+
+.differential-tag {
+  display: inline-block;
+  font-size: .72rem;
+  padding: .1rem .4rem;
+  border-radius: 5px;
+  background: var(--pl-cyan);
+  color: #05323a;
+  margin-inline-start: .3rem;
+}
+
+.warnings-list {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+.warning-item {
+  background: var(--card-bg);
+  border: 1px solid var(--fdr-4);
+  border-inline-start: 4px solid var(--fdr-4);
+  border-radius: 8px;
+  padding: .7rem 1rem;
+  font-size: .9rem;
+}
+
+.transfer-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: .9rem;
+}
+.transfer-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+.transfer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  font-weight: 700;
+}
+.transfer-arrow { color: var(--text-muted); font-weight: 400; }
+.transfer-reason { color: var(--text-muted); font-size: .85rem; margin-top: .5rem; }
+.transfer-cost { font-size: .8rem; color: var(--text-muted); margin-top: .3rem; }
+
+.na { color: var(--text-muted); font-size: .85em; }
+
+.captain-list {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  text-align: right;
+}
+.captain-list li { font-size: .82rem; }
+
 footer {
   text-align: center;
   color: var(--text-muted);

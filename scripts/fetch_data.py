@@ -149,11 +149,16 @@ def main():
     save("meta.json", {"gameweek": gw, "is_upcoming": is_upcoming})
 
     my_squad = resolve_my_squad(pick_gw)
+    has_mine_analysis = False
     if my_squad:
         player_ids = [pk["id"] for pk in my_squad["picks"]]
         summaries = fetch_element_summaries(player_ids)
         analysis = build_analysis(my_squad, bootstrap, fixtures, summaries, from_event=gw)
         save("analysis_mine.json", analysis)
+        has_mine_analysis = True
+
+    config["has_mine_analysis"] = has_mine_analysis
+    save("config.json", config)
 
 
 if __name__ == "__main__":
