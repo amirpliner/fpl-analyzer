@@ -1,0 +1,919 @@
+{
+  "entry_id": 2528374,
+  "gameweek": 1,
+  "bank": 0.0,
+  "free_transfers": 1,
+  "players": [
+    {
+      "id": 412,
+      "web_name": "Lammens",
+      "team": "MUN",
+      "position": 1,
+      "price": 5.0,
+      "is_captain": false,
+      "is_vice": true,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 109,
+      "ppm": 21.8,
+      "ownership": 20.3,
+      "is_differential": false,
+      "xgi_per_90": 0.0,
+      "xgc_per_90": 1.23,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "HUL",
+          "is_home": false,
+          "difficulty": 2
+        },
+        {
+          "event": 2,
+          "opponent": "IPS",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 3,
+          "opponent": "EVE",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 4,
+          "opponent": "MCI",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "FUL",
+          "is_home": false,
+          "difficulty": 3
+        }
+      ],
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.8,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 254,
+      "web_name": "Robinson",
+      "team": "FUL",
+      "position": 2,
+      "price": 4.5,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 65,
+      "ppm": 14.44,
+      "ownership": 2.8,
+      "is_differential": true,
+      "xgi_per_90": 0.16,
+      "xgc_per_90": 1.46,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "CHE",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 2,
+          "opponent": "SUN",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 3,
+          "opponent": "CRY",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 4,
+          "opponent": "LIV",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "MUN",
+          "is_home": true,
+          "difficulty": 4
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.6,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 418,
+      "web_name": "Maguire",
+      "team": "MUN",
+      "position": 2,
+      "price": 5.0,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 90,
+      "ppm": 18.0,
+      "ownership": 8.0,
+      "is_differential": true,
+      "xgi_per_90": 0.09,
+      "xgc_per_90": 1.25,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "HUL",
+          "is_home": false,
+          "difficulty": 2
+        },
+        {
+          "event": 2,
+          "opponent": "IPS",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 3,
+          "opponent": "EVE",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 4,
+          "opponent": "MCI",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "FUL",
+          "is_home": false,
+          "difficulty": 3
+        }
+      ],
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.8,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 469,
+      "web_name": "N.Williams",
+      "team": "NFO",
+      "position": 2,
+      "price": 5.0,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 128,
+      "ppm": 25.6,
+      "ownership": 13.2,
+      "is_differential": false,
+      "xgi_per_90": 0.17,
+      "xgc_per_90": 1.44,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "LEE",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 2,
+          "opponent": "LIV",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 3,
+          "opponent": "TOT",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 4,
+          "opponent": "AVL",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "COV",
+          "is_home": true,
+          "difficulty": 2
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.0,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 11,
+      "web_name": "Mosquera",
+      "team": "ARS",
+      "position": 2,
+      "price": 5.5,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 40,
+      "ppm": 7.27,
+      "ownership": 16.8,
+      "is_differential": false,
+      "xgi_per_90": 0.07,
+      "xgc_per_90": 0.83,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "COV",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 2,
+          "opponent": "AVL",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 3,
+          "opponent": "CHE",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 4,
+          "opponent": "SUN",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 5,
+          "opponent": "BHA",
+          "is_home": false,
+          "difficulty": 3
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.2,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 426,
+      "web_name": "B.Fernandes",
+      "team": "MUN",
+      "position": 3,
+      "price": 12.0,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 235,
+      "ppm": 19.58,
+      "ownership": 48.6,
+      "is_differential": false,
+      "xgi_per_90": 0.68,
+      "xgc_per_90": 1.3,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "HUL",
+          "is_home": false,
+          "difficulty": 2
+        },
+        {
+          "event": 2,
+          "opponent": "IPS",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 3,
+          "opponent": "EVE",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 4,
+          "opponent": "MCI",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "FUL",
+          "is_home": false,
+          "difficulty": 3
+        }
+      ],
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.8,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 397,
+      "web_name": "Semenyo",
+      "team": "MCI",
+      "position": 3,
+      "price": 8.5,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 202,
+      "ppm": 23.76,
+      "ownership": 22.0,
+      "is_differential": false,
+      "xgi_per_90": 0.4,
+      "xgc_per_90": 1.34,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "BOU",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 2,
+          "opponent": "CRY",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 3,
+          "opponent": "COV",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 4,
+          "opponent": "MUN",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "SUN",
+          "is_home": true,
+          "difficulty": 2
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 2.8,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 481,
+      "web_name": "Anderson",
+      "team": "MCI",
+      "position": 3,
+      "price": 6.5,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 180,
+      "ppm": 27.69,
+      "ownership": 11.8,
+      "is_differential": false,
+      "xgi_per_90": 0.21,
+      "xgc_per_90": 1.45,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "BOU",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 2,
+          "opponent": "CRY",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 3,
+          "opponent": "COV",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 4,
+          "opponent": "MUN",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "SUN",
+          "is_home": true,
+          "difficulty": 2
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 2.8,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 368,
+      "web_name": "Szoboszlai",
+      "team": "LIV",
+      "position": 3,
+      "price": 7.0,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 160,
+      "ppm": 22.86,
+      "ownership": 47.5,
+      "is_differential": false,
+      "xgi_per_90": 0.32,
+      "xgc_per_90": 1.27,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "NEW",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 2,
+          "opponent": "NFO",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 3,
+          "opponent": "IPS",
+          "is_home": false,
+          "difficulty": 2
+        },
+        {
+          "event": 4,
+          "opponent": "FUL",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 5,
+          "opponent": "BOU",
+          "is_home": false,
+          "difficulty": 3
+        }
+      ],
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.6,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 411,
+      "web_name": "Haaland",
+      "team": "MCI",
+      "position": 4,
+      "price": 15.5,
+      "is_captain": true,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 239,
+      "ppm": 15.42,
+      "ownership": 75.0,
+      "is_differential": false,
+      "xgi_per_90": 0.86,
+      "xgc_per_90": 1.18,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "BOU",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 2,
+          "opponent": "CRY",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 3,
+          "opponent": "COV",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 4,
+          "opponent": "MUN",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "SUN",
+          "is_home": true,
+          "difficulty": 2
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 2.8,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 165,
+      "web_name": "João Pedro",
+      "team": "CHE",
+      "position": 4,
+      "price": 7.5,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": false,
+      "form": 0.0,
+      "total_points": 177,
+      "ppm": 23.6,
+      "ownership": 54.6,
+      "is_differential": false,
+      "xgi_per_90": 0.57,
+      "xgc_per_90": 1.26,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "FUL",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 2,
+          "opponent": "BHA",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 3,
+          "opponent": "ARS",
+          "is_home": false,
+          "difficulty": 5
+        },
+        {
+          "event": 4,
+          "opponent": "HUL",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 5,
+          "opponent": "BRE",
+          "is_home": false,
+          "difficulty": 3
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.0,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 252,
+      "web_name": "McNally",
+      "team": "FUL",
+      "position": 1,
+      "price": 4.0,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": true,
+      "form": 0.0,
+      "total_points": 0,
+      "ppm": 0.0,
+      "ownership": 0.3,
+      "is_differential": true,
+      "xgi_per_90": 0,
+      "xgc_per_90": 0,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "CHE",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 2,
+          "opponent": "SUN",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 3,
+          "opponent": "CRY",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 4,
+          "opponent": "LIV",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "MUN",
+          "is_home": true,
+          "difficulty": 4
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.6,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 305,
+      "web_name": "Davis",
+      "team": "IPS",
+      "position": 2,
+      "price": 4.0,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": true,
+      "form": 0.0,
+      "total_points": 0,
+      "ppm": 0.0,
+      "ownership": 3.5,
+      "is_differential": true,
+      "xgi_per_90": 0,
+      "xgc_per_90": 0,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "SUN",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 2,
+          "opponent": "MUN",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 3,
+          "opponent": "LIV",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 4,
+          "opponent": "CRY",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 5,
+          "opponent": "EVE",
+          "is_home": false,
+          "difficulty": 3
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.2,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 124,
+      "web_name": "Groß",
+      "team": "BHA",
+      "position": 3,
+      "price": 5.5,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": true,
+      "form": 0.0,
+      "total_points": 78,
+      "ppm": 14.18,
+      "ownership": 7.6,
+      "is_differential": true,
+      "xgi_per_90": 0.3,
+      "xgc_per_90": 1.12,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "AVL",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 2,
+          "opponent": "CHE",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 3,
+          "opponent": "LEE",
+          "is_home": true,
+          "difficulty": 2
+        },
+        {
+          "event": 4,
+          "opponent": "COV",
+          "is_home": false,
+          "difficulty": 2
+        },
+        {
+          "event": 5,
+          "opponent": "ARS",
+          "is_home": true,
+          "difficulty": 4
+        }
+      ],
+      "has_easy_run": true,
+      "avg_fdr_next5": 3.0,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    },
+    {
+      "id": 272,
+      "web_name": "Kusi-Asare",
+      "team": "FUL",
+      "position": 4,
+      "price": 4.5,
+      "is_captain": false,
+      "is_vice": false,
+      "on_bench": true,
+      "form": 0.0,
+      "total_points": 6,
+      "ppm": 1.33,
+      "ownership": 8.2,
+      "is_differential": true,
+      "xgi_per_90": 0.13,
+      "xgc_per_90": 2.02,
+      "fixture_run": [
+        {
+          "event": 1,
+          "opponent": "CHE",
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 2,
+          "opponent": "SUN",
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
+          "event": 3,
+          "opponent": "CRY",
+          "is_home": true,
+          "difficulty": 3
+        },
+        {
+          "event": 4,
+          "opponent": "LIV",
+          "is_home": false,
+          "difficulty": 4
+        },
+        {
+          "event": 5,
+          "opponent": "MUN",
+          "is_home": true,
+          "difficulty": 4
+        }
+      ],
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.6,
+      "minutes_trend": null,
+      "avg_minutes_last3": null,
+      "injury": null,
+      "is_dead": false
+    }
+  ],
+  "warnings": [
+    {
+      "type": "team_exposure",
+      "team": "MUN",
+      "count": 3,
+      "reason": "3 שחקנים מ-MUN בסגל"
+    },
+    {
+      "type": "team_exposure",
+      "team": "FUL",
+      "count": 3,
+      "reason": "3 שחקנים מ-FUL בסגל - וגם עם ריצת משחקים קשה (3.6 FDR ממוצע)"
+    },
+    {
+      "type": "team_exposure",
+      "team": "MCI",
+      "count": 3,
+      "reason": "3 שחקנים מ-MCI בסגל"
+    }
+  ],
+  "dead_players": [],
+  "captain_recommendations": [
+    {
+      "id": 411,
+      "web_name": "Haaland",
+      "reason": "פורם 0.0, FDR ממוצע 2.8, xGI/90 0.86"
+    },
+    {
+      "id": 426,
+      "web_name": "B.Fernandes",
+      "reason": "פורם 0.0, FDR ממוצע 2.8, xGI/90 0.68"
+    },
+    {
+      "id": 165,
+      "web_name": "João Pedro",
+      "reason": "פורם 0.0, FDR ממוצע 3.0, xGI/90 0.57"
+    }
+  ],
+  "transfer_suggestions": [
+    {
+      "out": {
+        "id": 412,
+        "web_name": "Lammens",
+        "price": 5.0
+      },
+      "in": {
+        "id": 529,
+        "web_name": "Roefs",
+        "price": 5.0
+      },
+      "cost_delta": 0.0,
+      "reason": "פורם נמוך (0.0)"
+    },
+    {
+      "out": {
+        "id": 254,
+        "web_name": "Robinson",
+        "price": 4.5
+      },
+      "in": {
+        "id": 423,
+        "web_name": "Shaw",
+        "price": 4.5
+      },
+      "cost_delta": 0.0,
+      "reason": "פורם נמוך (0.0)"
+    },
+    {
+      "out": {
+        "id": 418,
+        "web_name": "Maguire",
+        "price": 5.0
+      },
+      "in": {
+        "id": 112,
+        "web_name": "Van Hecke",
+        "price": 5.0
+      },
+      "cost_delta": 0.0,
+      "reason": "פורם נמוך (0.0)"
+    }
+  ],
+  "rating": {
+    "score": 7.1,
+    "reason": "PPM ממוצע 15.7, 3 אזהרות חשיפה"
+  }
+}

@@ -3,5 +3,21 @@
   "gameweek": 1,
   "bank": 0.0,
   "free_transfers": 1,
-  "picks": []
+  "picks": [
+    {"id": 412, "is_captain": false, "is_vice": true, "on_bench": false},
+    {"id": 254, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 418, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 469, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 11, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 426, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 397, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 481, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 368, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 411, "is_captain": true, "is_vice": false, "on_bench": false},
+    {"id": 165, "is_captain": false, "is_vice": false, "on_bench": false},
+    {"id": 252, "is_captain": false, "is_vice": false, "on_bench": true},
+    {"id": 305, "is_captain": false, "is_vice": false, "on_bench": true},
+    {"id": 124, "is_captain": false, "is_vice": false, "on_bench": true},
+    {"id": 272, "is_captain": false, "is_vice": false, "on_bench": true}
+  ]
 }
