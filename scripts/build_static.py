@@ -50,6 +50,8 @@ def build_players(bootstrap):
             "owned": _num(p["selected_by_percent"], 0.0),
             "xg": _num(p["expected_goals"]),
             "xa": _num(p["expected_assists"]),
+            "xg90": p.get("expected_goals_per_90"),
+            "xa90": p.get("expected_assists_per_90"),
             "xgi90": p.get("expected_goal_involvements_per_90"),
             "xgc90": p.get("expected_goals_conceded_per_90"),
             "ict": _num(p["ict_index"]),
