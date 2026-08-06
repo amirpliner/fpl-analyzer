@@ -11,8 +11,11 @@ import argparse
 import json
 import os
 import urllib.request
+from datetime import datetime, timezone
 
 from analysis import build_analysis
+from build_static import build_teams, build_players, compute_dgw_bgw, append_price_snapshot
+from player_history import build_player_history
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -32,6 +35,10 @@ def save(name, obj):
     print(f"saved {path}")
 
 
+def meta_generated_at():
+    return datetime.now(timezone.utc).isoformat()
+
+
 def current_event(bootstrap):
     for ev in bootstrap["events"]:
         if ev["is_current"]:
@@ -42,23 +49,48 @@ def current_event(bootstrap):
     return None, False
 
 
+def season_state(bootstrap):
+    events = bootstrap["events"]
+    if any(ev["finished"] for ev in events):
+        if all(ev["finished"] for ev in events):
+            return "offseason"
+        return "in_season"
+    return "preseason"
+
+
+def build_meta(bootstrap, gw, is_upcoming):
+    events_by_id = {ev["id"]: ev for ev in bootstrap["events"]}
+    next_ev = next((ev for ev in bootstrap["events"] if ev["is_next"]), None)
+    return {
+        "generated_at": meta_generated_at(),
+        "gameweek": gw,
+        "is_upcoming": is_upcoming,
+        "gw_current": gw if not is_upcoming else None,
+        "gw_next": gw if is_upcoming else (next_ev["id"] if next_ev else None),
+        "deadline_time": events_by_id.get(gw, {}).get("deadline_time") if gw else None,
+        "season_state": season_state(bootstrap),
+    }
+
+
 def fetch_entry_picks(team_id, pick_gw):
     """Fetches and saves one manager's entry info + picks. Returns a
-    manager summary dict for config.json, or None if picks aren't public
-    yet (e.g. before the gameweek deadline has passed)."""
+    (manager_summary, element_ids) tuple, or (None, []) if picks aren't
+    public yet (e.g. before the gameweek deadline has passed)."""
     try:
         entry = get_json(f"{BASE}/entry/{team_id}/")
         picks = get_json(f"{BASE}/entry/{team_id}/event/{pick_gw}/picks/")
     except Exception as e:
         print(f"no picks available for entry {team_id} gw {pick_gw}: {e}")
-        return None
+        return None, []
     save(f"entry_{team_id}.json", entry)
     save(f"entry_{team_id}_picks_gw{pick_gw}.json", picks)
-    return {
+    manager = {
         "id": team_id,
         "name": f"{entry['player_first_name']} {entry['player_last_name']}",
         "team_name": entry["name"],
     }
+    element_ids = [pk["element"] for pk in picks["picks"]]
+    return manager, element_ids
 
 
 def load_json_file(name):
@@ -139,14 +171,16 @@ def main():
             or [row["entry"] for row in league["new_entries"]["results"]]
         team_ids += [t for t in league_entries if t not in team_ids]
 
+    league_squads = []
     if pick_gw:
         for team_id in team_ids:
-            manager = fetch_entry_picks(team_id, pick_gw)
+            manager, element_ids = fetch_entry_picks(team_id, pick_gw)
             if manager:
                 config["managers"].append(manager)
+                league_squads.append(element_ids)
 
     save("config.json", config)
-    save("meta.json", {"gameweek": gw, "is_upcoming": is_upcoming})
+    save("meta.json", build_meta(bootstrap, gw, is_upcoming))
 
     my_squad = resolve_my_squad(pick_gw)
     has_mine_analysis = False
@@ -159,6 +193,25 @@ def main():
 
     config["has_mine_analysis"] = has_mine_analysis
     save("config.json", config)
+
+    # --- Stage A1: enriched static files for the upcoming feature set ---
+    teams = build_teams(bootstrap)
+    save("teams.json", teams)
+
+    players = build_players(bootstrap)
+    save("players.json", players)
+    print(f"players.json: {len(players)} players, {os.path.getsize(os.path.join(DATA_DIR, 'players.json')) / 1024:.0f} KB")
+
+    dgw_bgw = compute_dgw_bgw(fixtures, teams)
+    save("dgw_bgw.json", dgw_bgw)
+
+    prior_price_history = load_json_file("price_history.json")
+    price_history = append_price_snapshot(prior_price_history, bootstrap, meta_generated_at())
+    save("price_history.json", price_history)
+
+    extra_squads = league_squads + ([my_squad["picks"]] if my_squad else [])
+    player_history = build_player_history(bootstrap, extra_squads, gw or 0)
+    save("player_history.json", player_history)
 
 
 if __name__ == "__main__":
