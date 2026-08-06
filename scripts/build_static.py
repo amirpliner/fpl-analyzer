@@ -78,6 +78,35 @@ def build_players(bootstrap):
     return players
 
 
+def classify_rotation_risk(minutes_list):
+    """minutes_list: per-gameweek minutes, oldest first, from
+    player_history.json. Returns None (not "unknown" as a string here -
+    the caller decides the label) if there's no data to judge from."""
+    if not minutes_list:
+        return None
+    avg = sum(minutes_list) / len(minutes_list)
+    if avg >= 75:
+        return "nailed"
+    if avg >= 30:
+        return "rotation"
+    return "cameo"
+
+
+def enrich_with_history(players, player_history):
+    """Fills last5_minutes/rotation_risk from player_history.json (only
+    populated for the bounded set of players it covers - squad, league
+    squads, top-200, owned>1%). Everyone else stays "unknown", same as
+    build_players() already sets by default."""
+    for p in players:
+        history = player_history.get(str(p["id"]))
+        if not history:
+            continue
+        minutes = [h["minutes"] for h in history]
+        p["last5_minutes"] = minutes
+        p["rotation_risk"] = classify_rotation_risk(minutes) or "unknown"
+    return players
+
+
 def compute_dgw_bgw(fixtures, teams):
     team_ids = [t["id"] for t in teams]
     events = sorted({f["event"] for f in fixtures if f["event"] is not None})

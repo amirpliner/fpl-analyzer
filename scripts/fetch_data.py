@@ -14,7 +14,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 from analysis import build_analysis
-from build_static import build_teams, build_players, compute_dgw_bgw, append_price_snapshot
+from build_static import build_teams, build_players, compute_dgw_bgw, append_price_snapshot, enrich_with_history
 from player_history import build_player_history
 
 BASE = "https://fantasy.premierleague.com/api"
@@ -198,10 +198,6 @@ def main():
     teams = build_teams(bootstrap)
     save("teams.json", teams)
 
-    players = build_players(bootstrap)
-    save("players.json", players)
-    print(f"players.json: {len(players)} players, {os.path.getsize(os.path.join(DATA_DIR, 'players.json')) / 1024:.0f} KB")
-
     dgw_bgw = compute_dgw_bgw(fixtures, teams)
     save("dgw_bgw.json", dgw_bgw)
 
@@ -212,6 +208,12 @@ def main():
     extra_squads = league_squads + ([my_squad["picks"]] if my_squad else [])
     player_history = build_player_history(bootstrap, extra_squads, gw or 0)
     save("player_history.json", player_history)
+
+    # players.json is built last so it can be enriched with the per-gameweek
+    # minutes history just fetched above (last5_minutes / rotation_risk).
+    players = enrich_with_history(build_players(bootstrap), player_history)
+    save("players.json", players)
+    print(f"players.json: {len(players)} players, {os.path.getsize(os.path.join(DATA_DIR, 'players.json')) / 1024:.0f} KB")
 
 
 if __name__ == "__main__":

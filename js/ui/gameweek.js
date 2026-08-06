@@ -1,5 +1,8 @@
-import { state, FIXTURES_LOOKAHEAD } from "../state.js";
-import { fdrClass, playerPrice, upcomingFixturesForTeam, fixtureRunScore } from "../helpers.js";
+import { state, FIXTURES_LOOKAHEAD, POSITION_CODES } from "../state.js";
+import {
+  fdrClass, upcomingFixturesForTeam, fixtureRunScore,
+  naOr, rotationTag, minutesSparkline, setPieceBadges,
+} from "../helpers.js";
 
 export function renderGwBadge() {
   const el = document.getElementById("gwBadge");
@@ -32,24 +35,33 @@ export function renderFdrTable() {
 
 export function renderTopPlayers() {
   const wrap = document.getElementById("topPlayers");
-  const players = [...state.playersById.values()]
-    .filter(p => p.element_type === state.activePos)
-    .sort((a, b) => (parseFloat(b.form) - parseFloat(a.form)) || (b.total_points - a.total_points))
+  const posCode = POSITION_CODES[state.activePos];
+  const players = [...state.enrichedById.values()]
+    .filter(p => p.pos === posCode)
+    .sort((a, b) => (b.form - a.form) || (b.points - a.points))
     .slice(0, 12);
 
-  let html = "<table><thead><tr><th>שחקן</th><th>קבוצה</th><th>מחיר</th><th>פורם</th><th>נק'</th><th>נבחר ע\"י</th><th>ריצת משחקים</th></tr></thead><tbody>";
+  let html = `<table><thead><tr>
+    <th>שחקן</th><th>קבוצה</th><th>מחיר</th><th>פורם</th><th>נק'</th><th>נבחר ע"י</th>
+    <th>ריצת משחקים</th><th>xG</th><th>xA</th><th>ICT</th><th>כדורי-רגל</th><th>סטטוס דקות</th>
+  </tr></thead><tbody>`;
   for (const p of players) {
     const team = state.teamsById.get(p.team);
     const run = fixtureRunScore(p.team);
     const runClass = run <= 2.34 ? "fdr-1" : run <= 3 ? "fdr-2" : run <= 3.67 ? "fdr-3" : "fdr-4";
     html += `<tr>
-      <td>${p.web_name}${p.chance_of_playing_next_round !== null && p.chance_of_playing_next_round < 100 ? " ⚠️" : ""}</td>
+      <td>${p.name}${p.chance_next !== null && p.chance_next < 100 ? " ⚠️" : ""}</td>
       <td>${team?.short_name || "?"}</td>
-      <td>£${playerPrice(p)}</td>
+      <td>£${p.price.toFixed(1)}</td>
       <td>${p.form}</td>
-      <td>${p.total_points}</td>
-      <td>${p.selected_by_percent}%</td>
+      <td>${p.points}</td>
+      <td>${p.owned}%</td>
       <td><span class="fdr-cell ${runClass}">${run.toFixed(1)}</span></td>
+      <td>${naOr(p.xg)}</td>
+      <td>${naOr(p.xa)}</td>
+      <td>${naOr(p.ict)}</td>
+      <td>${setPieceBadges(p.set_pieces)}</td>
+      <td>${rotationTag(p.rotation_risk)}${p.last5_minutes?.length ? minutesSparkline(p.last5_minutes) : ""}</td>
     </tr>`;
   }
   html += "</tbody></table>";

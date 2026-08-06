@@ -27,11 +27,12 @@ function setupTabs() {
 async function init() {
   setupTabs();
 
-  const [bootstrap, fixtures, meta, config] = await Promise.all([
+  const [bootstrap, fixtures, meta, config, players] = await Promise.all([
     fetchJSON("data/bootstrap.json"),
     fetchJSON("data/fixtures.json"),
     fetchJSON("data/meta.json"),
     fetchJSON("data/config.json"),
+    fetchJSON("data/players.json"),
   ]);
 
   if (!bootstrap || !fixtures) {
@@ -45,6 +46,7 @@ async function init() {
   state.config = config || {};
   state.teamsById = new Map(bootstrap.teams.map(t => [t.id, t]));
   state.playersById = new Map(bootstrap.elements.map(p => [p.id, p]));
+  state.enrichedById = new Map((players || []).map(p => [p.id, p]));
 
   renderGwBadge();
   renderFdrTable();

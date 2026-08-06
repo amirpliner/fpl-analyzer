@@ -1,4 +1,4 @@
-import { state, FIXTURES_LOOKAHEAD } from "./state.js";
+import { state, FIXTURES_LOOKAHEAD, ROTATION_LABELS } from "./state.js";
 
 export function fdrClass(diff) {
   return `fdr-cell fdr-${diff}`;
@@ -37,4 +37,31 @@ export function fixtureRunScore(teamId) {
   const fx = upcomingFixturesForTeam(teamId, 3);
   if (!fx.length) return 3;
   return fx.reduce((s, f) => s + f.diff, 0) / fx.length;
+}
+
+export function rotationTag(risk) {
+  const r = risk || "unknown";
+  return `<span class="rotation-tag ${r}">${ROTATION_LABELS[r] || r}</span>`;
+}
+
+export function minutesSparkline(minutesList) {
+  if (!minutesList || !minutesList.length) return naOr(null);
+  const bars = minutesList.map(m => {
+    const height = Math.max(2, Math.round((m / 90) * 22));
+    return `<span class="bar" style="height:${height}px" title="${m}'"></span>`;
+  }).join("");
+  return `<span class="sparkline">${bars}</span>`;
+}
+
+export function setPieceBadges(setPieces) {
+  if (!setPieces) return naOr(null);
+  const items = [
+    ["P", setPieces.pens],
+    ["FK", setPieces.fk],
+    ["C", setPieces.corners],
+  ].filter(([, order]) => order !== null && order !== undefined);
+  if (!items.length) return naOr(null);
+  return items
+    .map(([label, order]) => `<span class="setpiece-badge${order === 1 ? " primary" : ""}">${label}${order}</span>`)
+    .join("");
 }
