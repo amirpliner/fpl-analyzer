@@ -123,8 +123,8 @@ export async function renderMineAnalysis() {
     </div>
     <div class="summary-stat">
       <div class="value">${topCaptain ? topCaptain.web_name : "-"}</div>
-      <div class="label">קפטן מומלץ</div>
-      <div class="sub">${topCaptain ? topCaptain.reason : ""}</div>
+      <div class="label">קפטן מומלץ${topCaptain ? ` (${topCaptain.xpts} xPts)` : ""}</div>
+      <div class="sub">${topCaptain ? `${topCaptain.confidence}% ביטחון` : ""}</div>
     </div>
     <div class="summary-stat">
       <div class="value">${a.warnings.length + a.dead_players.length}</div>
@@ -136,6 +136,20 @@ export async function renderMineAnalysis() {
       <div class="label">בבנק</div>
     </div>
   </div>`;
+
+  if (a.captain_recommendations.length) {
+    html += `<h2>קפטן מומלץ</h2><div class="captain-cards">`;
+    a.captain_recommendations.forEach((c, i) => {
+      html += `<div class="captain-card${i === 0 ? " top" : ""}">
+        <div class="captain-rank">#${i + 1}</div>
+        <div class="captain-name">${c.web_name}</div>
+        <div class="captain-xpts">${c.xpts} <span class="captain-xpts-label">xPts</span></div>
+        <div class="captain-confidence">${c.confidence}% ביטחון</div>
+        <div class="captain-reason">${c.reason}</div>
+      </div>`;
+    });
+    html += `</div>`;
+  }
 
   if (a.warnings.length || a.dead_players.length) {
     html += `<h2>אזהרות</h2><div class="warnings-list">`;

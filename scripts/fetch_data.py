@@ -183,18 +183,10 @@ def main():
     save("meta.json", build_meta(bootstrap, gw, is_upcoming))
 
     my_squad = resolve_my_squad(pick_gw)
-    has_mine_analysis = False
-    if my_squad:
-        player_ids = [pk["id"] for pk in my_squad["picks"]]
-        summaries = fetch_element_summaries(player_ids)
-        analysis = build_analysis(my_squad, bootstrap, fixtures, summaries, from_event=gw)
-        save("analysis_mine.json", analysis)
-        has_mine_analysis = True
 
-    config["has_mine_analysis"] = has_mine_analysis
-    save("config.json", config)
-
-    # --- Stage A1: enriched static files for the upcoming feature set ---
+    # --- Stage A1: enriched static files, built before analysis_mine.json
+    # since Stage A5's captain recommendations need players.json's xG90/
+    # xA90/ICT percentiles. ---
     teams = build_teams(bootstrap)
     save("teams.json", teams)
 
@@ -209,11 +201,20 @@ def main():
     player_history = build_player_history(bootstrap, extra_squads, gw or 0)
     save("player_history.json", player_history)
 
-    # players.json is built last so it can be enriched with the per-gameweek
-    # minutes history just fetched above (last5_minutes / rotation_risk).
     players = enrich_with_history(build_players(bootstrap), player_history)
     save("players.json", players)
     print(f"players.json: {len(players)} players, {os.path.getsize(os.path.join(DATA_DIR, 'players.json')) / 1024:.0f} KB")
+
+    has_mine_analysis = False
+    if my_squad:
+        player_ids = [pk["id"] for pk in my_squad["picks"]]
+        summaries = fetch_element_summaries(player_ids)
+        analysis = build_analysis(my_squad, bootstrap, fixtures, summaries, from_event=gw, players_pool=players)
+        save("analysis_mine.json", analysis)
+        has_mine_analysis = True
+
+    config["has_mine_analysis"] = has_mine_analysis
+    save("config.json", config)
 
 
 if __name__ == "__main__":

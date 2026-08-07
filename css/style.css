@@ -198,6 +198,36 @@ code {
 .rating-score { color: var(--pl-purple); }
 @media (prefers-color-scheme: dark) { .rating-score { color: var(--pl-green); } }
 
+.captain-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: .9rem;
+}
+.captain-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  position: relative;
+}
+.captain-card.top {
+  border-color: var(--pl-green);
+  box-shadow: 0 0 0 1px var(--pl-green);
+}
+.captain-rank {
+  position: absolute;
+  top: .7rem;
+  left: .8rem;
+  font-size: .75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+.captain-name { font-weight: 800; font-size: 1.05rem; margin-inline-end: 2rem; }
+.captain-xpts { font-size: 1.4rem; font-weight: 800; margin-top: .3rem; }
+.captain-xpts-label { font-size: .7rem; color: var(--text-muted); font-weight: 600; }
+.captain-confidence { font-size: .78rem; color: var(--text-muted); margin-top: .1rem; }
+.captain-reason { font-size: .8rem; color: var(--text-muted); margin-top: .5rem; line-height: 1.5; }
+
 .injury-tag {
   display: inline-block;
   font-size: .72rem;

@@ -6,6 +6,9 @@ history before a ball has been kicked) is missing, we return null and let
 the frontend show "אין נתון" instead of guessing.
 """
 
+from build_static import POSITION_NAMES
+from xpts import expected_points, league_averages, ict_percentiles_by_position
+
 FDR_EASY = 2
 FDR_HARD = 4
 DIFFERENTIAL_OWNERSHIP = 10.0
@@ -32,6 +35,7 @@ def team_fixture_run(team_id, fixtures, teams_by_id, from_event, count=5):
         run.append({
             "event": f["event"],
             "opponent": teams_by_id.get(opp_id, {}).get("short_name", "?"),
+            "opponent_id": opp_id,
             "is_home": is_home,
             "difficulty": difficulty,
         })
@@ -134,35 +138,58 @@ def team_exposure_warnings(players, teams_by_id):
     return warnings
 
 
-def captain_recommendations(players):
-    starters = [pl for pl in players if not pl["on_bench"]]
+def captain_recommendations(players, elements_by_id, teams_by_id, players_pool):
+    """Top-5 captain picks ranked by the shared xPts model (scripts/xpts.py)
+    against each player's next fixture. Every pick carries the full
+    breakdown plus a confidence score (lower when we're on the FDR
+    fallback instead of real team-strength data - see PLAN.md)."""
+    starters = [pl for pl in players if not pl["on_bench"] and pl["fixture_run"]]
+    league_avg = league_averages(list(teams_by_id.values()))
+    ict_pct = ict_percentiles_by_position(players_pool)
 
-    def score(pl):
-        s = 0.0
-        reasons = []
-        if pl["form"] is not None:
-            s += pl["form"] * 2
-            reasons.append(f"פורם {pl['form']}")
-        if pl["avg_fdr_next5"] is not None:
-            ease = (5 - pl["avg_fdr_next5"])
-            s += ease
-            reasons.append(f"FDR ממוצע {pl['avg_fdr_next5']}")
-        if pl["xgi_per_90"] is not None:
-            s += pl["xgi_per_90"] * 10
-            reasons.append(f"xGI/90 {pl['xgi_per_90']}")
-        if pl["injury"] is not None:
-            s -= 10
-            reasons.append("סימן שאלה לפציעה")
-        return s, reasons
+    scored = []
+    for pl in starters:
+        raw = elements_by_id.get(pl["id"])
+        if not raw:
+            continue
+        next_fx = pl["fixture_run"][0]
+        opp_team = teams_by_id.get(next_fx["opponent_id"])
+        xpts_input = {
+            "pos": POSITION_NAMES.get(raw["element_type"], "?"),
+            "status": raw["status"],
+            "chance_next": raw["chance_of_playing_next_round"],
+            "starts_per_90": raw["starts_per_90"],
+            "xg90": raw.get("expected_goals_per_90"),
+            "xa90": raw.get("expected_assists_per_90"),
+            "xgc90": raw.get("expected_goals_conceded_per_90"),
+        }
+        result = expected_points(
+            xpts_input, next_fx["is_home"], next_fx["difficulty"],
+            opp_team, league_avg, ict_pct.get(pl["id"]),
+        )
+        scored.append((pl, result))
 
-    ranked = sorted(starters, key=lambda pl: score(pl)[0], reverse=True)
+    scored.sort(key=lambda t: t[1]["total"], reverse=True)
+
     out = []
-    for pl in ranked[:3]:
-        s, reasons = score(pl)
+    for pl, result in scored[:5]:
+        b = result["breakdown"]
+        confidence = round(b["p_play"] * (0.85 if b["used_fdr_fallback"] else 1.0) * 100)
+        reason_bits = [f"xPts משוער: {result['total']}"]
+        attacking = round(b["goals_pts"] + b["assists_pts"], 2)
+        if attacking:
+            reason_bits.append(f"תרומה התקפית צפויה {attacking}")
+        if b["cs_pts"]:
+            reason_bits.append(f"סיכוי שער נקי {b['cs_pts']}")
+        if b["used_fdr_fallback"]:
+            reason_bits.append("מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה")
         out.append({
             "id": pl["id"],
             "web_name": pl["web_name"],
-            "reason": ", ".join(reasons) if reasons else "אין מספיק נתונים",
+            "xpts": result["total"],
+            "confidence": confidence,
+            "breakdown": b,
+            "reason": ", ".join(reason_bits),
         })
     return out
 
@@ -238,7 +265,7 @@ def squad_rating(players, warnings):
     return {"score": score, "reason": ", ".join(bits)}
 
 
-def build_analysis(squad, bootstrap, fixtures, element_summaries, from_event):
+def build_analysis(squad, bootstrap, fixtures, element_summaries, from_event, players_pool):
     elements_by_id = {e["id"]: e for e in bootstrap["elements"]}
     teams_by_id = {t["id"]: t for t in bootstrap["teams"]}
 
@@ -271,7 +298,7 @@ def build_analysis(squad, bootstrap, fixtures, element_summaries, from_event):
         "players": players,
         "warnings": warnings,
         "dead_players": dead_players,
-        "captain_recommendations": captain_recommendations(players),
+        "captain_recommendations": captain_recommendations(players, elements_by_id, teams_by_id, players_pool),
         "transfer_suggestions": transfer_suggestions(
             players, bootstrap["elements"], squad.get("bank") or 0, teams_by_id, fixtures, from_event
         ),
