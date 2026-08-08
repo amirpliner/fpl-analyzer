@@ -198,6 +198,31 @@ code {
 .rating-score { color: var(--pl-purple); }
 @media (prefers-color-scheme: dark) { .rating-score { color: var(--pl-green); } }
 
+.chip-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.chip-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+.chip-card.urgent { border-color: var(--fdr-4); box-shadow: 0 0 0 1px var(--fdr-4); }
+.chip-card-title { font-weight: 700; margin-bottom: .6rem; display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
+.chip-rec { font-size: .85rem; color: var(--text); margin-bottom: .4rem; line-height: 1.5; }
+.chip-rec.na { color: var(--text-muted); }
+.chip-used-tag {
+  font-size: .68rem;
+  font-weight: 600;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: .1rem .4rem;
+  border-radius: 999px;
+}
+
 .plan-routes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

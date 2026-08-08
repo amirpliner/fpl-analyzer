@@ -1,0 +1,48 @@
+{
+  "horizon": 8,
+  "from_gameweek": 1,
+  "chips_used": [],
+  "note": "יש שני Wildcard בעונה (WC1/WC2) עם דדליין נפרד לכל אחד - בדוק בעצמך את התאריך המדויק באתר FPL.",
+  "bench_boost": {
+    "available": true,
+    "recommendations": []
+  },
+  "triple_captain": {
+    "available": true,
+    "recommendations": [
+      {
+        "event": 3,
+        "player": "Haaland",
+        "score": 6.86,
+        "is_dgw": false,
+        "reason": "Haaland צפוי 6.86 xPts"
+      },
+      {
+        "event": 5,
+        "player": "Haaland",
+        "score": 6.86,
+        "is_dgw": false,
+        "reason": "Haaland צפוי 6.86 xPts"
+      },
+      {
+        "event": 7,
+        "player": "Haaland",
+        "score": 6.86,
+        "is_dgw": false,
+        "reason": "Haaland צפוי 6.86 xPts"
+      }
+    ]
+  },
+  "free_hit": {
+    "available": true,
+    "recommendations": []
+  },
+  "wildcard": {
+    "available": true,
+    "decay_score": 1.0,
+    "weak_players": 1,
+    "injury_players": 0,
+    "recommend": false,
+    "reason": "1 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+  }
+}

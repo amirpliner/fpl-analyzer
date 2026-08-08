@@ -59,12 +59,12 @@ def team_fixtures_for_horizon(team_id, fixtures, from_event, horizon):
     return out
 
 
-def precompute_player_xpts(players, teams_by_id, fixtures, from_event, league_avg, ict_pct):
-    """player_id -> list of length HORIZON, each the summed xPts across
+def precompute_player_xpts(players, teams_by_id, fixtures, from_event, league_avg, ict_pct, horizon=HORIZON):
+    """player_id -> list of length `horizon`, each the summed xPts across
     that gameweek's fixtures (0 on a blank, summed on a double)."""
     result = {}
     for p in players:
-        team_fx = team_fixtures_for_horizon(p["team"], fixtures, from_event, HORIZON)
+        team_fx = team_fixtures_for_horizon(p["team"], fixtures, from_event, horizon)
         weekly = []
         for week_fixtures in team_fx:
             total = 0.0

@@ -230,5 +230,62 @@ export async function renderMineAnalysis() {
     html += `</div>`;
   }
 
+  const chipPlan = await fetchJSON("data/chip_plan.json");
+  if (chipPlan) {
+    html += renderChipPlan(chipPlan);
+  }
+
   container.innerHTML = html;
+}
+
+function chipUsedNote(name, chipsUsed) {
+  const used = chipsUsed.find(c => c.name === name);
+  return used ? `<span class="chip-used-tag">כבר נוצל במחזור ${used.event}</span>` : "";
+}
+
+function renderChipPlan(plan) {
+  let html = `<h2>מנוע צ'יפים (${plan.horizon} מחזורים קדימה)</h2>
+    <p class="price-disclaimer">${plan.note} הסף להמלצה בכל צ'יפ הוא ברירת מחדל סבירה, לא מכויל מול תוצאות אמיתיות.</p>
+    <div class="chip-cards">`;
+
+  html += `<div class="chip-card">
+    <div class="chip-card-title">🪑 Bench Boost ${chipUsedNote("bboost", plan.chips_used)}</div>`;
+  if (plan.bench_boost.recommendations.length) {
+    for (const r of plan.bench_boost.recommendations) {
+      html += `<div class="chip-rec">מחזור ${r.event}${r.is_dgw ? " (כפול)" : ""}: ${r.reason}</div>`;
+    }
+  } else {
+    html += `<div class="chip-rec na">אין מחזור עם ספסל מספיק חזק בטווח הזה</div>`;
+  }
+  html += `</div>`;
+
+  html += `<div class="chip-card">
+    <div class="chip-card-title">©️ Triple Captain ${chipUsedNote("3xc", plan.chips_used)}</div>`;
+  if (plan.triple_captain.recommendations.length) {
+    for (const r of plan.triple_captain.recommendations) {
+      html += `<div class="chip-rec">מחזור ${r.event}: ${r.reason}</div>`;
+    }
+  } else {
+    html += `<div class="chip-rec na">אין מועמד בולט בטווח הזה</div>`;
+  }
+  html += `</div>`;
+
+  html += `<div class="chip-card">
+    <div class="chip-card-title">🃏 Free Hit ${chipUsedNote("freehit", plan.chips_used)}</div>`;
+  if (plan.free_hit.recommendations.length) {
+    for (const r of plan.free_hit.recommendations) {
+      html += `<div class="chip-rec">מחזור ${r.event}: ${r.reason}</div>`;
+    }
+  } else {
+    html += `<div class="chip-rec na">אין מחזור עם ריבוי שחקנים ללא משחק בטווח הזה</div>`;
+  }
+  html += `</div>`;
+
+  html += `<div class="chip-card${plan.wildcard.recommend ? " urgent" : ""}">
+    <div class="chip-card-title">🔄 Wildcard ${chipUsedNote("wildcard", plan.chips_used)}</div>
+    <div class="chip-rec">${plan.wildcard.reason}</div>
+  </div>`;
+
+  html += `</div>`;
+  return html;
 }

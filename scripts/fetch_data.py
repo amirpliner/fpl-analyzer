@@ -19,6 +19,7 @@ from player_history import build_player_history
 from price_alerts import build_price_alerts
 from league_insights import build_league_insights
 from transfer_planner import build_transfer_plan
+from chip_engine import build_chip_plan
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -239,6 +240,23 @@ def main():
             save("transfer_plan.json", transfer_plan)
             print(f"transfer_plan.json: {len(transfer_plan['routes'])} routes, "
                   f"best net gain {max(r['net_gain_vs_hold'] for r in transfer_plan['routes'])}")
+
+        chips_used = []
+        entry_id = my_squad.get("entry_id")
+        if entry_id:
+            try:
+                history = get_json(f"{BASE}/entry/{entry_id}/history/")
+                save(f"entry_{entry_id}_history.json", history)
+                chips_used = history.get("chips", [])
+            except Exception as e:
+                print(f"could not fetch chip history for entry {entry_id}: {e}")
+
+        chip_plan = build_chip_plan(my_squad, players, teams_by_id, fixtures, dgw_bgw, from_event=gw, chips_used=chips_used)
+        if chip_plan:
+            save("chip_plan.json", chip_plan)
+            print(f"chip_plan.json: bench_boost={len(chip_plan['bench_boost']['recommendations'])}, "
+                  f"triple_captain={len(chip_plan['triple_captain']['recommendations'])}, "
+                  f"wildcard_recommend={chip_plan['wildcard']['recommend']}")
 
     config["has_mine_analysis"] = has_mine_analysis
     save("config.json", config)
