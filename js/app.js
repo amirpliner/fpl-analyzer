@@ -4,6 +4,7 @@ import { renderGwBadge, renderFdrTable, renderTopPlayers } from "./ui/gameweek.j
 import { renderMyTeam } from "./ui/myteam.js";
 import { renderLeague } from "./ui/league.js";
 import { renderReminderWidget } from "./ui/reminders.js";
+import { setupCompareTab } from "./ui/compare.js";
 
 function setupTabs() {
   document.querySelectorAll(".tab-btn").forEach(btn => {
@@ -55,6 +56,7 @@ async function init() {
   renderMyTeam();
   renderLeague();
   renderReminderWidget(document.getElementById("reminderWidget"), state.meta);
+  setupCompareTab();
 
   const lastUpdated = new Date().toLocaleString("he-IL");
   document.getElementById("lastUpdated").textContent = lastUpdated;

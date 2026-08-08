@@ -198,6 +198,53 @@ code {
 .rating-score { color: var(--pl-purple); }
 @media (prefers-color-scheme: dark) { .rating-score { color: var(--pl-green); } }
 
+.compare-picker { margin-bottom: 1rem; }
+.compare-picker input {
+  width: 100%;
+  max-width: 28rem;
+  padding: .6rem .9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: .95rem;
+}
+
+.compare-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1.2rem;
+}
+.compare-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  background: var(--pl-purple);
+  color: white;
+  padding: .35rem .5rem .35rem .9rem;
+  border-radius: 999px;
+  font-size: .85rem;
+  font-weight: 600;
+}
+@media (prefers-color-scheme: dark) { .compare-chip { background: var(--pl-green); color: #05323a; } }
+.compare-chip button {
+  background: rgba(255,255,255,.25);
+  border: none;
+  color: inherit;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+  font-size: .7rem;
+  line-height: 1;
+}
+
+td.winner {
+  background: color-mix(in srgb, var(--pl-green) 20%, transparent);
+  font-weight: 800;
+}
+
 .reminder-widget {
   display: flex;
   align-items: center;

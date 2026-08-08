@@ -15,6 +15,7 @@
 <nav class="tabs">
   <button class="tab-btn active" data-tab="gameweek">ניתוח מחזור</button>
   <button class="tab-btn" data-tab="myteam">הקבוצה שלי</button>
+  <button class="tab-btn" data-tab="compare">השוואת שחקנים</button>
   <button class="tab-btn" data-tab="league">ליגת החברים</button>
 </nav>
 
@@ -46,6 +47,15 @@
         (כדי שאף אחד לא יעתיק קבוצות לפני שהן ננעלות).
       </p>
     </div>
+  </section>
+
+  <section id="tab-compare" class="tab-panel">
+    <div class="compare-picker">
+      <input type="text" id="comparePlayerInput" list="comparePlayerList" placeholder="הקלד שם שחקן להוספה (עד 4)..." autocomplete="off">
+      <datalist id="comparePlayerList"></datalist>
+    </div>
+    <div id="compareChips" class="compare-chips"></div>
+    <div id="compareContent"></div>
   </section>
 
   <section id="tab-league" class="tab-panel">

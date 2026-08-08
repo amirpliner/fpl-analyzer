@@ -29,7 +29,7 @@ export function upcomingFixturesForTeam(teamId, count = FIXTURES_LOOKAHEAD) {
       const oppId = isHome ? f.team_a : f.team_h;
       const opp = state.teamsById.get(oppId);
       const diff = isHome ? f.team_h_difficulty : f.team_a_difficulty;
-      return { event: f.event, opp: opp?.short_name || "?", isHome, diff };
+      return { event: f.event, opp: opp?.short_name || "?", oppId, isHome, diff };
     });
 }
 
