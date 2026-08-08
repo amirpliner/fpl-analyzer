@@ -198,6 +198,39 @@ code {
 .rating-score { color: var(--pl-purple); }
 @media (prefers-color-scheme: dark) { .rating-score { color: var(--pl-green); } }
 
+.plan-routes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+.plan-route {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+.plan-route.top { border-color: var(--pl-green); box-shadow: 0 0 0 1px var(--pl-green); }
+.plan-route-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .5rem;
+  font-weight: 700;
+}
+.plan-route-gain { color: var(--pl-purple); font-size: .9rem; }
+@media (prefers-color-scheme: dark) { .plan-route-gain { color: var(--pl-green); } }
+.plan-route-meta { font-size: .78rem; color: var(--text-muted); margin: .3rem 0 .8rem; }
+.plan-weeks { display: flex; flex-direction: column; gap: .6rem; }
+.plan-week {
+  border-top: 1px solid var(--border);
+  padding-top: .6rem;
+  font-size: .85rem;
+}
+.plan-week-label { font-weight: 700; font-size: .78rem; color: var(--text-muted); margin-bottom: .3rem; }
+.plan-transfer { margin-bottom: .2rem; }
+.plan-transfer.na { color: var(--text-muted); }
+.plan-week-captain { font-size: .78rem; color: var(--text-muted); margin-top: .2rem; }
+
 .price-disclaimer {
   font-size: .78rem;
   color: var(--text-muted);

@@ -18,6 +18,7 @@ from build_static import build_teams, build_players, compute_dgw_bgw, append_pri
 from player_history import build_player_history
 from price_alerts import build_price_alerts
 from league_insights import build_league_insights
+from transfer_planner import build_transfer_plan
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -231,6 +232,13 @@ def main():
         analysis = build_analysis(my_squad, bootstrap, fixtures, summaries, from_event=gw, players_pool=players)
         save("analysis_mine.json", analysis)
         has_mine_analysis = True
+
+        teams_by_id = {t["id"]: t for t in teams}
+        transfer_plan = build_transfer_plan(my_squad, players, teams_by_id, fixtures, from_event=gw)
+        if transfer_plan:
+            save("transfer_plan.json", transfer_plan)
+            print(f"transfer_plan.json: {len(transfer_plan['routes'])} routes, "
+                  f"best net gain {max(r['net_gain_vs_hold'] for r in transfer_plan['routes'])}")
 
     config["has_mine_analysis"] = has_mine_analysis
     save("config.json", config)

@@ -199,5 +199,36 @@ export async function renderMineAnalysis() {
     html += `</div>`;
   }
 
+  const plan = await fetchJSON("data/transfer_plan.json");
+  if (plan) {
+    html += `<h2>תוכנית העברות ל-${plan.horizon} מחזורים</h2>
+      <p class="price-disclaimer">
+        מבוסס על xPts חזוי בלבד, לא מבטיח כלום. עלות מכירה מחושבת לפי מחיר שוק נוכחי (לא כלל "חצי רווח" של FPL).
+        עסקאות מוצעות רק בין שחקנים באותה עמדה. מסלול "ללא העברות" תמיד מוצג כבסיס להשוואה.
+      </p>
+      <div class="plan-routes">`;
+    plan.routes.forEach((route, i) => {
+      const isBaseline = route.total_transfers === 0;
+      html += `<div class="plan-route${i === 0 ? " top" : ""}">
+        <div class="plan-route-header">
+          <span class="plan-route-title">${isBaseline ? "בלי העברות (roll)" : `מסלול ${i + 1}`}</span>
+          <span class="plan-route-gain">${route.net_gain_vs_hold >= 0 ? "+" : ""}${route.net_gain_vs_hold} xPts מול roll</span>
+        </div>
+        <div class="plan-route-meta">${route.total_transfers} העברות · ${route.total_hits ? `${route.total_hits * 4}- נק' קנס` : "בלי קנס"} · בנק סופי £${route.final_bank}</div>
+        <div class="plan-weeks">`;
+      for (const w of route.weekly_plan) {
+        html += `<div class="plan-week">
+          <div class="plan-week-label">מחזור ${w.week}</div>
+          ${w.transfers.length
+            ? w.transfers.map(t => `<div class="plan-transfer"><span class="suggest-out">${t.out}</span> → <span class="suggest-in">${t.in}</span></div>`).join("")
+            : `<div class="plan-transfer na">ללא העברה</div>`}
+          <div class="plan-week-captain">קפטן: ${w.captain || naOr(null)}</div>
+        </div>`;
+      }
+      html += `</div></div>`;
+    });
+    html += `</div>`;
+  }
+
   container.innerHTML = html;
 }
