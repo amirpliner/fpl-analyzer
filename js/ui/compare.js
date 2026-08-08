@@ -1,5 +1,5 @@
 import { state } from "../state.js";
-import { naOr, fdrClass, upcomingFixturesForTeam } from "../helpers.js";
+import { naOr, fdrClass, upcomingFixturesForTeam, leagueAveragesFromTeams, fixturesToContext } from "../helpers.js";
 import { expectedPointsMulti, ictPercentilesByPosition } from "../models/xpts.js";
 
 const MAX_PLAYERS = 4;
@@ -19,23 +19,6 @@ function loadSaved() {
 
 function save() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(selectedIds));
-}
-
-function leagueAveragesFromTeams() {
-  const teams = [...state.teamsById.values()];
-  const withData = teams.filter(t => (t.strength_attack_home || 0) > 0);
-  if (!withData.length) return null;
-  const avg = key => withData.reduce((s, t) => s + t[key], 0) / withData.length;
-  return {
-    avgAttackHome: avg("strength_attack_home"),
-    avgAttackAway: avg("strength_attack_away"),
-    avgDefenceHome: avg("strength_defence_home"),
-    avgDefenceAway: avg("strength_defence_away"),
-  };
-}
-
-function fixturesToContext(fixtures) {
-  return fixtures.map(f => ({ oppTeamId: f.oppId, isHome: f.isHome, difficulty: f.diff }));
 }
 
 function populateDatalist() {

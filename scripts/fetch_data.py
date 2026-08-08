@@ -17,6 +17,7 @@ from analysis import build_analysis
 from build_static import build_teams, build_players, compute_dgw_bgw, append_price_snapshot, enrich_with_history
 from player_history import build_player_history
 from price_alerts import build_price_alerts
+from league_insights import build_league_insights
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -75,8 +76,9 @@ def build_meta(bootstrap, gw, is_upcoming):
 
 def fetch_entry_picks(team_id, pick_gw):
     """Fetches and saves one manager's entry info + picks. Returns a
-    (manager_summary, element_ids) tuple, or (None, []) if picks aren't
-    public yet (e.g. before the gameweek deadline has passed)."""
+    (manager_summary, picks) tuple - picks in the same {id,is_captain,
+    is_vice,on_bench} shape as my_squad.json - or (None, []) if picks
+    aren't public yet (e.g. before the gameweek deadline has passed)."""
     try:
         entry = get_json(f"{BASE}/entry/{team_id}/")
         picks = get_json(f"{BASE}/entry/{team_id}/event/{pick_gw}/picks/")
@@ -90,8 +92,12 @@ def fetch_entry_picks(team_id, pick_gw):
         "name": f"{entry['player_first_name']} {entry['player_last_name']}",
         "team_name": entry["name"],
     }
-    element_ids = [pk["element"] for pk in picks["picks"]]
-    return manager, element_ids
+    normalized_picks = [
+        {"id": pk["element"], "is_captain": pk["is_captain"],
+         "is_vice": pk["is_vice_captain"], "on_bench": pk["position"] > 11}
+        for pk in picks["picks"]
+    ]
+    return manager, normalized_picks
 
 
 def load_json_file(name):
@@ -172,13 +178,13 @@ def main():
             or [row["entry"] for row in league["new_entries"]["results"]]
         team_ids += [t for t in league_entries if t not in team_ids]
 
-    league_squads = []
+    managers_picks = []
     if pick_gw:
         for team_id in team_ids:
-            manager, element_ids = fetch_entry_picks(team_id, pick_gw)
+            manager, picks = fetch_entry_picks(team_id, pick_gw)
             if manager:
                 config["managers"].append(manager)
-                league_squads.append(element_ids)
+                managers_picks.append({"manager": manager, "picks": picks})
 
     save("config.json", config)
     save("meta.json", build_meta(bootstrap, gw, is_upcoming))
@@ -198,7 +204,7 @@ def main():
     price_history = append_price_snapshot(prior_price_history, bootstrap, meta_generated_at())
     save("price_history.json", price_history)
 
-    extra_squads = league_squads + ([my_squad["picks"]] if my_squad else [])
+    extra_squads = [m["picks"] for m in managers_picks] + ([my_squad["picks"]] if my_squad else [])
     player_history = build_player_history(bootstrap, extra_squads, gw or 0)
     save("player_history.json", player_history)
 
@@ -209,6 +215,14 @@ def main():
     price_alerts = build_price_alerts(players, price_history, bootstrap.get("total_players"))
     save("price_alerts.json", price_alerts)
     print(f"price_alerts.json: {len(price_alerts['alerts'])} alerts, calibrated={price_alerts['calibrated']}")
+
+    players_by_id = {p["id"]: p for p in players}
+    league_insights = build_league_insights(managers_picks, players_by_id)
+    if league_insights:
+        save("league_insights.json", league_insights)
+        print(f"league_insights.json: {league_insights['league_size']} managers")
+    else:
+        print("league_insights: no managers' picks public yet (pre-deadline)")
 
     has_mine_analysis = False
     if my_squad:

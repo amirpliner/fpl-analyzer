@@ -2,7 +2,7 @@ import { state } from "./state.js";
 import { fetchJSON } from "./data.js";
 import { renderGwBadge, renderFdrTable, renderTopPlayers, renderPriceAlerts } from "./ui/gameweek.js";
 import { renderMyTeam } from "./ui/myteam.js";
-import { renderLeague } from "./ui/league.js";
+import { renderLeague, renderLeagueInsights } from "./ui/league.js";
 import { renderReminderWidget } from "./ui/reminders.js";
 import { setupCompareTab } from "./ui/compare.js";
 
@@ -56,6 +56,7 @@ async function init() {
   renderPriceAlerts();
   renderMyTeam();
   renderLeague();
+  renderLeagueInsights();
   renderReminderWidget(document.getElementById("reminderWidget"), state.meta);
   setupCompareTab();
 

@@ -39,6 +39,28 @@ export function fixtureRunScore(teamId) {
   return fx.reduce((s, f) => s + f.diff, 0) / fx.length;
 }
 
+/** League-average team strength for the xPts model's opponent-adjustment
+ * term - null when strength_attack/defence aren't populated yet (see
+ * PLAN.md's FDR-fallback note), same convention as js/models/xpts.js. */
+export function leagueAveragesFromTeams() {
+  const teams = [...state.teamsById.values()];
+  const withData = teams.filter(t => (t.strength_attack_home || 0) > 0);
+  if (!withData.length) return null;
+  const avg = key => withData.reduce((s, t) => s + t[key], 0) / withData.length;
+  return {
+    avgAttackHome: avg("strength_attack_home"),
+    avgAttackAway: avg("strength_attack_away"),
+    avgDefenceHome: avg("strength_defence_home"),
+    avgDefenceAway: avg("strength_defence_away"),
+  };
+}
+
+/** Converts upcomingFixturesForTeam()'s shape into the {oppTeamId,
+ * isHome, difficulty} shape js/models/xpts.js expects. */
+export function fixturesToContext(fixtures) {
+  return fixtures.map(f => ({ oppTeamId: f.oppId, isHome: f.isHome, difficulty: f.diff }));
+}
+
 export function rotationTag(risk) {
   const r = risk || "unknown";
   return `<span class="rotation-tag ${r}">${ROTATION_LABELS[r] || r}</span>`;
