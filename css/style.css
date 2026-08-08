@@ -198,6 +198,47 @@ code {
 .rating-score { color: var(--pl-purple); }
 @media (prefers-color-scheme: dark) { .rating-score { color: var(--pl-green); } }
 
+.reminder-widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.reminder-info { font-size: .9rem; }
+.reminder-caveat {
+  font-size: .75rem;
+  color: var(--text-muted);
+  margin-top: .3rem;
+  max-width: 32rem;
+  line-height: 1.5;
+}
+.reminder-actions { display: flex; gap: .6rem; flex-wrap: wrap; }
+.reminder-btn {
+  background: var(--pl-purple);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: .55rem 1rem;
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.reminder-btn.secondary {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.reminder-btn:disabled { opacity: .5; cursor: default; }
+@media (prefers-color-scheme: dark) {
+  .reminder-btn { background: var(--pl-green); color: #05323a; }
+}
+
 .captain-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
