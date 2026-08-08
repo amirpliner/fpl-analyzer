@@ -1,4 +1,5 @@
 import { state, FIXTURES_LOOKAHEAD, POSITION_CODES } from "../state.js";
+import { fetchJSON } from "../data.js";
 import {
   fdrClass, upcomingFixturesForTeam, fixtureRunScore,
   naOr, rotationTag, minutesSparkline, setPieceBadges,
@@ -31,6 +32,42 @@ export function renderFdrTable() {
   }
   html += "</tbody></table>";
   wrap.innerHTML = html;
+}
+
+export async function renderPriceAlerts() {
+  const container = document.getElementById("priceAlerts");
+  const data = await fetchJSON("data/price_alerts.json");
+  if (!data) {
+    container.innerHTML = "";
+    return;
+  }
+
+  const disclaimer = `<div class="price-disclaimer">
+    ⚠️ הערכה בלבד, לא נתון רשמי מ-FPL - מבוסס על נפח העברות יחסי למספר המנהלים הכולל.
+    ${data.calibrated ? "הסף כוייל מנתונים היסטוריים אמיתיים." : "הסף עדיין זמני (עוד אין מספיק שינויי מחיר בפועל לכייל מולם)."}
+  </div>`;
+
+  if (!data.alerts.length) {
+    container.innerHTML = `${disclaimer}<p class="empty-state">אין כרגע שחקנים עם מספיק תנועת העברות כדי להצדיק התראה.</p>`;
+    return;
+  }
+
+  let html = disclaimer + `<div class="table-wrap"><table><thead><tr>
+    <th>שחקן</th><th>קבוצה</th><th>כיוון</th><th>נטו העברות</th>
+  </tr></thead><tbody>`;
+  for (const a of data.alerts.slice(0, 15)) {
+    const team = state.teamsById.get(a.team);
+    const dirClass = a.direction === "rising" ? "rising" : "falling";
+    const dirLabel = a.direction === "rising" ? "📈 צפוי לעלות" : "📉 צפוי לרדת";
+    html += `<tr>
+      <td>${a.name}</td>
+      <td>${team?.short_name || "?"}</td>
+      <td><span class="price-direction ${dirClass}">${dirLabel}</span></td>
+      <td>${a.net_transfers_pct}%</td>
+    </tr>`;
+  }
+  html += "</tbody></table></div>";
+  container.innerHTML = html;
 }
 
 export function renderTopPlayers() {

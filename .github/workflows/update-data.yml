@@ -3,6 +3,10 @@ name: Update FPL data
 on:
   schedule:
     - cron: "0 5 * * *"
+    # Extra hourly runs in the evening UTC hours, since FPL price changes
+    # happen around 01:30-02:30 UK time (~00:30-01:30 UTC in summer) -
+    # this catches the transfer-momentum runup for Stage B8's price alerts.
+    - cron: "0 18-23 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -20,6 +24,9 @@ jobs:
 
       - name: Fetch latest FPL data
         run: python3 scripts/fetch_data.py --league-id 367147
+
+      - name: Calibrate price-change thresholds
+        run: python3 scripts/calibrate_price_threshold.py
 
       - name: Commit and push if changed
         run: |

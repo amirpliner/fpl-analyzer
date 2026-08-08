@@ -1,6 +1,6 @@
 import { state } from "./state.js";
 import { fetchJSON } from "./data.js";
-import { renderGwBadge, renderFdrTable, renderTopPlayers } from "./ui/gameweek.js";
+import { renderGwBadge, renderFdrTable, renderTopPlayers, renderPriceAlerts } from "./ui/gameweek.js";
 import { renderMyTeam } from "./ui/myteam.js";
 import { renderLeague } from "./ui/league.js";
 import { renderReminderWidget } from "./ui/reminders.js";
@@ -53,6 +53,7 @@ async function init() {
   renderGwBadge();
   renderFdrTable();
   renderTopPlayers();
+  renderPriceAlerts();
   renderMyTeam();
   renderLeague();
   renderReminderWidget(document.getElementById("reminderWidget"), state.meta);

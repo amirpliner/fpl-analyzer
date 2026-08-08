@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 from analysis import build_analysis
 from build_static import build_teams, build_players, compute_dgw_bgw, append_price_snapshot, enrich_with_history
 from player_history import build_player_history
+from price_alerts import build_price_alerts
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -204,6 +205,10 @@ def main():
     players = enrich_with_history(build_players(bootstrap), player_history)
     save("players.json", players)
     print(f"players.json: {len(players)} players, {os.path.getsize(os.path.join(DATA_DIR, 'players.json')) / 1024:.0f} KB")
+
+    price_alerts = build_price_alerts(players, price_history, bootstrap.get("total_players"))
+    save("price_alerts.json", price_alerts)
+    print(f"price_alerts.json: {len(price_alerts['alerts'])} alerts, calibrated={price_alerts['calibrated']}")
 
     has_mine_analysis = False
     if my_squad:

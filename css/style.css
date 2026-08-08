@@ -198,6 +198,26 @@ code {
 .rating-score { color: var(--pl-purple); }
 @media (prefers-color-scheme: dark) { .rating-score { color: var(--pl-green); } }
 
+.price-disclaimer {
+  font-size: .78rem;
+  color: var(--text-muted);
+  background: var(--card-bg);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: .6rem .9rem;
+  margin-bottom: .8rem;
+  line-height: 1.5;
+}
+.price-direction {
+  display: inline-block;
+  font-size: .78rem;
+  font-weight: 700;
+  padding: .15rem .5rem;
+  border-radius: 999px;
+}
+.price-direction.rising { background: var(--fdr-1); color: white; }
+.price-direction.falling { background: var(--fdr-5); color: white; }
+
 .compare-picker { margin-bottom: 1rem; }
 .compare-picker input {
   width: 100%;
