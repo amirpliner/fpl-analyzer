@@ -4,16 +4,20 @@
    ============================================================ */
 
 :root {
-  /* Base palette */
-  --bg: #15130f;
-  --card-bg: #1c1a15;
-  --text: #ece6d8;
-  --text-muted: #a89e8c;
-  --border: #3a352c;
+  /* Base palette - cool black/blue/white */
+  --bg: #0a0e17;
+  --card-bg: #121a2b;
+  --text: #f4f6fb;
+  --text-muted: #8b96ac;
+  --border: #263248;
 
-  /* Single accent color for brand/CTA/highlights */
-  --accent: #e2572e;
-  --accent-contrast: var(--bg); /* text color to use ON TOP of --accent fills */
+  /* Blue accent, two shades: --accent for text/borders/glow (brighter,
+     passes AA as text on --bg), --accent-strong for solid fills paired
+     with white text (passes AA better as a fill than the brighter shade
+     would with white text on top). */
+  --accent: #3b82f6;
+  --accent-strong: #2563eb;
+  --accent-contrast: #ffffff; /* text color to use ON TOP of --accent-strong fills */
 
   /* FDR "LED" gradient, easiest -> hardest fixture */
   --fdr-1: #39ff6a;
@@ -110,7 +114,7 @@ body {
 }
 
 .gw-badge {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: var(--accent-contrast);
   font-weight: 700;
   padding: .35rem .9rem;
@@ -273,7 +277,7 @@ tbody tr:hover { background-color: color-mix(in srgb, var(--accent) 8%, transpar
   font-size: .85rem;
 }
 .pos-btn:hover:not(.active) { border-color: var(--accent); color: var(--text); }
-.pos-btn.active { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
+.pos-btn.active { background: var(--accent-strong); color: var(--accent-contrast); border-color: var(--accent-strong); }
 
 .tab-panel { display: none; }
 .tab-panel.active { display: block; }
@@ -466,7 +470,7 @@ code {
   display: inline-flex;
   align-items: center;
   gap: .4rem;
-  background: var(--accent);
+  background: var(--accent-strong);
   color: var(--accent-contrast);
   padding: .35rem .5rem .35rem .9rem;
   border-radius: var(--radius-sm);
@@ -516,7 +520,7 @@ td.winner {
 }
 .reminder-actions { display: flex; gap: .6rem; flex-wrap: wrap; }
 .reminder-btn {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: var(--accent-contrast);
   border: none;
   border-radius: var(--radius-sm);
@@ -553,7 +557,7 @@ td.winner {
   font-size: .72rem;
   padding: .1rem .4rem;
   border-radius: var(--radius-sm);
-  background: var(--accent);
+  background: var(--accent-strong);
   color: var(--accent-contrast);
   margin-inline-start: .3rem;
 }
@@ -615,9 +619,9 @@ td.winner {
   margin-inline-end: .2rem;
 }
 .setpiece-badge.primary {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: var(--accent-contrast);
-  border-color: var(--accent);
+  border-color: var(--accent-strong);
 }
 
 .captain-list {
