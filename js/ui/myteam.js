@@ -1,6 +1,6 @@
 import { state, POSITION_NAMES } from "../state.js";
 import { fetchJSON } from "../data.js";
-import { fdrCellClass, naOr, playerPrice, fixtureRunScore } from "../helpers.js";
+import { fdrCellClass, naOr, playerPrice, fixtureRunScore, teamCrestImg, teamByShortName } from "../helpers.js";
 
 export async function renderManagerTeam(teamId) {
   const container = document.getElementById("myTeamContent");
@@ -33,7 +33,7 @@ export async function renderManagerTeam(teamId) {
     html += `<tr>
       <td>${p.web_name}${p.chance_of_playing_next_round !== null && p.chance_of_playing_next_round < 100 ? " ⚠️" : ""}</td>
       <td>${POSITION_NAMES[p.element_type]}</td>
-      <td>${team?.short_name || "?"}</td>
+      <td class="team-cell">${teamCrestImg(team)}${team?.short_name || "?"}</td>
       <td>£${playerPrice(p)}</td>
       <td>${p.form}</td>
       <td><span class="fdr-cell ${runClass}">${run.toFixed(1)}</span></td>
@@ -169,7 +169,7 @@ export async function renderMineAnalysis() {
   for (const p of a.players) {
     const fdrClass = fdrCellClass(p.avg_fdr_next5);
     html += `<tr>
-      <td>${p.on_bench ? "🪑 " : ""}${p.is_captain ? "©️ " : p.is_vice ? "Ⓥ " : ""}${p.web_name} (${p.team})
+      <td>${teamCrestImg(teamByShortName(p.team), 18)}${p.on_bench ? "🪑 " : ""}${p.is_captain ? "©️ " : p.is_vice ? "Ⓥ " : ""}${p.web_name} (${p.team})
         ${p.injury ? `<span class="injury-tag">${p.injury.news || p.injury.status}</span>` : ""}
         ${p.is_differential ? `<span class="differential-tag">דיפרנציאל</span>` : ""}
       </td>

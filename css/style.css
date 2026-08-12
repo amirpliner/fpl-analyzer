@@ -158,6 +158,12 @@ th {
 
 tr:last-child td { border-bottom: none; }
 
+.team-crest {
+  vertical-align: middle;
+  margin-inline-end: .4rem;
+  object-fit: contain;
+}
+
 /* ---------- FDR "LED" chips ---------- */
 
 .fdr-cell {

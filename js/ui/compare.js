@@ -1,5 +1,5 @@
 import { state } from "../state.js";
-import { naOr, fdrClass, upcomingFixturesForTeam, leagueAveragesFromTeams, fixturesToContext } from "../helpers.js";
+import { naOr, fdrClass, upcomingFixturesForTeam, leagueAveragesFromTeams, fixturesToContext, teamCrestImg } from "../helpers.js";
 import { expectedPointsMulti, ictPercentilesByPosition } from "../models/xpts.js";
 
 const MAX_PLAYERS = 4;
@@ -56,7 +56,8 @@ function renderChips() {
   }
   container.innerHTML = selectedIds.map(id => {
     const p = state.enrichedById.get(id);
-    return `<span class="compare-chip">${p.name} <button data-remove="${id}" aria-label="הסר">✕</button></span>`;
+    const team = state.teamsById.get(p.team);
+    return `<span class="compare-chip">${teamCrestImg(team, 16)}${p.name} <button data-remove="${id}" aria-label="הסר">✕</button></span>`;
   }).join("");
 
   container.querySelectorAll("[data-remove]").forEach(btn => {
@@ -106,7 +107,7 @@ function renderComparisonTable() {
   ];
 
   let html = `<div class="table-wrap"><table><thead><tr><th></th>`;
-  for (const p of players) html += `<th>${p.name}</th>`;
+  for (const p of players) html += `<th class="team-cell">${teamCrestImg(teamsById.get(p.team))}${p.name}</th>`;
   html += `</tr></thead><tbody>`;
 
   for (const row of rows) {
@@ -137,7 +138,7 @@ function renderComparisonTable() {
 
   html += `<h2>לוח משחקים מקביל</h2><div class="table-wrap"><table><thead><tr><th></th><th>+1</th><th>+2</th><th>+3</th></tr></thead><tbody>`;
   players.forEach((p, i) => {
-    html += `<tr><td>${p.name}</td>`;
+    html += `<tr><td class="team-cell">${teamCrestImg(state.teamsById.get(p.team))}${p.name}</td>`;
     for (let j = 0; j < 3; j++) {
       const f = xptsData[i].fixtures[j];
       html += f

@@ -2,7 +2,7 @@ import { state, FIXTURES_LOOKAHEAD, POSITION_CODES } from "../state.js";
 import { fetchJSON } from "../data.js";
 import {
   fdrClass, upcomingFixturesForTeam, fixtureRunScore,
-  naOr, rotationTag, minutesSparkline, setPieceBadges,
+  naOr, rotationTag, minutesSparkline, setPieceBadges, teamCrestImg,
 } from "../helpers.js";
 
 export function renderGwBadge() {
@@ -21,7 +21,7 @@ export function renderFdrTable() {
   html += "</tr></thead><tbody>";
   for (const t of teams) {
     const fx = upcomingFixturesForTeam(t.id);
-    html += `<tr><td>${t.name}</td>`;
+    html += `<tr><td class="team-cell">${teamCrestImg(t)}${t.name}</td>`;
     for (let i = 0; i < FIXTURES_LOOKAHEAD; i++) {
       const f = fx[i];
       html += f
@@ -61,7 +61,7 @@ export async function renderPriceAlerts() {
     const dirLabel = a.direction === "rising" ? "📈 צפוי לעלות" : "📉 צפוי לרדת";
     html += `<tr>
       <td>${a.name}</td>
-      <td>${team?.short_name || "?"}</td>
+      <td class="team-cell">${teamCrestImg(team)}${team?.short_name || "?"}</td>
       <td><span class="price-direction ${dirClass}">${dirLabel}</span></td>
       <td>${a.net_transfers_pct}%</td>
     </tr>`;
@@ -88,7 +88,7 @@ export function renderTopPlayers() {
     const runClass = run <= 2.34 ? "fdr-1" : run <= 3 ? "fdr-2" : run <= 3.67 ? "fdr-3" : "fdr-4";
     html += `<tr>
       <td>${p.name}${p.chance_next !== null && p.chance_next < 100 ? " ⚠️" : ""}</td>
-      <td>${team?.short_name || "?"}</td>
+      <td class="team-cell">${teamCrestImg(team)}${team?.short_name || "?"}</td>
       <td>£${p.price.toFixed(1)}</td>
       <td>${p.form}</td>
       <td>${p.points}</td>

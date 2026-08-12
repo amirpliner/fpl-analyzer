@@ -4,6 +4,19 @@ export function fdrClass(diff) {
   return `fdr-cell fdr-${diff}`;
 }
 
+/** Official Premier League team badge, hotlinked from the same CDN the
+ * FPL site itself uses (resources.premierleague.com) - no data pipeline
+ * change needed, bootstrap.json already has each team's `code`. */
+export function teamByShortName(shortName) {
+  return [...state.teamsById.values()].find(t => t.short_name === shortName);
+}
+
+export function teamCrestImg(team, size = 20) {
+  if (!team?.code) return "";
+  const url = `https://resources.premierleague.com/premierleague/badges/50/t${team.code}.png`;
+  return `<img class="team-crest" src="${url}" width="${size}" height="${size}" alt="${team.short_name || ""}" loading="lazy">`;
+}
+
 export function fdrCellClass(avgFdr) {
   if (avgFdr == null) return "";
   return avgFdr <= 2.34 ? "fdr-1" : avgFdr <= 3 ? "fdr-2" : avgFdr <= 3.67 ? "fdr-3" : "fdr-4";
