@@ -6,6 +6,13 @@ import { renderLeague, renderLeagueInsights } from "./ui/league.js";
 import { renderReminderWidget } from "./ui/reminders.js";
 import { setupCompareTab } from "./ui/compare.js";
 
+function hideLoadingOverlay() {
+  const overlay = document.getElementById("loadingOverlay");
+  if (!overlay) return;
+  overlay.classList.add("hidden");
+  overlay.addEventListener("transitionend", () => overlay.remove(), { once: true });
+}
+
 function setupTabs() {
   document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -39,6 +46,7 @@ async function init() {
 
   if (!bootstrap || !fixtures) {
     document.getElementById("gwBadge").textContent = "אין נתונים - הרץ את scripts/fetch_data.py";
+    hideLoadingOverlay();
     return;
   }
 
@@ -62,6 +70,8 @@ async function init() {
 
   const lastUpdated = new Date().toLocaleString("he-IL");
   document.getElementById("lastUpdated").textContent = lastUpdated;
+
+  hideLoadingOverlay();
 }
 
 init();

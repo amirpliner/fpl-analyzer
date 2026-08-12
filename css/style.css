@@ -32,12 +32,59 @@
 
 * { box-sizing: border-box; }
 
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 body {
   margin: 0;
   font-family: var(--font-body);
   background: var(--bg);
   color: var(--text);
   font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Loading overlay ---------- */
+
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: opacity .35s ease;
+}
+.loading-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.loading-overlay p {
+  font-family: var(--font-display);
+  color: var(--text-muted);
+  font-size: 1rem;
+  letter-spacing: .02em;
+  margin: 0;
+}
+.spinner {
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation-duration: 2.4s; }
+  * { transition-duration: .01ms !important; }
 }
 
 /* ---------- Topbar ---------- */
@@ -92,11 +139,17 @@ body {
   cursor: pointer;
   color: var(--text-muted);
   border-radius: 0;
+  transition: color .15s ease, border-color .15s ease, background-color .15s ease;
 }
 
 .tab-btn {
   border-bottom: 2px solid transparent;
   margin-bottom: -1px;
+}
+
+.tab-btn:hover:not(.active) {
+  color: var(--text);
+  border-bottom-color: var(--border);
 }
 
 .tab-btn.active {
@@ -158,6 +211,9 @@ th {
 
 tr:last-child td { border-bottom: none; }
 
+tbody tr { transition: background-color .12s ease; }
+tbody tr:hover { background-color: color-mix(in srgb, var(--accent) 8%, transparent); }
+
 .team-crest {
   vertical-align: middle;
   margin-inline-end: .4rem;
@@ -216,6 +272,7 @@ tr:last-child td { border-bottom: none; }
   padding: .45rem 1rem;
   font-size: .85rem;
 }
+.pos-btn:hover:not(.active) { border-color: var(--accent); color: var(--text); }
 .pos-btn.active { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
 
 .tab-panel { display: none; }
@@ -291,6 +348,13 @@ code {
   border-radius: 0 0 var(--radius-md) var(--radius-md);
   padding: 1rem;
   position: relative;
+  transition: border-top-color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+
+.chip-card:hover, .plan-route:hover, .captain-card:hover, .transfer-card:hover {
+  border-top-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,.35);
 }
 
 .chip-card.urgent { border-top-color: var(--fdr-4); }
@@ -419,7 +483,9 @@ code {
   cursor: pointer;
   font-size: .7rem;
   line-height: 1;
+  transition: background-color .15s ease;
 }
+.compare-chip button:hover { background: rgba(0,0,0,.4); }
 
 td.winner {
   background: color-mix(in srgb, var(--accent) 18%, transparent);
@@ -458,12 +524,15 @@ td.winner {
   font-size: .85rem;
   font-weight: 600;
   cursor: pointer;
+  transition: filter .15s ease, border-color .15s ease;
 }
+.reminder-btn:hover:not(:disabled) { filter: brightness(1.12); }
 .reminder-btn.secondary {
   background: var(--bg);
   color: var(--text);
   border: 1px solid var(--border);
 }
+.reminder-btn.secondary:hover:not(:disabled) { border-color: var(--accent); filter: none; }
 .reminder-btn:disabled { opacity: .5; cursor: default; }
 
 /* ---------- Tags ---------- */
