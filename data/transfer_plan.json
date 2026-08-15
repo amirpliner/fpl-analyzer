@@ -58,9 +58,9 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Maguire",
+              "out": "Robinson",
               "in": "Davies",
-              "cost_delta": -1.0
+              "cost_delta": -0.5
             }
           ],
           "hits": 0,
@@ -72,33 +72,33 @@
           "transfers": [
             {
               "out": "Anderson",
-              "in": "Brooks",
+              "in": "Carvalho",
               "cost_delta": -1.5
             }
           ],
           "hits": 0,
-          "xi_score": 64.43,
+          "xi_score": 64.22,
           "captain": "Davies"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Mosquera",
+              "out": "Maguire",
               "in": "Calafiori",
-              "cost_delta": 0.0
+              "cost_delta": 0.5
             }
           ],
           "hits": 0,
-          "xi_score": 65.58,
+          "xi_score": 65.78,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
-      "final_bank": 2.5,
-      "total_xpts": 191.77,
-      "net_gain_vs_hold": 17.01
+      "final_bank": 1.5,
+      "total_xpts": 191.76,
+      "net_gain_vs_hold": 17.0
     },
     {
       "weekly_plan": [
