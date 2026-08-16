@@ -118,7 +118,7 @@ export function renderReminderWidget(container, meta) {
         <button id="btnBrowserNotif" class="reminder-btn">
           ${permission === "granted" ? "✓ התראות דפדפן פעילות" : "🔔 הפעל התראות דפדפן"}
         </button>
-        <button id="btnIcsDownload" class="reminder-btn secondary">📅 הוסף ליומן</button>
+        <button id="btnIcsDownload" class="reminder-btn secondary">הוסף ליומן</button>
       </div>
     </div>
   `;

@@ -81,7 +81,7 @@ export async function renderMyTeam() {
   if (!cfg || (!cfg.managers?.length && !cfg.has_mine_analysis)) return;
 
   picker.style.display = "flex";
-  const mineOption = cfg.has_mine_analysis ? '<option value="mine">⭐ אתה (ניתוח מלא)</option>' : "";
+  const mineOption = cfg.has_mine_analysis ? '<option value="mine">אתה (ניתוח מלא)</option>' : "";
   select.innerHTML = '<option value="">-- בחר את עצמך --</option>' + mineOption +
     (cfg.managers || [])
       .sort((a, b) => a.name.localeCompare(b.name, "he"))
@@ -251,7 +251,7 @@ function renderChipPlan(plan) {
     <div class="chip-cards">`;
 
   html += `<div class="chip-card">
-    <div class="chip-card-title">🪑 Bench Boost ${chipUsedNote("bboost", plan.chips_used)}</div>`;
+    <div class="chip-card-title">Bench Boost ${chipUsedNote("bboost", plan.chips_used)}</div>`;
   if (plan.bench_boost.recommendations.length) {
     for (const r of plan.bench_boost.recommendations) {
       html += `<div class="chip-rec">מחזור ${r.event}${r.is_dgw ? " (כפול)" : ""}: ${r.reason}</div>`;
@@ -262,7 +262,7 @@ function renderChipPlan(plan) {
   html += `</div>`;
 
   html += `<div class="chip-card">
-    <div class="chip-card-title">©️ Triple Captain ${chipUsedNote("3xc", plan.chips_used)}</div>`;
+    <div class="chip-card-title">Triple Captain ${chipUsedNote("3xc", plan.chips_used)}</div>`;
   if (plan.triple_captain.recommendations.length) {
     for (const r of plan.triple_captain.recommendations) {
       html += `<div class="chip-rec">מחזור ${r.event}: ${r.reason}</div>`;
@@ -273,7 +273,7 @@ function renderChipPlan(plan) {
   html += `</div>`;
 
   html += `<div class="chip-card">
-    <div class="chip-card-title">🃏 Free Hit ${chipUsedNote("freehit", plan.chips_used)}</div>`;
+    <div class="chip-card-title">Free Hit ${chipUsedNote("freehit", plan.chips_used)}</div>`;
   if (plan.free_hit.recommendations.length) {
     for (const r of plan.free_hit.recommendations) {
       html += `<div class="chip-rec">מחזור ${r.event}: ${r.reason}</div>`;
@@ -284,7 +284,7 @@ function renderChipPlan(plan) {
   html += `</div>`;
 
   html += `<div class="chip-card${plan.wildcard.recommend ? " urgent" : ""}">
-    <div class="chip-card-title">🔄 Wildcard ${chipUsedNote("wildcard", plan.chips_used)}</div>
+    <div class="chip-card-title">Wildcard ${chipUsedNote("wildcard", plan.chips_used)}</div>
     <div class="chip-rec">${plan.wildcard.reason}</div>
   </div>`;
 
