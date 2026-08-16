@@ -164,10 +164,11 @@ export async function renderMineAnalysis() {
 
   html += `<h2>הסגל שלך</h2><div class="table-wrap"><table><thead><tr>
     <th>שחקן</th><th>מחיר</th><th>PPM</th><th>xGI/90</th><th>xGC/90</th>
-    <th>FDR ממוצע (5)</th><th>בעלות</th>
+    <th>%התחלות</th><th>FDR ממוצע (5)</th><th>בעלות</th>
   </tr></thead><tbody>`;
   for (const p of a.players) {
     const fdrClass = fdrCellClass(p.avg_fdr_next5);
+    const startsPct = p.starts_per_90 != null ? `${Math.round(p.starts_per_90 * 100)}%` : naOr(null);
     html += `<tr>
       <td>${teamCrestImg(teamByShortName(p.team), 18)}${p.on_bench ? "🪑 " : ""}${p.is_captain ? "©️ " : p.is_vice ? "Ⓥ " : ""}${p.web_name} (${p.team})
         ${p.injury ? `<span class="injury-tag">${p.injury.news || p.injury.status}</span>` : ""}
@@ -177,6 +178,7 @@ export async function renderMineAnalysis() {
       <td>${naOr(p.ppm)}</td>
       <td>${naOr(p.xgi_per_90)}</td>
       <td>${naOr(p.xgc_per_90)}</td>
+      <td title="${p.chance_next != null ? `${p.chance_next}% סיכוי לשחק במחזור הבא` : ""}">${startsPct}</td>
       <td>${p.avg_fdr_next5 != null ? `<span class="fdr-cell ${fdrClass}">${p.avg_fdr_next5}</span>` : naOr(null)}</td>
       <td>${p.ownership}%</td>
     </tr>`;

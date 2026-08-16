@@ -83,12 +83,13 @@ export function renderTopPlayers() {
 
   let html = `<table><thead><tr>
     <th>שחקן</th><th>קבוצה</th><th>מחיר</th><th>פורם</th><th>נק'</th><th>נבחר ע"י</th>
-    <th>ריצת משחקים</th><th>xG</th><th>xA</th><th>ICT</th><th>כדורי-רגל</th><th>סטטוס דקות</th>
+    <th>ריצת משחקים</th><th>xG</th><th>xA</th><th>ICT</th><th>כדורי-רגל</th><th>%התחלות</th><th>סטטוס דקות</th>
   </tr></thead><tbody>`;
   for (const p of players) {
     const team = state.teamsById.get(p.team);
     const run = fixtureRunScore(p.team);
     const runClass = run <= 2.34 ? "fdr-1" : run <= 3 ? "fdr-2" : run <= 3.67 ? "fdr-3" : "fdr-4";
+    const startsPct = p.starts_per_90 != null ? `${Math.round(p.starts_per_90 * 100)}%` : naOr(null);
     html += `<tr>
       <td>${p.name}${p.chance_next !== null && p.chance_next < 100 ? " ⚠️" : ""}</td>
       <td class="team-cell">${teamCrestImg(team)}${team?.short_name || "?"}</td>
@@ -101,6 +102,7 @@ export function renderTopPlayers() {
       <td>${naOr(p.xa)}</td>
       <td>${naOr(p.ict)}</td>
       <td>${setPieceBadges(p.set_pieces)}</td>
+      <td title="${p.chance_next != null ? `${p.chance_next}% סיכוי לשחק במחזור הבא` : ""}">${startsPct}</td>
       <td>${rotationTag(p.rotation_risk, p.prior_season_fallback)}${p.last5_minutes?.length ? minutesSparkline(p.last5_minutes) : ""}</td>
     </tr>`;
   }

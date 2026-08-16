@@ -110,6 +110,8 @@ def analyze_player(pick, p, teams_by_id, fixtures, from_event, history, pooled=N
         "is_differential": float(p["selected_by_percent"]) < DIFFERENTIAL_OWNERSHIP,
         "xgi_per_90": pooled.get("xgi90", p.get("expected_goal_involvements_per_90")),
         "xgc_per_90": pooled.get("xgc90", p.get("expected_goals_conceded_per_90")),
+        "starts_per_90": pooled.get("starts_per_90", p.get("starts_per_90")),
+        "chance_next": p.get("chance_of_playing_next_round"),
         "prior_season_fallback": pooled.get("prior_season_fallback"),
         "fixture_run": fixture_run,
         "has_easy_run": has_easy_run(fixture_run),
