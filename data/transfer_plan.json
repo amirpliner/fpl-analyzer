@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 1,
-  "baseline_xpts": 174.76,
+  "baseline_xpts": 173.94,
   "routes": [
     {
       "weekly_plan": [
@@ -10,61 +10,13 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Maguire",
+              "out": "Davis",
               "in": "Davies",
-              "cost_delta": -1.0
-            }
-          ],
-          "hits": 0,
-          "xi_score": 61.76,
-          "captain": "Davies"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Anderson",
-              "in": "Carvalho",
-              "cost_delta": -1.5
-            }
-          ],
-          "hits": 0,
-          "xi_score": 64.23,
-          "captain": "Davies"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
-              "out": "Mosquera",
-              "in": "Calafiori",
               "cost_delta": 0.0
             }
           ],
           "hits": 0,
-          "xi_score": 65.78,
-          "captain": "Haaland"
-        }
-      ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 2.5,
-      "total_xpts": 191.77,
-      "net_gain_vs_hold": 17.01
-    },
-    {
-      "weekly_plan": [
-        {
-          "week": 1,
-          "transfers": [
-            {
-              "out": "Robinson",
-              "in": "Davies",
-              "cost_delta": -0.5
-            }
-          ],
-          "hits": 0,
-          "xi_score": 61.76,
+          "xi_score": 61.65,
           "captain": "Davies"
         },
         {
@@ -77,7 +29,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 64.22,
+          "xi_score": 64.16,
           "captain": "Davies"
         },
         {
@@ -96,9 +48,57 @@
       ],
       "total_transfers": 3,
       "total_hits": 0,
+      "final_bank": 1.0,
+      "total_xpts": 191.59,
+      "net_gain_vs_hold": 17.65
+    },
+    {
+      "weekly_plan": [
+        {
+          "week": 1,
+          "transfers": [
+            {
+              "out": "Davis",
+              "in": "Davies",
+              "cost_delta": 0.0
+            }
+          ],
+          "hits": 0,
+          "xi_score": 61.65,
+          "captain": "Davies"
+        },
+        {
+          "week": 2,
+          "transfers": [
+            {
+              "out": "Anderson",
+              "in": "Carvalho",
+              "cost_delta": -1.5
+            }
+          ],
+          "hits": 0,
+          "xi_score": 64.16,
+          "captain": "Davies"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Mosquera",
+              "in": "Calafiori",
+              "cost_delta": 0.0
+            }
+          ],
+          "hits": 0,
+          "xi_score": 65.78,
+          "captain": "Haaland"
+        }
+      ],
+      "total_transfers": 3,
+      "total_hits": 0,
       "final_bank": 1.5,
-      "total_xpts": 191.76,
-      "net_gain_vs_hold": 17.0
+      "total_xpts": 191.59,
+      "net_gain_vs_hold": 17.65
     },
     {
       "weekly_plan": [
@@ -106,28 +106,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 58.52,
+          "xi_score": 58.29,
           "captain": "B.Fernandes"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 57.8,
+          "xi_score": 57.53,
           "captain": "B.Fernandes"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 58.44,
+          "xi_score": 58.12,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0,
-      "total_xpts": 174.76,
+      "total_xpts": 173.94,
       "net_gain_vs_hold": 0.0
     }
   ]
