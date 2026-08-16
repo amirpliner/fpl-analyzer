@@ -1,23 +1,25 @@
 /* ============================================================
    FPL מנתח - עיצוב "עיתון ספורט / לוח תוצאות"
-   פלטה כהה יחידה (לא בהיר/כהה), מבטא אחד, קווי הפרדה דקים.
+   פלטת המותג הרשמי של הפרמייר ליג: סגול כהה + ירוק זוהר.
    ============================================================ */
 
 :root {
-  /* Base palette - cool black/blue/white */
-  --bg: #0a0e17;
-  --card-bg: #121a2b;
-  --text: #f4f6fb;
-  --text-muted: #8b96ac;
-  --border: #263248;
+  /* Base palette - official Premier League purple/green */
+  --bg: #38003c;
+  --card-bg: #240029;
+  --text: #ffffff;
+  --text-muted: #c9b8d1;
+  --border: #4d1a52;
 
-  /* Blue accent, two shades: --accent for text/borders/glow (brighter,
-     passes AA as text on --bg), --accent-strong for solid fills paired
-     with white text (passes AA better as a fill than the brighter shade
-     would with white text on top). */
-  --accent: #3b82f6;
-  --accent-strong: #2563eb;
-  --accent-contrast: #ffffff; /* text color to use ON TOP of --accent-strong fills */
+  /* Official PL green. Used as both the text/border/glow color AND the
+     solid-fill color (unlike the previous blue palette, one shade works
+     for both roles here) - fills pair with dark purple text, not white:
+     white-on-green only hits 1.34:1 contrast (fails badly), dark-purple-
+     on-green hits 12.68:1. This mirrors how the real FPL app styles its
+     green buttons (dark text on green, never white). */
+  --accent: #00ff85;
+  --accent-strong: #00ff85;
+  --accent-contrast: var(--bg); /* text color to use ON TOP of --accent-strong fills */
 
   /* FDR "LED" gradient, easiest -> hardest fixture */
   --fdr-1: #39ff6a;
