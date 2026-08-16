@@ -35,9 +35,15 @@ def build_teams(bootstrap):
     ]
 
 
-def build_players(bootstrap):
+def build_players(bootstrap, prior_season=None):
+    """prior_season: optional {player_id_str: {xg90,xa90,xgi90,xgc90,
+    starts_per_90,season_name}} from player_history.build_prior_season().
+    Used only when this-season minutes are still 0 (season just reset) -
+    see PLAN.md's season-rollover note."""
+    prior_season = prior_season or {}
     players = []
     for p in bootstrap["elements"]:
+        fallback = prior_season.get(str(p["id"])) if p["minutes"] == 0 else None
         players.append({
             "id": p["id"],
             "name": p["web_name"],
@@ -50,14 +56,15 @@ def build_players(bootstrap):
             "owned": _num(p["selected_by_percent"], 0.0),
             "xg": _num(p["expected_goals"]),
             "xa": _num(p["expected_assists"]),
-            "xg90": p.get("expected_goals_per_90"),
-            "xa90": p.get("expected_assists_per_90"),
-            "xgi90": p.get("expected_goal_involvements_per_90"),
-            "xgc90": p.get("expected_goals_conceded_per_90"),
+            "xg90": fallback["xg90"] if fallback else p.get("expected_goals_per_90"),
+            "xa90": fallback["xa90"] if fallback else p.get("expected_assists_per_90"),
+            "xgi90": fallback["xgi90"] if fallback else p.get("expected_goal_involvements_per_90"),
+            "xgc90": fallback["xgc90"] if fallback else p.get("expected_goals_conceded_per_90"),
+            "prior_season_fallback": fallback["season_name"] if fallback else None,
             "ict": _num(p["ict_index"]),
             "minutes": p["minutes"],
             "starts": p["starts"],
-            "starts_per_90": p["starts_per_90"],
+            "starts_per_90": fallback["starts_per_90"] if fallback else p["starts_per_90"],
             # Per-gameweek current-season history doesn't exist until real
             # matches are played - filled in from player_history.json once
             # it does, never invented here.
@@ -102,6 +109,12 @@ def enrich_with_history(players, player_history):
     for p in players:
         history = player_history.get(str(p["id"]))
         if not history:
+            # No this-season minutes yet (e.g. GW1, season just reset) -
+            # fall back to a rotation-risk guess from last season's
+            # starts rate, already carried on p["starts_per_90"] by
+            # build_players()'s prior_season fallback.
+            if p["prior_season_fallback"]:
+                p["rotation_risk"] = classify_rotation_risk([p["starts_per_90"] * 90]) or "unknown"
             continue
         minutes = [h["minutes"] for h in history]
         p["last5_minutes"] = minutes

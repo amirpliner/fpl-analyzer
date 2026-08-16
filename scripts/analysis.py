@@ -90,9 +90,10 @@ def injury_flag(p):
     }
 
 
-def analyze_player(pick, p, teams_by_id, fixtures, from_event, history):
+def analyze_player(pick, p, teams_by_id, fixtures, from_event, history, pooled=None):
     fixture_run = team_fixture_run(p["team"], fixtures, teams_by_id, from_event)
     avg_min_3 = avg_minutes_last(history, 3)
+    pooled = pooled or {}
     return {
         "id": p["id"],
         "web_name": p["web_name"],
@@ -107,8 +108,9 @@ def analyze_player(pick, p, teams_by_id, fixtures, from_event, history):
         "ppm": round(p["total_points"] / player_price(p), 2) if player_price(p) else None,
         "ownership": float(p["selected_by_percent"]),
         "is_differential": float(p["selected_by_percent"]) < DIFFERENTIAL_OWNERSHIP,
-        "xgi_per_90": p.get("expected_goal_involvements_per_90"),
-        "xgc_per_90": p.get("expected_goals_conceded_per_90"),
+        "xgi_per_90": pooled.get("xgi90", p.get("expected_goal_involvements_per_90")),
+        "xgc_per_90": pooled.get("xgc90", p.get("expected_goals_conceded_per_90")),
+        "prior_season_fallback": pooled.get("prior_season_fallback"),
         "fixture_run": fixture_run,
         "has_easy_run": has_easy_run(fixture_run),
         "avg_fdr_next5": round(sum(f["difficulty"] for f in fixture_run) / len(fixture_run), 2) if fixture_run else None,
@@ -146,33 +148,39 @@ def captain_recommendations(players, elements_by_id, teams_by_id, players_pool):
     starters = [pl for pl in players if not pl["on_bench"] and pl["fixture_run"]]
     league_avg = league_averages(list(teams_by_id.values()))
     ict_pct = ict_percentiles_by_position(players_pool)
+    pool_by_id = {pp["id"]: pp for pp in players_pool}
 
     scored = []
     for pl in starters:
         raw = elements_by_id.get(pl["id"])
         if not raw:
             continue
+        # Prefer the enriched pool's rate stats over the raw bootstrap
+        # fields - the pool already carries the season-rollover fallback
+        # (see build_static.build_players) so this doesn't go blank
+        # right on GW1.
+        pooled = pool_by_id.get(pl["id"], {})
         next_fx = pl["fixture_run"][0]
         opp_team = teams_by_id.get(next_fx["opponent_id"])
         xpts_input = {
             "pos": POSITION_NAMES.get(raw["element_type"], "?"),
             "status": raw["status"],
             "chance_next": raw["chance_of_playing_next_round"],
-            "starts_per_90": raw["starts_per_90"],
-            "xg90": raw.get("expected_goals_per_90"),
-            "xa90": raw.get("expected_assists_per_90"),
-            "xgc90": raw.get("expected_goals_conceded_per_90"),
+            "starts_per_90": pooled.get("starts_per_90", raw["starts_per_90"]),
+            "xg90": pooled.get("xg90", raw.get("expected_goals_per_90")),
+            "xa90": pooled.get("xa90", raw.get("expected_assists_per_90")),
+            "xgc90": pooled.get("xgc90", raw.get("expected_goals_conceded_per_90")),
         }
         result = expected_points(
             xpts_input, next_fx["is_home"], next_fx["difficulty"],
             opp_team, league_avg, ict_pct.get(pl["id"]),
         )
-        scored.append((pl, result))
+        scored.append((pl, result, pooled.get("prior_season_fallback")))
 
     scored.sort(key=lambda t: t[1]["total"], reverse=True)
 
     out = []
-    for pl, result in scored[:5]:
+    for pl, result, prior_season_name in scored[:5]:
         b = result["breakdown"]
         confidence = round(b["p_play"] * (0.85 if b["used_fdr_fallback"] else 1.0) * 100)
         reason_bits = [f"xPts משוער: {result['total']}"]
@@ -181,7 +189,9 @@ def captain_recommendations(players, elements_by_id, teams_by_id, players_pool):
             reason_bits.append(f"תרומה התקפית צפויה {attacking}")
         if b["cs_pts"]:
             reason_bits.append(f"סיכוי שער נקי {b['cs_pts']}")
-        if b["used_fdr_fallback"]:
+        if prior_season_name:
+            reason_bits.append(f"מבוסס נתוני עונת {prior_season_name} - העונה הנוכחית טרם החלה")
+        elif b["used_fdr_fallback"]:
             reason_bits.append("מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה")
         out.append({
             "id": pl["id"],
@@ -268,6 +278,7 @@ def squad_rating(players, warnings):
 def build_analysis(squad, bootstrap, fixtures, element_summaries, from_event, players_pool):
     elements_by_id = {e["id"]: e for e in bootstrap["elements"]}
     teams_by_id = {t["id"]: t for t in bootstrap["teams"]}
+    pool_by_id = {pp["id"]: pp for pp in players_pool}
 
     players = []
     for pick in squad["picks"]:
@@ -275,7 +286,7 @@ def build_analysis(squad, bootstrap, fixtures, element_summaries, from_event, pl
         if not p:
             continue
         history = element_summaries.get(pick["id"], {}).get("history", [])
-        players.append(analyze_player(pick, p, teams_by_id, fixtures, from_event, history))
+        players.append(analyze_player(pick, p, teams_by_id, fixtures, from_event, history, pool_by_id.get(pick["id"])))
 
     warnings = team_exposure_warnings(players, teams_by_id)
     dead_players = []

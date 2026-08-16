@@ -105,3 +105,39 @@ def build_player_history(bootstrap, extra_squads, gw):
             print(f"  ...{i}/{len(player_ids)}")
 
     return result
+
+
+def build_prior_season(bootstrap, extra_squads, gw):
+    """Season-rollover fallback: right after a new season starts, this-
+    season aggregates (minutes, xG90 etc) reset to 0 for everyone until
+    they've actually played - which would otherwise make the xPts model
+    and captain engine go blank right on GW1. Reuses the same cached
+    element-summary responses build_player_history() already fetched (same
+    player_ids, same gw cache key, so this costs no extra API calls) and
+    derives per-90 rates from history_past's most recent past season.
+    Never touches minutes/total_points - those should truthfully show 0
+    until real matches are played this season."""
+    player_ids = select_player_ids(bootstrap, extra_squads)
+    result = {}
+    for pid in sorted(player_ids):
+        try:
+            summary = fetch_element_summary_cached(pid, gw)
+        except Exception:
+            continue
+        past = summary.get("history_past") or []
+        if not past:
+            continue
+        last = past[-1]
+        minutes = last.get("minutes") or 0
+        if minutes <= 0:
+            continue
+        per90 = 90 / minutes
+        result[str(pid)] = {
+            "season_name": last.get("season_name"),
+            "xg90": round(_pct(last.get("expected_goals")) * per90, 2),
+            "xa90": round(_pct(last.get("expected_assists")) * per90, 2),
+            "xgi90": round(_pct(last.get("expected_goal_involvements")) * per90, 2),
+            "xgc90": round(_pct(last.get("expected_goals_conceded")) * per90, 2),
+            "starts_per_90": round((last.get("starts") or 0) * per90, 2),
+        }
+    return result

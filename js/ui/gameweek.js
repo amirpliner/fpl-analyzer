@@ -75,7 +75,10 @@ export function renderTopPlayers() {
   const posCode = POSITION_CODES[state.activePos];
   const players = [...state.enrichedById.values()]
     .filter(p => p.pos === posCode)
-    .sort((a, b) => (b.form - a.form) || (b.points - a.points))
+    // Third tiebreak covers GW1 right after a season reset, when form
+    // and points are 0 for everyone - falls back to last season's rate
+    // stats (see prior_season_fallback) instead of an arbitrary order.
+    .sort((a, b) => (b.form - a.form) || (b.points - a.points) || ((b.xg90 + b.xa90) - (a.xg90 + a.xa90)))
     .slice(0, 12);
 
   let html = `<table><thead><tr>
@@ -98,7 +101,7 @@ export function renderTopPlayers() {
       <td>${naOr(p.xa)}</td>
       <td>${naOr(p.ict)}</td>
       <td>${setPieceBadges(p.set_pieces)}</td>
-      <td>${rotationTag(p.rotation_risk)}${p.last5_minutes?.length ? minutesSparkline(p.last5_minutes) : ""}</td>
+      <td>${rotationTag(p.rotation_risk, p.prior_season_fallback)}${p.last5_minutes?.length ? minutesSparkline(p.last5_minutes) : ""}</td>
     </tr>`;
   }
   html += "</tbody></table>";

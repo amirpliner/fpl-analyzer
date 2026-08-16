@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 
 from analysis import build_analysis
 from build_static import build_teams, build_players, compute_dgw_bgw, append_price_snapshot, enrich_with_history
-from player_history import build_player_history
+from player_history import build_player_history, build_prior_season
 from price_alerts import build_price_alerts
 from league_insights import build_league_insights
 from transfer_planner import build_transfer_plan
@@ -210,7 +210,10 @@ def main():
     player_history = build_player_history(bootstrap, extra_squads, gw or 0)
     save("player_history.json", player_history)
 
-    players = enrich_with_history(build_players(bootstrap), player_history)
+    prior_season = build_prior_season(bootstrap, extra_squads, gw or 0)
+    save("prior_season.json", prior_season)
+
+    players = enrich_with_history(build_players(bootstrap, prior_season), player_history)
     save("players.json", players)
     print(f"players.json: {len(players)} players, {os.path.getsize(os.path.join(DATA_DIR, 'players.json')) / 1024:.0f} KB")
 

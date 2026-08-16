@@ -74,9 +74,10 @@ export function fixturesToContext(fixtures) {
   return fixtures.map(f => ({ oppTeamId: f.oppId, isHome: f.isHome, difficulty: f.diff }));
 }
 
-export function rotationTag(risk) {
+export function rotationTag(risk, priorSeasonFallback) {
   const r = risk || "unknown";
-  return `<span class="rotation-tag ${r}">${ROTATION_LABELS[r] || r}</span>`;
+  const title = priorSeasonFallback ? ` title="לפי עונת ${priorSeasonFallback} - עוד לא שיחק העונה"` : "";
+  return `<span class="rotation-tag ${r}"${title}>${ROTATION_LABELS[r] || r}</span>`;
 }
 
 export function minutesSparkline(minutesList) {
