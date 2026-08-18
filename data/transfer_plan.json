@@ -23,34 +23,34 @@
           "week": 2,
           "transfers": [
             {
-              "out": "Anderson",
-              "in": "Carvalho",
-              "cost_delta": -1.5
+              "out": "Mosquera",
+              "in": "Calafiori",
+              "cost_delta": 0.0
             }
           ],
           "hits": 0,
-          "xi_score": 64.16,
+          "xi_score": 64.0,
           "captain": "Davies"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Maguire",
-              "in": "Calafiori",
-              "cost_delta": 0.5
+              "out": "Anderson",
+              "in": "O'Riley",
+              "cost_delta": -1.0
             }
           ],
           "hits": 0,
-          "xi_score": 65.78,
+          "xi_score": 65.71,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
       "final_bank": 1.0,
-      "total_xpts": 191.59,
-      "net_gain_vs_hold": 17.65
+      "total_xpts": 191.36,
+      "net_gain_vs_hold": 17.42
     },
     {
       "weekly_plan": [
@@ -58,9 +58,9 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Davis",
+              "out": "Robinson",
               "in": "Davies",
-              "cost_delta": 0.0
+              "cost_delta": -0.5
             }
           ],
           "hits": 0,
@@ -71,34 +71,34 @@
           "week": 2,
           "transfers": [
             {
-              "out": "Anderson",
-              "in": "Carvalho",
-              "cost_delta": -1.5
-            }
-          ],
-          "hits": 0,
-          "xi_score": 64.16,
-          "captain": "Davies"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
               "out": "Mosquera",
               "in": "Calafiori",
               "cost_delta": 0.0
             }
           ],
           "hits": 0,
-          "xi_score": 65.78,
+          "xi_score": 63.87,
+          "captain": "Davies"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Anderson",
+              "in": "O'Riley",
+              "cost_delta": -1.0
+            }
+          ],
+          "hits": 0,
+          "xi_score": 65.71,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
       "final_bank": 1.5,
-      "total_xpts": 191.59,
-      "net_gain_vs_hold": 17.65
+      "total_xpts": 191.23,
+      "net_gain_vs_hold": 17.29
     },
     {
       "weekly_plan": [
