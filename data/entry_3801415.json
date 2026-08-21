@@ -1,15 +1,15 @@
 {
-  "id": 2528374,
-  "joined_time": "2026-08-01T20:13:25.308640Z",
+  "id": 3801415,
+  "joined_time": "2026-08-11T09:03:46.780369Z",
   "started_event": 1,
-  "favourite_team": 16,
-  "player_first_name": "Amir",
-  "player_last_name": "Pliner",
+  "favourite_team": null,
+  "player_first_name": "Uriya",
+  "player_last_name": "Yakobi",
   "player_region_id": 105,
   "player_region_name": "Israel",
   "player_region_iso_code_short": "IL",
   "player_region_iso_code_long": "ISR",
-  "years_active": 1,
+  "years_active": 3,
   "summary_overall_points": 0,
   "summary_overall_rank": 1,
   "summary_event_points": 0,
@@ -17,52 +17,6 @@
   "current_event": 1,
   "leagues": {
     "classic": [
-      {
-        "active_phases": [
-          {
-            "entry_percentile_rank": null,
-            "last_rank": 0,
-            "league_id": 16,
-            "phase": 1,
-            "rank": 0,
-            "rank_count": null,
-            "rank_sort": 0,
-            "total": 0
-          },
-          {
-            "entry_percentile_rank": null,
-            "last_rank": 0,
-            "league_id": 16,
-            "phase": 2,
-            "rank": 0,
-            "rank_count": null,
-            "rank_sort": 0,
-            "total": 0
-          }
-        ],
-        "admin_entry": null,
-        "closed": false,
-        "created": "2026-07-23T11:36:56.708098Z",
-        "cup_league": null,
-        "cup_qualified": null,
-        "entry_can_admin": false,
-        "entry_can_invite": false,
-        "entry_can_leave": false,
-        "entry_last_rank": 0,
-        "entry_percentile_rank": null,
-        "entry_rank": 1,
-        "featured_entry_ids": [],
-        "has_cup": true,
-        "id": 16,
-        "league_type": "s",
-        "max_entries": null,
-        "name": "Man Utd",
-        "rank": null,
-        "rank_count": null,
-        "scoring": "c",
-        "short_name": "team-16",
-        "start_event": 1
-      },
       {
         "active_phases": [
           {
@@ -206,6 +160,98 @@
           {
             "entry_percentile_rank": null,
             "last_rank": 0,
+            "league_id": 321,
+            "phase": 1,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          },
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 321,
+            "phase": 2,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          }
+        ],
+        "admin_entry": null,
+        "closed": false,
+        "created": "2026-07-23T11:37:00.831002Z",
+        "cup_league": null,
+        "cup_qualified": null,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "entry_can_leave": false,
+        "entry_last_rank": 0,
+        "entry_percentile_rank": null,
+        "entry_rank": 1,
+        "featured_entry_ids": [],
+        "has_cup": true,
+        "id": 321,
+        "league_type": "s",
+        "max_entries": null,
+        "name": "Top 1% 25/26 League",
+        "rank": null,
+        "rank_count": null,
+        "scoring": "c",
+        "short_name": "top-1%",
+        "start_event": 1
+      },
+      {
+        "active_phases": [
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 322,
+            "phase": 1,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          },
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 322,
+            "phase": 2,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          }
+        ],
+        "admin_entry": null,
+        "closed": false,
+        "created": "2026-07-23T11:37:00.844547Z",
+        "cup_league": null,
+        "cup_qualified": null,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "entry_can_leave": false,
+        "entry_last_rank": 0,
+        "entry_percentile_rank": null,
+        "entry_rank": 1,
+        "featured_entry_ids": [],
+        "has_cup": true,
+        "id": 322,
+        "league_type": "s",
+        "max_entries": null,
+        "name": "Top 10% 25/26 League",
+        "rank": null,
+        "rank_count": null,
+        "scoring": "c",
+        "short_name": "top-10%",
+        "start_event": 1
+      },
+      {
+        "active_phases": [
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
             "league_id": 367147,
             "phase": 1,
             "rank": 0,
@@ -292,6 +338,52 @@
         "scoring": "c",
         "short_name": "brd-sportone_isr",
         "start_event": 1
+      },
+      {
+        "active_phases": [
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 431170,
+            "phase": 1,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          },
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 431170,
+            "phase": 2,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          }
+        ],
+        "admin_entry": null,
+        "closed": false,
+        "created": "2026-07-30T12:01:10.398217Z",
+        "cup_league": null,
+        "cup_qualified": null,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "entry_can_leave": false,
+        "entry_last_rank": 0,
+        "entry_percentile_rank": null,
+        "entry_rank": 1,
+        "featured_entry_ids": [],
+        "has_cup": false,
+        "id": 431170,
+        "league_type": "s",
+        "max_entries": null,
+        "name": "Adobe Express Badge League",
+        "rank": null,
+        "rank_count": null,
+        "scoring": "c",
+        "short_name": "partner-adobe",
+        "start_event": 1
       }
     ],
     "h2h": [],
@@ -308,14 +400,14 @@
     "cup_matches": [],
     "event": []
   },
-  "name": "Amirs team",
+  "name": "SecondTimers",
   "name_change_blocked": false,
   "entered_events": [
     1
   ],
   "kit": null,
-  "last_deadline_bank": 0,
+  "last_deadline_bank": 35,
   "last_deadline_value": 1000,
   "last_deadline_total_transfers": 0,
-  "club_badge_src": null
+  "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/3801415/9e51d535-6af1-4b48-8647-72e49d8cdd9d.png"
 }

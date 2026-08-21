@@ -1,10 +1,10 @@
 {
-  "id": 2528374,
-  "joined_time": "2026-08-01T20:13:25.308640Z",
+  "id": 4625393,
+  "joined_time": "2026-08-15T13:41:31.823369Z",
   "started_event": 1,
-  "favourite_team": 16,
-  "player_first_name": "Amir",
-  "player_last_name": "Pliner",
+  "favourite_team": null,
+  "player_first_name": "Liran",
+  "player_last_name": "Kashtarian",
   "player_region_id": 105,
   "player_region_name": "Israel",
   "player_region_iso_code_short": "IL",
@@ -17,52 +17,6 @@
   "current_event": 1,
   "leagues": {
     "classic": [
-      {
-        "active_phases": [
-          {
-            "entry_percentile_rank": null,
-            "last_rank": 0,
-            "league_id": 16,
-            "phase": 1,
-            "rank": 0,
-            "rank_count": null,
-            "rank_sort": 0,
-            "total": 0
-          },
-          {
-            "entry_percentile_rank": null,
-            "last_rank": 0,
-            "league_id": 16,
-            "phase": 2,
-            "rank": 0,
-            "rank_count": null,
-            "rank_sort": 0,
-            "total": 0
-          }
-        ],
-        "admin_entry": null,
-        "closed": false,
-        "created": "2026-07-23T11:36:56.708098Z",
-        "cup_league": null,
-        "cup_qualified": null,
-        "entry_can_admin": false,
-        "entry_can_invite": false,
-        "entry_can_leave": false,
-        "entry_last_rank": 0,
-        "entry_percentile_rank": null,
-        "entry_rank": 1,
-        "featured_entry_ids": [],
-        "has_cup": true,
-        "id": 16,
-        "league_type": "s",
-        "max_entries": null,
-        "name": "Man Utd",
-        "rank": null,
-        "rank_count": null,
-        "scoring": "c",
-        "short_name": "team-16",
-        "start_event": 1
-      },
       {
         "active_phases": [
           {
@@ -308,7 +262,7 @@
     "cup_matches": [],
     "event": []
   },
-  "name": "Amirs team",
+  "name": "Liri's team",
   "name_change_blocked": false,
   "entered_events": [
     1

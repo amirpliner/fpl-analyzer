@@ -1,10 +1,10 @@
 {
-  "id": 2528374,
-  "joined_time": "2026-08-01T20:13:25.308640Z",
+  "id": 7905290,
+  "joined_time": "2026-08-21T10:25:42.260185Z",
   "started_event": 1,
-  "favourite_team": 16,
-  "player_first_name": "Amir",
-  "player_last_name": "Pliner",
+  "favourite_team": 6,
+  "player_first_name": "Adir",
+  "player_last_name": "Sabag",
   "player_region_id": 105,
   "player_region_name": "Israel",
   "player_region_iso_code_short": "IL",
@@ -22,7 +22,7 @@
           {
             "entry_percentile_rank": null,
             "last_rank": 0,
-            "league_id": 16,
+            "league_id": 6,
             "phase": 1,
             "rank": 0,
             "rank_count": null,
@@ -32,7 +32,7 @@
           {
             "entry_percentile_rank": null,
             "last_rank": 0,
-            "league_id": 16,
+            "league_id": 6,
             "phase": 2,
             "rank": 0,
             "rank_count": null,
@@ -42,7 +42,7 @@
         ],
         "admin_entry": null,
         "closed": false,
-        "created": "2026-07-23T11:36:56.708098Z",
+        "created": "2026-07-23T11:36:56.573638Z",
         "cup_league": null,
         "cup_qualified": null,
         "entry_can_admin": false,
@@ -53,14 +53,14 @@
         "entry_rank": 1,
         "featured_entry_ids": [],
         "has_cup": true,
-        "id": 16,
+        "id": 6,
         "league_type": "s",
         "max_entries": null,
-        "name": "Man Utd",
+        "name": "Chelsea",
         "rank": null,
         "rank_count": null,
         "scoring": "c",
-        "short_name": "team-16",
+        "short_name": "team-6",
         "start_event": 1
       },
       {
@@ -308,13 +308,13 @@
     "cup_matches": [],
     "event": []
   },
-  "name": "Amirs team",
+  "name": "Mandem FC",
   "name_change_blocked": false,
   "entered_events": [
     1
   ],
   "kit": null,
-  "last_deadline_bank": 0,
+  "last_deadline_bank": 5,
   "last_deadline_value": 1000,
   "last_deadline_total_transfers": 0,
   "club_badge_src": null

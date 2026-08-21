@@ -1,15 +1,15 @@
 {
-  "id": 2528374,
-  "joined_time": "2026-08-01T20:13:25.308640Z",
+  "id": 4815131,
+  "joined_time": "2026-08-16T09:49:11.553072Z",
   "started_event": 1,
-  "favourite_team": 16,
-  "player_first_name": "Amir",
-  "player_last_name": "Pliner",
+  "favourite_team": 19,
+  "player_first_name": "Idan",
+  "player_last_name": "Cohen",
   "player_region_id": 105,
   "player_region_name": "Israel",
   "player_region_iso_code_short": "IL",
   "player_region_iso_code_long": "ISR",
-  "years_active": 1,
+  "years_active": 5,
   "summary_overall_points": 0,
   "summary_overall_rank": 1,
   "summary_event_points": 0,
@@ -22,7 +22,7 @@
           {
             "entry_percentile_rank": null,
             "last_rank": 0,
-            "league_id": 16,
+            "league_id": 19,
             "phase": 1,
             "rank": 0,
             "rank_count": null,
@@ -32,7 +32,7 @@
           {
             "entry_percentile_rank": null,
             "last_rank": 0,
-            "league_id": 16,
+            "league_id": 19,
             "phase": 2,
             "rank": 0,
             "rank_count": null,
@@ -42,7 +42,7 @@
         ],
         "admin_entry": null,
         "closed": false,
-        "created": "2026-07-23T11:36:56.708098Z",
+        "created": "2026-07-23T11:36:56.749092Z",
         "cup_league": null,
         "cup_qualified": null,
         "entry_can_admin": false,
@@ -53,14 +53,14 @@
         "entry_rank": 1,
         "featured_entry_ids": [],
         "has_cup": true,
-        "id": 16,
+        "id": 19,
         "league_type": "s",
         "max_entries": null,
-        "name": "Man Utd",
+        "name": "Spurs",
         "rank": null,
         "rank_count": null,
         "scoring": "c",
-        "short_name": "team-16",
+        "short_name": "team-19",
         "start_event": 1
       },
       {
@@ -206,6 +206,52 @@
           {
             "entry_percentile_rank": null,
             "last_rank": 0,
+            "league_id": 1943,
+            "phase": 1,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          },
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 1943,
+            "phase": 2,
+            "rank": 0,
+            "rank_count": null,
+            "rank_sort": 0,
+            "total": 0
+          }
+        ],
+        "admin_entry": 11268,
+        "closed": false,
+        "created": "2026-07-23T12:13:35.806193Z",
+        "cup_league": null,
+        "cup_qualified": null,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "entry_can_leave": true,
+        "entry_last_rank": 0,
+        "entry_percentile_rank": null,
+        "entry_rank": 1,
+        "featured_entry_ids": [],
+        "has_cup": true,
+        "id": 1943,
+        "league_type": "x",
+        "max_entries": null,
+        "name": "It’s All About The Ball",
+        "rank": null,
+        "rank_count": null,
+        "scoring": "c",
+        "short_name": null,
+        "start_event": 1
+      },
+      {
+        "active_phases": [
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
             "league_id": 367147,
             "phase": 1,
             "rank": 0,
@@ -294,7 +340,33 @@
         "start_event": 1
       }
     ],
-    "h2h": [],
+    "h2h": [
+      {
+        "id": 800916,
+        "name": "ליגת הכישופים ראש בראש 🦁🧙🏻‍",
+        "short_name": null,
+        "created": "2026-08-11T10:16:38.773347Z",
+        "closed": true,
+        "rank": null,
+        "max_entries": null,
+        "league_type": "x",
+        "scoring": "h",
+        "admin_entry": 103553,
+        "start_event": 1,
+        "entry_can_leave": false,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "has_cup": false,
+        "cup_league": null,
+        "cup_qualified": null,
+        "rank_count": null,
+        "entry_percentile_rank": null,
+        "active_phases": [],
+        "featured_entry_ids": [],
+        "entry_rank": 1,
+        "entry_last_rank": 0
+      }
+    ],
     "cup": {
       "matches": [],
       "status": {
@@ -308,13 +380,13 @@
     "cup_matches": [],
     "event": []
   },
-  "name": "Amirs team",
+  "name": "cohen 26",
   "name_change_blocked": false,
   "entered_events": [
     1
   ],
   "kit": null,
-  "last_deadline_bank": 0,
+  "last_deadline_bank": 5,
   "last_deadline_value": 1000,
   "last_deadline_total_transfers": 0,
   "club_badge_src": null

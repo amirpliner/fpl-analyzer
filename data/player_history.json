@@ -1,263 +1,4253 @@
 {
-  "1": [],
-  "4": [],
-  "5": [],
-  "6": [],
-  "8": [],
-  "9": [],
-  "10": [],
-  "11": [],
-  "12": [],
-  "13": [],
-  "14": [],
-  "15": [],
-  "16": [],
-  "17": [],
-  "19": [],
-  "25": [],
-  "26": [],
-  "28": [],
-  "30": [],
-  "31": [],
-  "32": [],
-  "38": [],
-  "40": [],
-  "41": [],
-  "43": [],
-  "45": [],
-  "48": [],
-  "54": [],
-  "55": [],
-  "57": [],
-  "58": [],
-  "60": [],
-  "61": [],
-  "67": [],
-  "68": [],
-  "69": [],
-  "70": [],
-  "73": [],
-  "77": [],
-  "78": [],
-  "79": [],
-  "82": [],
-  "84": [],
-  "85": [],
-  "86": [],
-  "87": [],
-  "88": [],
-  "94": [],
-  "95": [],
-  "96": [],
-  "97": [],
-  "98": [],
-  "101": [],
-  "102": [],
-  "106": [],
-  "109": [],
-  "110": [],
-  "111": [],
-  "112": [],
-  "113": [],
-  "115": [],
-  "116": [],
-  "122": [],
-  "123": [],
-  "124": [],
-  "125": [],
-  "127": [],
-  "129": [],
-  "130": [],
-  "136": [],
-  "140": [],
-  "142": [],
-  "143": [],
-  "144": [],
-  "149": [],
-  "152": [],
-  "154": [],
-  "155": [],
-  "156": [],
-  "157": [],
-  "159": [],
-  "162": [],
-  "165": [],
-  "171": [],
-  "173": [],
-  "175": [],
-  "198": [],
-  "200": [],
-  "201": [],
-  "202": [],
-  "203": [],
-  "204": [],
-  "208": [],
-  "210": [],
-  "211": [],
-  "212": [],
-  "213": [],
-  "222": [],
-  "223": [],
-  "226": [],
-  "229": [],
-  "230": [],
-  "231": [],
-  "232": [],
-  "233": [],
-  "236": [],
-  "237": [],
-  "238": [],
-  "239": [],
-  "240": [],
-  "248": [],
-  "249": [],
-  "250": [],
-  "251": [],
-  "252": [],
-  "253": [],
-  "254": [],
-  "256": [],
-  "257": [],
-  "259": [],
-  "260": [],
-  "261": [],
-  "262": [],
-  "265": [],
-  "269": [],
-  "270": [],
-  "272": [],
-  "273": [],
-  "277": [],
-  "290": [],
-  "295": [],
-  "301": [],
-  "304": [],
-  "305": [],
-  "306": [],
-  "321": [],
-  "323": [],
-  "325": [],
-  "327": [],
-  "328": [],
-  "329": [],
-  "330": [],
-  "331": [],
-  "332": [],
-  "334": [],
-  "335": [],
-  "336": [],
-  "337": [],
-  "338": [],
-  "346": [],
-  "347": [],
-  "350": [],
-  "352": [],
-  "356": [],
-  "357": [],
-  "358": [],
-  "362": [],
-  "366": [],
-  "367": [],
-  "368": [],
-  "369": [],
-  "371": [],
-  "372": [],
-  "373": [],
-  "379": [],
-  "380": [],
-  "384": [],
-  "385": [],
-  "387": [],
-  "388": [],
-  "389": [],
-  "390": [],
-  "391": [],
-  "393": [],
-  "397": [],
-  "398": [],
-  "399": [],
-  "400": [],
-  "402": [],
-  "404": [],
-  "411": [],
-  "412": [],
-  "415": [],
-  "417": [],
-  "418": [],
-  "419": [],
-  "423": [],
-  "426": [],
-  "427": [],
-  "428": [],
-  "429": [],
-  "431": [],
-  "432": [],
-  "439": [],
-  "441": [],
-  "442": [],
-  "445": [],
-  "447": [],
-  "448": [],
-  "449": [],
-  "452": [],
-  "453": [],
-  "455": [],
-  "457": [],
-  "458": [],
-  "459": [],
-  "463": [],
-  "464": [],
-  "465": [],
-  "467": [],
-  "469": [],
-  "471": [],
-  "472": [],
-  "473": [],
-  "480": [],
-  "481": [],
-  "482": [],
-  "484": [],
-  "488": [],
-  "489": [],
-  "490": [],
-  "491": [],
-  "494": [],
-  "496": [],
-  "497": [],
-  "498": [],
-  "499": [],
-  "500": [],
-  "502": [],
-  "503": [],
-  "504": [],
-  "505": [],
-  "512": [],
-  "513": [],
-  "514": [],
-  "515": [],
-  "516": [],
-  "518": [],
-  "525": [],
-  "526": [],
-  "527": [],
-  "528": [],
-  "529": [],
-  "532": [],
-  "533": [],
-  "534": [],
-  "535": [],
-  "536": [],
-  "539": [],
-  "542": [],
-  "544": [],
-  "545": [],
-  "549": [],
-  "552": [],
-  "553": [],
-  "555": [],
-  "556": [],
-  "557": [],
-  "565": [],
-  "569": [],
-  "579": []
+  "1": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "2": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "3": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "4": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 8.0
+    }
+  ],
+  "5": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "6": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "7": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "8": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "9": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "10": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "11": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "12": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 9.5
+    }
+  ],
+  "13": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "14": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "15": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "16": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "17": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "18": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "19": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "20": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "22": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "23": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "24": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "25": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "26": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "27": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "28": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "29": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "30": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "31": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "32": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "33": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "34": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "35": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "36": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "37": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "38": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "39": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "40": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "41": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "43": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "44": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "45": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "46": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "47": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "48": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "49": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "50": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "51": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "52": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "53": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "54": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "55": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 8.0
+    }
+  ],
+  "56": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "57": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "58": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "59": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "60": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "61": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "62": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "63": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "64": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "65": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "66": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "67": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "68": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "69": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "70": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "71": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "72": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "73": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "74": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "75": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "76": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "77": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "78": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "79": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "80": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "81": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "82": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "83": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "84": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "85": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "86": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "87": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "88": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "89": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "90": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "91": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "92": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "93": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "94": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "95": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "96": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "97": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "98": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "99": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "100": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "101": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "102": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "103": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "104": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "105": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "106": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 8.0
+    }
+  ],
+  "107": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "108": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "109": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "110": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "111": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "112": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "113": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "114": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "115": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "116": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "117": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "118": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "119": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "120": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "121": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "122": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "123": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "124": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "125": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "126": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "127": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "128": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "129": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "130": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "131": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "132": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "133": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "134": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "135": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "136": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "137": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "138": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "139": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "140": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "141": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "142": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "143": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "144": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "145": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "146": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "147": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "148": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "149": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "150": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "151": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "152": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "153": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "154": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 9.5
+    }
+  ],
+  "155": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 7.0
+    }
+  ],
+  "156": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "157": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "158": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "159": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "160": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "161": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "162": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "163": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "164": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "165": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "166": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "167": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "168": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "169": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "170": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "171": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "172": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "173": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "174": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "175": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "176": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "177": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "178": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "179": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "180": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "181": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "182": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "183": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "184": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "185": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "186": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "187": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "198": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "200": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "201": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "204": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "208": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "212": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "223": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "226": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "229": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "230": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "231": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "233": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "236": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "237": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "248": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "249": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "250": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "251": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "254": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "259": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "260": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NFO",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "270": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "272": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "273": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "277": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "290": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "295": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MUN",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "301": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "303": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "304": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "305": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "306": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "321": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "323": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "328": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "329": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NFO",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "334": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NFO",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "338": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NFO",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "346": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NFO",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "350": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "352": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "356": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "357": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "358": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "362": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "366": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "367": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 7.0
+    }
+  ],
+  "368": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 7.0
+    }
+  ],
+  "369": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "371": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "372": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "379": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 9.0
+    }
+  ],
+  "384": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "385": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NFO",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "387": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "388": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "389": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "390": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "391": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "393": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "397": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 8.5
+    }
+  ],
+  "398": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 7.0
+    }
+  ],
+  "399": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "400": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 7.5
+    }
+  ],
+  "411": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 15.5
+    }
+  ],
+  "412": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "415": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "417": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "418": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "419": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "423": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "426": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 12.0
+    }
+  ],
+  "427": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 8.0
+    }
+  ],
+  "428": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 8.0
+    }
+  ],
+  "429": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 7.0
+    }
+  ],
+  "431": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "439": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 7.0
+    }
+  ],
+  "441": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "442": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "445": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "448": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "449": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "452": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 7.0
+    }
+  ],
+  "453": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "455": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "463": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "464": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "467": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "469": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "471": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "472": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "473": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "480": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 8.0
+    }
+  ],
+  "481": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "483": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "488": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "489": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "490": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "491": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "496": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "497": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "498": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "499": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "502": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "503": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "504": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "508": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "514": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "515": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "525": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "526": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "527": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "528": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "529": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "532": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "533": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "534": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "536": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "539": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "541": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "542": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "544": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "552": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "555": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": false,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "556": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "557": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "COV",
+      "was_home": true,
+      "points": 0,
+      "value": 6.5
+    }
+  ],
+  "560": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "561": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "565": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "566": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "568": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "569": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "573": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "578": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "579": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "582": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.5
+    }
+  ],
+  "583": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "586": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MUN",
+      "was_home": true,
+      "points": 0,
+      "value": 4.0
+    }
+  ],
+  "594": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 6.0
+    }
+  ],
+  "596": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    }
+  ],
+  "597": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.0
+    }
+  ],
+  "600": [
+    {
+      "gw": 1,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 0,
+      "value": 5.0
+    }
+  ]
 }
