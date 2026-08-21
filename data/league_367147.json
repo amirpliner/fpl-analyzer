@@ -1,225 +1,232 @@
 {
+  "league": {
+    "admin_entry": 1904952,
+    "closed": false,
+    "code_privacy": "p",
+    "created": "2026-07-28T12:27:53.923419Z",
+    "cup_league": null,
+    "has_cup": true,
+    "id": 367147,
+    "league_type": "x",
+    "max_entries": null,
+    "name": "The English Game",
+    "rank": null,
+    "scoring": "c",
+    "start_event": 1
+  },
+  "standings": {
+    "has_next": false,
+    "page": 1,
+    "results": []
+  },
+  "last_updated_data": "2026-08-21T05:37:35Z",
   "new_entries": {
     "has_next": false,
     "page": 1,
     "results": [
       {
+        "entry": 7510140,
+        "entry_name": "Old Stamford",
+        "joined_time": "2026-08-21T02:35:42Z",
+        "player_first_name": "Paz",
+        "player_last_name": "Shakroka"
+      },
+      {
         "entry": 1367096,
         "entry_name": "lidor",
-        "joined_time": "2026-08-20T09:39:49.047605Z",
+        "joined_time": "2026-08-20T09:39:49Z",
         "player_first_name": "Lidor",
         "player_last_name": "Admoni"
       },
       {
         "entry": 1338773,
         "entry_name": "Lion's Team",
-        "joined_time": "2026-08-20T04:46:33.046955Z",
+        "joined_time": "2026-08-20T04:46:33Z",
         "player_first_name": "Lion",
         "player_last_name": "Zocowitzky"
       },
       {
         "entry": 4625393,
         "entry_name": "Liri's team",
-        "joined_time": "2026-08-20T03:48:53.264911Z",
+        "joined_time": "2026-08-20T03:48:53Z",
         "player_first_name": "Liran",
         "player_last_name": "Kashtarian"
       },
       {
         "entry": 6209802,
         "entry_name": "Roei's team",
-        "joined_time": "2026-08-19T14:55:32.437337Z",
+        "joined_time": "2026-08-19T14:55:32Z",
         "player_first_name": "Roei",
         "player_last_name": "Eitan"
       },
       {
         "entry": 6166530,
         "entry_name": "Big Red Iraolas",
-        "joined_time": "2026-08-19T13:40:41.409429Z",
+        "joined_time": "2026-08-19T13:40:41Z",
         "player_first_name": "Guy",
         "player_last_name": "Geva-Iluz"
       },
       {
         "entry": 6023259,
         "entry_name": "Neil's Team",
-        "joined_time": "2026-08-19T08:58:35.851288Z",
+        "joined_time": "2026-08-19T08:58:35Z",
         "player_first_name": "Neil",
         "player_last_name": "Rosmann"
       },
       {
         "entry": 5154980,
         "entry_name": "bukagay",
-        "joined_time": "2026-08-17T09:47:24.250337Z",
+        "joined_time": "2026-08-17T09:47:24Z",
         "player_first_name": "Ziv",
         "player_last_name": "Christoph"
       },
       {
         "entry": 5040601,
         "entry_name": "mor7",
-        "joined_time": "2026-08-16T21:16:39.114314Z",
+        "joined_time": "2026-08-16T21:16:39Z",
         "player_first_name": "ido",
         "player_last_name": "mor"
       },
       {
         "entry": 4815131,
         "entry_name": "cohen 26",
-        "joined_time": "2026-08-16T09:49:11.599371Z",
+        "joined_time": "2026-08-16T09:49:11Z",
         "player_first_name": "Idan",
         "player_last_name": "Cohen"
       },
       {
         "entry": 4665602,
         "entry_name": "Dor's Team",
-        "joined_time": "2026-08-15T16:13:08.449773Z",
+        "joined_time": "2026-08-15T16:13:08Z",
         "player_first_name": "Dor",
         "player_last_name": "Cohen"
       },
       {
         "entry": 3801415,
         "entry_name": "SecondTimers",
-        "joined_time": "2026-08-11T09:03:46.846131Z",
+        "joined_time": "2026-08-11T09:03:46Z",
         "player_first_name": "Uriya",
         "player_last_name": "Yakobi"
       },
       {
         "entry": 2528374,
         "entry_name": "Amirs team",
-        "joined_time": "2026-08-01T20:13:25.362597Z",
+        "joined_time": "2026-08-01T20:13:25Z",
         "player_first_name": "Amir",
         "player_last_name": "Pliner"
       },
       {
         "entry": 2133618,
         "entry_name": "Kinder Mbeumo",
-        "joined_time": "2026-07-29T19:42:06.239451Z",
+        "joined_time": "2026-07-29T19:42:06Z",
         "player_first_name": "Elad",
         "player_last_name": "Prizant"
       },
       {
-        "entry": 1812675,
-        "entry_name": "Azar Team",
-        "joined_time": "2026-07-28T12:27:55.737708Z",
-        "player_first_name": "ניר",
-        "player_last_name": "אזר"
-      },
-      {
-        "entry": 595041,
-        "entry_name": "heta paleeds",
-        "joined_time": "2026-07-28T12:27:55.603354Z",
-        "player_first_name": "Aviv",
-        "player_last_name": "Liefer"
-      },
-      {
         "entry": 244369,
         "entry_name": "Gal's Team",
-        "joined_time": "2026-07-28T12:27:55.469773Z",
+        "joined_time": "2026-07-28T12:27:55Z",
         "player_first_name": "Gal",
         "player_last_name": "Raviv"
       },
       {
-        "entry": 251414,
-        "entry_name": "urdoun till i die",
-        "joined_time": "2026-07-28T12:27:55.336013Z",
-        "player_first_name": "Guy",
-        "player_last_name": "Kol"
-      },
-      {
-        "entry": 114852,
-        "entry_name": "Game of Stones",
-        "joined_time": "2026-07-28T12:27:55.199899Z",
-        "player_first_name": "Lotan",
-        "player_last_name": "Levi"
+        "entry": 1812675,
+        "entry_name": "Azar Team",
+        "joined_time": "2026-07-28T12:27:55Z",
+        "player_first_name": "ניר",
+        "player_last_name": "אזר"
       },
       {
         "entry": 916480,
         "entry_name": "the rivlins",
-        "joined_time": "2026-07-28T12:27:55.067851Z",
+        "joined_time": "2026-07-28T12:27:55Z",
         "player_first_name": "Ido",
         "player_last_name": "Rivlin"
       },
       {
+        "entry": 595041,
+        "entry_name": "heta paleeds",
+        "joined_time": "2026-07-28T12:27:55Z",
+        "player_first_name": "Aviv",
+        "player_last_name": "Liefer"
+      },
+      {
+        "entry": 114852,
+        "entry_name": "Game of Stones",
+        "joined_time": "2026-07-28T12:27:55Z",
+        "player_first_name": "Lotan",
+        "player_last_name": "Levi"
+      },
+      {
+        "entry": 251414,
+        "entry_name": "urdoun till i die",
+        "joined_time": "2026-07-28T12:27:55Z",
+        "player_first_name": "Guy",
+        "player_last_name": "Kol"
+      },
+      {
+        "entry": 206815,
+        "entry_name": "saka shel kaka",
+        "joined_time": "2026-07-28T12:27:54Z",
+        "player_first_name": "koren",
+        "player_last_name": "kalai"
+      },
+      {
+        "entry": 1406310,
+        "entry_name": "FC MOR",
+        "joined_time": "2026-07-28T12:27:54Z",
+        "player_first_name": "Amit",
+        "player_last_name": "Mor"
+      },
+      {
         "entry": 1288541,
         "entry_name": "A Cunha mateta",
-        "joined_time": "2026-07-28T12:27:54.939190Z",
+        "joined_time": "2026-07-28T12:27:54Z",
         "player_first_name": "Guy",
         "player_last_name": "Chen"
       },
       {
         "entry": 879741,
         "entry_name": "Silva",
-        "joined_time": "2026-07-28T12:27:54.810583Z",
+        "joined_time": "2026-07-28T12:27:54Z",
         "player_first_name": "Rani",
         "player_last_name": "Bar Dayan"
       },
       {
-        "entry": 1406310,
-        "entry_name": "FC MOR",
-        "joined_time": "2026-07-28T12:27:54.676921Z",
-        "player_first_name": "Amit",
-        "player_last_name": "Mor"
-      },
-      {
         "entry": 628989,
         "entry_name": "Fantasy Fanatics",
-        "joined_time": "2026-07-28T12:27:54.550680Z",
+        "joined_time": "2026-07-28T12:27:54Z",
         "player_first_name": "Tom",
         "player_last_name": "Felsenfeld"
       },
       {
-        "entry": 157176,
-        "entry_name": "70% Water 30% Moises",
-        "joined_time": "2026-07-28T12:27:54.421710Z",
-        "player_first_name": "Lidor",
-        "player_last_name": "Gonen"
-      },
-      {
-        "entry": 206815,
-        "entry_name": "saka shel kaka",
-        "joined_time": "2026-07-28T12:27:54.272435Z",
-        "player_first_name": "koren",
-        "player_last_name": "kalai"
-      },
-      {
         "entry": 1584466,
         "entry_name": "guèhi tzall mavett",
-        "joined_time": "2026-07-28T12:27:54.128462Z",
+        "joined_time": "2026-07-28T12:27:54Z",
         "player_first_name": "Dor",
         "player_last_name": "Chen"
       },
       {
-        "entry": 959578,
-        "entry_name": "Konfeld",
-        "joined_time": "2026-07-28T12:27:53.999449Z",
-        "player_first_name": "Ilay",
-        "player_last_name": "Konfeld"
+        "entry": 157176,
+        "entry_name": "70% Water 30% Moises",
+        "joined_time": "2026-07-28T12:27:54Z",
+        "player_first_name": "Lidor",
+        "player_last_name": "Gonen"
       },
       {
         "entry": 1904952,
         "entry_name": "Back to Back",
-        "joined_time": "2026-07-28T12:27:53.929472Z",
+        "joined_time": "2026-07-28T12:27:53Z",
         "player_first_name": "Liam",
         "player_last_name": "rakin"
+      },
+      {
+        "entry": 959578,
+        "entry_name": "Konfeld",
+        "joined_time": "2026-07-28T12:27:53Z",
+        "player_first_name": "Ilay",
+        "player_last_name": "Konfeld"
       }
     ]
-  },
-  "last_updated_data": null,
-  "league": {
-    "id": 367147,
-    "name": "The English Game",
-    "created": "2026-07-28T12:27:53.923419Z",
-    "closed": false,
-    "max_entries": null,
-    "league_type": "x",
-    "scoring": "c",
-    "admin_entry": 1904952,
-    "start_event": 1,
-    "code_privacy": "p",
-    "has_cup": true,
-    "cup_league": null,
-    "rank": null
-  },
-  "standings": {
-    "has_next": false,
-    "page": 1,
-    "results": []
   }
 }
