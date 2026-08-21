@@ -76,14 +76,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 4.0,
-      "total_points": 4,
-      "ppm": 0.73,
-      "ownership": 39.7,
+      "form": 9.0,
+      "total_points": 9,
+      "ppm": 1.64,
+      "ownership": 39.8,
       "is_differential": false,
-      "xgi_per_90": 0.23,
-      "xgc_per_90": 0.07,
-      "starts_per_90": 1.73,
+      "xgi_per_90": 0.19,
+      "xgc_per_90": 0.15,
+      "starts_per_90": 1.12,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -126,7 +126,7 @@
       "has_easy_run": false,
       "avg_fdr_next5": 3.2,
       "minutes_trend": null,
-      "avg_minutes_last3": 54.0,
+      "avg_minutes_last3": 80.0,
       "injury": null,
       "is_dead": false
     },
@@ -583,7 +583,7 @@
       "form": 0.0,
       "total_points": 0,
       "ppm": 0.0,
-      "ownership": 64.5,
+      "ownership": 64.4,
       "is_differential": false,
       "xgi_per_90": 0.57,
       "xgc_per_90": 1.26,
@@ -646,7 +646,7 @@
       "form": 0.0,
       "total_points": 0,
       "ppm": 0.0,
-      "ownership": 31.5,
+      "ownership": 31.4,
       "is_differential": false,
       "xgi_per_90": 0.55,
       "xgc_per_90": 1.18,
@@ -1040,23 +1040,23 @@
     {
       "id": 8,
       "web_name": "Calafiori",
-      "xpts": 7.14,
+      "xpts": 6.53,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
         "p60": 1.0,
         "p_cameo": 0.0,
         "appearance": 2.0,
-        "goals_pts": 0.94,
-        "assists_pts": 0.3,
-        "cs_pts": 3.76,
-        "bonus_est": 0.17,
-        "concede_penalty": 0.03,
+        "goals_pts": 0.6,
+        "assists_pts": 0.34,
+        "cs_pts": 3.51,
+        "bonus_est": 0.15,
+        "concede_penalty": 0.07,
         "attack_factor": 1.12,
         "defence_factor_against_us": 0.88,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 7.14, תרומה התקפית צפויה 1.24, סיכוי שער נקי 3.76, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 6.53, תרומה התקפית צפויה 0.94, סיכוי שער נקי 3.51, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 411,
@@ -1151,8 +1151,8 @@
         "price": 4.5
       },
       "in": {
-        "id": 531,
-        "web_name": "Ellborg",
+        "id": 110,
+        "web_name": "Rushworth",
         "price": 4.5
       },
       "cost_delta": 0.0,
@@ -1165,11 +1165,11 @@
         "price": 5.0
       },
       "in": {
-        "id": 417,
-        "web_name": "Dalot",
-        "price": 5.0
+        "id": 173,
+        "web_name": "Thomas",
+        "price": 4.0
       },
-      "cost_delta": 0.0,
+      "cost_delta": -1.0,
       "reason": "פורם נמוך (0.0) · דקות משחק נמוכות"
     },
     {
@@ -1179,16 +1179,16 @@
         "price": 5.0
       },
       "in": {
-        "id": 417,
-        "web_name": "Dalot",
-        "price": 5.0
+        "id": 173,
+        "web_name": "Thomas",
+        "price": 4.0
       },
-      "cost_delta": 0.0,
+      "cost_delta": -1.0,
       "reason": "פורם נמוך (0.0) · דקות משחק נמוכות"
     }
   ],
   "rating": {
     "score": 1,
-    "reason": "PPM ממוצע 0.05, 14 שחקנים עם בעיית זמינות/דקות, 2 אזהרות חשיפה"
+    "reason": "PPM ממוצע 0.11, 14 שחקנים עם בעיית זמינות/דקות, 2 אזהרות חשיפה"
   }
 }
