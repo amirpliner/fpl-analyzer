@@ -41,23 +41,23 @@
         "total": 47
       },
       {
-        "club_badge_src": null,
-        "entry": 8227379,
-        "entry_name": "Big Y's",
-        "event_total": 38,
-        "last_rank": 0,
-        "player_name": "Yuval Yakobi",
-        "rank": 3,
-        "rank_sort": 3,
-        "total": 38
-      },
-      {
         "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/3801415/9e51d535-6af1-4b48-8647-72e49d8cdd9d.png",
         "entry": 3801415,
         "entry_name": "SecondTimers",
         "event_total": 38,
         "last_rank": 0,
         "player_name": "Uriya Yakobi",
+        "rank": 3,
+        "rank_sort": 3,
+        "total": 38
+      },
+      {
+        "club_badge_src": null,
+        "entry": 8227379,
+        "entry_name": "Big Y's",
+        "event_total": 38,
+        "last_rank": 0,
+        "player_name": "Yuval Yakobi",
         "rank": 3,
         "rank_sort": 4,
         "total": 38
@@ -141,35 +141,24 @@
       },
       {
         "club_badge_src": null,
-        "entry": 1367096,
-        "entry_name": "lidor",
-        "event_total": 27,
-        "last_rank": 0,
-        "player_name": "Lidor Admoni",
-        "rank": 12,
-        "rank_sort": 12,
-        "total": 27
-      },
-      {
-        "club_badge_src": null,
-        "entry": 4665602,
-        "entry_name": "Dor's Team",
-        "event_total": 27,
-        "last_rank": 0,
-        "player_name": "Dor Cohen",
-        "rank": 12,
-        "rank_sort": 13,
-        "total": 27
-      },
-      {
-        "club_badge_src": null,
         "entry": 5040601,
         "entry_name": "mor7",
         "event_total": 27,
         "last_rank": 0,
         "player_name": "ido mor",
         "rank": 12,
-        "rank_sort": 14,
+        "rank_sort": 12,
+        "total": 27
+      },
+      {
+        "club_badge_src": null,
+        "entry": 1367096,
+        "entry_name": "lidor",
+        "event_total": 27,
+        "last_rank": 0,
+        "player_name": "Lidor Admoni",
+        "rank": 12,
+        "rank_sort": 13,
         "total": 27
       },
       {
@@ -179,6 +168,17 @@
         "event_total": 27,
         "last_rank": 0,
         "player_name": "Guy Geva-Iluz",
+        "rank": 12,
+        "rank_sort": 14,
+        "total": 27
+      },
+      {
+        "club_badge_src": null,
+        "entry": 4665602,
+        "entry_name": "Dor's Team",
+        "event_total": 27,
+        "last_rank": 0,
+        "player_name": "Dor Cohen",
         "rank": 12,
         "rank_sort": 15,
         "total": 27
@@ -207,11 +207,11 @@
       },
       {
         "club_badge_src": null,
-        "entry": 7510140,
-        "entry_name": "Old Stamford",
+        "entry": 1406310,
+        "entry_name": "FC MOR",
         "event_total": 25,
         "last_rank": 0,
-        "player_name": "Paz Shakroka",
+        "player_name": "Amit Mor",
         "rank": 18,
         "rank_sort": 18,
         "total": 25
@@ -229,11 +229,11 @@
       },
       {
         "club_badge_src": null,
-        "entry": 1406310,
-        "entry_name": "FC MOR",
+        "entry": 7510140,
+        "entry_name": "Old Stamford",
         "event_total": 25,
         "last_rank": 0,
-        "player_name": "Amit Mor",
+        "player_name": "Paz Shakroka",
         "rank": 18,
         "rank_sort": 20,
         "total": 25
@@ -317,22 +317,22 @@
       },
       {
         "club_badge_src": null,
-        "entry": 5154980,
-        "entry_name": "bukagay",
+        "entry": 1904952,
+        "entry_name": "Back to Back",
         "event_total": 19,
         "last_rank": 0,
-        "player_name": "Ziv Christoph",
+        "player_name": "Liam rakin",
         "rank": 28,
         "rank_sort": 28,
         "total": 19
       },
       {
         "club_badge_src": null,
-        "entry": 1904952,
-        "entry_name": "Back to Back",
+        "entry": 5154980,
+        "entry_name": "bukagay",
         "event_total": 19,
         "last_rank": 0,
-        "player_name": "Liam rakin",
+        "player_name": "Ziv Christoph",
         "rank": 28,
         "rank_sort": 29,
         "total": 19
@@ -361,7 +361,7 @@
       }
     ]
   },
-  "last_updated_data": "2026-08-22T19:13:17Z",
+  "last_updated_data": "2026-08-22T19:23:25Z",
   "new_entries": {
     "has_next": false,
     "page": 1,
