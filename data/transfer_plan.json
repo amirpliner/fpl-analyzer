@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 1,
-  "baseline_xpts": 174.37,
+  "baseline_xpts": 175.12,
   "routes": [
     {
       "weekly_plan": [
@@ -21,7 +21,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 76.12,
+          "xi_score": 75.96,
           "captain": "Kayode"
         },
         {
@@ -39,7 +39,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 81.03,
+          "xi_score": 80.94,
           "captain": "Kayode"
         },
         {
@@ -52,15 +52,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 86.28,
+          "xi_score": 85.89,
           "captain": "Kayode"
         }
       ],
       "total_transfers": 5,
       "total_hits": 2,
       "final_bank": 5.0,
-      "total_xpts": 235.43,
-      "net_gain_vs_hold": 61.06
+      "total_xpts": 234.79,
+      "net_gain_vs_hold": 59.67
     },
     {
       "weekly_plan": [
@@ -79,7 +79,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 76.12,
+          "xi_score": 75.96,
           "captain": "Kayode"
         },
         {
@@ -97,28 +97,28 @@
             }
           ],
           "hits": 1,
-          "xi_score": 81.03,
+          "xi_score": 80.94,
           "captain": "Kayode"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "João Pedro",
-              "in": "Thiago",
+              "out": "Maguire",
+              "in": "Collins",
               "cost_delta": 0.5
             }
           ],
           "hits": 0,
-          "xi_score": 85.52,
+          "xi_score": 85.71,
           "captain": "Kayode"
         }
       ],
       "total_transfers": 5,
       "total_hits": 2,
       "final_bank": 6.0,
-      "total_xpts": 234.67,
-      "net_gain_vs_hold": 60.3
+      "total_xpts": 234.61,
+      "net_gain_vs_hold": 59.49
     },
     {
       "weekly_plan": [
@@ -126,28 +126,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 59.18,
+          "xi_score": 59.41,
           "captain": "Mbeumo"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 57.87,
+          "xi_score": 58.13,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 57.32,
+          "xi_score": 57.58,
           "captain": "Mbeumo"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0,
-      "total_xpts": 174.37,
+      "total_xpts": 175.12,
       "net_gain_vs_hold": 0.0
     }
   ]
