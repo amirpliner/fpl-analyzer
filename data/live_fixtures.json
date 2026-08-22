@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T15:59:47.607890+00:00",
+  "generated_at": "2026-08-22T16:35:22.263261+00:00",
   "gameweek": 1,
   "fixtures": [
     {
@@ -34,7 +34,7 @@
       "kickoff_time": "2026-08-22T14:00:00Z",
       "started": true,
       "finished": false,
-      "finished_provisional": false,
+      "finished_provisional": true,
       "minutes": 90,
       "team_h": 9,
       "team_a": 8,
@@ -47,7 +47,7 @@
       "kickoff_time": "2026-08-22T14:00:00Z",
       "started": true,
       "finished": false,
-      "finished_provisional": false,
+      "finished_provisional": true,
       "minutes": 90,
       "team_h": 12,
       "team_a": 20,
@@ -60,7 +60,7 @@
       "kickoff_time": "2026-08-22T14:00:00Z",
       "started": true,
       "finished": false,
-      "finished_provisional": false,
+      "finished_provisional": true,
       "minutes": 90,
       "team_h": 18,
       "team_a": 13,
@@ -71,14 +71,14 @@
       "id": 2,
       "event": 1,
       "kickoff_time": "2026-08-22T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "finished_provisional": false,
-      "minutes": 0,
+      "minutes": 3,
       "team_h": 4,
       "team_a": 19,
-      "team_h_score": null,
-      "team_a_score": null
+      "team_h_score": 0,
+      "team_a_score": 0
     },
     {
       "id": 7,
