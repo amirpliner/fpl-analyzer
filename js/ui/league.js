@@ -13,6 +13,7 @@ export async function renderLeague() {
   let html = `<h2>${league.league.name}</h2>`;
 
   if (league.standings.results.length) {
+    html += `<p class="price-disclaimer">מתעדכן אוטומטית כל כמה דקות בזמן משחקים - לתצוגה מרוכזת ראה לשונית "לייב".</p>`;
     html += `<div class="table-wrap"><table><thead><tr><th>#</th><th>מנהל</th><th>קבוצה</th><th>נק' מחזור</th><th>סה"כ</th></tr></thead><tbody>`;
     for (const row of league.standings.results) {
       html += `<tr>

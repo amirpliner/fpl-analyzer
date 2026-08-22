@@ -23,6 +23,7 @@
 
 <nav class="tabs">
   <button class="tab-btn active" data-tab="gameweek">ניתוח מחזור</button>
+  <button class="tab-btn" data-tab="live">לייב<span class="live-dot" id="tabLiveDot"></span></button>
   <button class="tab-btn" data-tab="myteam">הקבוצה שלי</button>
   <button class="tab-btn" data-tab="compare">השוואת שחקנים</button>
   <button class="tab-btn" data-tab="league">ליגת החברים</button>
@@ -46,6 +47,22 @@
       <button class="pos-btn" data-pos="4">חלוצים</button>
     </div>
     <div id="topPlayers" class="table-wrap"></div>
+  </section>
+
+  <section id="tab-live" class="tab-panel">
+    <div class="live-status-row">
+      <span class="live-dot" id="liveStatusDot"></span>
+      <span id="liveStatusText"></span>
+    </div>
+
+    <h2><span class="kicker">מחזור נוכחי</span>תוצאות חיות</h2>
+    <div id="liveFixturesBanner"></div>
+
+    <h2><span class="kicker">הקבוצה שלי</span>ניקוד לייב</h2>
+    <div id="liveMyTeam"></div>
+
+    <h2><span class="kicker">ליגת החברים</span>טבלה חיה</h2>
+    <div id="liveLeagueTable"></div>
   </section>
 
   <section id="tab-myteam" class="tab-panel">

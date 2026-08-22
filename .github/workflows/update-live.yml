@@ -1,0 +1,43 @@
+name: Update live gameweek data
+
+on:
+  schedule:
+    # Broad, generous windows around Premier League kickoff slots (UTC),
+    # covering DST drift across the season rather than exact kickoff
+    # times. fetch_live.py itself makes zero API calls once the
+    # gameweek is fully settled, so idle time inside these windows
+    # costs almost nothing.
+    - cron: "*/5 10-22 * * 6"    # Saturday
+    - cron: "*/5 10-22 * * 0"    # Sunday
+    - cron: "*/5 18-22 * * 1"    # Monday Night Football
+    - cron: "*/5 17-22 * * 2-5"  # midweek + Friday Night Football
+  workflow_dispatch: {}
+
+concurrency:
+  group: fpl-data-write
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch live gameweek data
+        run: python3 scripts/fetch_live.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "fpl-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Update live gameweek data"
+          git pull --rebase origin main
+          git push

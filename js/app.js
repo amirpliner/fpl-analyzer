@@ -5,6 +5,7 @@ import { renderMyTeam } from "./ui/myteam.js";
 import { renderLeague, renderLeagueInsights } from "./ui/league.js";
 import { renderReminderWidget } from "./ui/reminders.js";
 import { setupCompareTab } from "./ui/compare.js";
+import { renderLive, setupLiveTab } from "./ui/live.js";
 
 function hideLoadingOverlay() {
   const overlay = document.getElementById("loadingOverlay");
@@ -67,6 +68,8 @@ async function init() {
   renderLeagueInsights();
   renderReminderWidget(document.getElementById("reminderWidget"), state.meta);
   setupCompareTab();
+  setupLiveTab();
+  renderLive();
 
   const lastUpdated = new Date().toLocaleString("he-IL");
   document.getElementById("lastUpdated").textContent = lastUpdated;
