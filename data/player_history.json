@@ -441,32 +441,6 @@
       "value": 5.0
     }
   ],
-  "36": [
-    {
-      "gw": 1,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BHA",
-      "was_home": false,
-      "points": 0,
-      "value": 4.5
-    }
-  ],
-  "37": [
-    {
-      "gw": 1,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BHA",
-      "was_home": false,
-      "points": 0,
-      "value": 4.5
-    }
-  ],
   "38": [
     {
       "gw": 1,
@@ -678,7 +652,7 @@
   "82": [
     {
       "gw": 1,
-      "minutes": 82,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.01,
       "ict": 0.0,
@@ -691,7 +665,7 @@
   "84": [
     {
       "gw": 1,
-      "minutes": 82,
+      "minutes": 90,
       "xg": 0.5,
       "xa": 0.04,
       "ict": 0.0,
@@ -704,7 +678,7 @@
   "86": [
     {
       "gw": 1,
-      "minutes": 82,
+      "minutes": 90,
       "xg": 0.37,
       "xa": 0.08,
       "ict": 0.0,
@@ -717,13 +691,13 @@
   "87": [
     {
       "gw": 1,
-      "minutes": 82,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.16,
       "xa": 0.04,
       "ict": 0.0,
       "opp": "TOT",
       "was_home": true,
-      "points": 6,
+      "points": 8,
       "value": 4.5
     }
   ],
@@ -743,7 +717,7 @@
   "90": [
     {
       "gw": 1,
-      "minutes": 6,
+      "minutes": 14,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
@@ -756,8 +730,8 @@
   "94": [
     {
       "gw": 1,
-      "minutes": 82,
-      "xg": 0.18,
+      "minutes": 90,
+      "xg": 0.43,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "TOT",
@@ -782,9 +756,9 @@
   "96": [
     {
       "gw": 1,
-      "minutes": 6,
+      "minutes": 14,
       "xg": 0.0,
-      "xa": 0.02,
+      "xa": 0.24,
       "ict": 0.0,
       "opp": "TOT",
       "was_home": true,
@@ -808,21 +782,21 @@
   "98": [
     {
       "gw": 1,
-      "minutes": 81,
+      "minutes": 90,
       "xg": 0.41,
-      "xa": 0.02,
+      "xa": 0.08,
       "ict": 0.0,
       "opp": "TOT",
       "was_home": true,
-      "points": 7,
+      "points": 9,
       "value": 5.0
     }
   ],
   "102": [
     {
       "gw": 1,
-      "minutes": 15,
-      "xg": 0.0,
+      "minutes": 23,
+      "xg": 0.03,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "TOT",
@@ -847,7 +821,7 @@
   "105": [
     {
       "gw": 1,
-      "minutes": 15,
+      "minutes": 23,
       "xg": 0.04,
       "xa": 0.5,
       "ict": 0.0,
@@ -868,6 +842,19 @@
       "was_home": true,
       "points": 0,
       "value": 8.0
+    }
+  ],
+  "108": [
+    {
+      "gw": 1,
+      "minutes": 7,
+      "xg": 0.05,
+      "xa": 0.09,
+      "ict": 0.0,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 1,
+      "value": 5.5
     }
   ],
   "109": [
@@ -912,7 +899,7 @@
   "112": [
     {
       "gw": 1,
-      "minutes": 82,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.03,
       "ict": 0.0,
@@ -2901,7 +2888,7 @@
   "455": [
     {
       "gw": 1,
-      "minutes": 84,
+      "minutes": 90,
       "xg": 0.05,
       "xa": 0.07,
       "ict": 0.0,
@@ -3161,7 +3148,7 @@
   "496": [
     {
       "gw": 1,
-      "minutes": 84,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
@@ -3187,7 +3174,7 @@
   "498": [
     {
       "gw": 1,
-      "minutes": 84,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.02,
       "ict": 0.0,
@@ -3213,9 +3200,9 @@
   "502": [
     {
       "gw": 1,
-      "minutes": 84,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.05,
+      "xa": 0.06,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
@@ -3249,6 +3236,19 @@
       "value": 5.0
     }
   ],
+  "506": [
+    {
+      "gw": 1,
+      "minutes": 4,
+      "xg": 0.0,
+      "xa": 0.02,
+      "ict": 0.0,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 1,
+      "value": 4.5
+    }
+  ],
   "508": [
     {
       "gw": 1,
@@ -3265,9 +3265,9 @@
   "514": [
     {
       "gw": 1,
-      "minutes": 84,
+      "minutes": 90,
       "xg": 0.06,
-      "xa": 0.04,
+      "xa": 0.05,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
@@ -3278,9 +3278,9 @@
   "515": [
     {
       "gw": 1,
-      "minutes": 16,
+      "minutes": 22,
       "xg": 0.0,
-      "xa": 0.01,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
@@ -3291,7 +3291,7 @@
   "516": [
     {
       "gw": 1,
-      "minutes": 39,
+      "minutes": 45,
       "xg": 0.0,
       "xa": 0.01,
       "ict": 0.0,
@@ -3317,7 +3317,7 @@
   "522": [
     {
       "gw": 1,
-      "minutes": 84,
+      "minutes": 85,
       "xg": 0.0,
       "xa": 0.01,
       "ict": 0.0,
@@ -3343,7 +3343,7 @@
   "525": [
     {
       "gw": 1,
-      "minutes": 39,
+      "minutes": 45,
       "xg": 0.0,
       "xa": 0.04,
       "ict": 0.0,
@@ -3356,8 +3356,8 @@
   "526": [
     {
       "gw": 1,
-      "minutes": 16,
-      "xg": 0.0,
+      "minutes": 22,
+      "xg": 0.07,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
