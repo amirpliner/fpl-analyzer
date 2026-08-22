@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 1,
-  "baseline_xpts": 161.85,
+  "baseline_xpts": 162.13,
   "routes": [
     {
       "weekly_plan": [
@@ -10,14 +10,72 @@
           "week": 1,
           "transfers": [
             {
-              "out": "N.Williams",
+              "out": "O'Shea",
               "in": "Davies",
-              "cost_delta": -1.0
+              "cost_delta": 0.0
+            },
+            {
+              "out": "B.Fernandes",
+              "in": "Saka",
+              "cost_delta": -2.5
+            }
+          ],
+          "hits": 1,
+          "xi_score": 61.53,
+          "captain": "Saka"
+        },
+        {
+          "week": 2,
+          "transfers": [
+            {
+              "out": "N.Williams",
+              "in": "White",
+              "cost_delta": 0.5
             }
           ],
           "hits": 0,
-          "xi_score": 57.02,
-          "captain": "Calafiori"
+          "xi_score": 63.5,
+          "captain": "Saka"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Groß",
+              "in": "O'Riley",
+              "cost_delta": 0.0
+            }
+          ],
+          "hits": 0,
+          "xi_score": 64.32,
+          "captain": "Saka"
+        }
+      ],
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 2.0,
+      "total_xpts": 185.35,
+      "net_gain_vs_hold": 23.22
+    },
+    {
+      "weekly_plan": [
+        {
+          "week": 1,
+          "transfers": [
+            {
+              "out": "O'Shea",
+              "in": "Davies",
+              "cost_delta": 0.0
+            },
+            {
+              "out": "B.Fernandes",
+              "in": "Saka",
+              "cost_delta": -2.5
+            }
+          ],
+          "hits": 1,
+          "xi_score": 61.53,
+          "captain": "Saka"
         },
         {
           "week": 2,
@@ -29,76 +87,28 @@
             }
           ],
           "hits": 0,
-          "xi_score": 60.05,
-          "captain": "White"
+          "xi_score": 63.5,
+          "captain": "Saka"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "B.Fernandes",
-              "in": "Saka",
-              "cost_delta": -2.5
+              "out": "Groß",
+              "in": "O'Riley",
+              "cost_delta": 0.0
             }
           ],
           "hits": 0,
-          "xi_score": 61.54,
+          "xi_score": 64.32,
           "captain": "Saka"
         }
       ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 3.0,
-      "total_xpts": 178.61,
-      "net_gain_vs_hold": 16.76
-    },
-    {
-      "weekly_plan": [
-        {
-          "week": 1,
-          "transfers": [
-            {
-              "out": "N.Williams",
-              "in": "Davies",
-              "cost_delta": -1.0
-            }
-          ],
-          "hits": 0,
-          "xi_score": 57.02,
-          "captain": "Calafiori"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Ballard",
-              "in": "White",
-              "cost_delta": 0.5
-            }
-          ],
-          "hits": 0,
-          "xi_score": 60.05,
-          "captain": "White"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
-              "out": "B.Fernandes",
-              "in": "Saka",
-              "cost_delta": -2.5
-            }
-          ],
-          "hits": 0,
-          "xi_score": 61.54,
-          "captain": "Saka"
-        }
-      ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 3.0,
-      "total_xpts": 178.61,
-      "net_gain_vs_hold": 16.76
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 2.0,
+      "total_xpts": 185.35,
+      "net_gain_vs_hold": 23.22
     },
     {
       "weekly_plan": [
@@ -106,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 54.68,
+          "xi_score": 54.6,
           "captain": "Calafiori"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 54.27,
+          "xi_score": 54.45,
           "captain": "Calafiori"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 52.9,
+          "xi_score": 53.08,
           "captain": "Calafiori"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0,
-      "total_xpts": 161.85,
+      "total_xpts": 162.13,
       "net_gain_vs_hold": 0.0
     }
   ]
