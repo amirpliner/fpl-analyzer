@@ -1,27 +1,30 @@
 /* ============================================================
-   FPL מנתח - עיצוב "פריט יום משחק": דף תוצאות מודפס, לא לוח LED.
-   הצבע היחיד שנשאר שייך לנתונים עצמם (FDR, שינויי מחיר) - הכל
-   מסביב הוא דיו כהה/נייר/אפור, בלי גוון תחרותי.
+   FPL מנתח - פלטת המותג הרשמי של הפרמייר ליג: סגול כהה + ירוק זוהר,
+   כמו שהאתר/אפליקציה הרשמיים של FPL עצמם משתמשים בסגול כצבע הרקע
+   הדומיננטי (לא רק כמבטא), עם ירוק לכפתורים ולמבטאים מבניים.
    ============================================================ */
 
 :root {
-  /* Ink & paper - no hue of its own, so the data colors (FDR, price
-     direction) are the only color on the page. */
-  --bg: #131211;
-  --card-bg: #1c1a18;
-  --text: #f0ebe0;
-  --text-muted: #9c9488;
-  --border: #322f2a;
-  --border-strong: #57534a;
+  /* Official PL purple - the background itself carries the brand
+     color, not just an accent touch. */
+  --bg: #38003c;
+  --card-bg: #240029;
+  --text: #ffffff;
+  --text-muted: #c9b8d1;
+  --border: #4d1a52;
+  --border-strong: #9548a3;
 
-  /* Used only for structural emphasis (active tab, primary buttons,
-     focus ring) - "paper" fill, never a hue of its own. */
-  --accent: #f0ebe0;
-  --accent-strong: #f0ebe0;
+  /* Official PL green, used for both roles (text/border/glow AND solid
+     fills) - fills pair with dark-purple text, not white: white-on-
+     green only hits 1.34:1 contrast (fails), dark-purple-on-green hits
+     12.68:1. This matches how the real FPL app styles its green
+     buttons (dark text on green, never white). */
+  --accent: #00ff85;
+  --accent-strong: #00ff85;
   --accent-contrast: var(--bg); /* text color to use ON TOP of --accent-strong fills */
 
-  /* FDR gradient, easiest -> hardest fixture - the one place color
-     carries real meaning, left untouched by the ink/paper restyle. */
+  /* FDR gradient, easiest -> hardest fixture - a separate data-color
+     language from the brand palette above, left as-is. */
   --fdr-1: #39ff6a;
   --fdr-2: #9fe23d;
   --fdr-3: #ffcf3d;
@@ -131,8 +134,16 @@ body {
   gap: .5rem;
   padding: 0 1.5rem;
   border-bottom: 1px solid var(--border);
-  flex-wrap: wrap;
+  /* Scrolls horizontally instead of wrapping once the tabs don't fit -
+     on a narrow phone that means a one-row swipeable bar instead of a
+     ragged two-row layout with the active tab landing in an arbitrary
+     spot. No effect at desktop widths where everything already fits. */
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
+.tabs::-webkit-scrollbar { display: none; }
 
 .tab-btn, .pos-btn {
   background: none;
@@ -151,6 +162,8 @@ body {
 .tab-btn {
   border-bottom: 2px solid transparent;
   margin-bottom: -1px;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .tab-btn:hover:not(.active) {
@@ -744,8 +757,21 @@ footer {
   main { padding: 1rem .8rem; }
   .topbar { padding: 1rem; }
   .topbar h1 { font-size: 1.4rem; }
+  .tabs { padding: 0 .8rem; }
+  .tab-btn { padding: .7rem .7rem; font-size: .9rem; }
+
   #fdrHeading { font-size: 1.4rem; }
   #fdrTable table { font-size: .85rem; }
-  #fdrTable .fdr-cell { min-width: 2.8rem; font-size: .8rem; }
+  #fdrTable th, #fdrTable td { padding: .6rem .5rem; }
+  #fdrTable .fdr-cell { min-width: 2.5rem; padding: .3rem .3rem; font-size: .78rem; }
+  #fdrTable .team-cell { font-size: .92rem; }
+
+  table { font-size: .82rem; }
+  th, td { padding: .5rem .55rem; }
+
+  .summary-card { grid-template-columns: repeat(2, 1fr); }
   .summary-stat .value { font-size: 1.6rem; }
+
+  .live-fixture-teams { font-size: .85rem; }
+  .live-fixture-score { font-size: 1rem; }
 }
