@@ -1546,19 +1546,6 @@
       "value": 5.0
     }
   ],
-  "222": [
-    {
-      "gw": 1,
-      "minutes": 27,
-      "xg": 0.25,
-      "xa": 0.01,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 6.0
-    }
-  ],
   "223": [
     {
       "gw": 1,
@@ -1570,19 +1557,6 @@
       "was_home": false,
       "points": 2,
       "value": 6.5
-    }
-  ],
-  "224": [
-    {
-      "gw": 1,
-      "minutes": 55,
-      "xg": 0.6,
-      "xa": 0.58,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 5.5
     }
   ],
   "226": [
@@ -3726,6 +3700,32 @@
       "ict": 0.0,
       "opp": "AVL",
       "was_home": true,
+      "points": 1,
+      "value": 5.0
+    }
+  ],
+  "605": [
+    {
+      "gw": 1,
+      "minutes": 4,
+      "xg": 0.0,
+      "xa": 0.01,
+      "ict": 0.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 1,
+      "value": 4.5
+    }
+  ],
+  "608": [
+    {
+      "gw": 1,
+      "minutes": 15,
+      "xg": 0.08,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "MCI",
+      "was_home": false,
       "points": 1,
       "value": 5.0
     }

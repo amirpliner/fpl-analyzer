@@ -11,9 +11,9 @@
   "player_region_iso_code_long": "ISR",
   "years_active": 6,
   "summary_overall_points": 33,
-  "summary_overall_rank": 5324550,
+  "summary_overall_rank": 5324529,
   "summary_event_points": 33,
-  "summary_event_rank": 5324550,
+  "summary_event_rank": 5324529,
   "current_event": 1,
   "leagues": {
     "classic": [
@@ -96,7 +96,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 0,
         "entry_percentile_rank": 55,
-        "entry_rank": 5324550,
+        "entry_rank": 5324529,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -112,14 +112,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 55,
+            "entry_percentile_rank": 60,
             "last_rank": 0,
             "league_id": 314,
             "phase": 1,
-            "rank": 4831287,
-            "rank_count": 8905295,
-            "rank_sort": 5084430,
-            "total": 21
+            "rank": 5324535,
+            "rank_count": 8904495,
+            "rank_sort": 5556959,
+            "total": 33
           },
           {
             "entry_percentile_rank": 55,
@@ -141,8 +141,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 0,
-        "entry_percentile_rank": 55,
-        "entry_rank": 5324550,
+        "entry_percentile_rank": 60,
+        "entry_rank": 5324529,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -150,7 +150,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 8905295,
+        "rank_count": 8904495,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
@@ -162,10 +162,10 @@
             "last_rank": 0,
             "league_id": 322,
             "phase": 1,
-            "rank": 929688,
+            "rank": 942486,
             "rank_count": 1213275,
-            "rank_sort": 965136,
-            "total": 21
+            "rank_sort": 973026,
+            "total": 33
           },
           {
             "entry_percentile_rank": 80,
@@ -188,7 +188,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 0,
         "entry_percentile_rank": 80,
-        "entry_rank": 942488,
+        "entry_rank": 942486,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 322,
@@ -204,14 +204,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 80,
+            "entry_percentile_rank": 85,
             "last_rank": 0,
             "league_id": 367147,
             "phase": 1,
-            "rank": 24,
+            "rank": 26,
             "rank_count": 31,
-            "rank_sort": 24,
-            "total": 21
+            "rank_sort": 26,
+            "total": 33
           },
           {
             "entry_percentile_rank": 80,
@@ -233,7 +233,7 @@
         "entry_can_invite": false,
         "entry_can_leave": true,
         "entry_last_rank": 0,
-        "entry_percentile_rank": 80,
+        "entry_percentile_rank": 85,
         "entry_rank": 26,
         "featured_entry_ids": [],
         "has_cup": true,
@@ -250,14 +250,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 60,
+            "entry_percentile_rank": 65,
             "last_rank": 0,
             "league_id": 431168,
             "phase": 1,
-            "rank": 9293,
-            "rank_count": 15642,
-            "rank_sort": 9722,
-            "total": 21
+            "rank": 9837,
+            "rank_count": 15641,
+            "rank_sort": 10241,
+            "total": 33
           },
           {
             "entry_percentile_rank": 60,
@@ -279,7 +279,7 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 0,
-        "entry_percentile_rank": 60,
+        "entry_percentile_rank": 65,
         "entry_rank": 9837,
         "featured_entry_ids": [],
         "has_cup": false,
@@ -288,7 +288,7 @@
         "max_entries": null,
         "name": "Sport 1 League",
         "rank": null,
-        "rank_count": 15642,
+        "rank_count": 15641,
         "scoring": "c",
         "short_name": "brd-sportone_isr",
         "start_event": 1

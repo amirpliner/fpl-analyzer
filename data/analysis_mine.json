@@ -16,7 +16,7 @@
       "form": 6.0,
       "total_points": 6,
       "ppm": 1.33,
-      "ownership": 21.7,
+      "ownership": 21.6,
       "is_differential": false,
       "xgi_per_90": 0.0,
       "xgc_per_90": 0.31,
@@ -79,7 +79,7 @@
       "form": 9.0,
       "total_points": 9,
       "ppm": 1.64,
-      "ownership": 40.2,
+      "ownership": 40.3,
       "is_differential": false,
       "xgi_per_90": 0.14,
       "xgc_per_90": 0.07,
@@ -205,8 +205,8 @@
       "form": 2.0,
       "total_points": 2,
       "ppm": 0.4,
-      "ownership": 10.0,
-      "is_differential": false,
+      "ownership": 9.9,
+      "is_differential": true,
       "xgi_per_90": 0.02,
       "xgc_per_90": 0.47,
       "starts_per_90": 1.0,
@@ -268,7 +268,7 @@
       "form": 2.0,
       "total_points": 2,
       "ppm": 0.17,
-      "ownership": 51.0,
+      "ownership": 50.9,
       "is_differential": false,
       "xgi_per_90": 0.34,
       "xgc_per_90": 1.01,
@@ -1038,7 +1038,7 @@
     {
       "id": 411,
       "web_name": "Haaland",
-      "xpts": 6.26,
+      "xpts": 6.27,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
@@ -1048,13 +1048,13 @@
         "goals_pts": 3.4,
         "assists_pts": 0.06,
         "cs_pts": 0,
-        "bonus_est": 0.8,
+        "bonus_est": 0.81,
         "concede_penalty": 0,
         "attack_factor": 1.0,
         "defence_factor_against_us": 1.0,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 6.26, תרומה התקפית צפויה 3.46, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 6.27, תרומה התקפית צפויה 3.46, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 418,
