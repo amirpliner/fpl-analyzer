@@ -4,8 +4,8 @@
       "id": 499,
       "name": "Pedro Porro",
       "team": 19,
-      "net_transfers_pct": -1.095,
-      "velocity": -5046,
+      "net_transfers_pct": -1.519,
+      "velocity": -40847,
       "direction": "falling",
       "confidence": "provisional"
     },
@@ -13,8 +13,53 @@
       "id": 8,
       "name": "Calafiori",
       "team": 1,
-      "net_transfers_pct": 0.709,
-      "velocity": 2678,
+      "net_transfers_pct": 0.985,
+      "velocity": 26593,
+      "direction": "rising",
+      "confidence": "provisional"
+    },
+    {
+      "id": 15,
+      "name": "Ødegaard",
+      "team": 1,
+      "net_transfers_pct": 0.776,
+      "velocity": 27569,
+      "direction": "rising",
+      "confidence": "provisional"
+    },
+    {
+      "id": 565,
+      "name": "M.Sangaré",
+      "team": 4,
+      "net_transfers_pct": 0.751,
+      "velocity": 41078,
+      "direction": "rising",
+      "confidence": "provisional"
+    },
+    {
+      "id": 88,
+      "name": "Kayode",
+      "team": 4,
+      "net_transfers_pct": 0.685,
+      "velocity": 37509,
+      "direction": "rising",
+      "confidence": "provisional"
+    },
+    {
+      "id": 25,
+      "name": "Gyökeres",
+      "team": 1,
+      "net_transfers_pct": -0.648,
+      "velocity": -15121,
+      "direction": "falling",
+      "confidence": "provisional"
+    },
+    {
+      "id": 557,
+      "name": "Tzolis",
+      "team": 1,
+      "net_transfers_pct": 0.645,
+      "velocity": 15669,
       "direction": "rising",
       "confidence": "provisional"
     }
