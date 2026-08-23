@@ -20,6 +20,7 @@ from price_alerts import build_price_alerts
 from league_insights import build_league_insights
 from transfer_planner import build_transfer_plan
 from chip_engine import build_chip_plan
+from deadlines_ics import build_deadlines_ics
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -36,6 +37,14 @@ def save(name, obj):
     path = os.path.join(DATA_DIR, name)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
+    print(f"saved {path}")
+
+
+def save_text(name, text):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    path = os.path.join(DATA_DIR, name)
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(text)
     print(f"saved {path}")
 
 
@@ -164,6 +173,8 @@ def main():
 
     fixtures = get_json(f"{BASE}/fixtures/")
     save("fixtures.json", fixtures)
+
+    save_text("deadlines.ics", build_deadlines_ics(bootstrap["events"]))
 
     gw, is_upcoming = current_event(bootstrap)
     print(f"gameweek: {gw} (upcoming={is_upcoming})")

@@ -564,7 +564,21 @@ td.winner {
   max-width: 32rem;
   line-height: 1.5;
 }
-.reminder-actions { display: flex; gap: .6rem; flex-wrap: wrap; }
+.reminder-actions { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; }
+
+.reminder-subscribe {
+  flex-basis: 100%;
+  padding-top: .8rem;
+  border-top: 1px dashed var(--border);
+}
+.feed-url {
+  display: inline-block;
+  max-width: 22rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: .55rem .8rem;
+}
 .reminder-btn {
   background: var(--accent-strong);
   color: var(--accent-contrast);
