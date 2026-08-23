@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 1,
-  "baseline_xpts": 175.12,
+  "baseline_xpts": 177.39,
   "routes": [
     {
       "weekly_plan": [
@@ -10,57 +10,52 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Ballard",
-              "in": "Kayode",
+              "out": "Calvert-Lewin",
+              "in": "Nketiah",
               "cost_delta": -0.5
             },
             {
-              "out": "Calvert-Lewin",
-              "in": "Nketiah",
+              "out": "Ballard",
+              "in": "Kayode",
               "cost_delta": -0.5
             }
           ],
           "hits": 1,
-          "xi_score": 75.96,
-          "captain": "Kayode"
+          "xi_score": 72.1,
+          "captain": "Nketiah"
         },
         {
           "week": 2,
           "transfers": [
-            {
-              "out": "Kinsky",
-              "in": "Sels",
-              "cost_delta": 0.5
-            },
             {
               "out": "B.Fernandes",
               "in": "Dorgu",
               "cost_delta": -6.0
             }
           ],
-          "hits": 1,
-          "xi_score": 80.94,
-          "captain": "Kayode"
+          "hits": 0,
+          "xi_score": 73.45,
+          "captain": "Dorgu"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "O'Shea",
-              "in": "Collins",
-              "cost_delta": 1.5
+              "out": "Groß",
+              "in": "Lewis-Potter",
+              "cost_delta": 0.0
             }
           ],
           "hits": 0,
-          "xi_score": 85.89,
-          "captain": "Kayode"
+          "xi_score": 78.14,
+          "captain": "Nketiah"
         }
       ],
-      "total_transfers": 5,
-      "total_hits": 2,
-      "final_bank": 5.0,
-      "total_xpts": 234.79,
-      "net_gain_vs_hold": 59.67
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 7.0,
+      "total_xpts": 219.69,
+      "net_gain_vs_hold": 42.3
     },
     {
       "weekly_plan": [
@@ -68,57 +63,52 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Ballard",
-              "in": "Kayode",
+              "out": "Calvert-Lewin",
+              "in": "Nketiah",
               "cost_delta": -0.5
             },
             {
-              "out": "Calvert-Lewin",
-              "in": "Nketiah",
+              "out": "Ballard",
+              "in": "Kayode",
               "cost_delta": -0.5
             }
           ],
           "hits": 1,
-          "xi_score": 75.96,
-          "captain": "Kayode"
+          "xi_score": 72.1,
+          "captain": "Nketiah"
         },
         {
           "week": 2,
           "transfers": [
-            {
-              "out": "Kinsky",
-              "in": "Sels",
-              "cost_delta": 0.5
-            },
             {
               "out": "B.Fernandes",
               "in": "Dorgu",
               "cost_delta": -6.0
             }
           ],
-          "hits": 1,
-          "xi_score": 80.94,
-          "captain": "Kayode"
+          "hits": 0,
+          "xi_score": 73.45,
+          "captain": "Dorgu"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Maguire",
-              "in": "Collins",
-              "cost_delta": 0.5
+              "out": "Szoboszlai",
+              "in": "Lewis-Potter",
+              "cost_delta": -1.5
             }
           ],
           "hits": 0,
-          "xi_score": 85.71,
-          "captain": "Kayode"
+          "xi_score": 78.14,
+          "captain": "Nketiah"
         }
       ],
-      "total_transfers": 5,
-      "total_hits": 2,
-      "final_bank": 6.0,
-      "total_xpts": 234.61,
-      "net_gain_vs_hold": 59.49
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 8.5,
+      "total_xpts": 219.69,
+      "net_gain_vs_hold": 42.3
     },
     {
       "weekly_plan": [
@@ -126,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 59.41,
+          "xi_score": 60.17,
           "captain": "Mbeumo"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 58.13,
+          "xi_score": 58.89,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 57.58,
+          "xi_score": 58.33,
           "captain": "Mbeumo"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0,
-      "total_xpts": 175.12,
+      "total_xpts": 177.39,
       "net_gain_vs_hold": 0.0
     }
   ]
