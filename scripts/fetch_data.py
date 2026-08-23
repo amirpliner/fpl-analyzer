@@ -74,13 +74,19 @@ def season_state(bootstrap):
 def build_meta(bootstrap, gw, is_upcoming):
     events_by_id = {ev["id"]: ev for ev in bootstrap["events"]}
     next_ev = next((ev for ev in bootstrap["events"] if ev["is_next"]), None)
+    # gw_next is the gameweek js/ui/reminders.js labels its widget with -
+    # deadline_time has to be THAT gameweek's own deadline, not the
+    # current one's (which is already in the past once gw is underway
+    # and is_upcoming is false), or the widget shows the next
+    # gameweek's number next to an already-passed deadline.
+    gw_next = gw if is_upcoming else (next_ev["id"] if next_ev else None)
     return {
         "generated_at": meta_generated_at(),
         "gameweek": gw,
         "is_upcoming": is_upcoming,
         "gw_current": gw if not is_upcoming else None,
-        "gw_next": gw if is_upcoming else (next_ev["id"] if next_ev else None),
-        "deadline_time": events_by_id.get(gw, {}).get("deadline_time") if gw else None,
+        "gw_next": gw_next,
+        "deadline_time": events_by_id.get(gw_next, {}).get("deadline_time") if gw_next else None,
         "season_state": season_state(bootstrap),
     }
 
