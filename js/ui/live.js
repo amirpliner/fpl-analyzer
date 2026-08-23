@@ -84,16 +84,24 @@ async function renderMyLive(gw) {
   }
 
   const elements = (live && live.gameweek === gw) ? live.elements : {};
+  const hasLiveData = Object.keys(elements).length > 0;
   const rows = picks.picks
     .map(pk => ({ pk, p: state.playersById.get(pk.element), stats: elements[String(pk.element)] }))
     .filter(r => r.p);
 
-  const officialTotal = picks.entry_history?.points;
-  const fallbackTotal = rows.reduce((s, r) => s + (r.stats?.total_points ?? 0) * r.pk.multiplier, 0);
+  // entry_history.points (the manager's own picks/ endpoint) lags well
+  // behind the true live score during play - verified against real
+  // gameweek data where it read 17 while the per-player live total
+  // (and the league table's own event_total) already read 37. Summing
+  // live per-player points ourselves is what actually tracks live -
+  // entry_history.points is only used as a fallback before any live
+  // data exists at all.
+  const computedTotal = rows.reduce((s, r) => s + (r.stats?.total_points ?? 0) * r.pk.multiplier, 0);
+  const total = hasLiveData ? computedTotal : (picks.entry_history?.points ?? 0);
 
   let html = `<div class="summary-card">
     <div class="summary-stat">
-      <div class="value rating-score">${officialTotal ?? fallbackTotal}</div>
+      <div class="value rating-score">${total}</div>
       <div class="label">ניקוד לייב</div>
       <div class="sub">${picks.active_chip ? `צ'יפ פעיל: ${picks.active_chip}` : ""}</div>
     </div>
@@ -122,8 +130,9 @@ async function renderMyLive(gw) {
   }
   html += `</tbody></table></div>
     <p class="price-disclaimer">
-      הניקוד למעלה הוא הנתון הרשמי מ-FPL (כולל בונוסים, ברגע שהם מאושרים).
-      טבלת השחקנים היא פירוט לייב לפי שחקן ועדיין לא כוללת החלפות ספסל אוטומטיות - אלו מתבצעות ומתעדכנות אצל FPL רק אחרי שכל משחקי המחזור מסתיימים.
+      הניקוד מחושב לפי נקודות לייב לכל שחקן (כולל בונוסים ברגע שהם מאושרים) - אותו מקור שממנו גם טבלת
+      הליגה החיה מתעדכנת. עדיין לא כולל החלפות ספסל אוטומטיות - אלו מתבצעות ומתעדכנות אצל FPL רק אחרי
+      שכל משחקי המחזור מסתיימים.
     </p>`;
   container.innerHTML = html;
 }
