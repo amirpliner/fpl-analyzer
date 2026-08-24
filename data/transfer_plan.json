@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 1,
-  "baseline_xpts": 212.93,
+  "baseline_xpts": 211.56,
   "routes": [
     {
       "weekly_plan": [
@@ -21,7 +21,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 80.81,
+          "xi_score": 80.37,
           "captain": "Nketiah"
         },
         {
@@ -39,7 +39,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 93.37,
+          "xi_score": 92.91,
           "captain": "Hinshelwood"
         },
         {
@@ -52,15 +52,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 104.64,
+          "xi_score": 104.14,
           "captain": "Hinshelwood"
         }
       ],
       "total_transfers": 5,
       "total_hits": 2,
       "final_bank": 6.0,
-      "total_xpts": 270.82,
-      "net_gain_vs_hold": 57.89
+      "total_xpts": 269.42,
+      "net_gain_vs_hold": 57.86
     },
     {
       "weekly_plan": [
@@ -79,7 +79,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 80.81,
+          "xi_score": 80.37,
           "captain": "Nketiah"
         },
         {
@@ -97,7 +97,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 93.37,
+          "xi_score": 92.91,
           "captain": "Hinshelwood"
         },
         {
@@ -110,15 +110,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 104.28,
+          "xi_score": 103.78,
           "captain": "Hinshelwood"
         }
       ],
       "total_transfers": 5,
       "total_hits": 2,
       "final_bank": 6.5,
-      "total_xpts": 270.46,
-      "net_gain_vs_hold": 57.53
+      "total_xpts": 269.06,
+      "net_gain_vs_hold": 57.5
     },
     {
       "weekly_plan": [
@@ -126,28 +126,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 71.38,
+          "xi_score": 70.94,
           "captain": "Szoboszlai"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 70.13,
+          "xi_score": 69.69,
           "captain": "Szoboszlai"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 71.42,
+          "xi_score": 70.93,
           "captain": "Szoboszlai"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0,
-      "total_xpts": 212.93,
+      "total_xpts": 211.56,
       "net_gain_vs_hold": 0.0
     }
   ]
