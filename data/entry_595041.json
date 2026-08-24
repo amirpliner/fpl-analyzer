@@ -11,9 +11,9 @@
   "player_region_iso_code_long": "ISR",
   "years_active": 4,
   "summary_overall_points": 67,
-  "summary_overall_rank": 642809,
+  "summary_overall_rank": 642806,
   "summary_event_points": 67,
-  "summary_event_rank": 642809,
+  "summary_event_rank": 642806,
   "current_event": 1,
   "leagues": {
     "classic": [
@@ -142,7 +142,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 0,
         "entry_percentile_rank": 1,
-        "entry_rank": 642809,
+        "entry_rank": 642806,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -158,13 +158,13 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 1,
+            "entry_percentile_rank": 10,
             "last_rank": 0,
             "league_id": 314,
             "phase": 1,
-            "rank": 63745,
-            "rank_count": 8904495,
-            "rank_sort": 66226,
+            "rank": 642806,
+            "rank_count": 8903675,
+            "rank_sort": 652044,
             "total": 67
           },
           {
@@ -187,8 +187,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 0,
-        "entry_percentile_rank": 1,
-        "entry_rank": 642809,
+        "entry_percentile_rank": 10,
+        "entry_rank": 642806,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -196,7 +196,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 8904495,
+        "rank_count": 8903675,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
@@ -326,7 +326,7 @@
         "entry_can_leave": true,
         "entry_last_rank": 0,
         "entry_percentile_rank": 5,
-        "entry_rank": 22899,
+        "entry_rank": 22901,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 28071,

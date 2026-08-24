@@ -11,9 +11,9 @@
   "player_region_iso_code_long": "ISR",
   "years_active": 6,
   "summary_overall_points": 52,
-  "summary_overall_rank": 3191664,
+  "summary_overall_rank": 3191649,
   "summary_event_points": 52,
-  "summary_event_rank": 3191664,
+  "summary_event_rank": 3191649,
   "current_event": 1,
   "leagues": {
     "classic": [
@@ -50,7 +50,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 0,
         "entry_percentile_rank": 35,
-        "entry_rank": 385838,
+        "entry_rank": 385846,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 14,
@@ -142,7 +142,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 0,
         "entry_percentile_rank": 30,
-        "entry_rank": 3191664,
+        "entry_rank": 3191649,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -158,14 +158,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 30,
+            "entry_percentile_rank": 40,
             "last_rank": 0,
             "league_id": 314,
             "phase": 1,
-            "rank": 2666208,
-            "rank_count": 8904495,
-            "rank_sort": 2715228,
-            "total": 41
+            "rank": 3191650,
+            "rank_count": 8903675,
+            "rank_sort": 3238194,
+            "total": 52
           },
           {
             "entry_percentile_rank": 30,
@@ -187,8 +187,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 0,
-        "entry_percentile_rank": 30,
-        "entry_rank": 3191664,
+        "entry_percentile_rank": 40,
+        "entry_rank": 3191649,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -196,7 +196,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 8904495,
+        "rank_count": 8903675,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
