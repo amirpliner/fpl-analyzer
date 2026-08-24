@@ -520,7 +520,7 @@
       "form": 2.0,
       "total_points": 2,
       "ppm": 0.13,
-      "ownership": 69.0,
+      "ownership": 68.9,
       "is_differential": false,
       "xgi_per_90": 0.76,
       "xgc_per_90": 0.65,
@@ -580,16 +580,16 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 0.0,
-      "total_points": 0,
-      "ppm": 0.0,
+      "form": 5.0,
+      "total_points": 5,
+      "ppm": 0.67,
       "ownership": 64.0,
       "is_differential": false,
-      "xgi_per_90": 0.57,
-      "xgc_per_90": 1.26,
-      "starts_per_90": 1.05,
+      "xgi_per_90": 1.74,
+      "xgc_per_90": 0.0,
+      "starts_per_90": 6.43,
       "chance_next": null,
-      "prior_season_fallback": "2025/26",
+      "prior_season_fallback": null,
       "fixture_run": [
         {
           "event": 1,
@@ -630,7 +630,7 @@
       "has_easy_run": false,
       "avg_fdr_next5": 3.0,
       "minutes_trend": null,
-      "avg_minutes_last3": 0.0,
+      "avg_minutes_last3": 17.0,
       "injury": null,
       "is_dead": true
     },
@@ -709,7 +709,7 @@
       "form": 2.0,
       "total_points": 2,
       "ppm": 0.44,
-      "ownership": 23.7,
+      "ownership": 23.6,
       "is_differential": false,
       "xgi_per_90": 0.0,
       "xgc_per_90": 3.87,
@@ -968,14 +968,35 @@
     {
       "id": 165,
       "web_name": "João Pedro",
-      "reason": "ממוצע 0.0 דקות ב-3 המשחקים האחרונים"
+      "reason": "ממוצע 17.0 דקות ב-3 המשחקים האחרונים"
     }
   ],
   "captain_recommendations": [
     {
+      "id": 165,
+      "web_name": "João Pedro",
+      "xpts": 9.21,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 6.96,
+        "assists_pts": 0.0,
+        "cs_pts": 0,
+        "bonus_est": 0.25,
+        "concede_penalty": 0,
+        "attack_factor": 1.0,
+        "defence_factor_against_us": 1.0,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 9.21, תרומה התקפית צפויה 6.96, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
       "id": 368,
       "web_name": "Szoboszlai",
-      "xpts": 8.02,
+      "xpts": 8.05,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
@@ -985,18 +1006,18 @@
         "goals_pts": 4.25,
         "assists_pts": 0.81,
         "cs_pts": 0.21,
-        "bonus_est": 0.75,
+        "bonus_est": 0.78,
         "concede_penalty": 0,
         "attack_factor": 1.0,
         "defence_factor_against_us": 1.0,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 8.02, תרומה התקפית צפויה 5.06, סיכוי שער נקי 0.21, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 8.05, תרומה התקפית צפויה 5.06, סיכוי שער נקי 0.21, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 427,
       "web_name": "Mbeumo",
-      "xpts": 6.88,
+      "xpts": 6.9,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
@@ -1006,13 +1027,13 @@
         "goals_pts": 2.8,
         "assists_pts": 0.77,
         "cs_pts": 0.41,
-        "bonus_est": 0.9,
+        "bonus_est": 0.92,
         "concede_penalty": 0,
         "attack_factor": 1.12,
         "defence_factor_against_us": 0.88,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 6.88, תרומה התקפית צפויה 3.57, סיכוי שער נקי 0.41, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 6.9, תרומה התקפית צפויה 3.57, סיכוי שער נקי 0.41, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 8,
@@ -1038,7 +1059,7 @@
     {
       "id": 411,
       "web_name": "Haaland",
-      "xpts": 5.83,
+      "xpts": 5.86,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
@@ -1048,34 +1069,13 @@
         "goals_pts": 2.96,
         "assists_pts": 0.06,
         "cs_pts": 0,
-        "bonus_est": 0.81,
+        "bonus_est": 0.84,
         "concede_penalty": 0,
         "attack_factor": 1.0,
         "defence_factor_against_us": 1.0,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 5.83, תרומה התקפית צפויה 3.02, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
-    {
-      "id": 418,
-      "web_name": "Maguire",
-      "xpts": 5.71,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 0.27,
-        "assists_pts": 1.34,
-        "cs_pts": 1.64,
-        "bonus_est": 0.9,
-        "concede_penalty": 0.44,
-        "attack_factor": 1.12,
-        "defence_factor_against_us": 0.88,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 5.71, תרומה התקפית צפויה 1.61, סיכוי שער נקי 1.64, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 5.86, תרומה התקפית צפויה 3.02, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     }
   ],
   "transfer_suggestions": [
@@ -1105,7 +1105,7 @@
         "price": 5.5
       },
       "cost_delta": -2.0,
-      "reason": "פורם נמוך (0.0) · דקות משחק נמוכות"
+      "reason": "דקות משחק נמוכות"
     },
     {
       "out": {
@@ -1124,6 +1124,6 @@
   ],
   "rating": {
     "score": 4.3,
-    "reason": "PPM ממוצע 0.56, 1 שחקנים עם בעיית זמינות/דקות, 2 אזהרות חשיפה"
+    "reason": "PPM ממוצע 0.61, 1 שחקנים עם בעיית זמינות/דקות, 2 אזהרות חשיפה"
   }
 }

@@ -301,13 +301,13 @@
   "40": [
     {
       "gw": 1,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 3,
+      "xg": 0.03,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 7.5
     }
   ],
@@ -322,19 +322,6 @@
       "was_home": false,
       "points": 2,
       "value": 6.0
-    }
-  ],
-  "42": [
-    {
-      "gw": 1,
-      "minutes": 27,
-      "xg": 0.03,
-      "xa": 0.02,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 5.5
     }
   ],
   "43": [
@@ -1081,34 +1068,60 @@
   "140": [
     {
       "gw": 1,
-      "minutes": 0,
+      "minutes": 3,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.0
     }
   ],
   "142": [
     {
       "gw": 1,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 17,
+      "xg": 0.04,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
   "144": [
     {
       "gw": 1,
-      "minutes": 0,
+      "minutes": 17,
       "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 1,
+      "value": 5.0
+    }
+  ],
+  "148": [
+    {
+      "gw": 1,
+      "minutes": 17,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 1,
+      "value": 4.5
+    }
+  ],
+  "149": [
+    {
+      "gw": 1,
+      "minutes": 17,
+      "xg": 0.01,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "FUL",
@@ -1117,17 +1130,17 @@
       "value": 5.0
     }
   ],
-  "149": [
+  "151": [
     {
       "gw": 1,
-      "minutes": 0,
+      "minutes": 17,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
-      "value": 5.0
+      "points": 1,
+      "value": 4.5
     }
   ],
   "152": [
@@ -1338,19 +1351,6 @@
       "value": 5.0
     }
   ],
-  "188": [
-    {
-      "gw": 1,
-      "minutes": 28,
-      "xg": 0.0,
-      "xa": 0.11,
-      "ict": 0.0,
-      "opp": "ARS",
-      "was_home": false,
-      "points": 1,
-      "value": 5.5
-    }
-  ],
   "190": [
     {
       "gw": 1,
@@ -1406,13 +1406,13 @@
   "200": [
     {
       "gw": 1,
-      "minutes": 0,
+      "minutes": 17,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 6.0
     }
   ],
@@ -1442,36 +1442,10 @@
       "value": 5.0
     }
   ],
-  "203": [
-    {
-      "gw": 1,
-      "minutes": 90,
-      "xg": 0.05,
-      "xa": 0.01,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 5.0
-    }
-  ],
   "204": [
     {
       "gw": 1,
       "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 4.5
-    }
-  ],
-  "206": [
-    {
-      "gw": 1,
-      "minutes": 72,
       "xg": 0.0,
       "xa": 0.01,
       "ict": 0.0,
@@ -1504,19 +1478,6 @@
       "opp": "EVE",
       "was_home": false,
       "points": 4,
-      "value": 5.5
-    }
-  ],
-  "211": [
-    {
-      "gw": 1,
-      "minutes": 35,
-      "xg": 0.06,
-      "xa": 0.02,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
       "value": 5.5
     }
   ],
@@ -3093,19 +3054,6 @@
       "value": 6.0
     }
   ],
-  "492": [
-    {
-      "gw": 1,
-      "minutes": 20,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "ARS",
-      "was_home": false,
-      "points": 1,
-      "value": 5.5
-    }
-  ],
   "496": [
     {
       "gw": 1,
@@ -3564,13 +3512,13 @@
   "569": [
     {
       "gw": 1,
-      "minutes": 0,
+      "minutes": 19,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 6.0
     }
   ],
@@ -3585,19 +3533,6 @@
       "was_home": true,
       "points": 10,
       "value": 4.5
-    }
-  ],
-  "575": [
-    {
-      "gw": 1,
-      "minutes": 61,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "ARS",
-      "was_home": false,
-      "points": 1,
-      "value": 5.0
     }
   ],
   "576": [
@@ -3621,19 +3556,6 @@
       "xa": 0.03,
       "ict": 0.0,
       "opp": "NEW",
-      "was_home": false,
-      "points": 1,
-      "value": 5.5
-    }
-  ],
-  "584": [
-    {
-      "gw": 1,
-      "minutes": 8,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "ARS",
       "was_home": false,
       "points": 1,
       "value": 5.5
