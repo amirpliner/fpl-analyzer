@@ -268,7 +268,7 @@
       "form": 2.0,
       "total_points": 2,
       "ppm": 0.17,
-      "ownership": 50.6,
+      "ownership": 50.5,
       "is_differential": false,
       "xgi_per_90": 0.34,
       "xgc_per_90": 1.01,
@@ -331,7 +331,7 @@
       "form": 2.0,
       "total_points": 2,
       "ppm": 0.36,
-      "ownership": 13.9,
+      "ownership": 13.8,
       "is_differential": false,
       "xgi_per_90": 0.27,
       "xgc_per_90": 0.29,
@@ -394,7 +394,7 @@
       "form": 2.0,
       "total_points": 2,
       "ppm": 0.25,
-      "ownership": 37.6,
+      "ownership": 37.5,
       "is_differential": false,
       "xgi_per_90": 0.73,
       "xgc_per_90": 1.01,
@@ -580,14 +580,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 5.0,
-      "total_points": 5,
-      "ppm": 0.67,
-      "ownership": 64.0,
+      "form": 10.0,
+      "total_points": 10,
+      "ppm": 1.33,
+      "ownership": 64.3,
       "is_differential": false,
-      "xgi_per_90": 1.74,
-      "xgc_per_90": 0.0,
-      "starts_per_90": 6.43,
+      "xgi_per_90": 0.77,
+      "xgc_per_90": 0.72,
+      "starts_per_90": 1.64,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -630,9 +630,9 @@
       "has_easy_run": false,
       "avg_fdr_next5": 3.0,
       "minutes_trend": null,
-      "avg_minutes_last3": 17.0,
+      "avg_minutes_last3": 56.0,
       "injury": null,
-      "is_dead": true
+      "is_dead": false
     },
     {
       "id": 346,
@@ -964,35 +964,8 @@
       "reason": "3 שחקנים מ-MUN בסגל"
     }
   ],
-  "dead_players": [
-    {
-      "id": 165,
-      "web_name": "João Pedro",
-      "reason": "ממוצע 17.0 דקות ב-3 המשחקים האחרונים"
-    }
-  ],
+  "dead_players": [],
   "captain_recommendations": [
-    {
-      "id": 165,
-      "web_name": "João Pedro",
-      "xpts": 9.21,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 6.96,
-        "assists_pts": 0.0,
-        "cs_pts": 0,
-        "bonus_est": 0.25,
-        "concede_penalty": 0,
-        "attack_factor": 1.0,
-        "defence_factor_against_us": 1.0,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 9.21, תרומה התקפית צפויה 6.96, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
     {
       "id": 368,
       "web_name": "Szoboszlai",
@@ -1076,6 +1049,27 @@
         "used_fdr_fallback": true
       },
       "reason": "xPts משוער: 5.86, תרומה התקפית צפויה 3.02, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
+      "id": 418,
+      "web_name": "Maguire",
+      "xpts": 5.74,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 0.27,
+        "assists_pts": 1.34,
+        "cs_pts": 1.64,
+        "bonus_est": 0.93,
+        "concede_penalty": 0.44,
+        "attack_factor": 1.12,
+        "defence_factor_against_us": 0.88,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 5.74, תרומה התקפית צפויה 1.61, סיכוי שער נקי 1.64, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     }
   ],
   "transfer_suggestions": [
@@ -1095,20 +1089,6 @@
     },
     {
       "out": {
-        "id": 165,
-        "web_name": "João Pedro",
-        "price": 7.5
-      },
-      "in": {
-        "id": 316,
-        "web_name": "Emersonn",
-        "price": 5.5
-      },
-      "cost_delta": -2.0,
-      "reason": "דקות משחק נמוכות"
-    },
-    {
-      "out": {
         "id": 346,
         "web_name": "Calvert-Lewin",
         "price": 6.0
@@ -1120,10 +1100,24 @@
       },
       "cost_delta": -0.5,
       "reason": "פורם נמוך (1.0)"
+    },
+    {
+      "out": {
+        "id": 532,
+        "web_name": "Ballard",
+        "price": 5.0
+      },
+      "in": {
+        "id": 115,
+        "web_name": "De Cuyper",
+        "price": 4.5
+      },
+      "cost_delta": -0.5,
+      "reason": "פורם נמוך (0.0)"
     }
   ],
   "rating": {
-    "score": 4.3,
-    "reason": "PPM ממוצע 0.61, 1 שחקנים עם בעיית זמינות/דקות, 2 אזהרות חשיפה"
+    "score": 5.0,
+    "reason": "PPM ממוצע 0.65, 2 אזהרות חשיפה"
   }
 }
