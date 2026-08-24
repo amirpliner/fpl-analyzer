@@ -4,8 +4,8 @@
       "id": 499,
       "name": "Pedro Porro",
       "team": 19,
-      "net_transfers_pct": -1.956,
-      "velocity": -5947,
+      "net_transfers_pct": -2.034,
+      "velocity": -7659,
       "direction": "falling",
       "confidence": "provisional"
     },
@@ -13,8 +13,8 @@
       "id": 115,
       "name": "De Cuyper",
       "team": 5,
-      "net_transfers_pct": 1.585,
-      "velocity": 12915,
+      "net_transfers_pct": 1.77,
+      "velocity": 17881,
       "direction": "rising",
       "confidence": "provisional"
     },
@@ -22,8 +22,8 @@
       "id": 565,
       "name": "M.Sangaré",
       "team": 4,
-      "net_transfers_pct": 1.419,
-      "velocity": 8335,
+      "net_transfers_pct": 1.531,
+      "velocity": 10840,
       "direction": "rising",
       "confidence": "provisional"
     },
@@ -31,17 +31,8 @@
       "id": 8,
       "name": "Calafiori",
       "team": 1,
-      "net_transfers_pct": 1.368,
-      "velocity": 5762,
-      "direction": "rising",
-      "confidence": "provisional"
-    },
-    {
-      "id": 15,
-      "name": "Ødegaard",
-      "team": 1,
-      "net_transfers_pct": 1.194,
-      "velocity": 6045,
+      "net_transfers_pct": 1.451,
+      "velocity": 8027,
       "direction": "rising",
       "confidence": "provisional"
     },
@@ -49,8 +40,17 @@
       "id": 88,
       "name": "Kayode",
       "team": 4,
-      "net_transfers_pct": 1.168,
-      "velocity": 7158,
+      "net_transfers_pct": 1.271,
+      "velocity": 9942,
+      "direction": "rising",
+      "confidence": "provisional"
+    },
+    {
+      "id": 15,
+      "name": "Ødegaard",
+      "team": 1,
+      "net_transfers_pct": 1.259,
+      "velocity": 6330,
       "direction": "rising",
       "confidence": "provisional"
     },
@@ -58,8 +58,8 @@
       "id": 25,
       "name": "Gyökeres",
       "team": 1,
-      "net_transfers_pct": -0.913,
-      "velocity": -4758,
+      "net_transfers_pct": -0.974,
+      "velocity": -5969,
       "direction": "falling",
       "confidence": "provisional"
     },
@@ -67,8 +67,8 @@
       "id": 557,
       "name": "Tzolis",
       "team": 1,
-      "net_transfers_pct": 0.884,
-      "velocity": 3160,
+      "net_transfers_pct": 0.921,
+      "velocity": 3622,
       "direction": "rising",
       "confidence": "provisional"
     },
@@ -76,8 +76,8 @@
       "id": 31,
       "name": "Konsa",
       "team": 1,
-      "net_transfers_pct": -0.87,
-      "velocity": -4015,
+      "net_transfers_pct": -0.92,
+      "velocity": -4913,
       "direction": "falling",
       "confidence": "provisional"
     },
@@ -85,17 +85,26 @@
       "id": 503,
       "name": "Van de Ven",
       "team": 19,
-      "net_transfers_pct": -0.789,
-      "velocity": -2557,
+      "net_transfers_pct": -0.821,
+      "velocity": -3182,
       "direction": "falling",
+      "confidence": "provisional"
+    },
+    {
+      "id": 165,
+      "name": "João Pedro",
+      "team": 6,
+      "net_transfers_pct": 0.813,
+      "velocity": 20775,
+      "direction": "rising",
       "confidence": "provisional"
     },
     {
       "id": 26,
       "name": "Havertz",
       "team": 1,
-      "net_transfers_pct": 0.745,
-      "velocity": 3313,
+      "net_transfers_pct": 0.785,
+      "velocity": 3931,
       "direction": "rising",
       "confidence": "provisional"
     },
@@ -103,8 +112,8 @@
       "id": 208,
       "name": "Sarr",
       "team": 8,
-      "net_transfers_pct": -0.688,
-      "velocity": -3442,
+      "net_transfers_pct": -0.734,
+      "velocity": -4435,
       "direction": "falling",
       "confidence": "provisional"
     },
@@ -112,9 +121,54 @@
       "id": 55,
       "name": "Watkins",
       "team": 2,
-      "net_transfers_pct": -0.654,
-      "velocity": -6092,
+      "net_transfers_pct": -0.729,
+      "velocity": -7281,
       "direction": "falling",
+      "confidence": "provisional"
+    },
+    {
+      "id": 391,
+      "name": "Gvardiol",
+      "team": 15,
+      "net_transfers_pct": 0.674,
+      "velocity": 7328,
+      "direction": "rising",
+      "confidence": "provisional"
+    },
+    {
+      "id": 426,
+      "name": "B.Fernandes",
+      "team": 16,
+      "net_transfers_pct": -0.632,
+      "velocity": -12393,
+      "direction": "falling",
+      "confidence": "provisional"
+    },
+    {
+      "id": 480,
+      "name": "Gibbs-White",
+      "team": 18,
+      "net_transfers_pct": -0.627,
+      "velocity": -12206,
+      "direction": "falling",
+      "confidence": "provisional"
+    },
+    {
+      "id": 368,
+      "name": "Szoboszlai",
+      "team": 14,
+      "net_transfers_pct": 0.61,
+      "velocity": 4793,
+      "direction": "rising",
+      "confidence": "provisional"
+    },
+    {
+      "id": 399,
+      "name": "Cherki",
+      "team": 15,
+      "net_transfers_pct": 0.6,
+      "velocity": 5155,
+      "direction": "rising",
       "confidence": "provisional"
     }
   ],
