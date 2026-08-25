@@ -13,36 +13,42 @@
       {
         "event": 3,
         "player": "Szoboszlai",
-        "score": 8.71,
+        "score": 8.97,
         "is_dgw": false,
-        "reason": "Szoboszlai צפוי 8.71 xPts"
+        "reason": "Szoboszlai צפוי 8.97 xPts"
       },
       {
         "event": 4,
         "player": "Szoboszlai",
-        "score": 8.71,
+        "score": 8.97,
         "is_dgw": false,
-        "reason": "Szoboszlai צפוי 8.71 xPts"
+        "reason": "Szoboszlai צפוי 8.97 xPts"
       },
       {
         "event": 8,
         "player": "Szoboszlai",
-        "score": 8.71,
+        "score": 8.97,
         "is_dgw": false,
-        "reason": "Szoboszlai צפוי 8.71 xPts"
+        "reason": "Szoboszlai צפוי 8.97 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 1,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 1"
+      }
+    ]
   },
   "wildcard": {
     "available": true,
-    "decay_score": 1.0,
-    "weak_players": 1,
+    "decay_score": 2.0,
+    "weak_players": 2,
     "injury_players": 0,
     "recommend": false,
-    "reason": "1 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "2 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }
