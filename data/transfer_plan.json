@@ -1,8 +1,8 @@
 {
   "horizon": 3,
   "beam_width": 50,
-  "from_gameweek": 1,
-  "baseline_xpts": 146.92,
+  "from_gameweek": 2,
+  "baseline_xpts": 233.33,
   "routes": [
     {
       "weekly_plan": [
@@ -13,49 +13,49 @@
               "out": "Ballard",
               "in": "Ajayi",
               "cost_delta": -1.0
+            },
+            {
+              "out": "Calvert-Lewin",
+              "in": "Emersonn",
+              "cost_delta": -0.5
             }
           ],
-          "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Kinsky"
+          "hits": 1,
+          "xi_score": 84.1,
+          "captain": "Ajayi"
         },
         {
           "week": 2,
           "transfers": [
             {
-              "out": "N.Williams",
-              "in": "Guéhi",
-              "cost_delta": 1.0
-            },
-            {
-              "out": "Calvert-Lewin",
-              "in": "Nketiah",
-              "cost_delta": -0.5
+              "out": "B.Fernandes",
+              "in": "Saka",
+              "cost_delta": -2.5
             }
           ],
-          "hits": 1,
-          "xi_score": 90.59,
-          "captain": "Guéhi"
+          "hits": 0,
+          "xi_score": 87.41,
+          "captain": "Kayode"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Maguire",
-              "in": "Kayode",
-              "cost_delta": -0.4
+              "out": "Groß",
+              "in": "Rogers",
+              "cost_delta": 2.0
             }
           ],
           "hits": 0,
-          "xi_score": 96.57,
-          "captain": "Guéhi"
+          "xi_score": 91.95,
+          "captain": "Rogers"
         }
       ],
       "total_transfers": 4,
       "total_hits": 1,
-      "final_bank": 0.9,
-      "total_xpts": 183.16,
-      "net_gain_vs_hold": 36.24
+      "final_bank": 2.4,
+      "total_xpts": 259.46,
+      "net_gain_vs_hold": 26.13
     },
     {
       "weekly_plan": [
@@ -64,56 +64,51 @@
           "transfers": [
             {
               "out": "Ballard",
-              "in": "Kayode",
-              "cost_delta": -0.4
+              "in": "Ajayi",
+              "cost_delta": -1.0
             },
             {
               "out": "Calvert-Lewin",
-              "in": "Nketiah",
+              "in": "Emersonn",
               "cost_delta": -0.5
             }
           ],
           "hits": 1,
-          "xi_score": 0.0,
-          "captain": "Kinsky"
+          "xi_score": 84.1,
+          "captain": "Ajayi"
         },
         {
           "week": 2,
           "transfers": [
             {
-              "out": "Calafiori",
-              "in": "Guéhi",
-              "cost_delta": 0.4
-            },
-            {
               "out": "B.Fernandes",
-              "in": "Rogers",
-              "cost_delta": -4.5
+              "in": "Saka",
+              "cost_delta": -2.5
             }
           ],
-          "hits": 1,
-          "xi_score": 93.2,
-          "captain": "Guéhi"
+          "hits": 0,
+          "xi_score": 87.41,
+          "captain": "Kayode"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Groß",
-              "in": "Lewis-Potter",
-              "cost_delta": 0.0
+              "out": "Mbeumo",
+              "in": "Rogers",
+              "cost_delta": -0.5
             }
           ],
           "hits": 0,
-          "xi_score": 97.59,
-          "captain": "Guéhi"
+          "xi_score": 91.17,
+          "captain": "Rogers"
         }
       ],
-      "total_transfers": 5,
-      "total_hits": 2,
-      "final_bank": 5.0,
-      "total_xpts": 182.79,
-      "net_gain_vs_hold": 35.87
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 4.9,
+      "total_xpts": 258.68,
+      "net_gain_vs_hold": 25.35
     },
     {
       "weekly_plan": [
@@ -121,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Ballard"
+          "xi_score": 77.36,
+          "captain": "Kayode"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 73.05,
-          "captain": "Szoboszlai"
+          "xi_score": 78.57,
+          "captain": "Kayode"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 73.87,
+          "xi_score": 77.4,
           "captain": "Szoboszlai"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
-      "final_bank": 0,
-      "total_xpts": 146.92,
+      "final_bank": 0.4,
+      "total_xpts": 233.33,
       "net_gain_vs_hold": 0.0
     }
   ]
