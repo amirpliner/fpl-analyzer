@@ -9,6 +9,10 @@
      color, not just an accent touch. */
   --bg: #38003c;
   --card-bg: #240029;
+  /* A step between --bg and --card-bg, used to alternate surface depth
+     between adjacent sections so the page doesn't read as one repeated
+     purple slab. */
+  --surface-2: #2d0032;
   --text: #ffffff;
   --text-muted: #c9b8d1;
   --border: #4d1a52;
@@ -196,6 +200,11 @@ h2 {
   gap: .2rem;
 }
 
+/* Extra breathing room between the "my team" tab's stacked sections
+   (summary/captain/warnings/squad/transfers) so they read as distinct
+   blocks rather than one continuous column of boxes. */
+#tab-myteam h2 { margin-top: 3.2rem; }
+
 .kicker {
   font-family: var(--font-body);
   font-size: .72rem;
@@ -235,6 +244,34 @@ tr:last-child td { border-bottom: none; }
 
 tbody tr { transition: background-color .12s ease; }
 tbody tr:hover { background-color: color-mix(in srgb, var(--accent) 8%, transparent); }
+
+/* My-team squad table sits right under the summary card, which already
+   uses --card-bg - step to --surface-2 so the two don't blend into one
+   tall purple block. */
+#tab-myteam .table-wrap { background: var(--surface-2); }
+
+.detail-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  width: 1.8rem;
+  height: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.detail-toggle:hover { border-color: var(--accent); color: var(--text); }
+
+.detail-row td { padding: .7rem 1rem; background: color-mix(in srgb, var(--bg) 55%, var(--surface-2)); }
+.detail-row[hidden] { display: none; }
+.detail-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+.detail-stat { display: flex; flex-direction: column; gap: .15rem; }
+.detail-label { font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; color: var(--text-muted); }
+.detail-value { font-weight: 700; }
 
 .team-crest {
   vertical-align: middle;
@@ -635,6 +672,9 @@ td.winner {
   padding: .7rem 1rem;
   font-size: .9rem;
 }
+/* Severity by color, not just icon: mid = fixture/exposure warnings
+   (survivable), high = a player who likely won't play at all. */
+.warning-item.severity-high { border-inline-start-color: var(--fdr-5); }
 
 .na { color: var(--text-muted); font-size: .85em; }
 
