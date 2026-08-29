@@ -10,10 +10,10 @@
   "player_region_iso_code_short": "IL",
   "player_region_iso_code_long": "ISR",
   "years_active": 6,
-  "summary_overall_points": 66,
-  "summary_overall_rank": 4978750,
-  "summary_event_points": 28,
-  "summary_event_rank": 2204184,
+  "summary_overall_points": 76,
+  "summary_overall_rank": 4916813,
+  "summary_event_points": 38,
+  "summary_event_rank": 2283706,
   "current_event": 2,
   "leagues": {
     "classic": [
@@ -50,7 +50,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 920561,
         "entry_percentile_rank": 55,
-        "entry_rank": 606816,
+        "entry_rank": 672261,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 14,
@@ -96,7 +96,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 13323,
         "entry_percentile_rank": 55,
-        "entry_rank": 9406,
+        "entry_rank": 8879,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 125,
@@ -142,7 +142,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 7485069,
         "entry_percentile_rank": 60,
-        "entry_rank": 4978748,
+        "entry_rank": 4915964,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -158,14 +158,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 55,
+            "entry_percentile_rank": 50,
             "last_rank": 7485068,
             "league_id": 314,
             "phase": 1,
-            "rank": 4978807,
-            "rank_count": 9907559,
-            "rank_sort": 5061491,
-            "total": 66
+            "rank": 4916815,
+            "rank_count": 9906898,
+            "rank_sort": 4997894,
+            "total": 76
           },
           {
             "entry_percentile_rank": 55,
@@ -187,8 +187,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 7485068,
-        "entry_percentile_rank": 55,
-        "entry_rank": 4978750,
+        "entry_percentile_rank": 50,
+        "entry_rank": 4916813,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -196,7 +196,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 9907559,
+        "rank_count": 9906898,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
@@ -204,14 +204,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 75,
+            "entry_percentile_rank": 70,
             "last_rank": 30,
             "league_id": 367147,
             "phase": 1,
-            "rank": 23,
+            "rank": 21,
             "rank_count": 31,
-            "rank_sort": 24,
-            "total": 66
+            "rank_sort": 21,
+            "total": 76
           },
           {
             "entry_percentile_rank": 75,
@@ -233,8 +233,8 @@
         "entry_can_invite": false,
         "entry_can_leave": true,
         "entry_last_rank": 30,
-        "entry_percentile_rank": 75,
-        "entry_rank": 23,
+        "entry_percentile_rank": 70,
+        "entry_rank": 21,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 367147,
@@ -254,10 +254,10 @@
             "last_rank": 13323,
             "league_id": 431168,
             "phase": 1,
-            "rank": 9406,
+            "rank": 8879,
             "rank_count": 17514,
-            "rank_sort": 9592,
-            "total": 66
+            "rank_sort": 9045,
+            "total": 76
           },
           {
             "entry_percentile_rank": 55,
@@ -280,7 +280,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 13323,
         "entry_percentile_rank": 55,
-        "entry_rank": 9406,
+        "entry_rank": 8879,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 431168,
@@ -318,5 +318,5 @@
   "last_deadline_bank": 0,
   "last_deadline_value": 1000,
   "last_deadline_total_transfers": 0,
-  "club_badge_src": null
+  "club_badge_src": "Pending"
 }

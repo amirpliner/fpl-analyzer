@@ -10,10 +10,10 @@
   "player_region_iso_code_short": "IL",
   "player_region_iso_code_long": "ISR",
   "years_active": 3,
-  "summary_overall_points": 78,
-  "summary_overall_rank": 2439119,
-  "summary_event_points": 23,
-  "summary_event_rank": 4388630,
+  "summary_overall_points": 82,
+  "summary_overall_rank": 3632269,
+  "summary_event_points": 27,
+  "summary_event_rank": 5466394,
   "current_event": 2,
   "leagues": {
     "classic": [
@@ -50,7 +50,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 346615,
         "entry_percentile_rank": 25,
-        "entry_rank": 289371,
+        "entry_rank": 507905,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 14,
@@ -96,7 +96,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 5139,
         "entry_percentile_rank": 30,
-        "entry_rank": 4688,
+        "entry_rank": 6574,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 125,
@@ -142,7 +142,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 2935782,
         "entry_percentile_rank": 30,
-        "entry_rank": 2439119,
+        "entry_rank": 3632057,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -158,14 +158,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 25,
+            "entry_percentile_rank": 40,
             "last_rank": 2935782,
             "league_id": 314,
             "phase": 1,
-            "rank": 2439136,
-            "rank_count": 9907559,
-            "rank_sort": 2506922,
-            "total": 78
+            "rank": 3632271,
+            "rank_count": 9906898,
+            "rank_sort": 3703325,
+            "total": 82
           },
           {
             "entry_percentile_rank": 25,
@@ -187,8 +187,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 2935782,
-        "entry_percentile_rank": 25,
-        "entry_rank": 2439119,
+        "entry_percentile_rank": 40,
+        "entry_rank": 3632269,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -196,7 +196,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 9907559,
+        "rank_count": 9906898,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
@@ -204,14 +204,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 50,
+            "entry_percentile_rank": 60,
             "last_rank": 12,
             "league_id": 367147,
             "phase": 1,
-            "rank": 15,
+            "rank": 18,
             "rank_count": 31,
-            "rank_sort": 16,
-            "total": 78
+            "rank_sort": 19,
+            "total": 82
           },
           {
             "entry_percentile_rank": 50,
@@ -233,8 +233,8 @@
         "entry_can_invite": false,
         "entry_can_leave": true,
         "entry_last_rank": 12,
-        "entry_percentile_rank": 50,
-        "entry_rank": 15,
+        "entry_percentile_rank": 60,
+        "entry_rank": 18,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 367147,
@@ -250,14 +250,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 30,
+            "entry_percentile_rank": 40,
             "last_rank": 5139,
             "league_id": 431168,
             "phase": 1,
-            "rank": 4688,
+            "rank": 6574,
             "rank_count": 17514,
-            "rank_sort": 4851,
-            "total": 78
+            "rank_sort": 6726,
+            "total": 82
           },
           {
             "entry_percentile_rank": 30,
@@ -279,8 +279,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 5139,
-        "entry_percentile_rank": 30,
-        "entry_rank": 4688,
+        "entry_percentile_rank": 40,
+        "entry_rank": 6574,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 431168,
