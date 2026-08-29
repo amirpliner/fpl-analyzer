@@ -74,6 +74,25 @@ export function fixturesToContext(fixtures) {
   return fixtures.map(f => ({ oppTeamId: f.oppId, isHome: f.isHome, difficulty: f.diff }));
 }
 
+/** Wires up the expand/collapse toggle for a table built from paired
+ * `.squad-row`/`.detail-row[data-player-id]` rows (see myteam.js and
+ * gameweek.js's renderTopPlayers) - one delegated listener per table
+ * instead of one per row. */
+export function setupDetailToggle(wrap) {
+  const tbody = wrap.querySelector(".squad-row")?.closest("tbody");
+  if (!tbody) return;
+  tbody.addEventListener("click", (e) => {
+    const btn = e.target.closest(".detail-toggle");
+    if (!btn) return;
+    const row = btn.closest("tr");
+    const detailRow = tbody.querySelector(`.detail-row[data-player-id="${row.dataset.playerId}"]`);
+    const expanded = btn.getAttribute("aria-expanded") === "true";
+    btn.setAttribute("aria-expanded", String(!expanded));
+    btn.textContent = expanded ? "▾" : "▴";
+    detailRow.hidden = expanded;
+  });
+}
+
 export function rotationTag(risk, priorSeasonFallback) {
   const r = risk || "unknown";
   const title = priorSeasonFallback ? ` title="לפי עונת ${priorSeasonFallback} - עוד לא שיחק העונה"` : "";

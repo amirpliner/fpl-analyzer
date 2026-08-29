@@ -3,6 +3,7 @@ import { fetchJSON } from "../data.js";
 import {
   fdrClass, upcomingFixturesForTeam, fixtureRunScore,
   naOr, rotationTag, minutesSparkline, setPieceBadges, teamCrestImg,
+  setupDetailToggle,
 } from "../helpers.js";
 
 export function renderGwBadge() {
@@ -82,30 +83,37 @@ export function renderTopPlayers() {
     .slice(0, 12);
 
   let html = `<table><thead><tr>
-    <th>שחקן</th><th>קבוצה</th><th>מחיר</th><th>פורם</th><th>נק'</th><th>נבחר ע"י</th>
-    <th>ריצת משחקים</th><th>xG</th><th>xA</th><th>ICT</th><th>כדורי-רגל</th><th>%התחלות</th><th>סטטוס דקות</th>
+    <th>שחקן</th><th>קבוצה</th><th>מחיר</th><th>פורם</th><th>נק'</th><th>ריצת משחקים</th><th></th>
   </tr></thead><tbody>`;
   for (const p of players) {
     const team = state.teamsById.get(p.team);
     const run = fixtureRunScore(p.team);
     const runClass = run <= 2.34 ? "fdr-1" : run <= 3 ? "fdr-2" : run <= 3.67 ? "fdr-3" : "fdr-4";
     const startsPct = p.starts_per_90 != null ? `${Math.round(p.starts_per_90 * 100)}%` : naOr(null);
-    html += `<tr>
+    html += `<tr class="squad-row" data-player-id="${p.id}">
       <td>${p.name}${p.chance_next !== null && p.chance_next < 100 ? " ⚠️" : ""}</td>
       <td class="team-cell">${teamCrestImg(team)}${team?.short_name || "?"}</td>
       <td>£${p.price.toFixed(1)}</td>
       <td>${p.form}</td>
       <td>${p.points}</td>
-      <td>${p.owned}%</td>
       <td><span class="fdr-cell ${runClass}">${run.toFixed(1)}</span></td>
-      <td>${naOr(p.xg)}</td>
-      <td>${naOr(p.xa)}</td>
-      <td>${naOr(p.ict)}</td>
-      <td>${setPieceBadges(p.set_pieces)}</td>
-      <td title="${p.chance_next != null ? `${p.chance_next}% סיכוי לשחק במחזור הבא` : ""}">${startsPct}</td>
-      <td>${rotationTag(p.rotation_risk, p.prior_season_fallback)}${p.last5_minutes?.length ? minutesSparkline(p.last5_minutes) : ""}</td>
+      <td><button type="button" class="detail-toggle" aria-expanded="false" title="עוד נתונים">▾</button></td>
+    </tr>
+    <tr class="detail-row" data-player-id="${p.id}" hidden>
+      <td colspan="7">
+        <div class="detail-grid">
+          <div class="detail-stat"><span class="detail-label">נבחר ע"י</span><span class="detail-value">${p.owned}%</span></div>
+          <div class="detail-stat"><span class="detail-label">xG</span><span class="detail-value">${naOr(p.xg)}</span></div>
+          <div class="detail-stat"><span class="detail-label">xA</span><span class="detail-value">${naOr(p.xa)}</span></div>
+          <div class="detail-stat"><span class="detail-label">ICT</span><span class="detail-value">${naOr(p.ict)}</span></div>
+          <div class="detail-stat"><span class="detail-label">כדורי-רגל</span><span class="detail-value">${setPieceBadges(p.set_pieces)}</span></div>
+          <div class="detail-stat" title="${p.chance_next != null ? `${p.chance_next}% סיכוי לשחק במחזור הבא` : ""}"><span class="detail-label">%התחלות</span><span class="detail-value">${startsPct}</span></div>
+          <div class="detail-stat"><span class="detail-label">סטטוס דקות</span><span class="detail-value">${rotationTag(p.rotation_risk, p.prior_season_fallback)}${p.last5_minutes?.length ? minutesSparkline(p.last5_minutes) : ""}</span></div>
+        </div>
+      </td>
     </tr>`;
   }
   html += "</tbody></table>";
   wrap.innerHTML = html;
+  setupDetailToggle(wrap);
 }

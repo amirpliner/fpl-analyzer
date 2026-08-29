@@ -1,6 +1,6 @@
 import { state, POSITION_NAMES } from "../state.js";
 import { fetchJSON } from "../data.js";
-import { fdrCellClass, naOr, playerPrice, fixtureRunScore, teamCrestImg, teamByShortName } from "../helpers.js";
+import { fdrCellClass, naOr, playerPrice, fixtureRunScore, teamCrestImg, teamByShortName, setupDetailToggle } from "../helpers.js";
 
 export async function renderManagerTeam(teamId) {
   const container = document.getElementById("myTeamContent");
@@ -127,7 +127,7 @@ export async function renderMineAnalysis() {
   if (chipPlan) html += renderChipPlan(chipPlan);
 
   container.innerHTML = html;
-  setupSquadTableToggle(container);
+  setupDetailToggle(container);
 }
 
 function renderSummaryCard(a) {
@@ -211,21 +211,6 @@ function renderSquadTable(a) {
     </tr>`;
   }
   return html + `</tbody></table></div>`;
-}
-
-function setupSquadTableToggle(container) {
-  const tbody = container.querySelector(".squad-row")?.closest("tbody");
-  if (!tbody) return;
-  tbody.addEventListener("click", (e) => {
-    const btn = e.target.closest(".detail-toggle");
-    if (!btn) return;
-    const row = btn.closest("tr");
-    const detailRow = tbody.querySelector(`.detail-row[data-player-id="${row.dataset.playerId}"]`);
-    const expanded = btn.getAttribute("aria-expanded") === "true";
-    btn.setAttribute("aria-expanded", String(!expanded));
-    btn.textContent = expanded ? "▾" : "▴";
-    detailRow.hidden = expanded;
-  });
 }
 
 function renderTransferSuggestions(a) {
