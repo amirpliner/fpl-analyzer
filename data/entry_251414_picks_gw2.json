@@ -1,20 +1,33 @@
 {
   "active_chip": null,
-  "automatic_subs": [],
+  "automatic_subs": [
+    {
+      "entry": 251414,
+      "element_in": 31,
+      "element_out": 201,
+      "event": 2
+    },
+    {
+      "entry": 251414,
+      "element_in": 483,
+      "element_out": 223,
+      "event": 2
+    }
+  ],
   "entry_history": {
     "event": 2,
-    "points": 56,
-    "total_points": 98,
-    "rank": 8744812,
-    "rank_sort": 8745130,
-    "overall_rank": 7941671,
-    "percentile_rank": 90,
-    "overall_rank_percentage": "80",
+    "points": 66,
+    "total_points": 108,
+    "rank": 7831950,
+    "rank_sort": 7832645,
+    "overall_rank": 7384002,
+    "percentile_rank": 80,
+    "overall_rank_percentage": "74",
     "bank": 15,
     "value": 1001,
     "event_transfers": 1,
     "event_transfers_cost": 0,
-    "points_on_bench": 10
+    "points_on_bench": 0
   },
   "picks": [
     {
@@ -26,7 +39,7 @@
       "element_type": 1
     },
     {
-      "element": 201,
+      "element": 31,
       "position": 2,
       "multiplier": 1,
       "is_captain": false,
@@ -82,15 +95,15 @@
       "element_type": 3
     },
     {
-      "element": 411,
+      "element": 483,
       "position": 9,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 3
     },
     {
-      "element": 165,
+      "element": 411,
       "position": 10,
       "multiplier": 1,
       "is_captain": false,
@@ -98,7 +111,7 @@
       "element_type": 4
     },
     {
-      "element": 223,
+      "element": 165,
       "position": 11,
       "multiplier": 1,
       "is_captain": false,
@@ -114,7 +127,7 @@
       "element_type": 1
     },
     {
-      "element": 31,
+      "element": 201,
       "position": 13,
       "multiplier": 0,
       "is_captain": false,
@@ -122,12 +135,12 @@
       "element_type": 2
     },
     {
-      "element": 483,
+      "element": 223,
       "position": 14,
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 4
     },
     {
       "element": 121,

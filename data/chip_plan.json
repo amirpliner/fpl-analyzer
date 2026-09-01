@@ -11,38 +11,44 @@
     "available": true,
     "recommendations": [
       {
-        "event": 2,
-        "player": "B.Fernandes",
-        "score": 10.38,
-        "is_dgw": false,
-        "reason": "B.Fernandes צפוי 10.38 xPts"
-      },
-      {
         "event": 3,
         "player": "B.Fernandes",
-        "score": 9.58,
+        "score": 9.72,
         "is_dgw": false,
-        "reason": "B.Fernandes צפוי 9.58 xPts"
+        "reason": "B.Fernandes צפוי 9.72 xPts"
       },
       {
         "event": 5,
         "player": "B.Fernandes",
-        "score": 9.58,
+        "score": 9.72,
         "is_dgw": false,
-        "reason": "B.Fernandes צפוי 9.58 xPts"
+        "reason": "B.Fernandes צפוי 9.72 xPts"
+      },
+      {
+        "event": 6,
+        "player": "B.Fernandes",
+        "score": 9.72,
+        "is_dgw": false,
+        "reason": "B.Fernandes צפוי 9.72 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 2,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 2"
+      }
+    ]
   },
   "wildcard": {
     "available": true,
-    "decay_score": 0.0,
-    "weak_players": 0,
+    "decay_score": 3.0,
+    "weak_players": 3,
     "injury_players": 0,
     "recommend": false,
-    "reason": "0 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "3 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }
