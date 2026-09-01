@@ -211,7 +211,7 @@
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 3,
+      "points": 5,
       "value": 7.5
     }
   ],
@@ -302,7 +302,7 @@
     {
       "gw": 2,
       "minutes": 90,
-      "xg": 0.04,
+      "xg": 0.02,
       "xa": 0.03,
       "ict": 0.0,
       "opp": "AVL",
@@ -446,7 +446,7 @@
     {
       "gw": 2,
       "minutes": 90,
-      "xg": 0.02,
+      "xg": 0.04,
       "xa": 0.02,
       "ict": 0.0,
       "opp": "ARS",
@@ -4388,30 +4388,6 @@
       "opp": "CRY",
       "was_home": false,
       "points": 14,
-      "value": 7.5
-    }
-  ],
-  "400": [
-    {
-      "gw": 1,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BOU",
-      "was_home": true,
-      "points": 0,
-      "value": 7.5
-    },
-    {
-      "gw": 2,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "CRY",
-      "was_home": false,
-      "points": 0,
       "value": 7.5
     }
   ],
