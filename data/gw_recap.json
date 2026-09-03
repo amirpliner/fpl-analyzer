@@ -1,0 +1,127 @@
+{
+  "gw": 1,
+  "points": 48,
+  "points_on_bench": 12,
+  "overall_rank": 4969899,
+  "rank_change": null,
+  "event_transfers": 0,
+  "event_transfers_cost": 0,
+  "active_chip": null,
+  "captain": {
+    "id": 411,
+    "web_name": "Haaland",
+    "team": "MCI",
+    "on_bench": false,
+    "is_captain": true,
+    "multiplier": 2,
+    "base_points": 2,
+    "points": 4,
+    "minutes": 90,
+    "chance_next": null
+  },
+  "best_possible_captain": {
+    "id": 165,
+    "web_name": "João Pedro",
+    "team": "CHE",
+    "on_bench": false,
+    "is_captain": false,
+    "multiplier": 1,
+    "base_points": 11,
+    "points": 11,
+    "minutes": 90,
+    "chance_next": null
+  },
+  "captain_verdict": "suboptimal",
+  "hauls": [
+    {
+      "id": 165,
+      "web_name": "João Pedro",
+      "team": "CHE",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 11,
+      "points": 11,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 8,
+      "web_name": "Calafiori",
+      "team": "ARS",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 9,
+      "points": 9,
+      "minutes": 80,
+      "chance_next": null
+    },
+    {
+      "id": 368,
+      "web_name": "Szoboszlai",
+      "team": "LIV",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 8,
+      "points": 8,
+      "minutes": 90,
+      "chance_next": null
+    }
+  ],
+  "busts": [
+    {
+      "id": 418,
+      "web_name": "Maguire",
+      "team": "MUN",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 346,
+      "web_name": "Calvert-Lewin",
+      "team": "LEE",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
+      "chance_next": null
+    }
+  ],
+  "keep": [
+    {
+      "web_name": "Calafiori",
+      "reason": "הביא 9 נק' במחזור 1"
+    },
+    {
+      "web_name": "Szoboszlai",
+      "reason": "הביא 8 נק' במחזור 1 וגם הריצה הקרובה נוחה"
+    },
+    {
+      "web_name": "João Pedro",
+      "reason": "הביא 11 נק' במחזור 1"
+    }
+  ],
+  "change": [
+    {
+      "web_name": "Maguire",
+      "reason": "רק 1 נק' במחזור 1 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Calvert-Lewin",
+      "reason": "רק 1 נק' במחזור 1 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Ballard",
+      "reason": "רק 0 נק' במחזור 1 · ריצת משחקים קשה"
+    }
+  ]
+}

@@ -114,7 +114,11 @@ export async function renderMineAnalysis() {
     return;
   }
 
-  let html = renderSummaryCard(a);
+  let html = "";
+  const recap = await fetchJSON("data/gw_recap.json");
+  if (recap) html += renderGwRecap(recap);
+
+  html += renderSummaryCard(a);
   html += renderCaptainCards(a);
   html += renderWarnings(a);
   html += renderSquadTable(a);
@@ -128,6 +132,78 @@ export async function renderMineAnalysis() {
 
   container.innerHTML = html;
   setupDetailToggle(container);
+}
+
+function renderGwRecap(r) {
+  let rankSub = `<span class="pill">אין נתון קודם להשוואה</span>`;
+  if (r.rank_change != null && r.rank_change !== 0) {
+    const dirClass = r.rank_change > 0 ? "rising" : "falling";
+    const dirLabel = r.rank_change > 0 ? "📈 שיפור" : "📉 ירידה";
+    rankSub = `<span class="price-direction ${dirClass}">${dirLabel} ${Math.abs(r.rank_change).toLocaleString("he-IL")}</span>`;
+  } else if (r.rank_change === 0) {
+    rankSub = `<span class="pill">ללא שינוי</span>`;
+  }
+
+  let html = `<h2>סיכום מחזור ${r.gw}</h2>`;
+  html += `<div class="summary-card">
+    <div class="summary-stat">
+      <div class="value rating-score">${r.points}</div>
+      <div class="label">נקודות במחזור</div>
+      <div class="sub">${r.active_chip ? `צ'יפ פעיל: ${r.active_chip}` : ""}</div>
+    </div>
+    <div class="summary-stat">
+      <div class="value">${r.overall_rank.toLocaleString("he-IL")}</div>
+      <div class="label">דירוג כולל</div>
+      <div class="sub">${rankSub}</div>
+    </div>
+    <div class="summary-stat">
+      <div class="value">${r.points_on_bench}</div>
+      <div class="label">נק' על הספסל</div>
+    </div>
+    <div class="summary-stat">
+      <div class="value">${r.event_transfers}</div>
+      <div class="label">העברות</div>
+      <div class="sub">${r.event_transfers_cost ? `${r.event_transfers_cost * 4}- נק' קנס` : "בלי קנס"}</div>
+    </div>
+  </div>`;
+
+  if (r.captain) {
+    const verdictText = r.captain_verdict === "optimal"
+      ? "הבחירה הטובה ביותר האפשרית בסגל במחזור הזה"
+      : r.best_possible_captain
+        ? `${r.best_possible_captain.web_name} הביא יותר (${r.best_possible_captain.points} נק')`
+        : "";
+    html += `<div class="captain-cards"><div class="captain-card${r.captain_verdict === "optimal" ? " top" : ""}">
+      <div class="captain-rank">קפטן שלך</div>
+      <div class="captain-name">${r.captain.web_name}</div>
+      <div class="captain-xpts">${r.captain.points ?? naOr(null)} <span class="captain-xpts-label">נק'</span></div>
+      <div class="captain-reason">${verdictText}</div>
+    </div></div>`;
+  }
+
+  if (r.hauls.length || r.busts.length) {
+    html += `<h2>האלים והמאכזבים</h2><div class="warnings-list">`;
+    for (const h of r.hauls) {
+      html += `<div class="warning-item severity-good">⚡ <strong>${h.web_name}</strong>${h.on_bench ? " (בספסל)" : ""}: ${h.points} נק'</div>`;
+    }
+    for (const b of r.busts) {
+      html += `<div class="warning-item severity-high">💤 <strong>${b.web_name}</strong>: ${b.points} נק'${b.minutes === 0 ? " · לא שיחק" : ""}</div>`;
+    }
+    html += `</div>`;
+  }
+
+  if (r.keep.length || r.change.length) {
+    html += `<h2>מה להשאיר, מה לשנות</h2><div class="transfer-cards">`;
+    for (const k of r.keep) {
+      html += `<div class="transfer-card"><div class="suggest-in">✓ ${k.web_name}</div><div class="transfer-reason">${k.reason}</div></div>`;
+    }
+    for (const c of r.change) {
+      html += `<div class="transfer-card"><div class="suggest-out">↺ ${c.web_name}</div><div class="transfer-reason">${c.reason}</div></div>`;
+    }
+    html += `</div>`;
+  }
+
+  return html;
 }
 
 function renderSummaryCard(a) {

@@ -21,6 +21,7 @@ from league_insights import build_league_insights
 from transfer_planner import build_transfer_plan
 from chip_engine import build_chip_plan
 from deadlines_ics import build_deadlines_ics
+from gw_recap import last_finished_gw, build_gw_recap
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -263,13 +264,29 @@ def main():
 
         chips_used = []
         entry_id = my_squad.get("entry_id")
+        entry_history = None
         if entry_id:
             try:
-                history = get_json(f"{BASE}/entry/{entry_id}/history/")
-                save(f"entry_{entry_id}_history.json", history)
-                chips_used = history.get("chips", [])
+                entry_history = get_json(f"{BASE}/entry/{entry_id}/history/")
+                save(f"entry_{entry_id}_history.json", entry_history)
+                chips_used = entry_history.get("chips", [])
             except Exception as e:
                 print(f"could not fetch chip history for entry {entry_id}: {e}")
+
+        if entry_history:
+            recap_gw = last_finished_gw(bootstrap)
+            picks_gw_data = load_json_file(f"entry_{entry_id}_picks_gw{recap_gw}.json") if recap_gw else None
+            if picks_gw_data:
+                elements_by_id = {e["id"]: e for e in bootstrap["elements"]}
+                recap = build_gw_recap(
+                    recap_gw, entry_history, picks_gw_data, player_history,
+                    elements_by_id, teams_by_id, fixtures, from_event=gw,
+                )
+                if recap:
+                    save("gw_recap.json", recap)
+                    print(f"gw_recap.json: gw{recap_gw}, {recap['points']} pts, captain_verdict={recap['captain_verdict']}")
+            else:
+                print(f"gw_recap: no saved picks file for entry {entry_id} gw {recap_gw} yet, skipping")
 
         chip_plan = build_chip_plan(my_squad, players, teams_by_id, fixtures, dgw_bgw, from_event=gw, chips_used=chips_used)
         if chip_plan:

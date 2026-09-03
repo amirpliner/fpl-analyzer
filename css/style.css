@@ -673,8 +673,10 @@ td.winner {
   font-size: .9rem;
 }
 /* Severity by color, not just icon: mid = fixture/exposure warnings
-   (survivable), high = a player who likely won't play at all. */
+   (survivable), high = a player who likely won't play at all, good =
+   a positive callout (gameweek recap hauls) using the same scale. */
 .warning-item.severity-high { border-inline-start-color: var(--fdr-5); }
+.warning-item.severity-good { border-inline-start-color: var(--fdr-1); }
 
 .na { color: var(--text-muted); font-size: .85em; }
 
