@@ -1,69 +1,69 @@
 {
   "entry_id": 2528374,
-  "gameweek": 2,
+  "gameweek": 3,
   "bank": 0.4,
-  "free_transfers": 1,
+  "free_transfers": 0,
   "players": [
     {
-      "id": 496,
-      "web_name": "Kinsky",
-      "team": "TOT",
+      "id": 109,
+      "web_name": "Verbruggen",
+      "team": "BHA",
       "position": 1,
       "price": 4.5,
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 1.5,
-      "total_points": 3,
-      "ppm": 0.67,
-      "ownership": 19.4,
+      "form": 2.0,
+      "total_points": 6,
+      "ppm": 1.33,
+      "ownership": 22.1,
       "is_differential": false,
       "xgi_per_90": 0.0,
-      "xgc_per_90": 2.3,
+      "xgc_per_90": 1.61,
       "starts_per_90": 1.0,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
         {
           "event": 3,
-          "opponent": "NFO",
-          "opponent_id": 18,
-          "is_home": false,
-          "difficulty": 3
+          "opponent": "LEE",
+          "opponent_id": 13,
+          "is_home": true,
+          "difficulty": 2
         },
         {
           "event": 4,
-          "opponent": "EVE",
-          "opponent_id": 9,
-          "is_home": true,
-          "difficulty": 3
+          "opponent": "COV",
+          "opponent_id": 7,
+          "is_home": false,
+          "difficulty": 2
         },
         {
           "event": 5,
-          "opponent": "AVL",
-          "opponent_id": 2,
+          "opponent": "ARS",
+          "opponent_id": 1,
           "is_home": true,
-          "difficulty": 3
-        },
-        {
-          "event": 6,
-          "opponent": "MUN",
-          "opponent_id": 16,
-          "is_home": false,
           "difficulty": 4
         },
         {
+          "event": 6,
+          "opponent": "SUN",
+          "opponent_id": 20,
+          "is_home": false,
+          "difficulty": 3
+        },
+        {
           "event": 7,
-          "opponent": "COV",
-          "opponent_id": 7,
+          "opponent": "CRY",
+          "opponent_id": 8,
           "is_home": true,
-          "difficulty": 2
+          "difficulty": 3
         }
       ],
-      "has_easy_run": false,
-      "avg_fdr_next5": 3.0,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.8,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -76,10 +76,10 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 10.0,
+      "form": 6.7,
       "total_points": 20,
       "ppm": 3.51,
-      "ownership": 44.2,
+      "ownership": 45.6,
       "is_differential": false,
       "xgi_per_90": 0.37,
       "xgc_per_90": 0.21,
@@ -125,8 +125,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.0,
-      "minutes_trend": "up",
-      "avg_minutes_last3": 85.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 56.7,
       "injury": null,
       "is_dead": false
     },
@@ -139,10 +139,10 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 2.5,
+      "form": 1.7,
       "total_points": 5,
       "ppm": 1.0,
-      "ownership": 14.3,
+      "ownership": 14.2,
       "is_differential": false,
       "xgi_per_90": 0.24,
       "xgc_per_90": 1.54,
@@ -188,8 +188,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.2,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -202,7 +202,7 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 7.5,
+      "form": 5.0,
       "total_points": 15,
       "ppm": 3.26,
       "ownership": 9.6,
@@ -251,8 +251,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
-      "minutes_trend": "up",
-      "avg_minutes_last3": 81.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 54.0,
       "injury": null,
       "is_dead": false
     },
@@ -265,10 +265,10 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 12.5,
+      "form": 8.3,
       "total_points": 25,
       "ppm": 2.08,
-      "ownership": 48.6,
+      "ownership": 48.7,
       "is_differential": false,
       "xgi_per_90": 1.42,
       "xgc_per_90": 1.54,
@@ -314,8 +314,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.2,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -328,10 +328,10 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 7.5,
+      "form": 5.0,
       "total_points": 15,
       "ppm": 2.73,
-      "ownership": 15.3,
+      "ownership": 15.9,
       "is_differential": false,
       "xgi_per_90": 0.21,
       "xgc_per_90": 1.61,
@@ -377,8 +377,8 @@
       ],
       "has_easy_run": true,
       "avg_fdr_next5": 2.8,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -388,13 +388,13 @@
       "team": "MUN",
       "position": 3,
       "price": 8.0,
-      "is_captain": true,
+      "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 6.5,
+      "form": 4.3,
       "total_points": 13,
       "ppm": 1.62,
-      "ownership": 28.1,
+      "ownership": 27.2,
       "is_differential": false,
       "xgi_per_90": 1.35,
       "xgc_per_90": 1.54,
@@ -440,8 +440,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.2,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -452,16 +452,16 @@
       "position": 3,
       "price": 7.0,
       "is_captain": false,
-      "is_vice": false,
+      "is_vice": true,
       "on_bench": false,
-      "form": 6.0,
-      "total_points": 12,
-      "ppm": 1.71,
-      "ownership": 41.3,
+      "form": 4.3,
+      "total_points": 13,
+      "ppm": 1.86,
+      "ownership": 41.4,
       "is_differential": false,
-      "xgi_per_90": 0.72,
-      "xgc_per_90": 1.94,
-      "starts_per_90": 1.0,
+      "xgi_per_90": 0.64,
+      "xgc_per_90": 1.77,
+      "starts_per_90": 1.2,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -503,8 +503,8 @@
       ],
       "has_easy_run": true,
       "avg_fdr_next5": 2.8,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 75.0,
       "injury": null,
       "is_dead": false
     },
@@ -514,13 +514,13 @@
       "team": "MCI",
       "position": 4,
       "price": 15.5,
-      "is_captain": false,
-      "is_vice": true,
+      "is_captain": true,
+      "is_vice": false,
       "on_bench": false,
-      "form": 7.5,
+      "form": 5.0,
       "total_points": 15,
       "ppm": 0.97,
-      "ownership": 71.7,
+      "ownership": 71.2,
       "is_differential": false,
       "xgi_per_90": 0.71,
       "xgc_per_90": 0.66,
@@ -566,8 +566,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 2.8,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -580,10 +580,10 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 10.0,
+      "form": 6.7,
       "total_points": 20,
       "ppm": 2.6,
-      "ownership": 69.4,
+      "ownership": 71.1,
       "is_differential": false,
       "xgi_per_90": 0.98,
       "xgc_per_90": 1.37,
@@ -629,8 +629,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.2,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -643,10 +643,10 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 4.5,
+      "form": 3.0,
       "total_points": 9,
       "ppm": 1.5,
-      "ownership": 25.9,
+      "ownership": 26.1,
       "is_differential": false,
       "xgi_per_90": 0.53,
       "xgc_per_90": 1.16,
@@ -692,71 +692,71 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
     {
-      "id": 109,
-      "web_name": "Verbruggen",
-      "team": "BHA",
+      "id": 496,
+      "web_name": "Kinsky",
+      "team": "TOT",
       "position": 1,
       "price": 4.5,
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 3.0,
-      "total_points": 6,
-      "ppm": 1.33,
-      "ownership": 21.7,
+      "form": 1.0,
+      "total_points": 3,
+      "ppm": 0.67,
+      "ownership": 19.6,
       "is_differential": false,
       "xgi_per_90": 0.0,
-      "xgc_per_90": 1.61,
+      "xgc_per_90": 2.3,
       "starts_per_90": 1.0,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
         {
           "event": 3,
-          "opponent": "LEE",
-          "opponent_id": 13,
-          "is_home": true,
-          "difficulty": 2
+          "opponent": "NFO",
+          "opponent_id": 18,
+          "is_home": false,
+          "difficulty": 3
         },
         {
           "event": 4,
-          "opponent": "COV",
-          "opponent_id": 7,
-          "is_home": false,
-          "difficulty": 2
+          "opponent": "EVE",
+          "opponent_id": 9,
+          "is_home": true,
+          "difficulty": 3
         },
         {
           "event": 5,
-          "opponent": "ARS",
-          "opponent_id": 1,
+          "opponent": "AVL",
+          "opponent_id": 2,
           "is_home": true,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 6,
-          "opponent": "SUN",
-          "opponent_id": 20,
+          "opponent": "MUN",
+          "opponent_id": 16,
           "is_home": false,
-          "difficulty": 3
+          "difficulty": 4
         },
         {
           "event": 7,
-          "opponent": "CRY",
-          "opponent_id": 8,
+          "opponent": "COV",
+          "opponent_id": 7,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         }
       ],
-      "has_easy_run": true,
-      "avg_fdr_next5": 2.8,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "has_easy_run": false,
+      "avg_fdr_next5": 3.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -769,7 +769,7 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 4.0,
+      "form": 2.7,
       "total_points": 8,
       "ppm": 1.6,
       "ownership": 4.1,
@@ -818,8 +818,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 60.0,
       "injury": null,
       "is_dead": false
     },
@@ -832,10 +832,10 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 5.5,
+      "form": 3.7,
       "total_points": 11,
       "ppm": 2.2,
-      "ownership": 4.7,
+      "ownership": 4.9,
       "is_differential": true,
       "xgi_per_90": 0.62,
       "xgc_per_90": 1.66,
@@ -881,8 +881,8 @@
       ],
       "has_easy_run": true,
       "avg_fdr_next5": 2.8,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 87.5,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 58.3,
       "injury": null,
       "is_dead": false
     },
@@ -895,14 +895,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 2.0,
+      "form": 1.3,
       "total_points": 4,
       "ppm": 1.0,
       "ownership": 3.2,
       "is_differential": true,
-      "xgi_per_90": 0.12,
-      "xgc_per_90": 2.72,
-      "starts_per_90": 1.0,
+      "xgi_per_90": 0.1,
+      "xgc_per_90": 2.34,
+      "starts_per_90": 1.2,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -944,8 +944,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 90.0,
+      "minutes_trend": "down",
+      "avg_minutes_last3": 75.0,
       "injury": null,
       "is_dead": false
     }
@@ -953,15 +953,15 @@
   "warnings": [
     {
       "type": "team_exposure",
-      "team": "MUN",
-      "count": 3,
-      "reason": "3 שחקנים מ-MUN בסגל"
-    },
-    {
-      "type": "team_exposure",
       "team": "BHA",
       "count": 3,
       "reason": "3 שחקנים מ-BHA בסגל"
+    },
+    {
+      "type": "team_exposure",
+      "team": "MUN",
+      "count": 3,
+      "reason": "3 שחקנים מ-MUN בסגל"
     }
   ],
   "dead_players": [],
@@ -1011,7 +1011,7 @@
     {
       "id": 8,
       "web_name": "Calafiori",
-      "xpts": 7.02,
+      "xpts": 7.05,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
@@ -1021,34 +1021,13 @@
         "goals_pts": 0.42,
         "assists_pts": 0.77,
         "cs_pts": 3.16,
-        "bonus_est": 0.79,
+        "bonus_est": 0.82,
         "concede_penalty": 0.12,
         "attack_factor": 0.88,
         "defence_factor_against_us": 1.12,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 7.02, תרומה התקפית צפויה 1.19, סיכוי שער נקי 3.16, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
-    {
-      "id": 368,
-      "web_name": "Szoboszlai",
-      "xpts": 6.73,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 2.8,
-        "assists_pts": 0.74,
-        "cs_pts": 0.18,
-        "bonus_est": 1.01,
-        "concede_penalty": 0,
-        "attack_factor": 1.12,
-        "defence_factor_against_us": 0.88,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 6.73, תרומה התקפית צפויה 3.54, סיכוי שער נקי 0.18, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 7.05, תרומה התקפית צפויה 1.19, סיכוי שער נקי 3.16, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 88,
@@ -1070,9 +1049,44 @@
         "used_fdr_fallback": true
       },
       "reason": "xPts משוער: 6.54, תרומה התקפית צפויה 2.35, סיכוי שער נקי 1.56, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
+      "id": 368,
+      "web_name": "Szoboszlai",
+      "xpts": 6.29,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 2.58,
+        "assists_pts": 0.6,
+        "cs_pts": 0.21,
+        "bonus_est": 0.9,
+        "concede_penalty": 0,
+        "attack_factor": 1.12,
+        "defence_factor_against_us": 0.88,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 6.29, תרומה התקפית צפויה 3.18, סיכוי שער נקי 0.21, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     }
   ],
   "transfer_suggestions": [
+    {
+      "out": {
+        "id": 418,
+        "web_name": "Maguire",
+        "price": 5.0
+      },
+      "in": {
+        "id": 279,
+        "web_name": "Ajayi",
+        "price": 4.1
+      },
+      "cost_delta": -0.9,
+      "reason": "פורם נמוך (1.7)"
+    },
     {
       "out": {
         "id": 496,
@@ -1085,11 +1099,25 @@
         "price": 4.6
       },
       "cost_delta": 0.1,
-      "reason": "פורם נמוך (1.5)"
+      "reason": "פורם נמוך (1.0)"
+    },
+    {
+      "out": {
+        "id": 304,
+        "web_name": "O'Shea",
+        "price": 4.0
+      },
+      "in": {
+        "id": 279,
+        "web_name": "Ajayi",
+        "price": 4.1
+      },
+      "cost_delta": 0.1,
+      "reason": "פורם נמוך (1.3)"
     }
   ],
   "rating": {
     "score": 5.3,
-    "reason": "PPM ממוצע 1.85, 2 אזהרות חשיפה"
+    "reason": "PPM ממוצע 1.86, 2 אזהרות חשיפה"
   }
 }

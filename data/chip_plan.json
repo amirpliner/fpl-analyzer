@@ -1,6 +1,6 @@
 {
   "horizon": 8,
-  "from_gameweek": 2,
+  "from_gameweek": 3,
   "chips_used": [],
   "note": "יש שני Wildcard בעונה (WC1/WC2) עם דדליין נפרד לכל אחד - בדוק בעצמך את התאריך המדויק באתר FPL.",
   "bench_boost": {
@@ -35,20 +35,14 @@
   },
   "free_hit": {
     "available": true,
-    "recommendations": [
-      {
-        "event": 2,
-        "blank_players": 15,
-        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 2"
-      }
-    ]
+    "recommendations": []
   },
   "wildcard": {
     "available": true,
-    "decay_score": 3.0,
-    "weak_players": 3,
+    "decay_score": 2.0,
+    "weak_players": 2,
     "injury_players": 0,
     "recommend": false,
-    "reason": "3 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "2 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }

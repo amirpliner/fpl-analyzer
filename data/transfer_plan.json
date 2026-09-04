@@ -1,8 +1,8 @@
 {
   "horizon": 3,
   "beam_width": 50,
-  "from_gameweek": 2,
-  "baseline_xpts": 153.77,
+  "from_gameweek": 3,
+  "baseline_xpts": 229.61,
   "routes": [
     {
       "weekly_plan": [
@@ -13,27 +13,19 @@
               "out": "Groß",
               "in": "Yalcouyé",
               "cost_delta": -1.0
-            }
-          ],
-          "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Yalcouyé"
-        },
-        {
-          "week": 2,
-          "transfers": [
+            },
             {
               "out": "Ballard",
-              "in": "Guéhi",
-              "cost_delta": 1.0
+              "in": "Lewis",
+              "cost_delta": -0.5
             }
           ],
-          "hits": 0,
-          "xi_score": 86.63,
+          "hits": 1,
+          "xi_score": 84.23,
           "captain": "B.Fernandes"
         },
         {
-          "week": 3,
+          "week": 2,
           "transfers": [
             {
               "out": "Calvert-Lewin",
@@ -42,15 +34,28 @@
             }
           ],
           "hits": 0,
-          "xi_score": 86.05,
+          "xi_score": 83.89,
+          "captain": "B.Fernandes"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Verbruggen",
+              "in": "Raya",
+              "cost_delta": 1.5
+            }
+          ],
+          "hits": 0,
+          "xi_score": 88.23,
           "captain": "B.Fernandes"
         }
       ],
-      "total_transfers": 3,
-      "total_hits": 0,
+      "total_transfers": 4,
+      "total_hits": 1,
       "final_bank": 0.9,
-      "total_xpts": 172.68,
-      "net_gain_vs_hold": 18.91
+      "total_xpts": 252.35,
+      "net_gain_vs_hold": 22.74
     },
     {
       "weekly_plan": [
@@ -61,44 +66,49 @@
               "out": "Groß",
               "in": "Yalcouyé",
               "cost_delta": -1.0
+            },
+            {
+              "out": "Ballard",
+              "in": "Lewis",
+              "cost_delta": -0.5
             }
           ],
-          "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Yalcouyé"
+          "hits": 1,
+          "xi_score": 84.23,
+          "captain": "B.Fernandes"
         },
         {
           "week": 2,
           "transfers": [
             {
-              "out": "Ballard",
-              "in": "Guéhi",
-              "cost_delta": 1.0
+              "out": "Calvert-Lewin",
+              "in": "Barry",
+              "cost_delta": -0.5
             }
           ],
           "hits": 0,
-          "xi_score": 86.63,
+          "xi_score": 83.89,
           "captain": "B.Fernandes"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Haaland",
-              "in": "Barry",
-              "cost_delta": -10.0
+              "out": "O'Shea",
+              "in": "Guéhi",
+              "cost_delta": 2.0
             }
           ],
           "hits": 0,
-          "xi_score": 86.05,
+          "xi_score": 88.2,
           "captain": "B.Fernandes"
         }
       ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 10.4,
-      "total_xpts": 172.68,
-      "net_gain_vs_hold": 18.91
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 0.4,
+      "total_xpts": 252.32,
+      "net_gain_vs_hold": 22.71
     },
     {
       "weekly_plan": [
@@ -106,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Ballard"
+          "xi_score": 77.6,
+          "captain": "B.Fernandes"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 77.9,
+          "xi_score": 75.57,
           "captain": "B.Fernandes"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 75.87,
+          "xi_score": 76.44,
           "captain": "B.Fernandes"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0.4,
-      "total_xpts": 153.77,
+      "total_xpts": 229.61,
       "net_gain_vs_hold": 0.0
     }
   ]
