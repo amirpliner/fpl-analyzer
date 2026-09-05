@@ -62,13 +62,19 @@ def check_goal_events(live_event, my_player_ids, elements_by_id, prior_state):
         current = live_event["elements"].get(str(pid))
         if not current:
             continue
-        prev = players_state.get(str(pid), {})
-        p = elements_by_id.get(pid)
-        name = p["web_name"] if p else str(pid)
-        for stat, label in GOAL_EVENT_STATS.items():
-            delta = (current.get(stat) or 0) - (prev.get(stat) or 0)
-            for _ in range(max(delta, 0)):
-                send_message(f"{label}: {name} ({current.get('minutes')}')")
+        prev = players_state.get(str(pid))
+        # prev is None only the very first time this player's tracked
+        # this gameweek (fresh setup mid-gameweek, or a rare mid-gw
+        # transfer-in) - seed the baseline silently instead of firing a
+        # stale "goal" ping for whatever already happened before we
+        # were watching.
+        if prev is not None:
+            p = elements_by_id.get(pid)
+            name = p["web_name"] if p else str(pid)
+            for stat, label in GOAL_EVENT_STATS.items():
+                delta = (current.get(stat) or 0) - (prev.get(stat) or 0)
+                for _ in range(max(delta, 0)):
+                    send_message(f"{label}: {name} ({current.get('minutes')}')")
         players_state[str(pid)] = current
 
     return state
