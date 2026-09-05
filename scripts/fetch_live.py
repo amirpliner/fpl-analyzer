@@ -24,6 +24,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 from live_score import trim_live_elements, trim_fixtures, all_settled
+from notify_telegram import check_goal_events
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -76,11 +77,28 @@ def main():
         return
 
     live = get_json(f"{BASE}/event/{gw}/live/")
+    live_elements = trim_live_elements(live)
     save("live_event.json", {
         "generated_at": generated_at,
         "gameweek": gw,
-        "elements": trim_live_elements(live),
+        "elements": live_elements,
     })
+
+    bootstrap = load("bootstrap.json")
+    my_squad = load("my_squad.json")
+    my_entry_id = my_squad.get("entry_id") if my_squad else None
+    # This gameweek's own picks file (frozen once the deadline passes) -
+    # not my_squad.json's picks, which only reflect whatever squad was
+    # true whenever that file was last hand-edited.
+    my_picks_gw = load(f"entry_{my_entry_id}_picks_gw{gw}.json") if my_entry_id else None
+    my_player_ids = {pk["element"] for pk in my_picks_gw["picks"]} if my_picks_gw else None
+    if bootstrap and my_player_ids:
+        elements_by_id = {e["id"]: e for e in bootstrap["elements"]}
+        notify_state = check_goal_events(
+            {"gameweek": gw, "elements": live_elements}, my_player_ids, elements_by_id,
+            load("notify_state.json") or {},
+        )
+        save("notify_state.json", notify_state)
 
     config = load("config.json") or {}
     league_id = config.get("league_id")

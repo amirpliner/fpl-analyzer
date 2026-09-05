@@ -22,6 +22,7 @@ from transfer_planner import build_transfer_plan
 from chip_engine import build_chip_plan
 from deadlines_ics import build_deadlines_ics
 from gw_recap import last_finished_gw, build_gw_recap
+from notify_telegram import check_deadline_reminder
 
 BASE = "https://fantasy.premierleague.com/api"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -207,7 +208,11 @@ def main():
                 managers_picks.append({"manager": manager, "picks": picks})
 
     save("config.json", config)
-    save("meta.json", build_meta(bootstrap, gw, is_upcoming))
+    meta = build_meta(bootstrap, gw, is_upcoming)
+    save("meta.json", meta)
+
+    notify_state = check_deadline_reminder(meta, load_json_file("notify_state.json") or {})
+    save("notify_state.json", notify_state)
 
     my_squad = resolve_my_squad(pick_gw)
 
