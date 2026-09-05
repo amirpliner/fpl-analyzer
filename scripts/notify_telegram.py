@@ -13,8 +13,12 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+
+# .strip() guards against a trailing newline sneaking into the secret's
+# value from a copy-paste (e.g. BotFather's reply ends with one) -
+# urllib rejects control characters in a URL outright otherwise.
+BOT_TOKEN = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+CHAT_ID = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
 
 GOAL_EVENT_STATS = {
     "goals_scored": "⚽ שער",
