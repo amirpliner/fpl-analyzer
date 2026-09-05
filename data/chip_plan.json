@@ -5,7 +5,26 @@
   "note": "יש שני Wildcard בעונה (WC1/WC2) עם דדליין נפרד לכל אחד - בדוק בעצמך את התאריך המדויק באתר FPL.",
   "bench_boost": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 6,
+        "score": 12.61,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.61 נק' (סף: 12.0)"
+      },
+      {
+        "event": 3,
+        "score": 12.23,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.23 נק' (סף: 12.0)"
+      },
+      {
+        "event": 4,
+        "score": 12.23,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.23 נק' (סף: 12.0)"
+      }
+    ]
   },
   "triple_captain": {
     "available": true,
@@ -13,23 +32,23 @@
       {
         "event": 3,
         "player": "B.Fernandes",
-        "score": 9.73,
+        "score": 9.75,
         "is_dgw": false,
-        "reason": "B.Fernandes צפוי 9.73 xPts"
+        "reason": "B.Fernandes צפוי 9.75 xPts"
       },
       {
         "event": 5,
         "player": "B.Fernandes",
-        "score": 9.73,
+        "score": 9.75,
         "is_dgw": false,
-        "reason": "B.Fernandes צפוי 9.73 xPts"
+        "reason": "B.Fernandes צפוי 9.75 xPts"
       },
       {
         "event": 6,
         "player": "B.Fernandes",
-        "score": 9.73,
+        "score": 9.75,
         "is_dgw": false,
-        "reason": "B.Fernandes צפוי 9.73 xPts"
+        "reason": "B.Fernandes צפוי 9.75 xPts"
       }
     ]
   },
@@ -39,10 +58,10 @@
   },
   "wildcard": {
     "available": true,
-    "decay_score": 2.0,
-    "weak_players": 2,
+    "decay_score": 1.0,
+    "weak_players": 1,
     "injury_players": 0,
     "recommend": false,
-    "reason": "2 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "1 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }
