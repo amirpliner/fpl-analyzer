@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 3,
-  "baseline_xpts": 230.66,
+  "baseline_xpts": 231.43,
   "routes": [
     {
       "weekly_plan": [
@@ -21,41 +21,41 @@
             }
           ],
           "hits": 1,
-          "xi_score": 82.36,
+          "xi_score": 82.9,
           "captain": "B.Fernandes"
         },
         {
           "week": 2,
           "transfers": [
             {
-              "out": "Groß",
-              "in": "Neto",
-              "cost_delta": 1.0
+              "out": "Maguire",
+              "in": "White",
+              "cost_delta": 0.5
             }
           ],
           "hits": 0,
-          "xi_score": 83.98,
+          "xi_score": 83.63,
           "captain": "B.Fernandes"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Szoboszlai",
-              "in": "Foden",
-              "cost_delta": 0.0
+              "out": "Groß",
+              "in": "Dorgu",
+              "cost_delta": 0.4
             }
           ],
           "hits": 0,
-          "xi_score": 88.2,
+          "xi_score": 89.21,
           "captain": "B.Fernandes"
         }
       ],
       "total_transfers": 4,
       "total_hits": 1,
-      "final_bank": 0.4,
-      "total_xpts": 250.54,
-      "net_gain_vs_hold": 19.88
+      "final_bank": 0.5,
+      "total_xpts": 251.74,
+      "net_gain_vs_hold": 20.31
     },
     {
       "weekly_plan": [
@@ -74,7 +74,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 82.36,
+          "xi_score": 82.9,
           "captain": "B.Fernandes"
         },
         {
@@ -87,28 +87,28 @@
             }
           ],
           "hits": 0,
-          "xi_score": 83.35,
+          "xi_score": 83.63,
           "captain": "B.Fernandes"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Groß",
+              "out": "Szoboszlai",
               "in": "Dorgu",
-              "cost_delta": 0.4
+              "cost_delta": -1.1
             }
           ],
           "hits": 0,
-          "xi_score": 88.83,
+          "xi_score": 88.84,
           "captain": "B.Fernandes"
         }
       ],
       "total_transfers": 4,
       "total_hits": 1,
-      "final_bank": 0.5,
-      "total_xpts": 250.54,
-      "net_gain_vs_hold": 19.88
+      "final_bank": 2.0,
+      "total_xpts": 251.37,
+      "net_gain_vs_hold": 19.94
     },
     {
       "weekly_plan": [
@@ -116,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 77.73,
+          "xi_score": 78.19,
           "captain": "B.Fernandes"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 75.72,
+          "xi_score": 75.81,
           "captain": "B.Fernandes"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 77.21,
+          "xi_score": 77.43,
           "captain": "B.Fernandes"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0.4,
-      "total_xpts": 230.66,
+      "total_xpts": 231.43,
       "net_gain_vs_hold": 0.0
     }
   ]
