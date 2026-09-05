@@ -177,7 +177,7 @@
       "league_ownership_pct": 29.0,
       "captain_count": 0,
       "eo_pct": 29.0,
-      "global_ownership_pct": 18.7,
+      "global_ownership_pct": 18.8,
       "is_template": false,
       "is_league_differential": false
     },
@@ -297,7 +297,7 @@
       "league_ownership_pct": 12.9,
       "captain_count": 0,
       "eo_pct": 12.9,
-      "global_ownership_pct": 18.2,
+      "global_ownership_pct": 18.1,
       "is_template": false,
       "is_league_differential": true
     },
@@ -527,7 +527,7 @@
       "league_ownership_pct": 6.5,
       "captain_count": 0,
       "eo_pct": 6.5,
-      "global_ownership_pct": 8.2,
+      "global_ownership_pct": 8.3,
       "is_template": false,
       "is_league_differential": true
     },
@@ -557,7 +557,7 @@
       "league_ownership_pct": 6.5,
       "captain_count": 0,
       "eo_pct": 6.5,
-      "global_ownership_pct": 9.8,
+      "global_ownership_pct": 9.9,
       "is_template": false,
       "is_league_differential": true
     },
@@ -977,7 +977,7 @@
       "league_ownership_pct": 3.2,
       "captain_count": 0,
       "eo_pct": 3.2,
-      "global_ownership_pct": 5.5,
+      "global_ownership_pct": 5.6,
       "is_template": false,
       "is_league_differential": true
     },
@@ -1206,14 +1206,14 @@
       "captain_name": "Haaland"
     },
     {
-      "manager": "Adir Sabag",
-      "team_name": "Mandem FC",
+      "manager": "Amir Pliner",
+      "team_name": "Amirs team",
       "captain_id": 411,
       "captain_name": "Haaland"
     },
     {
-      "manager": "Amir Pliner",
-      "team_name": "Amirs team",
+      "manager": "Adir Sabag",
+      "team_name": "Mandem FC",
       "captain_id": 411,
       "captain_name": "Haaland"
     },
@@ -1868,14 +1868,14 @@
       "overlap_pct": 30.4
     },
     {
-      "a": "Adir Sabag",
-      "b": "Amit Mor",
+      "a": "Amir Pliner",
+      "b": "Lidor Gonen",
       "shared_players": 7,
       "overlap_pct": 30.4
     },
     {
-      "a": "Amir Pliner",
-      "b": "Lidor Gonen",
+      "a": "Adir Sabag",
+      "b": "Amit Mor",
       "shared_players": 7,
       "overlap_pct": 30.4
     },
@@ -2372,18 +2372,6 @@
       "overlap_pct": 25.0
     },
     {
-      "a": "Adir Sabag",
-      "b": "Neil Rosmann",
-      "shared_players": 6,
-      "overlap_pct": 25.0
-    },
-    {
-      "a": "Adir Sabag",
-      "b": "Guy Kol",
-      "shared_players": 6,
-      "overlap_pct": 25.0
-    },
-    {
       "a": "Amir Pliner",
       "b": "ido mor",
       "shared_players": 6,
@@ -2392,6 +2380,18 @@
     {
       "a": "Amir Pliner",
       "b": "Amit Mor",
+      "shared_players": 6,
+      "overlap_pct": 25.0
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Neil Rosmann",
+      "shared_players": 6,
+      "overlap_pct": 25.0
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Guy Kol",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
@@ -2751,13 +2751,13 @@
     },
     {
       "a": "Dor Chen",
-      "b": "Adir Sabag",
+      "b": "Amir Pliner",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
     {
       "a": "Dor Chen",
-      "b": "Amir Pliner",
+      "b": "Adir Sabag",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -2924,8 +2924,20 @@
       "overlap_pct": 20.0
     },
     {
-      "a": "Adir Sabag",
-      "b": "Amir Pliner",
+      "a": "Amir Pliner",
+      "b": "Adir Sabag",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "Amir Pliner",
+      "b": "Uriya Yakobi",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "Amir Pliner",
+      "b": "Liam rakin",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -2956,18 +2968,6 @@
     {
       "a": "Adir Sabag",
       "b": "Guy Geva-Iluz",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "Amir Pliner",
-      "b": "Uriya Yakobi",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "Amir Pliner",
-      "b": "Liam rakin",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -3422,24 +3422,6 @@
       "overlap_pct": 15.4
     },
     {
-      "a": "Adir Sabag",
-      "b": "Gal Raviv",
-      "shared_players": 4,
-      "overlap_pct": 15.4
-    },
-    {
-      "a": "Adir Sabag",
-      "b": "Lidor Gonen",
-      "shared_players": 4,
-      "overlap_pct": 15.4
-    },
-    {
-      "a": "Adir Sabag",
-      "b": "Roei Eitan",
-      "shared_players": 4,
-      "overlap_pct": 15.4
-    },
-    {
       "a": "Amir Pliner",
       "b": "Gal Raviv",
       "shared_players": 4,
@@ -3460,6 +3442,24 @@
     {
       "a": "Amir Pliner",
       "b": "Rani Bar Dayan",
+      "shared_players": 4,
+      "overlap_pct": 15.4
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Gal Raviv",
+      "shared_players": 4,
+      "overlap_pct": 15.4
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Lidor Gonen",
+      "shared_players": 4,
+      "overlap_pct": 15.4
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Roei Eitan",
       "shared_players": 4,
       "overlap_pct": 15.4
     },
@@ -3800,12 +3800,6 @@
       "overlap_pct": 11.1
     },
     {
-      "a": "Adir Sabag",
-      "b": "Rani Bar Dayan",
-      "shared_players": 3,
-      "overlap_pct": 11.1
-    },
-    {
       "a": "Amir Pliner",
       "b": "Neil Rosmann",
       "shared_players": 3,
@@ -3814,6 +3808,12 @@
     {
       "a": "Amir Pliner",
       "b": "Guy Kol",
+      "shared_players": 3,
+      "overlap_pct": 11.1
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Rani Bar Dayan",
       "shared_players": 3,
       "overlap_pct": 11.1
     },
