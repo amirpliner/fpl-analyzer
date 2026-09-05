@@ -9929,7 +9929,7 @@
     "finished_provisional": false,
     "id": 25,
     "kickoff_time": "2026-09-05T16:30:00Z",
-    "minutes": 57,
+    "minutes": 63,
     "provisional_start_time": false,
     "started": true,
     "team_a": 2,
@@ -9996,22 +9996,26 @@
         "identifier": "bonus",
         "a": [
           {
-            "value": 2,
+            "value": 3,
             "element": 36
           },
           {
-            "value": 2,
-            "element": 46
+            "value": 3,
+            "element": 597
           },
           {
-            "value": 2,
-            "element": 597
+            "value": 1,
+            "element": 33
+          },
+          {
+            "value": 1,
+            "element": 37
           }
         ],
         "h": [
           {
-            "value": 3,
-            "element": 286
+            "value": 1,
+            "element": 572
           }
         ]
       },
@@ -10019,90 +10023,98 @@
         "identifier": "bps",
         "a": [
           {
-            "value": 13,
+            "value": 28,
             "element": 36
           },
           {
-            "value": 13,
+            "value": 28,
+            "element": 597
+          },
+          {
+            "value": 25,
+            "element": 33
+          },
+          {
+            "value": 25,
+            "element": 37
+          },
+          {
+            "value": 23,
+            "element": 32
+          },
+          {
+            "value": 16,
             "element": 46
           },
           {
             "value": 13,
-            "element": 597
-          },
-          {
-            "value": 12,
             "element": 47
           },
           {
             "value": 10,
-            "element": 33
-          },
-          {
-            "value": 10,
-            "element": 37
-          },
-          {
-            "value": 8,
-            "element": 32
-          },
-          {
-            "value": 7,
             "element": 166
           },
           {
-            "value": 5,
+            "value": 8,
             "element": 51
           },
           {
-            "value": -1,
+            "value": 2,
             "element": 41
           },
           {
-            "value": -1,
+            "value": 2,
             "element": 45
           }
         ],
         "h": [
           {
-            "value": 14,
-            "element": 286
-          },
-          {
-            "value": 10,
+            "value": 25,
             "element": 572
           },
           {
-            "value": 9,
+            "value": 24,
             "element": 586
           },
           {
-            "value": 8,
+            "value": 22,
+            "element": 282
+          },
+          {
+            "value": 19,
+            "element": 280
+          },
+          {
+            "value": 18,
+            "element": 277
+          },
+          {
+            "value": 16,
+            "element": 286
+          },
+          {
+            "value": 15,
+            "element": 279
+          },
+          {
+            "value": 11,
             "element": 589
           },
           {
             "value": 7,
-            "element": 282
-          },
-          {
-            "value": 4,
-            "element": 280
-          },
-          {
-            "value": 4,
             "element": 290
           },
           {
-            "value": 3,
-            "element": 277
-          },
-          {
-            "value": 3,
+            "value": 6,
             "element": 295
           },
           {
-            "value": 2,
+            "value": 5,
             "element": 576
+          },
+          {
+            "value": 3,
+            "element": 642
           }
         ]
       },
@@ -10118,7 +10130,7 @@
             "element": 51
           },
           {
-            "value": 5,
+            "value": 6,
             "element": 46
           },
           {
@@ -10134,16 +10146,16 @@
             "element": 45
           },
           {
+            "value": 2,
+            "element": 41
+          },
+          {
             "value": 1,
             "element": 32
           },
           {
             "value": 1,
             "element": 37
-          },
-          {
-            "value": 1,
-            "element": 41
           },
           {
             "value": 1,
@@ -10178,6 +10190,10 @@
           {
             "value": 2,
             "element": 576
+          },
+          {
+            "value": 1,
+            "element": 282
           },
           {
             "value": 1,
