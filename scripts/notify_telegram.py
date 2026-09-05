@@ -9,6 +9,7 @@ TELEGRAM_CHAT_ID aren't set as env vars, so this is safe to ship before
 those secrets exist in the repo.
 """
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -38,6 +39,8 @@ def send_message(text):
     data = urllib.parse.urlencode({"chat_id": CHAT_ID, "text": text}).encode()
     try:
         urllib.request.urlopen(urllib.request.Request(url, data=data), timeout=10)
+    except urllib.error.HTTPError as e:
+        print(f"notify_telegram: failed to send message: {e} - {e.read().decode(errors='replace')}")
     except Exception as e:
         print(f"notify_telegram: failed to send message: {e}")
 
