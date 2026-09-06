@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 3,
-  "baseline_xpts": 213.71,
+  "baseline_xpts": 213.46,
   "routes": [
     {
       "weekly_plan": [
@@ -21,7 +21,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 76.31,
+          "xi_score": 76.21,
           "captain": "B.Fernandes"
         },
         {
@@ -34,7 +34,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 76.14,
+          "xi_score": 76.09,
           "captain": "Calafiori"
         },
         {
@@ -47,15 +47,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 81.54,
+          "xi_score": 81.49,
           "captain": "Foden"
         }
       ],
       "total_transfers": 4,
       "total_hits": 1,
       "final_bank": 0.4,
-      "total_xpts": 229.99,
-      "net_gain_vs_hold": 16.28
+      "total_xpts": 229.79,
+      "net_gain_vs_hold": 16.33
     },
     {
       "weekly_plan": [
@@ -74,7 +74,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 76.31,
+          "xi_score": 76.21,
           "captain": "B.Fernandes"
         },
         {
@@ -87,7 +87,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 75.85,
+          "xi_score": 75.8,
           "captain": "Calafiori"
         },
         {
@@ -100,15 +100,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 81.42,
+          "xi_score": 81.37,
           "captain": "Foden"
         }
       ],
       "total_transfers": 4,
       "total_hits": 1,
       "final_bank": 0.5,
-      "total_xpts": 229.58,
-      "net_gain_vs_hold": 15.87
+      "total_xpts": 229.38,
+      "net_gain_vs_hold": 15.92
     },
     {
       "weekly_plan": [
@@ -116,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 72.09,
+          "xi_score": 71.99,
           "captain": "B.Fernandes"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 70.5,
+          "xi_score": 70.45,
           "captain": "Calafiori"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 71.12,
+          "xi_score": 71.02,
           "captain": "B.Fernandes"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0.4,
-      "total_xpts": 213.71,
+      "total_xpts": 213.46,
       "net_gain_vs_hold": 0.0
     }
   ]
