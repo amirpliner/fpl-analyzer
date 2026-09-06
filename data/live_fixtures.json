@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:20:51.067606+00:00",
+  "generated_at": "2026-09-06T16:20:20.200015+00:00",
   "gameweek": 3,
   "fixtures": [
     {
@@ -112,25 +112,25 @@
       "kickoff_time": "2026-09-06T13:00:00Z",
       "started": true,
       "finished": false,
-      "finished_provisional": false,
-      "minutes": 18,
+      "finished_provisional": true,
+      "minutes": 90,
       "team_h": 9,
       "team_a": 16,
-      "team_h_score": 0,
-      "team_a_score": 0
+      "team_h_score": 2,
+      "team_a_score": 2
     },
     {
       "id": 29,
       "event": 3,
       "kickoff_time": "2026-09-06T15:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "finished_provisional": false,
-      "minutes": 0,
+      "minutes": 45,
       "team_h": 1,
       "team_a": 6,
-      "team_h_score": null,
-      "team_a_score": null
+      "team_h_score": 1,
+      "team_a_score": 1
     }
   ]
 }
