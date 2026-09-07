@@ -1,6 +1,7 @@
 import { state } from "./state.js";
 import { fetchJSON } from "./data.js";
 import { renderGwBadge, renderFdrTable, renderTopPlayers, renderPriceAlerts } from "./ui/gameweek.js";
+import { renderNewsFeed } from "./ui/news.js";
 import { renderMyTeam } from "./ui/myteam.js";
 import { renderLeague, renderLeagueInsights } from "./ui/league.js";
 import { renderReminderWidget } from "./ui/reminders.js";
@@ -62,6 +63,7 @@ async function init() {
   renderGwBadge();
   renderFdrTable();
   renderTopPlayers();
+  renderNewsFeed();
   renderPriceAlerts();
   renderMyTeam();
   renderLeague();

@@ -22,6 +22,7 @@ from transfer_planner import build_transfer_plan
 from chip_engine import build_chip_plan
 from deadlines_ics import build_deadlines_ics
 from gw_recap import last_finished_gw, build_gw_recap
+from news_feed import build_news_feed
 from notify_telegram import check_deadline_reminder, check_deadline_passed
 
 BASE = "https://fantasy.premierleague.com/api"
@@ -244,6 +245,10 @@ def main():
     price_alerts = build_price_alerts(players, price_history, bootstrap.get("total_players"))
     save("price_alerts.json", price_alerts)
     print(f"price_alerts.json: {len(price_alerts['alerts'])} alerts, calibrated={price_alerts['calibrated']}")
+
+    news_feed = build_news_feed(bootstrap)
+    save("news_feed.json", news_feed)
+    print(f"news_feed.json: {len(news_feed['news'])} news items, {len(news_feed['hot_players'])} hot players")
 
     players_by_id = {p["id"]: p for p in players}
     league_insights = build_league_insights(managers_picks, players_by_id)
