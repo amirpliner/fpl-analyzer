@@ -1,48 +1,63 @@
 {
-  "gw": 2,
-  "points": 110,
-  "points_on_bench": 13,
-  "overall_rank": 1268044,
-  "rank_change": 3701855,
-  "event_transfers": 1,
+  "gw": 3,
+  "points": 42,
+  "points_on_bench": 15,
+  "overall_rank": 2321869,
+  "rank_change": -1053825,
+  "event_transfers": 0,
   "event_transfers_cost": 0,
   "active_chip": null,
   "captain": {
-    "id": 427,
-    "web_name": "Mbeumo",
-    "team": "MUN",
+    "id": 411,
+    "web_name": "Haaland",
+    "team": "MCI",
     "on_bench": false,
     "is_captain": true,
     "multiplier": 2,
-    "base_points": 11,
-    "points": 22,
+    "base_points": 9,
+    "points": 18,
     "minutes": 90,
     "chance_next": null
   },
-  "best_possible_captain": {
-    "id": 426,
-    "web_name": "B.Fernandes",
-    "team": "MUN",
-    "on_bench": false,
-    "is_captain": false,
-    "multiplier": 1,
-    "base_points": 23,
-    "points": 23,
-    "minutes": 90,
-    "chance_next": null
-  },
-  "captain_verdict": "suboptimal",
+  "best_possible_captain": null,
+  "captain_verdict": "optimal",
   "hauls": [
     {
-      "id": 426,
-      "web_name": "B.Fernandes",
+      "id": 411,
+      "web_name": "Haaland",
+      "team": "MCI",
+      "on_bench": false,
+      "is_captain": true,
+      "multiplier": 2,
+      "base_points": 9,
+      "points": 18,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 427,
+      "web_name": "Mbeumo",
       "team": "MUN",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 23,
-      "points": 23,
+      "base_points": 8,
+      "points": 8,
       "minutes": 90,
+      "chance_next": null
+    }
+  ],
+  "busts": [
+    {
+      "id": 88,
+      "web_name": "Kayode",
+      "team": "BRE",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 45,
       "chance_next": null
     },
     {
@@ -52,41 +67,15 @@
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 13,
-      "points": 13,
+      "base_points": 1,
+      "points": 1,
       "minutes": 90,
       "chance_next": null
     },
     {
-      "id": 411,
-      "web_name": "Haaland",
-      "team": "MCI",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 13,
-      "points": 13,
-      "minutes": 90,
-      "chance_next": null
-    },
-    {
-      "id": 8,
-      "web_name": "Calafiori",
-      "team": "ARS",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 11,
-      "points": 11,
-      "minutes": 90,
-      "chance_next": null
-    }
-  ],
-  "busts": [
-    {
-      "id": 496,
-      "web_name": "Kinsky",
-      "team": "TOT",
+      "id": 165,
+      "web_name": "João Pedro",
+      "team": "CHE",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
@@ -94,54 +83,46 @@
       "points": 1,
       "minutes": 90,
       "chance_next": null
+    },
+    {
+      "id": 346,
+      "web_name": "Calvert-Lewin",
+      "team": "LEE",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 72,
+      "chance_next": null
     }
   ],
   "keep": [
     {
-      "web_name": "Calafiori",
-      "reason": "הביא 11 נק' במחזור 2"
-    },
-    {
-      "web_name": "B.Fernandes",
-      "reason": "הביא 23 נק' במחזור 2"
-    },
-    {
-      "web_name": "Groß",
-      "reason": "הביא 13 נק' במחזור 2"
-    },
-    {
       "web_name": "Mbeumo",
-      "reason": "הביא 11 נק' במחזור 2"
+      "reason": "הביא 8 נק' במחזור 3"
     },
     {
       "web_name": "Haaland",
-      "reason": "הביא 13 נק' במחזור 2"
-    },
-    {
-      "web_name": "João Pedro",
-      "reason": "הביא 9 נק' במחזור 2"
-    },
-    {
-      "web_name": "Calvert-Lewin",
-      "reason": "הביא 8 נק' במחזור 2"
-    },
-    {
-      "web_name": "Ballard",
-      "reason": "הביא 8 נק' במחזור 2"
+      "reason": "הביא 9 נק' במחזור 3"
     }
   ],
   "change": [
     {
-      "web_name": "Kinsky",
-      "reason": "רק 1 נק' במחזור 2 · ריצת משחקים קשה"
+      "web_name": "Kayode",
+      "reason": "רק 1 נק' במחזור 3 · ריצת משחקים קשה"
     },
     {
-      "web_name": "Verbruggen",
-      "reason": "רק 0 נק' במחזור 2 · ריצת משחקים קשה"
+      "web_name": "Groß",
+      "reason": "רק 1 נק' במחזור 3 · ריצת משחקים קשה"
     },
     {
-      "web_name": "O'Shea",
-      "reason": "רק 0 נק' במחזור 2 · ריצת משחקים קשה"
+      "web_name": "João Pedro",
+      "reason": "רק 1 נק' במחזור 3 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Calvert-Lewin",
+      "reason": "רק 1 נק' במחזור 3 · ריצת משחקים קשה"
     }
   ]
 }
