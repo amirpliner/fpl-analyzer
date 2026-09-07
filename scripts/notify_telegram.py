@@ -100,3 +100,22 @@ def check_deadline_reminder(meta, prior_state):
         state["deadline_notified_for"] = meta["deadline_time"]
 
     return state
+
+
+def check_deadline_passed(meta, prior_state):
+    """Fires once, right as a gameweek's deadline actually passes
+    (meta.is_upcoming flips to False - a different moment than
+    check_deadline_reminder's "still time left" warning). Seeds
+    silently on the very first run instead of firing retroactively for
+    whatever gameweek was already locked in before this existed."""
+    state = dict(prior_state)
+    if not meta or not meta.get("gameweek") or meta.get("is_upcoming") is not False:
+        return state
+
+    gw = meta["gameweek"]
+    last_locked = state.get("last_locked_gw")
+    if last_locked is not None and last_locked != gw:
+        send_message(f"🔒 הדדליין למחזור {gw} עבר - הסגל ננעל!")
+    state["last_locked_gw"] = gw
+
+    return state
