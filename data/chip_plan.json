@@ -8,21 +8,21 @@
     "recommendations": [
       {
         "event": 4,
-        "score": 12.85,
+        "score": 12.87,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.85 נק' (סף: 12.0)"
-      },
-      {
-        "event": 3,
-        "score": 12.64,
-        "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.64 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.87 נק' (סף: 12.0)"
       },
       {
         "event": 6,
-        "score": 12.64,
+        "score": 12.71,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.64 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.71 נק' (סף: 12.0)"
+      },
+      {
+        "event": 8,
+        "score": 12.44,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.44 נק' (סף: 12.0)"
       }
     ]
   },
@@ -32,29 +32,35 @@
       {
         "event": 6,
         "player": "Calafiori",
-        "score": 8.13,
+        "score": 8.05,
         "is_dgw": false,
-        "reason": "Calafiori צפוי 8.13 xPts"
+        "reason": "Calafiori צפוי 8.05 xPts"
       },
       {
         "event": 10,
         "player": "Calafiori",
-        "score": 8.13,
+        "score": 8.05,
         "is_dgw": false,
-        "reason": "Calafiori צפוי 8.13 xPts"
+        "reason": "Calafiori צפוי 8.05 xPts"
       },
       {
-        "event": 3,
+        "event": 5,
         "player": "B.Fernandes",
-        "score": 7.98,
+        "score": 7.96,
         "is_dgw": false,
-        "reason": "B.Fernandes צפוי 7.98 xPts"
+        "reason": "B.Fernandes צפוי 7.96 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 3,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 3"
+      }
+    ]
   },
   "wildcard": {
     "available": true,

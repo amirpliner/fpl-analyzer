@@ -1,14 +1,21 @@
 {
   "active_chip": "3xc",
-  "automatic_subs": [],
+  "automatic_subs": [
+    {
+      "entry": 595041,
+      "element_in": 418,
+      "element_out": 387,
+      "event": 3
+    }
+  ],
   "entry_history": {
     "event": 3,
-    "points": 38,
-    "total_points": 203,
-    "rank": 4693032,
-    "rank_sort": 4705767,
-    "overall_rank": 861651,
-    "percentile_rank": 50,
+    "points": 51,
+    "total_points": 216,
+    "rank": 5284446,
+    "rank_sort": 5292887,
+    "overall_rank": 862642,
+    "percentile_rank": 55,
     "overall_rank_percentage": "8",
     "bank": 0,
     "value": 1001,
@@ -26,7 +33,7 @@
       "element_type": 1
     },
     {
-      "element": 387,
+      "element": 418,
       "position": 2,
       "multiplier": 1,
       "is_captain": false,
@@ -34,7 +41,7 @@
       "element_type": 2
     },
     {
-      "element": 10,
+      "element": 8,
       "position": 3,
       "multiplier": 1,
       "is_captain": false,
@@ -42,7 +49,7 @@
       "element_type": 2
     },
     {
-      "element": 8,
+      "element": 10,
       "position": 4,
       "multiplier": 1,
       "is_captain": false,
@@ -58,8 +65,16 @@
       "element_type": 3
     },
     {
-      "element": 426,
+      "element": 127,
       "position": 6,
+      "multiplier": 1,
+      "is_captain": false,
+      "is_vice_captain": false,
+      "element_type": 3
+    },
+    {
+      "element": 426,
+      "position": 7,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": true,
@@ -67,14 +82,6 @@
     },
     {
       "element": 557,
-      "position": 7,
-      "multiplier": 1,
-      "is_captain": false,
-      "is_vice_captain": false,
-      "element_type": 3
-    },
-    {
-      "element": 127,
       "position": 8,
       "multiplier": 1,
       "is_captain": false,
@@ -122,7 +129,7 @@
       "element_type": 3
     },
     {
-      "element": 418,
+      "element": 387,
       "position": 14,
       "multiplier": 0,
       "is_captain": false,
