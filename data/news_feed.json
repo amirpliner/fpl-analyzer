@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": 219,
+      "web_name": "J.Rak-Sakyi",
+      "team": 8,
+      "news": "has joined  Kasimpasa on loan for the rest of the seaon.",
+      "news_added": "2026-09-10T09:12:47.224598Z",
+      "chance_of_playing_next_round": 0
+    },
+    {
       "id": 367,
       "web_name": "Gakpo",
       "team": 14,
@@ -151,14 +159,6 @@
       "news": "Has joined Olympiakos permanently",
       "news_added": "2026-09-04T12:35:14.472260Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 18,
-      "web_name": "Martinelli",
-      "team": 1,
-      "news": "Has joined Al Hilal permanently",
-      "news_added": "2026-09-04T12:34:46.738449Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 367,
       "web_name": "Gakpo",
       "team": 14,
-      "net_transfers": 510155,
+      "net_transfers": 495164,
       "form": 9.3,
-      "owned": 14.4
+      "owned": 14.2
     },
     {
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 431704,
+      "net_transfers": 461672,
       "form": 6.3,
-      "owned": 29.1
+      "owned": 29.4
     },
     {
       "id": 379,
       "web_name": "Isak",
       "team": 14,
-      "net_transfers": 372605,
+      "net_transfers": 381647,
       "form": 7.7,
-      "owned": 21.0
+      "owned": 21.1
     },
     {
       "id": 154,
       "web_name": "Palmer",
       "team": 6,
-      "net_transfers": 335653,
+      "net_transfers": 360364,
       "form": 7.0,
-      "owned": 22.8
+      "owned": 23.1
     },
     {
       "id": 15,
       "web_name": "Ødegaard",
       "team": 1,
-      "net_transfers": 268812,
+      "net_transfers": 298759,
       "form": 8.0,
-      "owned": 14.2
+      "owned": 14.6
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 265926,
+      "net_transfers": 279111,
       "form": 1.7,
-      "owned": 13.7
+      "owned": 13.8
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 255798,
+      "net_transfers": 263915,
       "form": 7.0,
-      "owned": 20.1
+      "owned": 20.2
     },
     {
       "id": 8,
       "web_name": "Calafiori",
       "team": 1,
-      "net_transfers": 238201,
+      "net_transfers": 245437,
       "form": 7.3,
-      "owned": 47.9
+      "owned": 48.0
     },
     {
       "id": 449,
       "web_name": "Hall",
       "team": 17,
-      "net_transfers": 236410,
+      "net_transfers": 245333,
       "form": 6.0,
-      "owned": 12.0
+      "owned": 12.1
     },
     {
       "id": 464,
       "web_name": "Wissa",
       "team": 17,
-      "net_transfers": 211575,
+      "net_transfers": 216162,
       "form": 4.3,
-      "owned": 17.1
+      "owned": 17.2
     }
   ]
 }
