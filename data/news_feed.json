@@ -1,6 +1,30 @@
 {
   "news": [
     {
+      "id": 187,
+      "web_name": "Eccles",
+      "team": 7,
+      "news": "Unspecified injury - Expected back 12 Oct",
+      "news_added": "2026-09-10T18:30:08.877110Z",
+      "chance_of_playing_next_round": 0
+    },
+    {
+      "id": 444,
+      "web_name": "Jaouen",
+      "team": 17,
+      "news": "Ankle injury - 50% chance of playing",
+      "news_added": "2026-09-10T16:00:09.127466Z",
+      "chance_of_playing_next_round": 50
+    },
+    {
+      "id": 135,
+      "web_name": "Yohanna",
+      "team": 5,
+      "news": "Unspecified injury - Expected back 10 Oct",
+      "news_added": "2026-09-10T13:00:08.617941Z",
+      "chance_of_playing_next_round": 0
+    },
+    {
       "id": 219,
       "web_name": "J.Rak-Sakyi",
       "team": 8,
@@ -55,14 +79,6 @@
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-09-09T14:00:08.462705Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 285,
-      "web_name": "McNair",
-      "team": 11,
-      "news": "Foot injury - 75% chance of playing",
-      "news_added": "2026-09-09T13:30:08.327907Z",
-      "chance_of_playing_next_round": 75
     },
     {
       "id": 632,
@@ -143,104 +159,88 @@
       "news": "Has joined Stoke City on loan for the rest of the season",
       "news_added": "2026-09-04T12:36:56.236331Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 607,
-      "web_name": "Lynch",
-      "team": 2,
-      "news": "Has joined Oxford United on loan until January",
-      "news_added": "2026-09-04T12:35:39.820426Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 44,
-      "web_name": "Bailey",
-      "team": 2,
-      "news": "Has joined Olympiakos permanently",
-      "news_added": "2026-09-04T12:35:14.472260Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
     {
-      "id": 367,
-      "web_name": "Gakpo",
-      "team": 14,
-      "net_transfers": 495164,
-      "form": 9.3,
-      "owned": 14.2
-    },
-    {
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 461672,
+      "net_transfers": 526307,
       "form": 6.3,
-      "owned": 29.4
+      "owned": 30.1
     },
     {
-      "id": 379,
-      "web_name": "Isak",
+      "id": 367,
+      "web_name": "Gakpo",
       "team": 14,
-      "net_transfers": 381647,
-      "form": 7.7,
-      "owned": 21.1
+      "net_transfers": 471640,
+      "form": 9.3,
+      "owned": 13.9
     },
     {
       "id": 154,
       "web_name": "Palmer",
       "team": 6,
-      "net_transfers": 360364,
+      "net_transfers": 421021,
       "form": 7.0,
-      "owned": 23.1
+      "owned": 23.8
+    },
+    {
+      "id": 379,
+      "web_name": "Isak",
+      "team": 14,
+      "net_transfers": 405968,
+      "form": 7.7,
+      "owned": 21.5
     },
     {
       "id": 15,
       "web_name": "Ødegaard",
       "team": 1,
-      "net_transfers": 298759,
+      "net_transfers": 359131,
       "form": 8.0,
-      "owned": 14.6
+      "owned": 15.2
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 279111,
+      "net_transfers": 315684,
       "form": 1.7,
-      "owned": 13.8
+      "owned": 14.2
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 263915,
+      "net_transfers": 286249,
       "form": 7.0,
-      "owned": 20.2
-    },
-    {
-      "id": 8,
-      "web_name": "Calafiori",
-      "team": 1,
-      "net_transfers": 245437,
-      "form": 7.3,
-      "owned": 48.0
+      "owned": 20.5
     },
     {
       "id": 449,
       "web_name": "Hall",
       "team": 17,
-      "net_transfers": 245333,
+      "net_transfers": 266756,
       "form": 6.0,
-      "owned": 12.1
+      "owned": 12.3
+    },
+    {
+      "id": 8,
+      "web_name": "Calafiori",
+      "team": 1,
+      "net_transfers": 264265,
+      "form": 7.3,
+      "owned": 48.2
     },
     {
       "id": 464,
       "web_name": "Wissa",
       "team": 17,
-      "net_transfers": 216162,
+      "net_transfers": 227045,
       "form": 4.3,
-      "owned": 17.2
+      "owned": 17.3
     }
   ]
 }
