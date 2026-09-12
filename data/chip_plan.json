@@ -1,28 +1,34 @@
 {
   "horizon": 8,
-  "from_gameweek": 3,
-  "chips_used": [],
+  "from_gameweek": 4,
+  "chips_used": [
+    {
+      "name": "wildcard",
+      "time": "2026-09-11T04:51:53.245331Z",
+      "event": 4
+    }
+  ],
   "note": "יש שני Wildcard בעונה (WC1/WC2) עם דדליין נפרד לכל אחד - בדוק בעצמך את התאריך המדויק באתר FPL.",
   "bench_boost": {
     "available": true,
     "recommendations": [
       {
-        "event": 4,
-        "score": 12.87,
-        "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.87 נק' (סף: 12.0)"
-      },
-      {
         "event": 6,
-        "score": 12.71,
+        "score": 13.5,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.71 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.5 נק' (סף: 12.0)"
       },
       {
-        "event": 8,
-        "score": 12.44,
+        "event": 5,
+        "score": 13.06,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.44 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.06 נק' (סף: 12.0)"
+      },
+      {
+        "event": 4,
+        "score": 12.99,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.99 נק' (סף: 12.0)"
       }
     ]
   },
@@ -32,42 +38,36 @@
       {
         "event": 6,
         "player": "Calafiori",
-        "score": 8.05,
+        "score": 7.98,
         "is_dgw": false,
-        "reason": "Calafiori צפוי 8.05 xPts"
+        "reason": "Calafiori צפוי 7.98 xPts"
       },
       {
         "event": 10,
         "player": "Calafiori",
-        "score": 8.05,
+        "score": 7.98,
         "is_dgw": false,
-        "reason": "Calafiori צפוי 8.05 xPts"
+        "reason": "Calafiori צפוי 7.98 xPts"
       },
       {
         "event": 5,
-        "player": "B.Fernandes",
-        "score": 7.96,
+        "player": "Mbeumo",
+        "score": 7.71,
         "is_dgw": false,
-        "reason": "B.Fernandes צפוי 7.96 xPts"
+        "reason": "Mbeumo צפוי 7.71 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": [
-      {
-        "event": 3,
-        "blank_players": 15,
-        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 3"
-      }
-    ]
+    "recommendations": []
   },
   "wildcard": {
     "available": true,
-    "decay_score": 1.0,
-    "weak_players": 1,
+    "decay_score": 0.0,
+    "weak_players": 0,
     "injury_players": 0,
     "recommend": false,
-    "reason": "1 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "0 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }
