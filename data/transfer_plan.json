@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 4,
-  "baseline_xpts": 223.49,
+  "baseline_xpts": 211.59,
   "routes": [
     {
       "weekly_plan": [
@@ -13,28 +13,23 @@
               "out": "Dedić",
               "in": "Bogle",
               "cost_delta": 0.0
-            },
+            }
+          ],
+          "hits": 0,
+          "xi_score": 73.98,
+          "captain": "Bogle"
+        },
+        {
+          "week": 2,
+          "transfers": [
             {
               "out": "Gomez",
               "in": "Foden",
               "cost_delta": 2.0
             }
           ],
-          "hits": 1,
-          "xi_score": 78.65,
-          "captain": "Calafiori"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Wissa",
-              "in": "Barry",
-              "cost_delta": -0.6
-            }
-          ],
           "hits": 0,
-          "xi_score": 82.39,
+          "xi_score": 78.69,
           "captain": "Foden"
         },
         {
@@ -47,15 +42,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 80.3,
-          "captain": "Calafiori"
+          "xi_score": 76.41,
+          "captain": "Mbeumo"
         }
       ],
-      "total_transfers": 4,
-      "total_hits": 1,
-      "final_bank": 1.2,
-      "total_xpts": 237.34,
-      "net_gain_vs_hold": 13.85
+      "total_transfers": 3,
+      "total_hits": 0,
+      "final_bank": 0.6,
+      "total_xpts": 229.08,
+      "net_gain_vs_hold": 17.49
     },
     {
       "weekly_plan": [
@@ -66,28 +61,23 @@
               "out": "Dedić",
               "in": "Bogle",
               "cost_delta": 0.0
-            },
+            }
+          ],
+          "hits": 0,
+          "xi_score": 73.98,
+          "captain": "Bogle"
+        },
+        {
+          "week": 2,
+          "transfers": [
             {
               "out": "Gomez",
               "in": "Foden",
               "cost_delta": 2.0
             }
           ],
-          "hits": 1,
-          "xi_score": 78.65,
-          "captain": "Calafiori"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Wissa",
-              "in": "Barry",
-              "cost_delta": -0.6
-            }
-          ],
           "hits": 0,
-          "xi_score": 82.39,
+          "xi_score": 78.69,
           "captain": "Foden"
         },
         {
@@ -100,15 +90,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 80.3,
-          "captain": "Calafiori"
+          "xi_score": 76.41,
+          "captain": "Mbeumo"
         }
       ],
-      "total_transfers": 4,
-      "total_hits": 1,
-      "final_bank": 0.7,
-      "total_xpts": 237.34,
-      "net_gain_vs_hold": 13.85
+      "total_transfers": 3,
+      "total_hits": 0,
+      "final_bank": 0.1,
+      "total_xpts": 229.08,
+      "net_gain_vs_hold": 17.49
     },
     {
       "weekly_plan": [
@@ -116,28 +106,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 74.29,
-          "captain": "Calafiori"
+          "xi_score": 69.87,
+          "captain": "Mbeumo"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 74.6,
+          "xi_score": 71.03,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 74.6,
-          "captain": "Calafiori"
+          "xi_score": 70.69,
+          "captain": "Mbeumo"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 2.1,
-      "total_xpts": 223.49,
+      "total_xpts": 211.59,
       "net_gain_vs_hold": 0.0
     }
   ]
