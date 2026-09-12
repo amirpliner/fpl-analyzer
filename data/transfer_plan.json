@@ -56,6 +56,13 @@
       "weekly_plan": [
         {
           "week": 1,
+          "transfers": [],
+          "hits": 0,
+          "xi_score": 0.0,
+          "captain": "Ballard"
+        },
+        {
+          "week": 2,
           "transfers": [
             {
               "out": "Ballard",
@@ -63,26 +70,13 @@
               "cost_delta": -0.4
             },
             {
-              "out": "Maguire",
+              "out": "O'Shea",
               "in": "Lewis",
-              "cost_delta": -0.4
-            }
-          ],
-          "hits": 1,
-          "xi_score": 0.0,
-          "captain": "Kinsky"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Groß",
-              "in": "Ødegaard",
-              "cost_delta": 1.1
+              "cost_delta": 0.4
             }
           ],
           "hits": 0,
-          "xi_score": 76.42,
+          "xi_score": 74.4,
           "captain": "Calafiori"
         },
         {
@@ -95,15 +89,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 81.51,
+          "xi_score": 79.21,
           "captain": "Foden"
         }
       ],
-      "total_transfers": 4,
-      "total_hits": 1,
-      "final_bank": 0.1,
-      "total_xpts": 153.93,
-      "net_gain_vs_hold": 13.29
+      "total_transfers": 3,
+      "total_hits": 0,
+      "final_bank": 0.4,
+      "total_xpts": 153.61,
+      "net_gain_vs_hold": 12.97
     },
     {
       "weekly_plan": [
