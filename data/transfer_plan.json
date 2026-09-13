@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 4,
-  "baseline_xpts": 211.59,
+  "baseline_xpts": 211.24,
   "routes": [
     {
       "weekly_plan": [
@@ -16,7 +16,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 73.98,
+          "xi_score": 73.86,
           "captain": "Bogle"
         },
         {
@@ -29,7 +29,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 78.69,
+          "xi_score": 78.57,
           "captain": "Foden"
         },
         {
@@ -42,14 +42,14 @@
             }
           ],
           "hits": 0,
-          "xi_score": 76.41,
+          "xi_score": 76.3,
           "captain": "Mbeumo"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
       "final_bank": 0.6,
-      "total_xpts": 229.08,
+      "total_xpts": 228.73,
       "net_gain_vs_hold": 17.49
     },
     {
@@ -58,13 +58,13 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Dedić",
+              "out": "Konsa",
               "in": "Bogle",
               "cost_delta": 0.0
             }
           ],
           "hits": 0,
-          "xi_score": 73.98,
+          "xi_score": 73.86,
           "captain": "Bogle"
         },
         {
@@ -77,7 +77,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 78.69,
+          "xi_score": 78.57,
           "captain": "Foden"
         },
         {
@@ -85,19 +85,19 @@
           "transfers": [
             {
               "out": "Verbruggen",
-              "in": "Ellborg",
-              "cost_delta": 0.0
+              "in": "Bentley",
+              "cost_delta": -0.5
             }
           ],
           "hits": 0,
-          "xi_score": 76.41,
+          "xi_score": 76.3,
           "captain": "Mbeumo"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
-      "final_bank": 0.1,
-      "total_xpts": 229.08,
+      "final_bank": 0.6,
+      "total_xpts": 228.73,
       "net_gain_vs_hold": 17.49
     },
     {
@@ -106,28 +106,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 69.87,
+          "xi_score": 69.75,
           "captain": "Mbeumo"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 71.03,
+          "xi_score": 70.91,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 70.69,
+          "xi_score": 70.58,
           "captain": "Mbeumo"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 2.1,
-      "total_xpts": 211.59,
+      "total_xpts": 211.24,
       "net_gain_vs_hold": 0.0
     }
   ]
