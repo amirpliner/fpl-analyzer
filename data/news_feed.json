@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": 405,
+      "web_name": "N.Gonzalez",
+      "team": 17,
+      "news": "Concussion - 50% chance of playing",
+      "news_added": "2026-09-14T21:30:07.343728Z",
+      "chance_of_playing_next_round": 50
+    },
+    {
       "id": 454,
       "web_name": "Elanga",
       "team": 17,
@@ -151,14 +159,6 @@
       "news": "Has joined Omonoia FC permanently",
       "news_added": "2026-09-11T14:42:38.120231Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 217,
-      "web_name": "M.França",
-      "team": 8,
-      "news": "Has joined Alverca on loan for the rest of the season",
-      "news_added": "2026-09-11T14:42:19.322912Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,63 +166,63 @@
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 289282,
+      "net_transfers": 304606,
       "form": 6.8,
-      "owned": 37.0
+      "owned": 37.1
     },
     {
       "id": 391,
       "web_name": "Gvardiol",
       "team": 15,
-      "net_transfers": 180404,
+      "net_transfers": 195390,
       "form": 8.2,
-      "owned": 22.2
+      "owned": 22.4
     },
     {
       "id": 124,
       "web_name": "Groß",
       "team": 5,
-      "net_transfers": 161032,
+      "net_transfers": 180527,
       "form": 8.2,
-      "owned": 17.8
+      "owned": 18.0
     },
     {
       "id": 480,
       "web_name": "Gibbs-White",
       "team": 18,
-      "net_transfers": 150641,
+      "net_transfers": 166899,
       "form": 6.5,
-      "owned": 11.0
+      "owned": 11.2
     },
     {
       "id": 94,
       "web_name": "Schade",
       "team": 4,
-      "net_transfers": 149421,
+      "net_transfers": 164640,
       "form": 7.5,
-      "owned": 5.3
+      "owned": 5.5
     },
     {
       "id": 286,
       "web_name": "Belloumi",
       "team": 11,
-      "net_transfers": 145825,
+      "net_transfers": 156577,
       "form": 6.8,
-      "owned": 2.6
+      "owned": 2.7
     },
     {
       "id": 165,
       "web_name": "João Pedro",
       "team": 6,
-      "net_transfers": 139554,
+      "net_transfers": 146705,
       "form": 8.2,
-      "owned": 75.0
+      "owned": 75.1
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 125398,
+      "net_transfers": 134651,
       "form": 8.0,
       "owned": 23.3
     },
@@ -230,17 +230,17 @@
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 121403,
+      "net_transfers": 127245,
       "form": 2.8,
-      "owned": 17.8
+      "owned": 17.9
     },
     {
       "id": 229,
       "web_name": "Tarkowski",
       "team": 9,
-      "net_transfers": 119124,
+      "net_transfers": 123324,
       "form": 7.2,
-      "owned": 12.9
+      "owned": 13.0
     }
   ]
 }
