@@ -2,8 +2,56 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 4,
-  "baseline_xpts": 203.0,
+  "baseline_xpts": 135.18,
   "routes": [
+    {
+      "weekly_plan": [
+        {
+          "week": 1,
+          "transfers": [
+            {
+              "out": "Konsa",
+              "in": "Bogle",
+              "cost_delta": 0.0
+            }
+          ],
+          "hits": 0,
+          "xi_score": 0.0,
+          "captain": "Dedić"
+        },
+        {
+          "week": 2,
+          "transfers": [
+            {
+              "out": "Hall",
+              "in": "Muñoz",
+              "cost_delta": 0.2
+            }
+          ],
+          "hits": 0,
+          "xi_score": 73.41,
+          "captain": "Bogle"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Rogers",
+              "in": "Saka",
+              "cost_delta": 1.8
+            }
+          ],
+          "hits": 0,
+          "xi_score": 75.16,
+          "captain": "Saka"
+        }
+      ],
+      "total_transfers": 3,
+      "total_hits": 0,
+      "final_bank": 0.1,
+      "total_xpts": 148.57,
+      "net_gain_vs_hold": 13.39
+    },
     {
       "weekly_plan": [
         {
@@ -16,8 +64,8 @@
             }
           ],
           "hits": 0,
-          "xi_score": 72.0,
-          "captain": "Bogle"
+          "xi_score": 0.0,
+          "captain": "Tzolakis"
         },
         {
           "week": 2,
@@ -29,8 +77,8 @@
             }
           ],
           "hits": 0,
-          "xi_score": 73.45,
-          "captain": "Mbeumo"
+          "xi_score": 73.5,
+          "captain": "Bogle"
         },
         {
           "week": 3,
@@ -42,63 +90,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 74.77,
+          "xi_score": 74.85,
           "captain": "Saka"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
       "final_bank": 0.4,
-      "total_xpts": 220.22,
-      "net_gain_vs_hold": 17.22
-    },
-    {
-      "weekly_plan": [
-        {
-          "week": 1,
-          "transfers": [
-            {
-              "out": "Konsa",
-              "in": "Bogle",
-              "cost_delta": 0.0
-            }
-          ],
-          "hits": 0,
-          "xi_score": 72.0,
-          "captain": "Bogle"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Hall",
-              "in": "Lewis",
-              "cost_delta": -0.8
-            }
-          ],
-          "hits": 0,
-          "xi_score": 73.45,
-          "captain": "Mbeumo"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
-              "out": "Rogers",
-              "in": "Saka",
-              "cost_delta": 1.8
-            }
-          ],
-          "hits": 0,
-          "xi_score": 74.77,
-          "captain": "Saka"
-        }
-      ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 1.1,
-      "total_xpts": 220.22,
-      "net_gain_vs_hold": 17.22
+      "total_xpts": 148.35,
+      "net_gain_vs_hold": 13.17
     },
     {
       "weekly_plan": [
@@ -106,28 +106,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 67.04,
-          "captain": "Mbeumo"
+          "xi_score": 0.0,
+          "captain": "Dedić"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 68.05,
+          "xi_score": 67.66,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 67.91,
+          "xi_score": 67.52,
           "captain": "Mbeumo"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 2.1,
-      "total_xpts": 203.0,
+      "total_xpts": 135.18,
       "net_gain_vs_hold": 0.0
     }
   ]

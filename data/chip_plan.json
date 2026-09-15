@@ -14,21 +14,21 @@
     "recommendations": [
       {
         "event": 6,
-        "score": 12.98,
+        "score": 13.02,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.98 נק' (סף: 12.0)"
-      },
-      {
-        "event": 4,
-        "score": 12.53,
-        "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.53 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.02 נק' (סף: 12.0)"
       },
       {
         "event": 5,
-        "score": 12.48,
+        "score": 12.51,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.48 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.51 נק' (סף: 12.0)"
+      },
+      {
+        "event": 7,
+        "score": 12.27,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.27 נק' (סף: 12.0)"
       }
     ]
   },
@@ -38,29 +38,35 @@
       {
         "event": 5,
         "player": "Mbeumo",
-        "score": 7.24,
+        "score": 7.18,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 7.24 xPts"
+        "reason": "Mbeumo צפוי 7.18 xPts"
       },
       {
         "event": 6,
         "player": "Mbeumo",
-        "score": 7.24,
+        "score": 7.18,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 7.24 xPts"
+        "reason": "Mbeumo צפוי 7.18 xPts"
       },
       {
         "event": 7,
         "player": "Mbeumo",
-        "score": 7.24,
+        "score": 7.18,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 7.24 xPts"
+        "reason": "Mbeumo צפוי 7.18 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 4,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 4"
+      }
+    ]
   },
   "wildcard": {
     "available": true,
