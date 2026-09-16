@@ -13,7 +13,7 @@
   "summary_overall_points": 338,
   "summary_overall_rank": 26292,
   "summary_event_points": 100,
-  "summary_event_rank": 190835,
+  "summary_event_rank": 190834,
   "current_event": 4,
   "leagues": {
     "classic": [
@@ -50,7 +50,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 25921,
         "entry_percentile_rank": 1,
-        "entry_rank": 5419,
+        "entry_rank": 5420,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 16,
@@ -296,6 +296,52 @@
       {
         "active_phases": [
           {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 431170,
+            "phase": 1,
+            "rank": 0,
+            "rank_count": 2587868,
+            "rank_sort": 0,
+            "total": 0
+          },
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 431170,
+            "phase": 3,
+            "rank": 0,
+            "rank_count": 2596962,
+            "rank_sort": 0,
+            "total": 0
+          }
+        ],
+        "admin_entry": null,
+        "closed": false,
+        "created": "2026-07-30T12:01:10.398217Z",
+        "cup_league": null,
+        "cup_qualified": null,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "entry_can_leave": false,
+        "entry_last_rank": 0,
+        "entry_percentile_rank": null,
+        "entry_rank": 8103,
+        "featured_entry_ids": [],
+        "has_cup": false,
+        "id": 431170,
+        "league_type": "s",
+        "max_entries": null,
+        "name": "Adobe Express Badge League",
+        "rank": null,
+        "rank_count": 2587868,
+        "scoring": "c",
+        "short_name": "partner-adobe",
+        "start_event": 1
+      },
+      {
+        "active_phases": [
+          {
             "entry_percentile_rank": 25,
             "last_rank": 1,
             "league_id": 1674621,
@@ -366,5 +412,5 @@
   "last_deadline_bank": 1,
   "last_deadline_value": 1003,
   "last_deadline_total_transfers": 3,
-  "club_badge_src": "Pending"
+  "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/1367096/d9dfb18d-bde6-4643-b0a2-7907e8633cb1.png"
 }
