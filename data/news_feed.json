@@ -1,6 +1,30 @@
 {
   "news": [
     {
+      "id": 54,
+      "web_name": "Gomes",
+      "team": 2,
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-09-16T19:30:08.742410Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 165,
+      "web_name": "João Pedro",
+      "team": 6,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-16T19:00:09.919929Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 246,
+      "web_name": "Röhl",
+      "team": 9,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-16T18:00:09.541933Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 10,
       "web_name": "White",
       "team": 1,
@@ -15,14 +39,6 @@
       "news": "Thigh injury - 25% chance of playing",
       "news_added": "2026-09-15T09:00:08.191022Z",
       "chance_of_playing_next_round": 25
-    },
-    {
-      "id": 104,
-      "web_name": "Onyeka",
-      "team": 7,
-      "news": "Hand injury - 50% chance of playing",
-      "news_added": "2026-09-15T09:00:07.851220Z",
-      "chance_of_playing_next_round": 50
     },
     {
       "id": 405,
@@ -143,22 +159,6 @@
       "news": "Hamstring injury - Expected back 11 Oct",
       "news_added": "2026-09-12T14:00:09.705107Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 224,
-      "web_name": "Nketiah",
-      "team": 8,
-      "news": "Unspecified injury - 75% chance of playing",
-      "news_added": "2026-09-12T14:00:09.427136Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 198,
-      "web_name": "Henderson",
-      "team": 8,
-      "news": "Foot injury - Expected back 11 Oct",
-      "news_added": "2026-09-12T14:00:09.378740Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 385257,
+      "net_transfers": 407317,
       "form": 6.8,
-      "owned": 37.9
+      "owned": 38.1
     },
     {
       "id": 480,
       "web_name": "Gibbs-White",
       "team": 18,
-      "net_transfers": 285724,
+      "net_transfers": 315918,
       "form": 6.5,
-      "owned": 12.5
-    },
-    {
-      "id": 124,
-      "web_name": "Groß",
-      "team": 5,
-      "net_transfers": 285708,
-      "form": 8.2,
-      "owned": 19.1
+      "owned": 12.8
     },
     {
       "id": 391,
       "web_name": "Gvardiol",
       "team": 15,
-      "net_transfers": 284397,
+      "net_transfers": 310056,
       "form": 8.2,
-      "owned": 23.4
+      "owned": 23.7
+    },
+    {
+      "id": 124,
+      "web_name": "Groß",
+      "team": 5,
+      "net_transfers": 306996,
+      "form": 8.2,
+      "owned": 19.3
     },
     {
       "id": 94,
       "web_name": "Schade",
       "team": 4,
-      "net_transfers": 227836,
+      "net_transfers": 241540,
       "form": 7.5,
-      "owned": 6.2
+      "owned": 6.4
     },
     {
       "id": 286,
       "web_name": "Belloumi",
       "team": 11,
-      "net_transfers": 209955,
+      "net_transfers": 221819,
       "form": 6.8,
-      "owned": 3.3
-    },
-    {
-      "id": 165,
-      "web_name": "João Pedro",
-      "team": 6,
-      "net_transfers": 187340,
-      "form": 8.2,
-      "owned": 75.4
+      "owned": 3.4
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 185583,
+      "net_transfers": 198726,
       "form": 8.0,
-      "owned": 23.8
+      "owned": 24.0
+    },
+    {
+      "id": 165,
+      "web_name": "João Pedro",
+      "team": 6,
+      "net_transfers": 178354,
+      "form": 8.2,
+      "owned": 75.3
     },
     {
       "id": 68,
       "web_name": "Tavernier",
       "team": 3,
-      "net_transfers": 166247,
+      "net_transfers": 176520,
       "form": 7.2,
-      "owned": 5.6
+      "owned": 5.7
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 163501,
+      "net_transfers": 174808,
       "form": 2.8,
-      "owned": 18.2
+      "owned": 18.3
     }
   ]
 }

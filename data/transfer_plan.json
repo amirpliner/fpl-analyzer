@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 4,
-  "baseline_xpts": 135.18,
+  "baseline_xpts": 133.32,
   "routes": [
     {
       "weekly_plan": [
@@ -23,13 +23,13 @@
           "week": 2,
           "transfers": [
             {
-              "out": "Hall",
-              "in": "Muñoz",
-              "cost_delta": 0.2
+              "out": "João Pedro",
+              "in": "Barry",
+              "cost_delta": -2.2
             }
           ],
           "hits": 0,
-          "xi_score": 73.41,
+          "xi_score": 72.8,
           "captain": "Bogle"
         },
         {
@@ -42,15 +42,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 75.16,
+          "xi_score": 75.24,
           "captain": "Saka"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
-      "final_bank": 0.1,
-      "total_xpts": 148.57,
-      "net_gain_vs_hold": 13.39
+      "final_bank": 2.5,
+      "total_xpts": 148.04,
+      "net_gain_vs_hold": 14.72
     },
     {
       "weekly_plan": [
@@ -72,12 +72,17 @@
           "transfers": [
             {
               "out": "Konsa",
-              "in": "Lewis",
-              "cost_delta": -0.1
+              "in": "Muñoz",
+              "cost_delta": 0.9
+            },
+            {
+              "out": "João Pedro",
+              "in": "Barry",
+              "cost_delta": -2.2
             }
           ],
-          "hits": 0,
-          "xi_score": 73.5,
+          "hits": 1,
+          "xi_score": 74.81,
           "captain": "Bogle"
         },
         {
@@ -90,15 +95,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 74.85,
+          "xi_score": 76.56,
           "captain": "Saka"
         }
       ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 0.4,
-      "total_xpts": 148.35,
-      "net_gain_vs_hold": 13.17
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 1.6,
+      "total_xpts": 147.37,
+      "net_gain_vs_hold": 14.05
     },
     {
       "weekly_plan": [
@@ -113,21 +118,21 @@
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 67.66,
+          "xi_score": 66.73,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 67.52,
+          "xi_score": 66.59,
           "captain": "Mbeumo"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 2.1,
-      "total_xpts": 135.18,
+      "total_xpts": 133.32,
       "net_gain_vs_hold": 0.0
     }
   ]
