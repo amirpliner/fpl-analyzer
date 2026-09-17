@@ -1,6 +1,30 @@
 {
   "news": [
     {
+      "id": 244,
+      "web_name": "Armstrong",
+      "team": 9,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-17T08:30:08.942299Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 182,
+      "web_name": "Amenda",
+      "team": 7,
+      "news": "Calf injury - 50% chance of playing",
+      "news_added": "2026-09-17T07:30:09.329041Z",
+      "chance_of_playing_next_round": 50
+    },
+    {
+      "id": 29,
+      "web_name": "M.Bizot",
+      "team": 2,
+      "news": "Back injury - 75% chance of playing",
+      "news_added": "2026-09-17T07:30:09.058151Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 54,
       "web_name": "Gomes",
       "team": 2,
@@ -135,30 +159,6 @@
       "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-09-12T18:00:08.712707Z",
       "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 153,
-      "web_name": "Disasi",
-      "team": 8,
-      "news": "Suspended until 25 Oct",
-      "news_added": "2026-09-12T15:30:09.445078Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 474,
-      "web_name": "Jair Cunha",
-      "team": 18,
-      "news": "Hamstring injury - 50% chance of playing",
-      "news_added": "2026-09-12T14:00:09.724349Z",
-      "chance_of_playing_next_round": 50
-    },
-    {
-      "id": 471,
-      "web_name": "Milenković",
-      "team": 18,
-      "news": "Hamstring injury - Expected back 11 Oct",
-      "news_added": "2026-09-12T14:00:09.705107Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,47 +166,47 @@
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 413705,
+      "net_transfers": 427141,
       "form": 6.8,
-      "owned": 38.2
+      "owned": 38.3
     },
     {
       "id": 480,
       "web_name": "Gibbs-White",
       "team": 18,
-      "net_transfers": 324251,
+      "net_transfers": 343253,
       "form": 6.5,
-      "owned": 12.9
+      "owned": 13.1
     },
     {
       "id": 124,
       "web_name": "Groß",
       "team": 5,
-      "net_transfers": 321124,
+      "net_transfers": 340618,
       "form": 8.2,
-      "owned": 19.4
+      "owned": 19.6
     },
     {
       "id": 391,
       "web_name": "Gvardiol",
       "team": 15,
-      "net_transfers": 316627,
+      "net_transfers": 331506,
       "form": 8.2,
-      "owned": 23.8
+      "owned": 24.0
     },
     {
       "id": 94,
       "web_name": "Schade",
       "team": 4,
-      "net_transfers": 245030,
+      "net_transfers": 252670,
       "form": 7.5,
-      "owned": 6.4
+      "owned": 6.5
     },
     {
       "id": 286,
       "web_name": "Belloumi",
       "team": 11,
-      "net_transfers": 224619,
+      "net_transfers": 231585,
       "form": 6.8,
       "owned": 3.5
     },
@@ -214,33 +214,33 @@
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 209293,
+      "net_transfers": 219492,
       "form": 8.0,
-      "owned": 24.0
+      "owned": 24.1
     },
     {
       "id": 68,
       "web_name": "Tavernier",
       "team": 3,
-      "net_transfers": 179020,
+      "net_transfers": 184405,
       "form": 7.2,
-      "owned": 5.7
+      "owned": 5.8
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 177003,
+      "net_transfers": 182511,
       "form": 2.8,
       "owned": 18.3
     },
     {
-      "id": 165,
-      "web_name": "João Pedro",
-      "team": 6,
-      "net_transfers": 159912,
-      "form": 8.2,
-      "owned": 75.0
+      "id": 330,
+      "web_name": "Bogle",
+      "team": 13,
+      "net_transfers": 175216,
+      "form": 9.2,
+      "owned": 4.1
     }
   ]
 }
