@@ -1,6 +1,6 @@
 {
   "horizon": 8,
-  "from_gameweek": 4,
+  "from_gameweek": 5,
   "chips_used": [
     {
       "name": "wildcard",
@@ -19,35 +19,29 @@
       {
         "event": 5,
         "player": "Mbeumo",
-        "score": 7.18,
+        "score": 7.2,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 7.18 xPts"
+        "reason": "Mbeumo צפוי 7.2 xPts"
       },
       {
         "event": 6,
         "player": "Mbeumo",
-        "score": 7.18,
+        "score": 7.2,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 7.18 xPts"
+        "reason": "Mbeumo צפוי 7.2 xPts"
       },
       {
         "event": 7,
         "player": "Mbeumo",
-        "score": 7.18,
+        "score": 7.2,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 7.18 xPts"
+        "reason": "Mbeumo צפוי 7.2 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": [
-      {
-        "event": 4,
-        "blank_players": 15,
-        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 4"
-      }
-    ]
+    "recommendations": []
   },
   "wildcard": {
     "available": true,
