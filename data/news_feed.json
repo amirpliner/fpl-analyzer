@@ -65,14 +65,6 @@
       "chance_of_playing_next_round": 75
     },
     {
-      "id": 10,
-      "web_name": "White",
-      "team": 1,
-      "news": "Muscular injury - 75% chance of playing",
-      "news_added": "2026-09-15T19:30:09.494382Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
       "id": 456,
       "web_name": "J.Ramsey",
       "team": 17,
@@ -159,6 +151,14 @@
       "news": "Concussion - Expected back 11 Oct",
       "news_added": "2026-09-12T18:00:09.334142Z",
       "chance_of_playing_next_round": 0
+    },
+    {
+      "id": 36,
+      "web_name": "Maatsen",
+      "team": 2,
+      "news": "Ankle injury - 25% chance of playing",
+      "news_added": "2026-09-12T18:00:08.729468Z",
+      "chance_of_playing_next_round": 25
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 474119,
+      "net_transfers": 505690,
       "form": 6.8,
-      "owned": 38.8
+      "owned": 39.1
     },
     {
       "id": 480,
       "web_name": "Gibbs-White",
       "team": 18,
-      "net_transfers": 419962,
+      "net_transfers": 474885,
       "form": 6.5,
-      "owned": 14.1
-    },
-    {
-      "id": 124,
-      "web_name": "Groß",
-      "team": 5,
-      "net_transfers": 384852,
-      "form": 8.2,
-      "owned": 20.0
+      "owned": 14.8
     },
     {
       "id": 391,
       "web_name": "Gvardiol",
       "team": 15,
-      "net_transfers": 382429,
+      "net_transfers": 418822,
       "form": 8.2,
-      "owned": 24.6
+      "owned": 25.1
+    },
+    {
+      "id": 124,
+      "web_name": "Groß",
+      "team": 5,
+      "net_transfers": 412100,
+      "form": 8.2,
+      "owned": 20.2
     },
     {
       "id": 94,
       "web_name": "Schade",
       "team": 4,
-      "net_transfers": 277464,
+      "net_transfers": 294864,
       "form": 7.5,
-      "owned": 6.8
+      "owned": 7.0
     },
     {
       "id": 286,
       "web_name": "Belloumi",
       "team": 11,
-      "net_transfers": 253729,
+      "net_transfers": 270872,
       "form": 6.8,
-      "owned": 3.8
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team": 5,
-      "net_transfers": 241007,
-      "form": 8.0,
-      "owned": 24.3
+      "owned": 4.0
     },
     {
       "id": 330,
       "web_name": "Bogle",
       "team": 13,
-      "net_transfers": 230636,
+      "net_transfers": 262291,
       "form": 9.2,
-      "owned": 4.8
+      "owned": 5.2
+    },
+    {
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team": 5,
+      "net_transfers": 252997,
+      "form": 8.0,
+      "owned": 24.3
+    },
+    {
+      "id": 346,
+      "web_name": "Calvert-Lewin",
+      "team": 13,
+      "net_transfers": 226342,
+      "form": 5.0,
+      "owned": 24.7
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 204583,
+      "net_transfers": 220741,
       "form": 2.8,
-      "owned": 18.5
-    },
-    {
-      "id": 68,
-      "web_name": "Tavernier",
-      "team": 3,
-      "net_transfers": 202214,
-      "form": 7.2,
-      "owned": 6.0
+      "owned": 18.6
     }
   ]
 }
