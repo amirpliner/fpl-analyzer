@@ -27,7 +27,7 @@
       "league_ownership_pct": 61.3,
       "captain_count": 0,
       "eo_pct": 61.3,
-      "global_ownership_pct": 68.0,
+      "global_ownership_pct": 67.9,
       "is_template": true,
       "is_league_differential": false
     },
@@ -47,7 +47,7 @@
       "league_ownership_pct": 48.4,
       "captain_count": 1,
       "eo_pct": 51.6,
-      "global_ownership_pct": 25.6,
+      "global_ownership_pct": 25.7,
       "is_template": false,
       "is_league_differential": false
     },
@@ -97,7 +97,7 @@
       "league_ownership_pct": 38.7,
       "captain_count": 0,
       "eo_pct": 38.7,
-      "global_ownership_pct": 23.3,
+      "global_ownership_pct": 23.6,
       "is_template": false,
       "is_league_differential": false
     },
@@ -147,7 +147,7 @@
       "league_ownership_pct": 32.3,
       "captain_count": 0,
       "eo_pct": 32.3,
-      "global_ownership_pct": 18.1,
+      "global_ownership_pct": 18.0,
       "is_template": false,
       "is_league_differential": false
     },
@@ -207,7 +207,7 @@
       "league_ownership_pct": 22.6,
       "captain_count": 0,
       "eo_pct": 22.6,
-      "global_ownership_pct": 34.3,
+      "global_ownership_pct": 34.2,
       "is_template": false,
       "is_league_differential": false
     },
@@ -347,7 +347,7 @@
       "league_ownership_pct": 12.9,
       "captain_count": 0,
       "eo_pct": 12.9,
-      "global_ownership_pct": 15.2,
+      "global_ownership_pct": 15.3,
       "is_template": false,
       "is_league_differential": true
     },
@@ -387,7 +387,7 @@
       "league_ownership_pct": 9.7,
       "captain_count": 0,
       "eo_pct": 9.7,
-      "global_ownership_pct": 9.2,
+      "global_ownership_pct": 9.1,
       "is_template": false,
       "is_league_differential": true
     },
@@ -507,7 +507,7 @@
       "league_ownership_pct": 6.5,
       "captain_count": 0,
       "eo_pct": 6.5,
-      "global_ownership_pct": 8.4,
+      "global_ownership_pct": 8.5,
       "is_template": false,
       "is_league_differential": true
     },
@@ -687,7 +687,7 @@
       "league_ownership_pct": 3.2,
       "captain_count": 0,
       "eo_pct": 3.2,
-      "global_ownership_pct": 10.3,
+      "global_ownership_pct": 10.2,
       "is_template": false,
       "is_league_differential": true
     },
@@ -757,7 +757,7 @@
       "league_ownership_pct": 3.2,
       "captain_count": 0,
       "eo_pct": 3.2,
-      "global_ownership_pct": 2.1,
+      "global_ownership_pct": 2.0,
       "is_template": false,
       "is_league_differential": true
     },
@@ -822,26 +822,6 @@
       "is_league_differential": true
     },
     {
-      "id": 68,
-      "name": "Tavernier",
-      "league_ownership_pct": 3.2,
-      "captain_count": 0,
-      "eo_pct": 3.2,
-      "global_ownership_pct": 6.6,
-      "is_template": false,
-      "is_league_differential": true
-    },
-    {
-      "id": 504,
-      "name": "Vuskovic",
-      "league_ownership_pct": 3.2,
-      "captain_count": 0,
-      "eo_pct": 3.2,
-      "global_ownership_pct": 3.2,
-      "is_template": false,
-      "is_league_differential": true
-    },
-    {
       "id": 552,
       "name": "Brobbey",
       "league_ownership_pct": 3.2,
@@ -872,22 +852,22 @@
       "is_league_differential": true
     },
     {
-      "id": 362,
-      "name": "Jacquet",
+      "id": 68,
+      "name": "Tavernier",
       "league_ownership_pct": 3.2,
       "captain_count": 0,
       "eo_pct": 3.2,
-      "global_ownership_pct": 3.3,
+      "global_ownership_pct": 6.6,
       "is_template": false,
       "is_league_differential": true
     },
     {
-      "id": 140,
-      "name": "Sánchez",
+      "id": 504,
+      "name": "Vuskovic",
       "league_ownership_pct": 3.2,
       "captain_count": 0,
       "eo_pct": 3.2,
-      "global_ownership_pct": 0.7,
+      "global_ownership_pct": 3.2,
       "is_template": false,
       "is_league_differential": true
     },
@@ -912,12 +892,32 @@
       "is_league_differential": true
     },
     {
+      "id": 362,
+      "name": "Jacquet",
+      "league_ownership_pct": 3.2,
+      "captain_count": 0,
+      "eo_pct": 3.2,
+      "global_ownership_pct": 3.3,
+      "is_template": false,
+      "is_league_differential": true
+    },
+    {
+      "id": 140,
+      "name": "Sánchez",
+      "league_ownership_pct": 3.2,
+      "captain_count": 0,
+      "eo_pct": 3.2,
+      "global_ownership_pct": 0.7,
+      "is_template": false,
+      "is_league_differential": true
+    },
+    {
       "id": 481,
       "name": "Anderson",
       "league_ownership_pct": 3.2,
       "captain_count": 0,
       "eo_pct": 3.2,
-      "global_ownership_pct": 4.2,
+      "global_ownership_pct": 4.1,
       "is_template": false,
       "is_league_differential": true
     },
@@ -1248,26 +1248,26 @@
       "captain_name": "Gibbs-White"
     },
     {
-      "manager": "Ilay Konfeld",
-      "team_name": "Konfeld",
-      "captain_id": 411,
-      "captain_name": "Haaland"
-    },
-    {
       "manager": "Adir Sabag",
       "team_name": "Mandem FC",
       "captain_id": 411,
       "captain_name": "Haaland"
     },
     {
-      "manager": "ido mor",
-      "team_name": "mor7",
+      "manager": "Ilay Konfeld",
+      "team_name": "Konfeld",
       "captain_id": 411,
       "captain_name": "Haaland"
     },
     {
       "manager": "Tom Felsenfeld",
       "team_name": "Fantasy Fanatics",
+      "captain_id": 411,
+      "captain_name": "Haaland"
+    },
+    {
+      "manager": "ido mor",
+      "team_name": "mor7",
       "captain_id": 411,
       "captain_name": "Haaland"
     },
@@ -1671,13 +1671,13 @@
     },
     {
       "a": "ניר אזר",
-      "b": "ido mor",
+      "b": "Tom Felsenfeld",
       "shared_players": 7,
       "overlap_pct": 30.4
     },
     {
       "a": "ניר אזר",
-      "b": "Tom Felsenfeld",
+      "b": "ido mor",
       "shared_players": 7,
       "overlap_pct": 30.4
     },
@@ -1850,12 +1850,6 @@
       "overlap_pct": 30.4
     },
     {
-      "a": "ido mor",
-      "b": "Liam rakin",
-      "shared_players": 7,
-      "overlap_pct": 30.4
-    },
-    {
       "a": "Tom Felsenfeld",
       "b": "Guy Geva-Iluz",
       "shared_players": 7,
@@ -1870,6 +1864,12 @@
     {
       "a": "Tom Felsenfeld",
       "b": "Rani Bar Dayan",
+      "shared_players": 7,
+      "overlap_pct": 30.4
+    },
+    {
+      "a": "ido mor",
+      "b": "Liam rakin",
       "shared_players": 7,
       "overlap_pct": 30.4
     },
@@ -2145,13 +2145,13 @@
     },
     {
       "a": "Dor Chen",
-      "b": "Ilay Konfeld",
+      "b": "Adir Sabag",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
     {
       "a": "Dor Chen",
-      "b": "Adir Sabag",
+      "b": "Ilay Konfeld",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
@@ -2289,13 +2289,13 @@
     },
     {
       "a": "Gal Raviv",
-      "b": "ido mor",
+      "b": "Tom Felsenfeld",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
     {
       "a": "Gal Raviv",
-      "b": "Tom Felsenfeld",
+      "b": "ido mor",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
@@ -2385,13 +2385,13 @@
     },
     {
       "a": "Lidor Admoni",
-      "b": "ido mor",
+      "b": "Tom Felsenfeld",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
     {
       "a": "Lidor Admoni",
-      "b": "Tom Felsenfeld",
+      "b": "ido mor",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -2583,25 +2583,25 @@
     },
     {
       "a": "Uriya Yakobi",
-      "b": "Ilay Konfeld",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "Uriya Yakobi",
       "b": "Adir Sabag",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
     {
       "a": "Uriya Yakobi",
-      "b": "ido mor",
+      "b": "Ilay Konfeld",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
     {
       "a": "Uriya Yakobi",
       "b": "Tom Felsenfeld",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "Uriya Yakobi",
+      "b": "ido mor",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -2709,13 +2709,13 @@
     },
     {
       "a": "Liran Kashtarian",
-      "b": "ido mor",
+      "b": "Tom Felsenfeld",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
     {
       "a": "Liran Kashtarian",
-      "b": "Tom Felsenfeld",
+      "b": "ido mor",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -2786,38 +2786,38 @@
       "overlap_pct": 20.0
     },
     {
+      "a": "Adir Sabag",
+      "b": "Tom Felsenfeld",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Guy Geva-Iluz",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
       "a": "Ilay Konfeld",
       "b": "ido mor",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
     {
-      "a": "Adir Sabag",
-      "b": "Tom Felsenfeld",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "Adir Sabag",
-      "b": "Guy Geva-Iluz",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "ido mor",
-      "b": "Tom Felsenfeld",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "ido mor",
-      "b": "Guy Geva-Iluz",
+      "a": "Tom Felsenfeld",
+      "b": "ido mor",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
     {
       "a": "Tom Felsenfeld",
       "b": "Lidor Gonen",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "ido mor",
+      "b": "Guy Geva-Iluz",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -2895,13 +2895,13 @@
     },
     {
       "a": "Guy Chen",
-      "b": "Ilay Konfeld",
+      "b": "Adir Sabag",
       "shared_players": 4,
       "overlap_pct": 15.4
     },
     {
       "a": "Guy Chen",
-      "b": "Adir Sabag",
+      "b": "Ilay Konfeld",
       "shared_players": 4,
       "overlap_pct": 15.4
     },
@@ -3224,6 +3224,24 @@
       "overlap_pct": 15.4
     },
     {
+      "a": "Adir Sabag",
+      "b": "Lidor Gonen",
+      "shared_players": 4,
+      "overlap_pct": 15.4
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Rani Bar Dayan",
+      "shared_players": 4,
+      "overlap_pct": 15.4
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Roei Eitan",
+      "shared_players": 4,
+      "overlap_pct": 15.4
+    },
+    {
       "a": "Ilay Konfeld",
       "b": "Liam rakin",
       "shared_players": 4,
@@ -3248,32 +3266,14 @@
       "overlap_pct": 15.4
     },
     {
-      "a": "Adir Sabag",
-      "b": "Lidor Gonen",
-      "shared_players": 4,
-      "overlap_pct": 15.4
-    },
-    {
-      "a": "Adir Sabag",
-      "b": "Rani Bar Dayan",
-      "shared_players": 4,
-      "overlap_pct": 15.4
-    },
-    {
-      "a": "Adir Sabag",
-      "b": "Roei Eitan",
+      "a": "Tom Felsenfeld",
+      "b": "Neil Rosmann",
       "shared_players": 4,
       "overlap_pct": 15.4
     },
     {
       "a": "ido mor",
       "b": "Rani Bar Dayan",
-      "shared_players": 4,
-      "overlap_pct": 15.4
-    },
-    {
-      "a": "Tom Felsenfeld",
-      "b": "Neil Rosmann",
       "shared_players": 4,
       "overlap_pct": 15.4
     },
@@ -3662,8 +3662,14 @@
       "overlap_pct": 11.1
     },
     {
-      "a": "Ilay Konfeld",
-      "b": "Adir Sabag",
+      "a": "Adir Sabag",
+      "b": "Ilay Konfeld",
+      "shared_players": 3,
+      "overlap_pct": 11.1
+    },
+    {
+      "a": "Adir Sabag",
+      "b": "Guy Kol",
       "shared_players": 3,
       "overlap_pct": 11.1
     },
@@ -3686,24 +3692,6 @@
       "overlap_pct": 11.1
     },
     {
-      "a": "Adir Sabag",
-      "b": "Guy Kol",
-      "shared_players": 3,
-      "overlap_pct": 11.1
-    },
-    {
-      "a": "ido mor",
-      "b": "Neil Rosmann",
-      "shared_players": 3,
-      "overlap_pct": 11.1
-    },
-    {
-      "a": "ido mor",
-      "b": "Roei Eitan",
-      "shared_players": 3,
-      "overlap_pct": 11.1
-    },
-    {
       "a": "Tom Felsenfeld",
       "b": "Liam rakin",
       "shared_players": 3,
@@ -3718,6 +3706,18 @@
     {
       "a": "Tom Felsenfeld",
       "b": "Guy Kol",
+      "shared_players": 3,
+      "overlap_pct": 11.1
+    },
+    {
+      "a": "ido mor",
+      "b": "Neil Rosmann",
+      "shared_players": 3,
+      "overlap_pct": 11.1
+    },
+    {
+      "a": "ido mor",
+      "b": "Roei Eitan",
       "shared_players": 3,
       "overlap_pct": 11.1
     },
@@ -4083,13 +4083,13 @@
     },
     {
       "a": "Elad Prizant",
-      "b": "ido mor",
+      "b": "Tom Felsenfeld",
       "shared_players": 1,
       "overlap_pct": 3.4
     },
     {
       "a": "Elad Prizant",
-      "b": "Tom Felsenfeld",
+      "b": "ido mor",
       "shared_players": 1,
       "overlap_pct": 3.4
     },
