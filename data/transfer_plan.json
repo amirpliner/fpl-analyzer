@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 5,
-  "baseline_xpts": 192.65,
+  "baseline_xpts": 128.42,
   "routes": [
     {
       "weekly_plan": [
@@ -10,47 +10,47 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Konsa",
-              "in": "O'Reilly",
-              "cost_delta": 1.8
+              "out": "Dedić",
+              "in": "Bogle",
+              "cost_delta": 0.1
             }
           ],
           "hits": 0,
-          "xi_score": 69.13,
-          "captain": "O'Reilly"
+          "xi_score": 0.0,
+          "captain": "Tzolakis"
         },
         {
           "week": 2,
           "transfers": [
             {
               "out": "Hall",
-              "in": "Bogle",
-              "cost_delta": -0.6
+              "in": "O'Reilly",
+              "cost_delta": 1.2
             }
           ],
           "hits": 0,
-          "xi_score": 68.5,
+          "xi_score": 68.53,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Dedić",
+              "out": "Konsa",
               "in": "Lewis",
-              "cost_delta": -0.1
+              "cost_delta": -0.2
             }
           ],
           "hits": 0,
-          "xi_score": 72.97,
+          "xi_score": 73.27,
           "captain": "O'Reilly"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
       "final_bank": 0.8,
-      "total_xpts": 210.6,
-      "net_gain_vs_hold": 17.95
+      "total_xpts": 141.8,
+      "net_gain_vs_hold": 13.38
     },
     {
       "weekly_plan": [
@@ -58,26 +58,26 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Konsa",
-              "in": "O'Reilly",
-              "cost_delta": 1.8
+              "out": "Dedić",
+              "in": "Bogle",
+              "cost_delta": 0.1
             }
           ],
           "hits": 0,
-          "xi_score": 69.13,
-          "captain": "O'Reilly"
+          "xi_score": 0.0,
+          "captain": "Tzolakis"
         },
         {
           "week": 2,
           "transfers": [
             {
               "out": "Hall",
-              "in": "Bogle",
-              "cost_delta": -0.6
+              "in": "O'Reilly",
+              "cost_delta": 1.2
             }
           ],
           "hits": 0,
-          "xi_score": 68.5,
+          "xi_score": 68.53,
           "captain": "Mbeumo"
         },
         {
@@ -90,15 +90,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 72.96,
+          "xi_score": 73.22,
           "captain": "O'Reilly"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
-      "final_bank": 1.2,
-      "total_xpts": 210.59,
-      "net_gain_vs_hold": 17.94
+      "final_bank": 1.1,
+      "total_xpts": 141.75,
+      "net_gain_vs_hold": 13.33
     },
     {
       "weekly_plan": [
@@ -106,28 +106,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 64.54,
-          "captain": "Haaland"
+          "xi_score": 0.0,
+          "captain": "Dedić"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 64.12,
+          "xi_score": 64.24,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 63.99,
+          "xi_score": 64.18,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 1.9,
-      "total_xpts": 192.65,
+      "total_xpts": 128.42,
       "net_gain_vs_hold": 0.0
     }
   ]

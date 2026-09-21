@@ -17,31 +17,37 @@
     "available": true,
     "recommendations": [
       {
-        "event": 5,
-        "player": "Haaland",
-        "score": 7.32,
-        "is_dgw": false,
-        "reason": "Haaland צפוי 7.32 xPts"
-      },
-      {
         "event": 7,
         "player": "Haaland",
-        "score": 7.32,
+        "score": 7.37,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.32 xPts"
+        "reason": "Haaland צפוי 7.37 xPts"
       },
       {
         "event": 9,
         "player": "Haaland",
-        "score": 7.32,
+        "score": 7.37,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.32 xPts"
+        "reason": "Haaland צפוי 7.37 xPts"
+      },
+      {
+        "event": 11,
+        "player": "Haaland",
+        "score": 7.37,
+        "is_dgw": false,
+        "reason": "Haaland צפוי 7.37 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 5,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 5"
+      }
+    ]
   },
   "wildcard": {
     "available": true,

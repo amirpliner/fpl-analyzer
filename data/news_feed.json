@@ -1,10 +1,26 @@
 {
   "news": [
     {
+      "id": 429,
+      "web_name": "Rashford",
+      "team": 16,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-21T10:30:09.221479Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 638,
+      "web_name": "Norton-Cuffy",
+      "team": 11,
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-09-21T08:30:09.561308Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 439,
       "web_name": "Šeško",
       "team": 16,
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Shin injury - 75% chance of playing",
       "news_added": "2026-09-20T19:30:08.505755Z",
       "chance_of_playing_next_round": 75
     },
@@ -143,22 +159,6 @@
       "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-09-14T20:00:09.505598Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 441,
-      "web_name": "Obi",
-      "team": 16,
-      "news": "Has joined Willem II on loan for the rest of the season",
-      "news_added": "2026-09-14T16:12:42.090874Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 107,
-      "web_name": "Furo",
-      "team": 4,
-      "news": "Unspecified injury - Unknown return date",
-      "news_added": "2026-09-14T14:00:09.985723Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 124,
       "web_name": "Groß",
       "team": 5,
-      "net_transfers": 495065,
+      "net_transfers": 542625,
       "form": 9.4,
-      "owned": 26.0
+      "owned": 26.4
     },
     {
       "id": 94,
       "web_name": "Schade",
       "team": 4,
-      "net_transfers": 209662,
+      "net_transfers": 234992,
       "form": 7.8,
-      "owned": 9.7
+      "owned": 10.0
     },
     {
       "id": 138,
       "web_name": "Kostoulas",
       "team": 5,
-      "net_transfers": 179660,
+      "net_transfers": 199181,
       "form": 5.6,
-      "owned": 2.8
+      "owned": 3.0
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 150550,
+      "net_transfers": 169769,
       "form": 7.6,
-      "owned": 26.5
+      "owned": 26.7
     },
     {
       "id": 449,
       "web_name": "Hall",
       "team": 17,
-      "net_transfers": 110505,
+      "net_transfers": 128318,
       "form": 6.2,
-      "owned": 16.0
+      "owned": 16.2
     },
     {
       "id": 229,
       "web_name": "Tarkowski",
       "team": 9,
-      "net_transfers": 101030,
+      "net_transfers": 117040,
       "form": 8.6,
-      "owned": 15.2
-    },
-    {
-      "id": 453,
-      "web_name": "Barnes",
-      "team": 17,
-      "net_transfers": 85665,
-      "form": 5.6,
-      "owned": 5.1
+      "owned": 15.4
     },
     {
       "id": 552,
       "web_name": "Brobbey",
       "team": 20,
-      "net_transfers": 79460,
+      "net_transfers": 99821,
       "form": 4.8,
-      "owned": 6.2
+      "owned": 6.4
     },
     {
-      "id": 1,
-      "web_name": "Raya",
-      "team": 1,
-      "net_transfers": 58753,
-      "form": 6.0,
-      "owned": 42.0
+      "id": 453,
+      "web_name": "Barnes",
+      "team": 17,
+      "net_transfers": 94616,
+      "form": 5.6,
+      "owned": 5.2
     },
     {
       "id": 391,
       "web_name": "Gvardiol",
       "team": 15,
-      "net_transfers": 56511,
+      "net_transfers": 62848,
       "form": 7.4,
-      "owned": 26.3
+      "owned": 26.4
+    },
+    {
+      "id": 1,
+      "web_name": "Raya",
+      "team": 1,
+      "net_transfers": 62085,
+      "form": 6.0,
+      "owned": 42.1
     }
   ]
 }
