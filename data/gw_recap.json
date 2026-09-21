@@ -1,135 +1,131 @@
 {
-  "gw": 4,
-  "points": 76,
-  "points_on_bench": 5,
-  "overall_rank": 2249066,
-  "rank_change": 72803,
-  "event_transfers": 0,
+  "gw": 5,
+  "points": 43,
+  "points_on_bench": 14,
+  "overall_rank": 2732555,
+  "rank_change": -483489,
+  "event_transfers": 1,
   "event_transfers_cost": 0,
-  "active_chip": "wildcard",
+  "active_chip": null,
   "captain": {
-    "id": 40,
-    "web_name": "Rogers",
-    "team": "CHE",
+    "id": 480,
+    "web_name": "Gibbs-White",
+    "team": "NFO",
     "on_bench": false,
     "is_captain": true,
     "multiplier": 2,
-    "base_points": 8,
-    "points": 16,
+    "base_points": 2,
+    "points": 4,
     "minutes": 90,
-    "chance_next": null
+    "chance_next": 100
   },
   "best_possible_captain": {
-    "id": 165,
-    "web_name": "João Pedro",
-    "team": "CHE",
+    "id": 449,
+    "web_name": "Hall",
+    "team": "NEW",
     "on_bench": false,
     "is_captain": false,
     "multiplier": 1,
-    "base_points": 12,
-    "points": 12,
+    "base_points": 13,
+    "points": 13,
     "minutes": 90,
-    "chance_next": 75
+    "chance_next": null
   },
   "captain_verdict": "suboptimal",
   "hauls": [
     {
-      "id": 165,
-      "web_name": "João Pedro",
-      "team": "CHE",
+      "id": 449,
+      "web_name": "Hall",
+      "team": "NEW",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 12,
-      "points": 12,
-      "minutes": 90,
-      "chance_next": 75
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team": "BHA",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 11,
-      "points": 11,
+      "base_points": 13,
+      "points": 13,
       "minutes": 90,
       "chance_next": null
     },
     {
-      "id": 411,
-      "web_name": "Haaland",
-      "team": "MCI",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 9,
-      "points": 9,
-      "minutes": 90,
-      "chance_next": null
-    },
-    {
-      "id": 109,
-      "web_name": "Verbruggen",
+      "id": 127,
+      "web_name": "Gomez",
       "team": "BHA",
-      "on_bench": false,
+      "on_bench": true,
       "is_captain": false,
-      "multiplier": 1,
+      "multiplier": 0,
       "base_points": 8,
-      "points": 8,
-      "minutes": 90,
+      "points": 0,
+      "minutes": 85,
       "chance_next": null
     }
   ],
   "busts": [
     {
-      "id": 399,
-      "web_name": "Cherki",
-      "team": "MCI",
+      "id": 8,
+      "web_name": "Calafiori",
+      "team": "ARS",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
       "base_points": 1,
       "points": 1,
-      "minutes": 45,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 31,
+      "web_name": "Konsa",
+      "team": "ARS",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 464,
+      "web_name": "Wissa",
+      "team": "NEW",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 0,
+      "points": 0,
+      "minutes": 90,
       "chance_next": null
     }
   ],
   "keep": [
     {
-      "web_name": "Verbruggen",
-      "reason": "הביא 8 נק' במחזור 4"
+      "web_name": "Hall",
+      "reason": "הביא 13 נק' במחזור 5"
     },
     {
-      "web_name": "De Cuyper",
-      "reason": "הביא 11 נק' במחזור 4"
-    },
-    {
-      "web_name": "Rogers",
-      "reason": "הביא 8 נק' במחזור 4"
-    },
-    {
-      "web_name": "Haaland",
-      "reason": "הביא 9 נק' במחזור 4"
-    },
-    {
-      "web_name": "João Pedro",
-      "reason": "הביא 12 נק' במחזור 4"
+      "web_name": "Gomez",
+      "reason": "הביא 8 נק' במחזור 5"
     }
   ],
   "change": [
     {
-      "web_name": "Cherki",
-      "reason": "רק 1 נק' במחזור 4 · ריצת משחקים קשה"
+      "web_name": "Calafiori",
+      "reason": "רק 1 נק' במחזור 5 · ריצת משחקים קשה"
     },
     {
-      "web_name": "Hall",
-      "reason": "רק 0 נק' במחזור 4 · ריצת משחקים קשה"
+      "web_name": "Konsa",
+      "reason": "רק 1 נק' במחזור 5 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Wissa",
+      "reason": "רק 0 נק' במחזור 5 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "João Pedro",
+      "reason": "לא שיחק · ריצת משחקים קשה"
     },
     {
       "web_name": "Dedić",
-      "reason": "רק 0 נק' במחזור 4 · ריצת משחקים קשה"
+      "reason": "לא שיחק · ריצת משחקים קשה"
     }
   ]
 }
