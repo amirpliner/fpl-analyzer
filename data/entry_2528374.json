@@ -11,9 +11,9 @@
   "player_region_iso_code_long": "ISR",
   "years_active": 1,
   "summary_overall_points": 319,
-  "summary_overall_rank": 2732540,
+  "summary_overall_rank": 2732511,
   "summary_event_points": 43,
-  "summary_event_rank": 7166721,
+  "summary_event_rank": 7166586,
   "current_event": 5,
   "leagues": {
     "classic": [
@@ -50,7 +50,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 403684,
         "entry_percentile_rank": 30,
-        "entry_rank": 465401,
+        "entry_rank": 465399,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 16,
@@ -142,7 +142,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 2248857,
         "entry_percentile_rank": 35,
-        "entry_rank": 2731197,
+        "entry_rank": 2731168,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -188,7 +188,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 2249066,
         "entry_percentile_rank": 30,
-        "entry_rank": 2732540,
+        "entry_rank": 2732511,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -292,6 +292,42 @@
         "scoring": "c",
         "short_name": "brd-sportone_isr",
         "start_event": 1
+      },
+      {
+        "active_phases": [
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 431170,
+            "phase": 1,
+            "rank": 0,
+            "rank_count": 2677252,
+            "rank_sort": 0,
+            "total": 0
+          }
+        ],
+        "admin_entry": null,
+        "closed": false,
+        "created": "2026-07-30T12:01:10.398217Z",
+        "cup_league": null,
+        "cup_qualified": null,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "entry_can_leave": false,
+        "entry_last_rank": 0,
+        "entry_percentile_rank": null,
+        "entry_rank": 732054,
+        "featured_entry_ids": [],
+        "has_cup": false,
+        "id": 431170,
+        "league_type": "s",
+        "max_entries": null,
+        "name": "Adobe Express Badge League",
+        "rank": null,
+        "rank_count": 2677252,
+        "scoring": "c",
+        "short_name": "partner-adobe",
+        "start_event": 1
       }
     ],
     "h2h": [],
@@ -321,5 +357,5 @@
   "last_deadline_bank": 19,
   "last_deadline_value": 1009,
   "last_deadline_total_transfers": 2,
-  "club_badge_src": "Pending"
+  "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/2528374/35ca6041-5877-4e53-ab6a-a9fb3e390dad.png"
 }
