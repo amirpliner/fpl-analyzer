@@ -92,7 +92,7 @@
           "opponent": "LEE",
           "opponent_id": 13,
           "is_home": true,
-          "difficulty": 2
+          "difficulty": 3
         },
         {
           "event": 7,
@@ -124,7 +124,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 2.8,
+      "avg_fdr_next5": 3.0,
       "minutes_trend": "up",
       "avg_minutes_last3": 82.0,
       "injury": null,
@@ -155,7 +155,7 @@
           "opponent": "LEE",
           "opponent_id": 13,
           "is_home": true,
-          "difficulty": 2
+          "difficulty": 3
         },
         {
           "event": 7,
@@ -187,7 +187,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 2.8,
+      "avg_fdr_next5": 3.0,
       "minutes_trend": "up",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -268,7 +268,7 @@
       "form": 5.2,
       "total_points": 38,
       "ppm": 7.76,
-      "ownership": 27.5,
+      "ownership": 27.6,
       "is_differential": false,
       "xgi_per_90": 0.47,
       "xgc_per_90": 1.83,
@@ -288,7 +288,7 @@
           "opponent": "CRY",
           "opponent_id": 8,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 8,
@@ -313,7 +313,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 3.6,
+      "avg_fdr_next5": 3.4,
       "minutes_trend": "flat",
       "avg_minutes_last3": 85.3,
       "injury": null,
@@ -407,7 +407,7 @@
           "opponent": "TOT",
           "opponent_id": 19,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 7,
@@ -439,7 +439,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 3.2,
+      "avg_fdr_next5": 3.0,
       "minutes_trend": "flat",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -470,7 +470,7 @@
           "opponent": "LEE",
           "opponent_id": 13,
           "is_home": true,
-          "difficulty": 2
+          "difficulty": 3
         },
         {
           "event": 7,
@@ -502,7 +502,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 2.8,
+      "avg_fdr_next5": 3.0,
       "minutes_trend": "flat",
       "avg_minutes_last3": 77.3,
       "injury": null,
@@ -547,7 +547,7 @@
           "opponent": "TOT",
           "opponent_id": 19,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 9,
@@ -565,7 +565,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 3.2,
+      "avg_fdr_next5": 3.0,
       "minutes_trend": "flat",
       "avg_minutes_last3": 88.7,
       "injury": null,
@@ -610,14 +610,14 @@
           "opponent": "AVL",
           "opponent_id": 2,
           "is_home": false,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 9,
           "opponent": "BHA",
           "opponent_id": 5,
           "is_home": true,
-          "difficulty": 2
+          "difficulty": 3
         },
         {
           "event": 10,
@@ -729,7 +729,7 @@
           "opponent": "CRY",
           "opponent_id": 8,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 8,
@@ -754,7 +754,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 3.6,
+      "avg_fdr_next5": 3.4,
       "minutes_trend": "flat",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -772,7 +772,7 @@
       "form": 5.5,
       "total_points": 33,
       "ppm": 4.29,
-      "ownership": 65.5,
+      "ownership": 65.4,
       "is_differential": false,
       "xgi_per_90": 0.59,
       "xgc_per_90": 1.54,
@@ -799,7 +799,7 @@
           "opponent": "TOT",
           "opponent_id": 19,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 9,
@@ -817,7 +817,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 3.2,
+      "avg_fdr_next5": 3.0,
       "minutes_trend": "down",
       "avg_minutes_last3": 60.0,
       "injury": {
@@ -859,7 +859,7 @@
           "opponent": "CRY",
           "opponent_id": 8,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 8,
@@ -884,7 +884,7 @@
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 3.6,
+      "avg_fdr_next5": 3.4,
       "minutes_trend": "flat",
       "avg_minutes_last3": 86.0,
       "injury": null,
@@ -975,7 +975,7 @@
       "type": "team_exposure",
       "team": "BHA",
       "count": 3,
-      "reason": "3 שחקנים מ-BHA בסגל - וגם עם ריצת משחקים קשה (3.6 FDR ממוצע)"
+      "reason": "3 שחקנים מ-BHA בסגל"
     }
   ],
   "dead_players": [
@@ -989,23 +989,23 @@
     {
       "id": 427,
       "web_name": "Mbeumo",
-      "xpts": 6.76,
+      "xpts": 7.23,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
         "p60": 1.0,
         "p_cameo": 0.0,
         "appearance": 2.0,
-        "goals_pts": 3.05,
-        "assists_pts": 0.48,
-        "cs_pts": 0.26,
+        "goals_pts": 3.42,
+        "assists_pts": 0.54,
+        "cs_pts": 0.3,
         "bonus_est": 0.97,
         "concede_penalty": 0,
-        "attack_factor": 1.0,
-        "defence_factor_against_us": 1.0,
+        "attack_factor": 1.12,
+        "defence_factor_against_us": 0.88,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 6.76, תרומה התקפית צפויה 3.53, סיכוי שער נקי 0.26, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 7.23, תרומה התקפית צפויה 3.96, סיכוי שער נקי 0.3, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 411,
@@ -1029,48 +1029,6 @@
       "reason": "xPts משוער: 6.44, תרומה התקפית צפויה 3.39, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
-      "id": 15,
-      "web_name": "Ødegaard",
-      "xpts": 5.98,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 1.46,
-        "assists_pts": 1.08,
-        "cs_pts": 0.51,
-        "bonus_est": 0.95,
-        "concede_penalty": 0,
-        "attack_factor": 1.12,
-        "defence_factor_against_us": 0.88,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 5.98, תרומה התקפית צפויה 2.54, סיכוי שער נקי 0.51, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
-    {
-      "id": 8,
-      "web_name": "Calafiori",
-      "xpts": 5.73,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 0.94,
-        "assists_pts": 0.44,
-        "cs_pts": 1.96,
-        "bonus_est": 0.75,
-        "concede_penalty": 0.36,
-        "attack_factor": 1.12,
-        "defence_factor_against_us": 0.88,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 5.73, תרומה התקפית צפויה 1.38, סיכוי שער נקי 1.96, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
-    {
       "id": 480,
       "web_name": "Gibbs-White",
       "xpts": 5.69,
@@ -1090,6 +1048,48 @@
         "used_fdr_fallback": true
       },
       "reason": "xPts משוער: 5.69, תרומה התקפית צפויה 2.39, סיכוי שער נקי 0.39, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
+      "id": 15,
+      "web_name": "Ødegaard",
+      "xpts": 5.67,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 1.3,
+        "assists_pts": 0.96,
+        "cs_pts": 0.46,
+        "bonus_est": 0.95,
+        "concede_penalty": 0,
+        "attack_factor": 1.0,
+        "defence_factor_against_us": 1.0,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 5.67, תרומה התקפית צפויה 2.26, סיכוי שער נקי 0.46, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
+      "id": 40,
+      "web_name": "Rogers",
+      "xpts": 5.66,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 1.75,
+        "assists_pts": 0.75,
+        "cs_pts": 0.17,
+        "bonus_est": 0.99,
+        "concede_penalty": 0,
+        "attack_factor": 1.0,
+        "defence_factor_against_us": 1.0,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 5.66, תרומה התקפית צפויה 2.5, סיכוי שער נקי 0.17, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     }
   ],
   "transfer_suggestions": [
