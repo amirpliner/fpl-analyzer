@@ -4,8 +4,8 @@
       "id": 124,
       "name": "Groß",
       "team": 5,
-      "net_transfers_pct": 6.515,
-      "velocity": 1948,
+      "net_transfers_pct": 6.567,
+      "velocity": 5857,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -13,8 +13,8 @@
       "id": 94,
       "name": "Schade",
       "team": 4,
-      "net_transfers_pct": 3.003,
-      "velocity": 1125,
+      "net_transfers_pct": 3.031,
+      "velocity": 3083,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -22,8 +22,8 @@
       "id": 165,
       "name": "João Pedro",
       "team": 6,
-      "net_transfers_pct": -2.789,
-      "velocity": -878,
+      "net_transfers_pct": -2.81,
+      "velocity": -2432,
       "direction": "falling",
       "confidence": "calibrated"
     },
@@ -31,8 +31,8 @@
       "id": 138,
       "name": "Kostoulas",
       "team": 5,
-      "net_transfers_pct": 2.365,
-      "velocity": 916,
+      "net_transfers_pct": 2.395,
+      "velocity": 3336,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -40,8 +40,8 @@
       "id": 115,
       "name": "De Cuyper",
       "team": 5,
-      "net_transfers_pct": 2.273,
-      "velocity": 7315,
+      "net_transfers_pct": 2.297,
+      "velocity": 2702,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -49,8 +49,8 @@
       "id": 449,
       "name": "Hall",
       "team": 17,
-      "net_transfers_pct": 1.873,
-      "velocity": 652,
+      "net_transfers_pct": 1.89,
+      "velocity": 1837,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -58,17 +58,8 @@
       "id": 229,
       "name": "Tarkowski",
       "team": 9,
-      "net_transfers_pct": 1.608,
-      "velocity": 664,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 552,
-      "name": "Brobbey",
-      "team": 20,
-      "net_transfers_pct": 1.462,
-      "velocity": -561,
+      "net_transfers_pct": 1.626,
+      "velocity": 1925,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -76,17 +67,26 @@
       "id": 368,
       "name": "Szoboszlai",
       "team": 14,
-      "net_transfers_pct": -1.449,
-      "velocity": -575,
+      "net_transfers_pct": -1.462,
+      "velocity": -1521,
       "direction": "falling",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 552,
+      "name": "Brobbey",
+      "team": 20,
+      "net_transfers_pct": 1.443,
+      "velocity": -1999,
+      "direction": "rising",
       "confidence": "calibrated"
     },
     {
       "id": 454,
       "name": "Elanga",
       "team": 17,
-      "net_transfers_pct": -1.409,
-      "velocity": -329,
+      "net_transfers_pct": -1.418,
+      "velocity": -996,
       "direction": "falling",
       "confidence": "calibrated"
     },
@@ -94,8 +94,8 @@
       "id": 426,
       "name": "B.Fernandes",
       "team": 16,
-      "net_transfers_pct": -1.313,
-      "velocity": -349,
+      "net_transfers_pct": -1.322,
+      "velocity": -1031,
       "direction": "falling",
       "confidence": "calibrated"
     },
@@ -103,8 +103,8 @@
       "id": 453,
       "name": "Barnes",
       "team": 17,
-      "net_transfers_pct": 1.161,
-      "velocity": 393,
+      "net_transfers_pct": 1.17,
+      "velocity": 1041,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -112,8 +112,8 @@
       "id": 565,
       "name": "M.Sangaré",
       "team": 4,
-      "net_transfers_pct": -1.108,
-      "velocity": -304,
+      "net_transfers_pct": -1.116,
+      "velocity": -896,
       "direction": "falling",
       "confidence": "calibrated"
     },
@@ -121,8 +121,8 @@
       "id": 557,
       "name": "Tzolis",
       "team": 1,
-      "net_transfers_pct": -1.084,
-      "velocity": -250,
+      "net_transfers_pct": -1.09,
+      "velocity": -650,
       "direction": "falling",
       "confidence": "calibrated"
     },
@@ -130,8 +130,8 @@
       "id": 154,
       "name": "Palmer",
       "team": 6,
-      "net_transfers_pct": -0.872,
-      "velocity": -782,
+      "net_transfers_pct": -0.892,
+      "velocity": -2151,
       "direction": "falling",
       "confidence": "calibrated"
     },
@@ -139,8 +139,17 @@
       "id": 572,
       "name": "Tzolakis",
       "team": 11,
-      "net_transfers_pct": 0.872,
-      "velocity": 8393,
+      "net_transfers_pct": 0.879,
+      "velocity": 714,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 330,
+      "name": "Bogle",
+      "team": 13,
+      "net_transfers_pct": 0.802,
+      "velocity": 973,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -148,26 +157,17 @@
       "id": 427,
       "name": "Mbeumo",
       "team": 16,
-      "net_transfers_pct": -0.796,
-      "velocity": -217,
+      "net_transfers_pct": -0.801,
+      "velocity": -564,
       "direction": "falling",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 330,
-      "name": "Bogle",
-      "team": 13,
-      "net_transfers_pct": 0.793,
-      "velocity": 282,
-      "direction": "rising",
       "confidence": "calibrated"
     },
     {
       "id": 496,
       "name": "Kinsky",
       "team": 19,
-      "net_transfers_pct": -0.785,
-      "velocity": -886,
+      "net_transfers_pct": -0.79,
+      "velocity": -554,
       "direction": "falling",
       "confidence": "calibrated"
     },
@@ -175,17 +175,8 @@
       "id": 391,
       "name": "Gvardiol",
       "team": 15,
-      "net_transfers_pct": 0.777,
-      "velocity": 231,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 397,
-      "name": "Semenyo",
-      "team": 15,
-      "net_transfers_pct": 0.677,
-      "velocity": -596,
+      "net_transfers_pct": 0.784,
+      "velocity": 792,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -193,8 +184,17 @@
       "id": 1,
       "name": "Raya",
       "team": 1,
-      "net_transfers_pct": 0.667,
-      "velocity": 109,
+      "net_transfers_pct": 0.671,
+      "velocity": 458,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 397,
+      "name": "Semenyo",
+      "team": 15,
+      "net_transfers_pct": 0.663,
+      "velocity": -1458,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -202,8 +202,8 @@
       "id": 346,
       "name": "Calvert-Lewin",
       "team": 13,
-      "net_transfers_pct": -0.649,
-      "velocity": -349,
+      "net_transfers_pct": -0.652,
+      "velocity": -303,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -211,8 +211,8 @@
       "id": 142,
       "name": "James",
       "team": 6,
-      "net_transfers_pct": -0.636,
-      "velocity": -235,
+      "net_transfers_pct": -0.641,
+      "velocity": -647,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -220,8 +220,8 @@
       "id": 423,
       "name": "Shaw",
       "team": 16,
-      "net_transfers_pct": -0.619,
-      "velocity": -221,
+      "net_transfers_pct": -0.622,
+      "velocity": -403,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -229,8 +229,8 @@
       "id": 175,
       "name": "van Ewijk",
       "team": 7,
-      "net_transfers_pct": -0.608,
-      "velocity": -406,
+      "net_transfers_pct": -0.614,
+      "velocity": -720,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -238,8 +238,8 @@
       "id": 418,
       "name": "Maguire",
       "team": 16,
-      "net_transfers_pct": -0.593,
-      "velocity": -191,
+      "net_transfers_pct": -0.597,
+      "velocity": -448,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -247,8 +247,8 @@
       "id": 499,
       "name": "Pedro Porro",
       "team": 19,
-      "net_transfers_pct": -0.586,
-      "velocity": -320,
+      "net_transfers_pct": -0.593,
+      "velocity": -724,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -256,8 +256,8 @@
       "id": 40,
       "name": "Rogers",
       "team": 6,
-      "net_transfers_pct": 0.574,
-      "velocity": 372,
+      "net_transfers_pct": 0.584,
+      "velocity": 1068,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -265,8 +265,8 @@
       "id": 13,
       "name": "Rice",
       "team": 1,
-      "net_transfers_pct": -0.552,
-      "velocity": -469,
+      "net_transfers_pct": -0.565,
+      "velocity": -1436,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -274,8 +274,8 @@
       "id": 387,
       "name": "O'Reilly",
       "team": 15,
-      "net_transfers_pct": -0.536,
-      "velocity": -193,
+      "net_transfers_pct": -0.541,
+      "velocity": -552,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -283,8 +283,8 @@
       "id": 268,
       "name": "King",
       "team": 10,
-      "net_transfers_pct": 0.532,
-      "velocity": 314,
+      "net_transfers_pct": 0.537,
+      "velocity": 643,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -292,8 +292,8 @@
       "id": 10,
       "name": "White",
       "team": 1,
-      "net_transfers_pct": -0.514,
-      "velocity": -265,
+      "net_transfers_pct": -0.52,
+      "velocity": -662,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -301,8 +301,8 @@
       "id": 237,
       "name": "Ndiaye",
       "team": 15,
-      "net_transfers_pct": -0.513,
-      "velocity": -165,
+      "net_transfers_pct": -0.517,
+      "velocity": -464,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -310,8 +310,8 @@
       "id": 464,
       "name": "Wissa",
       "team": 17,
-      "net_transfers_pct": -0.507,
-      "velocity": -43,
+      "net_transfers_pct": -0.506,
+      "velocity": 105,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -319,8 +319,8 @@
       "id": 411,
       "name": "Haaland",
       "team": 15,
-      "net_transfers_pct": 0.458,
-      "velocity": 260,
+      "net_transfers_pct": 0.465,
+      "velocity": 776,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -328,8 +328,8 @@
       "id": 12,
       "name": "Saka",
       "team": 1,
-      "net_transfers_pct": 0.435,
-      "velocity": 448,
+      "net_transfers_pct": 0.446,
+      "velocity": 1138,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -337,8 +337,8 @@
       "id": 286,
       "name": "Belloumi",
       "team": 11,
-      "net_transfers_pct": 0.411,
-      "velocity": 181,
+      "net_transfers_pct": 0.417,
+      "velocity": 637,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -346,8 +346,8 @@
       "id": 259,
       "name": "Diop",
       "team": 12,
-      "net_transfers_pct": -0.39,
-      "velocity": -315,
+      "net_transfers_pct": -0.394,
+      "velocity": -426,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -355,8 +355,8 @@
       "id": 31,
       "name": "Konsa",
       "team": 1,
-      "net_transfers_pct": 0.378,
-      "velocity": 181,
+      "net_transfers_pct": 0.382,
+      "velocity": 427,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -364,8 +364,8 @@
       "id": 379,
       "name": "Isak",
       "team": 14,
-      "net_transfers_pct": 0.365,
-      "velocity": 292,
+      "net_transfers_pct": 0.376,
+      "velocity": 1223,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -373,8 +373,8 @@
       "id": 4,
       "name": "Gabriel",
       "team": 1,
-      "net_transfers_pct": -0.351,
-      "velocity": -166,
+      "net_transfers_pct": -0.355,
+      "velocity": -362,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -382,8 +382,8 @@
       "id": 412,
       "name": "Lammens",
       "team": 16,
-      "net_transfers_pct": -0.345,
-      "velocity": -1536,
+      "net_transfers_pct": -0.349,
+      "velocity": -341,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -391,17 +391,8 @@
       "id": 504,
       "name": "Vuskovic",
       "team": 5,
-      "net_transfers_pct": 0.34,
-      "velocity": 100,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 260,
-      "name": "Wilson",
-      "team": 13,
-      "net_transfers_pct": -0.33,
-      "velocity": -126,
+      "net_transfers_pct": 0.344,
+      "velocity": 511,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -409,8 +400,17 @@
       "id": 249,
       "name": "Barry",
       "team": 9,
-      "net_transfers_pct": 0.323,
-      "velocity": 820,
+      "net_transfers_pct": 0.333,
+      "velocity": 1147,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 260,
+      "name": "Wilson",
+      "team": 13,
+      "net_transfers_pct": -0.333,
+      "velocity": -330,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -418,8 +418,8 @@
       "id": 366,
       "name": "Wirtz",
       "team": 14,
-      "net_transfers_pct": -0.323,
-      "velocity": -99,
+      "net_transfers_pct": -0.326,
+      "velocity": -320,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -427,8 +427,8 @@
       "id": 68,
       "name": "Tavernier",
       "team": 3,
-      "net_transfers_pct": 0.313,
-      "velocity": 170,
+      "net_transfers_pct": 0.317,
+      "velocity": 411,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -436,8 +436,8 @@
       "id": 593,
       "name": "Dedić",
       "team": 17,
-      "net_transfers_pct": -0.313,
-      "velocity": -89,
+      "net_transfers_pct": -0.315,
+      "velocity": -210,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -445,8 +445,8 @@
       "id": 212,
       "name": "Hughes",
       "team": 8,
-      "net_transfers_pct": -0.285,
-      "velocity": -137,
+      "net_transfers_pct": -0.288,
+      "velocity": -309,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -454,8 +454,8 @@
       "id": 469,
       "name": "N.Williams",
       "team": 18,
-      "net_transfers_pct": -0.277,
-      "velocity": -1301,
+      "net_transfers_pct": -0.28,
+      "velocity": -338,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -463,17 +463,8 @@
       "id": 534,
       "name": "Hume",
       "team": 20,
-      "net_transfers_pct": -0.237,
-      "velocity": -96,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 586,
-      "name": "Mendy",
-      "team": 11,
-      "net_transfers_pct": -0.23,
-      "velocity": -50,
+      "net_transfers_pct": -0.239,
+      "velocity": -192,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -481,17 +472,17 @@
       "id": 569,
       "name": "Gonzalo",
       "team": 10,
-      "net_transfers_pct": 0.229,
-      "velocity": 360,
+      "net_transfers_pct": 0.236,
+      "velocity": 825,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 367,
-      "name": "Gakpo",
-      "team": 14,
-      "net_transfers_pct": -0.228,
-      "velocity": 57,
+      "id": 586,
+      "name": "Mendy",
+      "team": 11,
+      "net_transfers_pct": -0.231,
+      "velocity": -124,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -499,8 +490,17 @@
       "id": 398,
       "name": "Foden",
       "team": 15,
-      "net_transfers_pct": -0.228,
-      "velocity": -99,
+      "net_transfers_pct": -0.23,
+      "velocity": -259,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 367,
+      "name": "Gakpo",
+      "team": 14,
+      "net_transfers_pct": -0.226,
+      "velocity": 168,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -508,8 +508,17 @@
       "id": 127,
       "name": "Gomez",
       "team": 5,
-      "net_transfers_pct": -0.222,
-      "velocity": -191,
+      "net_transfers_pct": -0.223,
+      "velocity": -140,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 399,
+      "name": "Cherki",
+      "team": 15,
+      "net_transfers_pct": 0.221,
+      "velocity": 1122,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -518,7 +527,7 @@
       "name": "Mykolenko",
       "team": 9,
       "net_transfers_pct": 0.217,
-      "velocity": -103,
+      "velocity": 6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -526,26 +535,8 @@
       "id": 250,
       "name": "Leno",
       "team": 10,
-      "net_transfers_pct": 0.212,
-      "velocity": -394,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 53,
-      "name": "Manzambi",
-      "team": 2,
-      "net_transfers_pct": 0.211,
-      "velocity": 38,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 399,
-      "name": "Cherki",
-      "team": 15,
-      "net_transfers_pct": 0.211,
-      "velocity": 379,
+      "net_transfers_pct": 0.215,
+      "velocity": 352,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -553,8 +544,17 @@
       "id": 166,
       "name": "N.Jackson",
       "team": 2,
-      "net_transfers_pct": 0.209,
-      "velocity": 106,
+      "net_transfers_pct": 0.213,
+      "velocity": 394,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 53,
+      "name": "Manzambi",
+      "team": 2,
+      "net_transfers_pct": 0.212,
+      "velocity": 104,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -562,8 +562,8 @@
       "id": 388,
       "name": "Guéhi",
       "team": 15,
-      "net_transfers_pct": -0.206,
-      "velocity": -145,
+      "net_transfers_pct": -0.209,
+      "velocity": -314,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -571,17 +571,8 @@
       "id": 305,
       "name": "Davis",
       "team": 12,
-      "net_transfers_pct": 0.187,
-      "velocity": -108,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 272,
-      "name": "Kusi-Asare",
-      "team": 10,
-      "net_transfers_pct": -0.185,
-      "velocity": -69,
+      "net_transfers_pct": 0.189,
+      "velocity": 241,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -589,8 +580,8 @@
       "id": 356,
       "name": "Virgil",
       "team": 14,
-      "net_transfers_pct": -0.185,
-      "velocity": -380,
+      "net_transfers_pct": -0.187,
+      "velocity": -235,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -598,17 +589,17 @@
       "id": 32,
       "name": "Cash",
       "team": 2,
-      "net_transfers_pct": -0.184,
-      "velocity": -66,
+      "net_transfers_pct": -0.186,
+      "velocity": -215,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 200,
-      "name": "Lacroix",
-      "team": 6,
-      "net_transfers_pct": -0.178,
-      "velocity": -58,
+      "id": 272,
+      "name": "Kusi-Asare",
+      "team": 10,
+      "net_transfers_pct": -0.186,
+      "velocity": -186,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -616,8 +607,8 @@
       "id": 201,
       "name": "Muñoz",
       "team": 18,
-      "net_transfers_pct": -0.178,
-      "velocity": -204,
+      "net_transfers_pct": -0.18,
+      "velocity": -227,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -625,8 +616,17 @@
       "id": 497,
       "name": "Dubravka",
       "team": 19,
-      "net_transfers_pct": -0.178,
-      "velocity": -232,
+      "net_transfers_pct": -0.18,
+      "velocity": -180,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 200,
+      "name": "Lacroix",
+      "team": 6,
+      "net_transfers_pct": -0.179,
+      "velocity": -209,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -634,17 +634,8 @@
       "id": 290,
       "name": "Slater",
       "team": 11,
-      "net_transfers_pct": -0.177,
-      "velocity": -60,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 481,
-      "name": "Anderson",
-      "team": 15,
-      "net_transfers_pct": -0.163,
-      "velocity": -76,
+      "net_transfers_pct": -0.179,
+      "velocity": -165,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -652,8 +643,17 @@
       "id": 498,
       "name": "Senesi",
       "team": 19,
-      "net_transfers_pct": -0.163,
-      "velocity": -68,
+      "net_transfers_pct": -0.166,
+      "velocity": -235,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 481,
+      "name": "Anderson",
+      "team": 15,
+      "net_transfers_pct": -0.165,
+      "velocity": -228,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -661,8 +661,17 @@
       "id": 473,
       "name": "Aina",
       "team": 18,
-      "net_transfers_pct": -0.161,
-      "velocity": -54,
+      "net_transfers_pct": -0.163,
+      "velocity": -154,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 362,
+      "name": "Jacquet",
+      "team": 14,
+      "net_transfers_pct": 0.161,
+      "velocity": 276,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -671,16 +680,7 @@
       "name": "Gibbs-White",
       "team": 18,
       "net_transfers_pct": -0.159,
-      "velocity": 35,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 362,
-      "name": "Jacquet",
-      "team": 14,
-      "net_transfers_pct": 0.158,
-      "velocity": 68,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -688,7 +688,7 @@
       "id": 384,
       "name": "Donnarumma",
       "team": 15,
-      "net_transfers_pct": -0.155,
+      "net_transfers_pct": -0.158,
       "velocity": -249,
       "direction": "rising",
       "confidence": "calibrated"
@@ -697,8 +697,8 @@
       "id": 544,
       "name": "Xhaka",
       "team": 20,
-      "net_transfers_pct": -0.142,
-      "velocity": -47,
+      "net_transfers_pct": -0.143,
+      "velocity": -119,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -706,8 +706,8 @@
       "id": 491,
       "name": "Igor Jesus",
       "team": 18,
-      "net_transfers_pct": -0.135,
-      "velocity": -54,
+      "net_transfers_pct": -0.136,
+      "velocity": -123,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -715,8 +715,8 @@
       "id": 155,
       "name": "Enzo",
       "team": 15,
-      "net_transfers_pct": 0.133,
-      "velocity": 66,
+      "net_transfers_pct": 0.134,
+      "velocity": 161,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -724,8 +724,8 @@
       "id": 439,
       "name": "Šeško",
       "team": 16,
-      "net_transfers_pct": -0.132,
-      "velocity": -78,
+      "net_transfers_pct": -0.134,
+      "velocity": -286,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -734,7 +734,7 @@
       "name": "Scott",
       "team": 3,
       "net_transfers_pct": -0.131,
-      "velocity": 1,
+      "velocity": -24,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -742,17 +742,8 @@
       "id": 106,
       "name": "Thiago",
       "team": 4,
-      "net_transfers_pct": 0.128,
-      "velocity": 36,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 15,
-      "name": "Ødegaard",
-      "team": 1,
-      "net_transfers_pct": -0.122,
-      "velocity": -3,
+      "net_transfers_pct": 0.131,
+      "velocity": 305,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -760,8 +751,8 @@
       "id": 70,
       "name": "Kluivert",
       "team": 3,
-      "net_transfers_pct": -0.122,
-      "velocity": -60,
+      "net_transfers_pct": -0.124,
+      "velocity": -185,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -769,17 +760,8 @@
       "id": 649,
       "name": "Maitland-Niles",
       "team": 9,
-      "net_transfers_pct": 0.122,
-      "velocity": 46,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 28,
-      "name": "Martinez",
-      "team": 6,
-      "net_transfers_pct": -0.121,
-      "velocity": -31,
+      "net_transfers_pct": 0.124,
+      "velocity": 131,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -787,8 +769,26 @@
       "id": 335,
       "name": "Stach",
       "team": 13,
-      "net_transfers_pct": -0.121,
-      "velocity": -49,
+      "net_transfers_pct": -0.123,
+      "velocity": -135,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 28,
+      "name": "Martinez",
+      "team": 6,
+      "net_transfers_pct": -0.122,
+      "velocity": -103,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 15,
+      "name": "Ødegaard",
+      "team": 1,
+      "net_transfers_pct": -0.12,
+      "velocity": 234,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -796,8 +796,17 @@
       "id": 503,
       "name": "Van de Ven",
       "team": 19,
-      "net_transfers_pct": -0.117,
-      "velocity": -42,
+      "net_transfers_pct": -0.118,
+      "velocity": -96,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 279,
+      "name": "Ajayi",
+      "team": 11,
+      "net_transfers_pct": -0.116,
+      "velocity": -260,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -806,16 +815,7 @@
       "name": "Pickford",
       "team": 9,
       "net_transfers_pct": 0.114,
-      "velocity": -37,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 279,
-      "name": "Ajayi",
-      "team": 11,
-      "net_transfers_pct": -0.114,
-      "velocity": -121,
+      "velocity": 74,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -824,7 +824,7 @@
       "name": "Schuster",
       "team": 4,
       "net_transfers_pct": 0.11,
-      "velocity": 20,
+      "velocity": 51,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -832,8 +832,8 @@
       "id": 455,
       "name": "Tonali",
       "team": 19,
-      "net_transfers_pct": -0.105,
-      "velocity": -28,
+      "net_transfers_pct": -0.106,
+      "velocity": -96,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -841,8 +841,8 @@
       "id": 304,
       "name": "O'Shea",
       "team": 12,
-      "net_transfers_pct": -0.104,
-      "velocity": -777,
+      "net_transfers_pct": -0.105,
+      "velocity": -107,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -851,7 +851,7 @@
       "name": "E.Le Fée",
       "team": 20,
       "net_transfers_pct": -0.104,
-      "velocity": -21,
+      "velocity": -42,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -859,8 +859,8 @@
       "id": 230,
       "name": "Branthwaite",
       "team": 9,
-      "net_transfers_pct": 0.101,
-      "velocity": -77,
+      "net_transfers_pct": 0.102,
+      "velocity": 101,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -868,8 +868,8 @@
       "id": 429,
       "name": "Rashford",
       "team": 16,
-      "net_transfers_pct": -0.098,
-      "velocity": -75,
+      "net_transfers_pct": -0.1,
+      "velocity": -209,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -878,7 +878,7 @@
       "name": "Milenković",
       "team": 18,
       "net_transfers_pct": -0.098,
-      "velocity": -37,
+      "velocity": -104,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -887,7 +887,7 @@
       "name": "Marmoush",
       "team": 19,
       "net_transfers_pct": -0.098,
-      "velocity": 1,
+      "velocity": 23,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -895,8 +895,8 @@
       "id": 55,
       "name": "Watkins",
       "team": 2,
-      "net_transfers_pct": -0.096,
-      "velocity": -67,
+      "net_transfers_pct": -0.097,
+      "velocity": -164,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -905,7 +905,7 @@
       "name": "Calafiori",
       "team": 1,
       "net_transfers_pct": 0.094,
-      "velocity": 24,
+      "velocity": 48,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -913,8 +913,8 @@
       "id": 441,
       "name": "Obi",
       "team": 16,
-      "net_transfers_pct": -0.091,
-      "velocity": -32,
+      "net_transfers_pct": -0.092,
+      "velocity": -100,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -922,17 +922,8 @@
       "id": 532,
       "name": "Ballard",
       "team": 20,
-      "net_transfers_pct": -0.091,
-      "velocity": -64,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 357,
-      "name": "Frimpong",
-      "team": 14,
-      "net_transfers_pct": -0.09,
-      "velocity": -206,
+      "net_transfers_pct": -0.092,
+      "velocity": -128,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -940,8 +931,26 @@
       "id": 87,
       "name": "Ajer",
       "team": 4,
-      "net_transfers_pct": -0.089,
-      "velocity": -253,
+      "net_transfers_pct": -0.091,
+      "velocity": -136,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 357,
+      "name": "Frimpong",
+      "team": 14,
+      "net_transfers_pct": -0.091,
+      "velocity": -110,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 198,
+      "name": "Henderson",
+      "team": 8,
+      "net_transfers_pct": -0.088,
+      "velocity": -132,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -950,25 +959,7 @@
       "name": "McBurnie",
       "team": 11,
       "net_transfers_pct": -0.088,
-      "velocity": -29,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 198,
-      "name": "Henderson",
-      "team": 8,
-      "net_transfers_pct": -0.087,
-      "velocity": -42,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 25,
-      "name": "Gyökeres",
-      "team": 1,
-      "net_transfers_pct": -0.085,
-      "velocity": 48,
+      "velocity": -30,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -977,7 +968,16 @@
       "name": "Munoz",
       "team": 14,
       "net_transfers_pct": -0.084,
-      "velocity": -12,
+      "velocity": -67,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 25,
+      "name": "Gyökeres",
+      "team": 1,
+      "net_transfers_pct": -0.082,
+      "velocity": 280,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -986,7 +986,7 @@
       "name": "Barcola",
       "team": 14,
       "net_transfers_pct": -0.081,
-      "velocity": -16,
+      "velocity": -36,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -995,7 +995,7 @@
       "name": "Castagne",
       "team": 10,
       "net_transfers_pct": 0.08,
-      "velocity": 10,
+      "velocity": 31,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1003,8 +1003,8 @@
       "id": 112,
       "name": "Van Hecke",
       "team": 19,
-      "net_transfers_pct": -0.079,
-      "velocity": -212,
+      "net_transfers_pct": -0.08,
+      "velocity": -92,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1012,8 +1012,17 @@
       "id": 556,
       "name": "Targett",
       "team": 11,
-      "net_transfers_pct": -0.078,
-      "velocity": -32,
+      "net_transfers_pct": -0.079,
+      "velocity": -73,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 316,
+      "name": "Emersonn",
+      "team": 12,
+      "net_transfers_pct": 0.077,
+      "velocity": 233,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1022,16 +1031,25 @@
       "name": "Roefs",
       "team": 20,
       "net_transfers_pct": -0.077,
-      "velocity": -402,
+      "velocity": -73,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 316,
-      "name": "Emersonn",
-      "team": 12,
+      "id": 84,
+      "name": "Collins",
+      "team": 4,
+      "net_transfers_pct": -0.075,
+      "velocity": -99,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 254,
+      "name": "Robinson",
+      "team": 10,
       "net_transfers_pct": 0.075,
-      "velocity": 49,
+      "velocity": 53,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1040,34 +1058,16 @@
       "name": "Isidor",
       "team": 20,
       "net_transfers_pct": -0.075,
-      "velocity": -9,
+      "velocity": 7,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 84,
-      "name": "Collins",
-      "team": 4,
+      "id": 321,
+      "name": "Walle Egeli",
+      "team": 12,
       "net_transfers_pct": -0.074,
-      "velocity": -88,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 254,
-      "name": "Robinson",
-      "team": 10,
-      "net_transfers_pct": 0.074,
-      "velocity": 22,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 26,
-      "name": "Havertz",
-      "team": 1,
-      "net_transfers_pct": 0.073,
-      "velocity": -428,
+      "velocity": -64,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1076,16 +1076,16 @@
       "name": "Furo",
       "team": 4,
       "net_transfers_pct": -0.073,
-      "velocity": -21,
+      "velocity": -57,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 321,
-      "name": "Walle Egeli",
-      "team": 12,
+      "id": 236,
+      "name": "Dewsbury-Hall",
+      "team": 9,
       "net_transfers_pct": -0.073,
-      "velocity": -31,
+      "velocity": -168,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1094,16 +1094,7 @@
       "name": "Rodon",
       "team": 13,
       "net_transfers_pct": -0.072,
-      "velocity": -28,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 236,
-      "name": "Dewsbury-Hall",
-      "team": 9,
-      "net_transfers_pct": -0.071,
-      "velocity": -66,
+      "velocity": -75,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1111,8 +1102,8 @@
       "id": 242,
       "name": "George",
       "team": 9,
-      "net_transfers_pct": -0.07,
-      "velocity": -15,
+      "net_transfers_pct": -0.071,
+      "velocity": -60,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1120,8 +1111,8 @@
       "id": 223,
       "name": "Mateta",
       "team": 8,
-      "net_transfers_pct": -0.069,
-      "velocity": -43,
+      "net_transfers_pct": -0.07,
+      "velocity": -101,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1129,8 +1120,8 @@
       "id": 86,
       "name": "Lewis-Potter",
       "team": 4,
-      "net_transfers_pct": -0.068,
-      "velocity": -12,
+      "net_transfers_pct": -0.069,
+      "velocity": -71,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1138,17 +1129,8 @@
       "id": 159,
       "name": "Caicedo",
       "team": 6,
-      "net_transfers_pct": -0.068,
-      "velocity": -22,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 282,
-      "name": "Giles",
-      "team": 11,
-      "net_transfers_pct": 0.068,
-      "velocity": -1,
+      "net_transfers_pct": -0.069,
+      "velocity": -86,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1156,8 +1138,26 @@
       "id": 11,
       "name": "Mosquera",
       "team": 1,
+      "net_transfers_pct": -0.067,
+      "velocity": -80,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 282,
+      "name": "Giles",
+      "team": 11,
+      "net_transfers_pct": 0.067,
+      "velocity": -30,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 528,
+      "name": "Scarlett",
+      "team": 19,
       "net_transfers_pct": -0.066,
-      "velocity": -122,
+      "velocity": -60,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1166,16 +1166,7 @@
       "name": "J.Timber",
       "team": 1,
       "net_transfers_pct": 0.065,
-      "velocity": 28,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 528,
-      "name": "Scarlett",
-      "team": 19,
-      "net_transfers_pct": -0.065,
-      "velocity": -25,
+      "velocity": 79,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1183,8 +1174,26 @@
       "id": 41,
       "name": "Buendía",
       "team": 2,
-      "net_transfers_pct": 0.064,
-      "velocity": 44,
+      "net_transfers_pct": 0.065,
+      "velocity": 77,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 371,
+      "name": "Gravenberch",
+      "team": 14,
+      "net_transfers_pct": -0.065,
+      "velocity": -83,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 88,
+      "name": "Kayode",
+      "team": 4,
+      "net_transfers_pct": -0.064,
+      "velocity": -127,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1193,25 +1202,16 @@
       "name": "Palmer",
       "team": 12,
       "net_transfers_pct": -0.064,
-      "velocity": -71,
+      "velocity": -65,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 371,
-      "name": "Gravenberch",
-      "team": 14,
+      "id": 43,
+      "name": "Tielemans",
+      "team": 16,
       "net_transfers_pct": -0.064,
-      "velocity": -34,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 88,
-      "name": "Kayode",
-      "team": 4,
-      "net_transfers_pct": -0.063,
-      "velocity": -51,
+      "velocity": -59,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1220,7 +1220,7 @@
       "name": "Yalcouyé",
       "team": 5,
       "net_transfers_pct": -0.063,
-      "velocity": 24,
+      "velocity": 47,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1229,16 +1229,7 @@
       "name": "Khusanov",
       "team": 15,
       "net_transfers_pct": -0.063,
-      "velocity": -20,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 43,
-      "name": "Tielemans",
-      "team": 16,
-      "net_transfers_pct": -0.063,
-      "velocity": -14,
+      "velocity": -61,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1247,7 +1238,7 @@
       "name": "Truffert",
       "team": 3,
       "net_transfers_pct": -0.062,
-      "velocity": -32,
+      "velocity": -106,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1256,7 +1247,16 @@
       "name": "Steele",
       "team": 5,
       "net_transfers_pct": -0.062,
-      "velocity": -45,
+      "velocity": -70,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 664,
+      "name": "Salia",
+      "team": 17,
+      "net_transfers_pct": 0.062,
+      "velocity": 133,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1265,16 +1265,7 @@
       "name": "Ndoye",
       "team": 18,
       "net_transfers_pct": -0.062,
-      "velocity": -10,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 664,
-      "name": "Salia",
-      "team": 17,
-      "net_transfers_pct": 0.061,
-      "velocity": 39,
+      "velocity": -48,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1283,7 +1274,7 @@
       "name": "Suzuki",
       "team": 2,
       "net_transfers_pct": 0.06,
-      "velocity": -13,
+      "velocity": 36,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1292,7 +1283,25 @@
       "name": "Kerkez",
       "team": 14,
       "net_transfers_pct": -0.06,
-      "velocity": -26,
+      "velocity": -60,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 248,
+      "name": "Beto",
+      "team": 9,
+      "net_transfers_pct": -0.059,
+      "velocity": -76,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 460,
+      "name": "Willock",
+      "team": 17,
+      "net_transfers_pct": 0.059,
+      "velocity": 59,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1301,25 +1310,7 @@
       "name": "Robertson",
       "team": 19,
       "net_transfers_pct": -0.059,
-      "velocity": -31,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 248,
-      "name": "Beto",
-      "team": 9,
-      "net_transfers_pct": -0.058,
-      "velocity": -30,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 460,
-      "name": "Willock",
-      "team": 17,
-      "net_transfers_pct": 0.058,
-      "velocity": 24,
+      "velocity": -47,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1328,7 +1319,16 @@
       "name": "Kelleher",
       "team": 4,
       "net_transfers_pct": 0.057,
-      "velocity": -535,
+      "velocity": 11,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 489,
+      "name": "Yates",
+      "team": 18,
+      "net_transfers_pct": -0.056,
+      "velocity": -68,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1337,16 +1337,16 @@
       "name": "Hato",
       "team": 6,
       "net_transfers_pct": -0.055,
-      "velocity": -15,
+      "velocity": -47,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 489,
-      "name": "Yates",
-      "team": 18,
+      "id": 182,
+      "name": "Amenda",
+      "team": 7,
       "net_transfers_pct": -0.055,
-      "velocity": -22,
+      "velocity": -67,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1355,16 +1355,7 @@
       "name": "George Hemmings",
       "team": 2,
       "net_transfers_pct": -0.054,
-      "velocity": -15,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 182,
-      "name": "Amenda",
-      "team": 7,
-      "net_transfers_pct": -0.054,
-      "velocity": -125,
+      "velocity": -45,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1372,8 +1363,35 @@
       "id": 123,
       "name": "Hinshelwood",
       "team": 5,
-      "net_transfers_pct": -0.052,
-      "velocity": -26,
+      "net_transfers_pct": -0.053,
+      "velocity": -79,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 417,
+      "name": "Dalot",
+      "team": 16,
+      "net_transfers_pct": -0.051,
+      "velocity": -81,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 525,
+      "name": "Fernandes",
+      "team": 19,
+      "net_transfers_pct": -0.051,
+      "velocity": -47,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 26,
+      "name": "Havertz",
+      "team": 1,
+      "net_transfers_pct": 0.05,
+      "velocity": -2507,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1382,7 +1400,25 @@
       "name": "Maatsen",
       "team": 2,
       "net_transfers_pct": -0.05,
-      "velocity": -15,
+      "velocity": -54,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 667,
+      "name": "Wright",
+      "team": 2,
+      "net_transfers_pct": 0.05,
+      "velocity": 81,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 67,
+      "name": "Rayan",
+      "team": 3,
+      "net_transfers_pct": -0.05,
+      "velocity": -60,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1391,25 +1427,25 @@
       "name": "Bentley",
       "team": 7,
       "net_transfers_pct": 0.05,
-      "velocity": -18,
+      "velocity": 26,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 417,
-      "name": "Dalot",
+      "id": 385,
+      "name": "Trafford",
+      "team": 13,
+      "net_transfers_pct": 0.05,
+      "velocity": 173,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 432,
+      "name": "Mainoo",
       "team": 16,
       "net_transfers_pct": -0.05,
-      "velocity": -27,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 525,
-      "name": "Fernandes",
-      "team": 19,
-      "net_transfers_pct": -0.05,
-      "velocity": -17,
+      "velocity": -198,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1418,34 +1454,7 @@
       "name": "O'Nien",
       "team": 20,
       "net_transfers_pct": 0.05,
-      "velocity": 17,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 667,
-      "name": "Wright",
-      "team": 2,
-      "net_transfers_pct": 0.049,
-      "velocity": 22,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 67,
-      "name": "Rayan",
-      "team": 3,
-      "net_transfers_pct": -0.049,
-      "velocity": -20,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 385,
-      "name": "Trafford",
-      "team": 13,
-      "net_transfers_pct": 0.049,
-      "velocity": -133,
+      "velocity": 82,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1454,16 +1463,7 @@
       "name": "Araujo",
       "team": 14,
       "net_transfers_pct": 0.049,
-      "velocity": 19,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 432,
-      "name": "Mainoo",
-      "team": 16,
-      "net_transfers_pct": -0.049,
-      "velocity": -49,
+      "velocity": 31,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1472,7 +1472,7 @@
       "name": "Petrović",
       "team": 3,
       "net_transfers_pct": -0.046,
-      "velocity": -813,
+      "velocity": -23,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1480,8 +1480,8 @@
       "id": 448,
       "name": "Burn",
       "team": 17,
-      "net_transfers_pct": -0.045,
-      "velocity": -22,
+      "net_transfers_pct": -0.046,
+      "velocity": -53,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1489,8 +1489,8 @@
       "id": 527,
       "name": "Richarlison",
       "team": 19,
-      "net_transfers_pct": -0.045,
-      "velocity": -23,
+      "net_transfers_pct": -0.046,
+      "velocity": -74,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1498,17 +1498,8 @@
       "id": 144,
       "name": "Gusto",
       "team": 6,
-      "net_transfers_pct": -0.044,
-      "velocity": -19,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 173,
-      "name": "Thomas",
-      "team": 7,
-      "net_transfers_pct": -0.043,
-      "velocity": -947,
+      "net_transfers_pct": -0.045,
+      "velocity": -46,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1517,7 +1508,7 @@
       "name": "McAteer",
       "team": 12,
       "net_transfers_pct": -0.043,
-      "velocity": -12,
+      "velocity": -16,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1526,7 +1517,16 @@
       "name": "Neto",
       "team": 6,
       "net_transfers_pct": -0.042,
-      "velocity": -6,
+      "velocity": -1,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 173,
+      "name": "Thomas",
+      "team": 7,
+      "net_transfers_pct": -0.042,
+      "velocity": 65,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1534,8 +1534,8 @@
       "id": 492,
       "name": "Awoniyi",
       "team": 7,
-      "net_transfers_pct": -0.04,
-      "velocity": -16,
+      "net_transfers_pct": -0.041,
+      "velocity": -42,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1544,7 +1544,34 @@
       "name": "Evanilson",
       "team": 3,
       "net_transfers_pct": -0.039,
-      "velocity": 11,
+      "velocity": 70,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 320,
+      "name": "Akpom",
+      "team": 12,
+      "net_transfers_pct": -0.039,
+      "velocity": -54,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 327,
+      "name": "Bijol",
+      "team": 13,
+      "net_transfers_pct": -0.039,
+      "velocity": -44,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 456,
+      "name": "J.Ramsey",
+      "team": 17,
+      "net_transfers_pct": -0.039,
+      "velocity": -46,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1553,7 +1580,7 @@
       "name": "Sánchez",
       "team": 6,
       "net_transfers_pct": -0.038,
-      "velocity": -333,
+      "velocity": -76,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1562,34 +1589,7 @@
       "name": "Dovin",
       "team": 7,
       "net_transfers_pct": -0.038,
-      "velocity": -17,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 320,
-      "name": "Akpom",
-      "team": 12,
-      "net_transfers_pct": -0.038,
-      "velocity": -18,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 327,
-      "name": "Bijol",
-      "team": 13,
-      "net_transfers_pct": -0.038,
-      "velocity": -74,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 456,
-      "name": "J.Ramsey",
-      "team": 17,
-      "net_transfers_pct": -0.038,
-      "velocity": -7,
+      "velocity": -41,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1598,7 +1598,7 @@
       "name": "Wood",
       "team": 18,
       "net_transfers_pct": -0.038,
-      "velocity": -20,
+      "velocity": -29,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1607,7 +1607,7 @@
       "name": "Eze",
       "team": 1,
       "net_transfers_pct": -0.037,
-      "velocity": -25,
+      "velocity": -46,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1616,7 +1616,7 @@
       "name": "Muharemović",
       "team": 13,
       "net_transfers_pct": 0.037,
-      "velocity": -191,
+      "velocity": 40,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1625,7 +1625,7 @@
       "name": "Hincapie",
       "team": 1,
       "net_transfers_pct": -0.036,
-      "velocity": -13,
+      "velocity": -35,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1634,7 +1634,16 @@
       "name": "Colwill",
       "team": 6,
       "net_transfers_pct": -0.036,
-      "velocity": -15,
+      "velocity": -43,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 176,
+      "name": "Dasilva",
+      "team": 7,
+      "net_transfers_pct": 0.036,
+      "velocity": 61,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1643,16 +1652,7 @@
       "name": "Rúben",
       "team": 15,
       "net_transfers_pct": -0.036,
-      "velocity": -17,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 176,
-      "name": "Dasilva",
-      "team": 7,
-      "net_transfers_pct": 0.035,
-      "velocity": 21,
+      "velocity": -51,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1660,8 +1660,8 @@
       "id": 7,
       "name": "Lewis-Skelly",
       "team": 1,
-      "net_transfers_pct": -0.034,
-      "velocity": -16,
+      "net_transfers_pct": -0.035,
+      "velocity": -28,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1670,7 +1670,16 @@
       "name": "A.García",
       "team": 2,
       "net_transfers_pct": -0.034,
-      "velocity": -11,
+      "velocity": -47,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 591,
+      "name": "Enciso",
+      "team": 12,
+      "net_transfers_pct": -0.034,
+      "velocity": -26,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1679,16 +1688,16 @@
       "name": "Sels",
       "team": 18,
       "net_transfers_pct": -0.034,
-      "velocity": -308,
+      "velocity": -36,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 591,
-      "name": "Enciso",
-      "team": 12,
+      "id": 270,
+      "name": "Reed",
+      "team": 10,
       "net_transfers_pct": -0.033,
-      "velocity": -11,
+      "velocity": -60,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1697,16 +1706,7 @@
       "name": "Sávio",
       "team": 19,
       "net_transfers_pct": -0.033,
-      "velocity": -10,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 270,
-      "name": "Reed",
-      "team": 10,
-      "net_transfers_pct": -0.032,
-      "velocity": -9,
+      "velocity": -19,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1715,7 +1715,7 @@
       "name": "Andrey Santos",
       "team": 16,
       "net_transfers_pct": -0.032,
-      "velocity": -11,
+      "velocity": -34,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1724,7 +1724,7 @@
       "name": "Solanke",
       "team": 19,
       "net_transfers_pct": -0.032,
-      "velocity": -4,
+      "velocity": -16,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1733,7 +1733,7 @@
       "name": "Simms",
       "team": 7,
       "net_transfers_pct": -0.031,
-      "velocity": -6,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1742,7 +1742,7 @@
       "name": "Neave",
       "team": 17,
       "net_transfers_pct": -0.031,
-      "velocity": -17,
+      "velocity": -40,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1751,7 +1751,16 @@
       "name": "Rushworth",
       "team": 7,
       "net_transfers_pct": -0.03,
-      "velocity": -504,
+      "velocity": -1,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 308,
+      "name": "Furlong",
+      "team": 12,
+      "net_transfers_pct": 0.03,
+      "velocity": 23,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1760,16 +1769,16 @@
       "name": "Palestra",
       "team": 6,
       "net_transfers_pct": -0.029,
-      "velocity": -13,
+      "velocity": -49,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 308,
-      "name": "Furlong",
-      "team": 12,
-      "net_transfers_pct": 0.029,
-      "velocity": 8,
+      "id": 369,
+      "name": "Ngumoha",
+      "team": 14,
+      "net_transfers_pct": -0.029,
+      "velocity": -34,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1778,7 +1787,7 @@
       "name": "Woltemade",
       "team": 17,
       "net_transfers_pct": -0.029,
-      "velocity": -18,
+      "velocity": -51,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1787,7 +1796,7 @@
       "name": "Mukiele",
       "team": 20,
       "net_transfers_pct": -0.029,
-      "velocity": -12,
+      "velocity": -60,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1796,7 +1805,7 @@
       "name": "Wharton",
       "team": 8,
       "net_transfers_pct": -0.028,
-      "velocity": -10,
+      "velocity": -40,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1805,16 +1814,7 @@
       "name": "Keane",
       "team": 9,
       "net_transfers_pct": -0.028,
-      "velocity": -10,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 369,
-      "name": "Ngumoha",
-      "team": 14,
-      "net_transfers_pct": -0.028,
-      "velocity": -7,
+      "velocity": -38,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1823,7 +1823,16 @@
       "name": "Davies",
       "team": 19,
       "net_transfers_pct": 0.028,
-      "velocity": 7,
+      "velocity": 38,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 19,
+      "name": "Zubimendi",
+      "team": 1,
+      "net_transfers_pct": -0.027,
+      "velocity": -28,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1832,16 +1841,7 @@
       "name": "Ampadu",
       "team": 13,
       "net_transfers_pct": -0.027,
-      "velocity": -5,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 19,
-      "name": "Zubimendi",
-      "team": 1,
-      "net_transfers_pct": -0.026,
-      "velocity": -15,
+      "velocity": -35,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1850,7 +1850,7 @@
       "name": "Bassey",
       "team": 10,
       "net_transfers_pct": 0.026,
-      "velocity": 13,
+      "velocity": 34,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1859,7 +1859,7 @@
       "name": "Aaronson",
       "team": 13,
       "net_transfers_pct": -0.026,
-      "velocity": -11,
+      "velocity": -21,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1868,7 +1868,7 @@
       "name": "Pau",
       "team": 2,
       "net_transfers_pct": -0.025,
-      "velocity": -3,
+      "velocity": -22,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1876,8 +1876,17 @@
       "id": 372,
       "name": "Mac Allister",
       "team": 14,
+      "net_transfers_pct": -0.025,
+      "velocity": -45,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 113,
+      "name": "F.Kadıoğlu",
+      "team": 5,
       "net_transfers_pct": -0.024,
-      "velocity": -13,
+      "velocity": -41,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1886,16 +1895,7 @@
       "name": "O.Dango",
       "team": 4,
       "net_transfers_pct": -0.023,
-      "velocity": -14,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 113,
-      "name": "F.Kadıoğlu",
-      "team": 5,
-      "net_transfers_pct": -0.023,
-      "velocity": -15,
+      "velocity": -27,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1904,7 +1904,7 @@
       "name": "Greaves",
       "team": 12,
       "net_transfers_pct": -0.023,
-      "velocity": -14,
+      "velocity": -43,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1913,7 +1913,25 @@
       "name": "Dorgu",
       "team": 16,
       "net_transfers_pct": -0.023,
-      "velocity": -8,
+      "velocity": -15,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 419,
+      "name": "Martinez",
+      "team": 16,
+      "net_transfers_pct": -0.023,
+      "velocity": -23,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 167,
+      "name": "Delap",
+      "team": 18,
+      "net_transfers_pct": -0.023,
+      "velocity": -125,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1922,7 +1940,7 @@
       "name": "Burrowes",
       "team": 2,
       "net_transfers_pct": -0.022,
-      "velocity": -14,
+      "velocity": -24,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1931,16 +1949,7 @@
       "name": "Estêvão",
       "team": 6,
       "net_transfers_pct": -0.022,
-      "velocity": 2,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 419,
-      "name": "Martinez",
-      "team": 16,
-      "net_transfers_pct": -0.022,
-      "velocity": -17,
+      "velocity": -25,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1949,7 +1958,7 @@
       "name": "I.Sangaré",
       "team": 18,
       "net_transfers_pct": -0.022,
-      "velocity": -12,
+      "velocity": -30,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1958,16 +1967,25 @@
       "name": "Armstrong",
       "team": 9,
       "net_transfers_pct": -0.021,
-      "velocity": 1,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 167,
-      "name": "Delap",
-      "team": 18,
-      "net_transfers_pct": -0.021,
-      "velocity": -94,
+      "id": 650,
+      "name": "Affengruber",
+      "team": 10,
+      "net_transfers_pct": 0.021,
+      "velocity": 168,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 566,
+      "name": "Silva",
+      "team": 3,
+      "net_transfers_pct": 0.02,
+      "velocity": 31,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1976,7 +1994,7 @@
       "name": "Andrés",
       "team": 5,
       "net_transfers_pct": 0.02,
-      "velocity": 13,
+      "velocity": 25,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -1985,16 +2003,7 @@
       "name": "Chilwell",
       "team": 8,
       "net_transfers_pct": -0.02,
-      "velocity": -7,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 650,
-      "name": "Affengruber",
-      "team": 10,
-      "net_transfers_pct": 0.02,
-      "velocity": 68,
+      "velocity": -19,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2003,16 +2012,16 @@
       "name": "Fatawu",
       "team": 12,
       "net_transfers_pct": -0.02,
-      "velocity": -7,
+      "velocity": -26,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 566,
-      "name": "Silva",
-      "team": 3,
-      "net_transfers_pct": 0.019,
-      "velocity": -40,
+      "id": 160,
+      "name": "Garnacho",
+      "team": 2,
+      "net_transfers_pct": -0.019,
+      "velocity": -18,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2021,7 +2030,7 @@
       "name": "Balcombe",
       "team": 4,
       "net_transfers_pct": 0.019,
-      "velocity": -5,
+      "velocity": 17,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2030,7 +2039,7 @@
       "name": "Welbeck",
       "team": 6,
       "net_transfers_pct": -0.019,
-      "velocity": 8,
+      "velocity": 11,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2039,7 +2048,7 @@
       "name": "Scherpen",
       "team": 12,
       "net_transfers_pct": -0.019,
-      "velocity": -447,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2048,16 +2057,7 @@
       "name": "Mazraoui",
       "team": 16,
       "net_transfers_pct": -0.019,
-      "velocity": -4,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 428,
-      "name": "Cunha",
-      "team": 16,
-      "net_transfers_pct": -0.019,
-      "velocity": 26,
+      "velocity": -26,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2066,7 +2066,7 @@
       "name": "Horníček",
       "team": 17,
       "net_transfers_pct": 0.019,
-      "velocity": -33,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2084,16 +2084,7 @@
       "name": "Bruno G.",
       "team": 1,
       "net_transfers_pct": -0.018,
-      "velocity": 3,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 160,
-      "name": "Garnacho",
-      "team": 2,
-      "net_transfers_pct": -0.018,
-      "velocity": -4,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2102,7 +2093,7 @@
       "name": "Mitchell",
       "team": 8,
       "net_transfers_pct": -0.018,
-      "velocity": -20,
+      "velocity": 6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2111,7 +2102,16 @@
       "name": "Nketiah",
       "team": 8,
       "net_transfers_pct": -0.018,
-      "velocity": -4,
+      "velocity": -21,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 428,
+      "name": "Cunha",
+      "team": 16,
+      "net_transfers_pct": -0.018,
+      "velocity": 145,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2120,7 +2120,7 @@
       "name": "Pope",
       "team": 17,
       "net_transfers_pct": -0.018,
-      "velocity": -8,
+      "velocity": -15,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2129,7 +2129,7 @@
       "name": "Osula",
       "team": 17,
       "net_transfers_pct": -0.018,
-      "velocity": -12,
+      "velocity": -29,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2138,7 +2138,7 @@
       "name": "Lavia",
       "team": 6,
       "net_transfers_pct": -0.017,
-      "velocity": -7,
+      "velocity": -21,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2147,7 +2147,7 @@
       "name": "Zepa",
       "team": 10,
       "net_transfers_pct": -0.017,
-      "velocity": -7,
+      "velocity": -24,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2156,7 +2156,16 @@
       "name": "Yarmoliuk",
       "team": 4,
       "net_transfers_pct": -0.016,
-      "velocity": -9,
+      "velocity": -13,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 130,
+      "name": "Wieffer",
+      "team": 5,
+      "net_transfers_pct": -0.016,
+      "velocity": -32,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2165,7 +2174,7 @@
       "name": "Andrews",
       "team": 7,
       "net_transfers_pct": -0.016,
-      "velocity": -16,
+      "velocity": -23,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2174,7 +2183,7 @@
       "name": "Yeremy",
       "team": 8,
       "net_transfers_pct": -0.016,
-      "velocity": -2,
+      "velocity": -22,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2183,7 +2192,7 @@
       "name": "Matthews",
       "team": 8,
       "net_transfers_pct": -0.016,
-      "velocity": -20,
+      "velocity": -15,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2192,16 +2201,7 @@
       "name": "Norton-Cuffy",
       "team": 11,
       "net_transfers_pct": -0.016,
-      "velocity": -11,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 130,
-      "name": "Wieffer",
-      "team": 5,
-      "net_transfers_pct": -0.015,
-      "velocity": -7,
+      "velocity": -24,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2210,7 +2210,16 @@
       "name": "Shepherd",
       "team": 7,
       "net_transfers_pct": 0.015,
-      "velocity": 102,
+      "velocity": 15,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 194,
+      "name": "Thomas-Asante",
+      "team": 7,
+      "net_transfers_pct": 0.015,
+      "velocity": 49,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2219,7 +2228,25 @@
       "name": "Nmecha",
       "team": 13,
       "net_transfers_pct": -0.015,
-      "velocity": -4,
+      "velocity": -3,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 400,
+      "name": "Doku",
+      "team": 15,
+      "net_transfers_pct": 0.015,
+      "velocity": 43,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 447,
+      "name": "Botman",
+      "team": 17,
+      "net_transfers_pct": 0.015,
+      "velocity": 15,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2228,7 +2255,16 @@
       "name": "Shahar",
       "team": 17,
       "net_transfers_pct": -0.015,
-      "velocity": -3,
+      "velocity": -19,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 514,
+      "name": "Tel",
+      "team": 19,
+      "net_transfers_pct": -0.015,
+      "velocity": -11,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2237,7 +2273,7 @@
       "name": "Janelt",
       "team": 4,
       "net_transfers_pct": 0.014,
-      "velocity": -1,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2246,7 +2282,7 @@
       "name": "Anthony",
       "team": 4,
       "net_transfers_pct": 0.014,
-      "velocity": 13,
+      "velocity": 11,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2255,16 +2291,7 @@
       "name": "Kitching",
       "team": 7,
       "net_transfers_pct": -0.014,
-      "velocity": -5,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 194,
-      "name": "Thomas-Asante",
-      "team": 7,
-      "net_transfers_pct": 0.014,
-      "velocity": 26,
+      "velocity": -25,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2273,7 +2300,7 @@
       "name": "Justin",
       "team": 13,
       "net_transfers_pct": -0.014,
-      "velocity": -6,
+      "velocity": -17,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2282,16 +2309,16 @@
       "name": "Okafor",
       "team": 13,
       "net_transfers_pct": -0.014,
-      "velocity": -2,
+      "velocity": -13,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 400,
-      "name": "Doku",
+      "id": 392,
+      "name": "Aït-Nouri",
       "team": 15,
-      "net_transfers_pct": 0.014,
-      "velocity": 19,
+      "net_transfers_pct": -0.014,
+      "velocity": -12,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2300,25 +2327,7 @@
       "name": "Yoro",
       "team": 16,
       "net_transfers_pct": -0.014,
-      "velocity": -6,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 447,
-      "name": "Botman",
-      "team": 17,
-      "net_transfers_pct": 0.014,
-      "velocity": -62,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 514,
-      "name": "Tel",
-      "team": 19,
-      "net_transfers_pct": -0.014,
-      "velocity": -3,
+      "velocity": -32,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2327,7 +2336,7 @@
       "name": "McGinn",
       "team": 2,
       "net_transfers_pct": -0.013,
-      "velocity": -3,
+      "velocity": -26,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2336,7 +2345,7 @@
       "name": "Madjo",
       "team": 2,
       "net_transfers_pct": -0.013,
-      "velocity": -7,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2345,7 +2354,7 @@
       "name": "Andersen",
       "team": 10,
       "net_transfers_pct": 0.013,
-      "velocity": 3,
+      "velocity": 9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2354,16 +2363,7 @@
       "name": "Woodman",
       "team": 14,
       "net_transfers_pct": -0.013,
-      "velocity": -10,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 392,
-      "name": "Aït-Nouri",
-      "team": 15,
-      "net_transfers_pct": -0.013,
-      "velocity": -5,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2372,7 +2372,7 @@
       "name": "Amad",
       "team": 16,
       "net_transfers_pct": -0.013,
-      "velocity": -7,
+      "velocity": -17,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2381,7 +2381,7 @@
       "name": "Acheampong",
       "team": 6,
       "net_transfers_pct": -0.012,
-      "velocity": -7,
+      "velocity": -15,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2390,13 +2390,22 @@
       "name": "Marc Guiu",
       "team": 6,
       "net_transfers_pct": -0.012,
-      "velocity": -8,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
       "id": 277,
       "name": "Egan",
+      "team": 11,
+      "net_transfers_pct": -0.012,
+      "velocity": -44,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 288,
+      "name": "Dowell",
       "team": 11,
       "net_transfers_pct": -0.012,
       "velocity": -22,
@@ -2408,7 +2417,7 @@
       "name": "Olusesi",
       "team": 19,
       "net_transfers_pct": -0.012,
-      "velocity": -7,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2417,7 +2426,7 @@
       "name": "Reinildo",
       "team": 20,
       "net_transfers_pct": -0.012,
-      "velocity": -4,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2426,16 +2435,7 @@
       "name": "Wilson",
       "team": 4,
       "net_transfers_pct": -0.011,
-      "velocity": -4,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 288,
-      "name": "Dowell",
-      "team": 11,
-      "net_transfers_pct": -0.011,
-      "velocity": -6,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2444,7 +2444,7 @@
       "name": "Maeda",
       "team": 12,
       "net_transfers_pct": -0.011,
-      "velocity": -3,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2453,7 +2453,7 @@
       "name": "Ouattara",
       "team": 12,
       "net_transfers_pct": -0.011,
-      "velocity": -9,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2462,7 +2462,7 @@
       "name": "Bouaddi",
       "team": 15,
       "net_transfers_pct": -0.011,
-      "velocity": -1,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2471,7 +2471,7 @@
       "name": "Zirkzee",
       "team": 16,
       "net_transfers_pct": -0.011,
-      "velocity": -5,
+      "velocity": -19,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2480,7 +2480,7 @@
       "name": "N.Gonzalez",
       "team": 17,
       "net_transfers_pct": -0.011,
-      "velocity": 3,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2489,7 +2489,16 @@
       "name": "Thiaw",
       "team": 17,
       "net_transfers_pct": -0.011,
-      "velocity": -111,
+      "velocity": -10,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 506,
+      "name": "Udogie",
+      "team": 19,
+      "net_transfers_pct": -0.011,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2498,7 +2507,7 @@
       "name": "J.Angulo",
       "team": 20,
       "net_transfers_pct": 0.011,
-      "velocity": 4,
+      "velocity": 27,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2507,7 +2516,7 @@
       "name": "Barkley",
       "team": 2,
       "net_transfers_pct": -0.01,
-      "velocity": -3,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2516,7 +2525,7 @@
       "name": "Boscagli",
       "team": 5,
       "net_transfers_pct": 0.01,
-      "velocity": 0,
+      "velocity": 10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2534,7 +2543,7 @@
       "name": "Destan",
       "team": 11,
       "net_transfers_pct": -0.01,
-      "velocity": -3,
+      "velocity": -12,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2543,7 +2552,7 @@
       "name": "Perri",
       "team": 13,
       "net_transfers_pct": -0.01,
-      "velocity": -9,
+      "velocity": -18,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2552,7 +2561,7 @@
       "name": "Matheus N.",
       "team": 15,
       "net_transfers_pct": -0.01,
-      "velocity": -15,
+      "velocity": -22,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2561,16 +2570,7 @@
       "name": "Heaven",
       "team": 16,
       "net_transfers_pct": -0.01,
-      "velocity": -2,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 506,
-      "name": "Udogie",
-      "team": 19,
-      "net_transfers_pct": -0.01,
-      "velocity": -5,
+      "velocity": -15,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2579,7 +2579,7 @@
       "name": "Maddison",
       "team": 19,
       "net_transfers_pct": -0.01,
-      "velocity": -5,
+      "velocity": -15,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2588,7 +2588,16 @@
       "name": "Fofana",
       "team": 6,
       "net_transfers_pct": 0.009,
-      "velocity": -37,
+      "velocity": 18,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 262,
+      "name": "Smith Rowe",
+      "team": 10,
+      "net_transfers_pct": -0.009,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2597,7 +2606,16 @@
       "name": "Muniz",
       "team": 10,
       "net_transfers_pct": -0.009,
-      "velocity": -10,
+      "velocity": -5,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 622,
+      "name": "Braithwaite",
+      "team": 15,
+      "net_transfers_pct": -0.009,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2606,7 +2624,7 @@
       "name": "Livramento",
       "team": 17,
       "net_transfers_pct": -0.009,
-      "velocity": -2,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2615,7 +2633,7 @@
       "name": "Spence",
       "team": 19,
       "net_transfers_pct": -0.009,
-      "velocity": -3,
+      "velocity": -12,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2624,7 +2642,7 @@
       "name": "Kudus",
       "team": 19,
       "net_transfers_pct": 0.009,
-      "velocity": 9,
+      "velocity": 10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2633,7 +2651,7 @@
       "name": "G.Jesus",
       "team": 1,
       "net_transfers_pct": -0.008,
-      "velocity": -7,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2642,7 +2660,7 @@
       "name": "M.Bizot",
       "team": 2,
       "net_transfers_pct": -0.008,
-      "velocity": -4,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2651,7 +2669,7 @@
       "name": "Forster",
       "team": 3,
       "net_transfers_pct": 0.008,
-      "velocity": -143,
+      "velocity": 5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2660,7 +2678,7 @@
       "name": "Svoboda",
       "team": 5,
       "net_transfers_pct": 0.008,
-      "velocity": 4,
+      "velocity": 13,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2669,7 +2687,7 @@
       "name": "Oriola",
       "team": 5,
       "net_transfers_pct": -0.008,
-      "velocity": -4,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2678,7 +2696,7 @@
       "name": "Emegha",
       "team": 6,
       "net_transfers_pct": -0.008,
-      "velocity": -2,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2687,7 +2705,7 @@
       "name": "Mfuni",
       "team": 7,
       "net_transfers_pct": 0.008,
-      "velocity": 9,
+      "velocity": 10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2696,16 +2714,7 @@
       "name": "Tete",
       "team": 10,
       "net_transfers_pct": -0.008,
-      "velocity": -1,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 262,
-      "name": "Smith Rowe",
-      "team": 10,
-      "net_transfers_pct": -0.008,
-      "velocity": -5,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2714,7 +2723,7 @@
       "name": "Sessegnon",
       "team": 10,
       "net_transfers_pct": -0.008,
-      "velocity": -2,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2723,7 +2732,7 @@
       "name": "Crooks",
       "team": 11,
       "net_transfers_pct": 0.008,
-      "velocity": 2,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2732,16 +2741,16 @@
       "name": "Danns",
       "team": 14,
       "net_transfers_pct": 0.008,
-      "velocity": 6,
+      "velocity": 12,
       "direction": "rising",
       "confidence": "calibrated"
     },
     {
-      "id": 622,
-      "name": "Braithwaite",
-      "team": 15,
+      "id": 482,
+      "name": "Hudson-Odoi",
+      "team": 18,
       "net_transfers_pct": -0.008,
-      "velocity": -1,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2750,7 +2759,7 @@
       "name": "Sadiki",
       "team": 20,
       "net_transfers_pct": -0.008,
-      "velocity": -4,
+      "velocity": -13,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2759,7 +2768,7 @@
       "name": "Ahoka",
       "team": 20,
       "net_transfers_pct": -0.008,
-      "velocity": -2,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2768,7 +2777,7 @@
       "name": "Madueke",
       "team": 1,
       "net_transfers_pct": -0.007,
-      "velocity": -5,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2777,7 +2786,7 @@
       "name": "Cook",
       "team": 3,
       "net_transfers_pct": -0.007,
-      "velocity": -2,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2786,7 +2795,7 @@
       "name": "David",
       "team": 5,
       "net_transfers_pct": 0.007,
-      "velocity": 6,
+      "velocity": 33,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2795,7 +2804,7 @@
       "name": "Mheuka",
       "team": 6,
       "net_transfers_pct": 0.007,
-      "velocity": 9,
+      "velocity": 20,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2804,7 +2813,7 @@
       "name": "Tomiyasu",
       "team": 8,
       "net_transfers_pct": -0.007,
-      "velocity": -5,
+      "velocity": -29,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2822,7 +2831,7 @@
       "name": "Hackney",
       "team": 9,
       "net_transfers_pct": -0.007,
-      "velocity": 0,
+      "velocity": -12,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2831,7 +2840,16 @@
       "name": "Hughes",
       "team": 11,
       "net_transfers_pct": -0.007,
-      "velocity": -93,
+      "velocity": -18,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 313,
+      "name": "Clarke",
+      "team": 12,
+      "net_transfers_pct": -0.007,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2840,7 +2858,7 @@
       "name": "Lewis",
       "team": 15,
       "net_transfers_pct": -0.007,
-      "velocity": -5,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2849,16 +2867,7 @@
       "name": "McAidoo",
       "team": 15,
       "net_transfers_pct": -0.007,
-      "velocity": -1,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 482,
-      "name": "Hudson-Odoi",
-      "team": 18,
-      "net_transfers_pct": -0.007,
-      "velocity": 1,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2867,7 +2876,7 @@
       "name": "Souza",
       "team": 19,
       "net_transfers_pct": -0.007,
-      "velocity": -1,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2876,7 +2885,7 @@
       "name": "Alderete",
       "team": 20,
       "net_transfers_pct": -0.007,
-      "velocity": -5,
+      "velocity": -12,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2885,7 +2894,7 @@
       "name": "Meunier",
       "team": 20,
       "net_transfers_pct": 0.007,
-      "velocity": 3,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2894,7 +2903,7 @@
       "name": "Saliba",
       "team": 1,
       "net_transfers_pct": -0.006,
-      "velocity": -3,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2903,7 +2912,7 @@
       "name": "Alysson",
       "team": 2,
       "net_transfers_pct": -0.006,
-      "velocity": -2,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2912,7 +2921,16 @@
       "name": "Lynch",
       "team": 2,
       "net_transfers_pct": -0.006,
-      "velocity": -4,
+      "velocity": -12,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 116,
+      "name": "Dunk",
+      "team": 5,
+      "net_transfers_pct": -0.006,
+      "velocity": -164,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2930,7 +2948,7 @@
       "name": "Grimes",
       "team": 7,
       "net_transfers_pct": -0.006,
-      "velocity": 1,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2939,7 +2957,7 @@
       "name": "Yirenkyi",
       "team": 7,
       "net_transfers_pct": -0.006,
-      "velocity": -4,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2948,7 +2966,7 @@
       "name": "Disasi",
       "team": 8,
       "net_transfers_pct": -0.006,
-      "velocity": -2,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2957,7 +2975,7 @@
       "name": "O'Brien",
       "team": 9,
       "net_transfers_pct": -0.006,
-      "velocity": -5,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2966,7 +2984,7 @@
       "name": "Graham",
       "team": 9,
       "net_transfers_pct": -0.006,
-      "velocity": -4,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2975,7 +2993,7 @@
       "name": "Berge",
       "team": 10,
       "net_transfers_pct": -0.006,
-      "velocity": -1,
+      "velocity": -14,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -2984,15 +3002,6 @@
       "name": "Walton",
       "team": 12,
       "net_transfers_pct": 0.006,
-      "velocity": 5,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 313,
-      "name": "Clarke",
-      "team": 12,
-      "net_transfers_pct": -0.006,
       "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
@@ -3002,7 +3011,7 @@
       "name": "Miley",
       "team": 17,
       "net_transfers_pct": 0.006,
-      "velocity": 2,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3011,7 +3020,7 @@
       "name": "Abbott",
       "team": 18,
       "net_transfers_pct": -0.006,
-      "velocity": -1,
+      "velocity": -11,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3020,7 +3029,7 @@
       "name": "Diomande",
       "team": 18,
       "net_transfers_pct": -0.006,
-      "velocity": -15,
+      "velocity": -13,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3029,7 +3038,7 @@
       "name": "Vicario",
       "team": 19,
       "net_transfers_pct": -0.006,
-      "velocity": 0,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3038,7 +3047,7 @@
       "name": "Gray",
       "team": 19,
       "net_transfers_pct": -0.006,
-      "velocity": -3,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3047,7 +3056,7 @@
       "name": "Rowe",
       "team": 2,
       "net_transfers_pct": -0.005,
-      "velocity": -2,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3065,7 +3074,7 @@
       "name": "Kroupi.Jr",
       "team": 3,
       "net_transfers_pct": -0.005,
-      "velocity": -5,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3083,16 +3092,7 @@
       "name": "Jensen",
       "team": 4,
       "net_transfers_pct": -0.005,
-      "velocity": -1,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 116,
-      "name": "Dunk",
-      "team": 5,
-      "net_transfers_pct": -0.005,
-      "velocity": -45,
+      "velocity": -16,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3101,7 +3101,7 @@
       "name": "Borges Rodrigues",
       "team": 7,
       "net_transfers_pct": -0.005,
-      "velocity": -1,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3110,7 +3110,7 @@
       "name": "Richards",
       "team": 8,
       "net_transfers_pct": -0.005,
-      "velocity": -12,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3119,7 +3119,7 @@
       "name": "Strand Larsen",
       "team": 8,
       "net_transfers_pct": 0.005,
-      "velocity": 18,
+      "velocity": 38,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3128,7 +3128,7 @@
       "name": "Röhl",
       "team": 9,
       "net_transfers_pct": -0.005,
-      "velocity": -3,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3137,7 +3137,7 @@
       "name": "McNally",
       "team": 10,
       "net_transfers_pct": -0.005,
-      "velocity": -5,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3146,7 +3146,7 @@
       "name": "Herrington",
       "team": 11,
       "net_transfers_pct": -0.005,
-      "velocity": -5,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3155,7 +3155,7 @@
       "name": "Vaz",
       "team": 11,
       "net_transfers_pct": 0.005,
-      "velocity": 5,
+      "velocity": 12,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3164,7 +3164,7 @@
       "name": "Cresswell",
       "team": 13,
       "net_transfers_pct": -0.005,
-      "velocity": 0,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3173,7 +3173,7 @@
       "name": "Mukasa",
       "team": 15,
       "net_transfers_pct": -0.005,
-      "velocity": -3,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3182,7 +3182,7 @@
       "name": "McAtee",
       "team": 18,
       "net_transfers_pct": -0.005,
-      "velocity": -4,
+      "velocity": -11,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3191,7 +3191,7 @@
       "name": "Schlager",
       "team": 18,
       "net_transfers_pct": -0.005,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3209,7 +3209,7 @@
       "name": "Williams-Barnett",
       "team": 19,
       "net_transfers_pct": -0.005,
-      "velocity": 0,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3218,7 +3218,7 @@
       "name": "Masuaku",
       "team": 20,
       "net_transfers_pct": -0.005,
-      "velocity": -4,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3227,7 +3227,7 @@
       "name": "Martinelli",
       "team": 1,
       "net_transfers_pct": -0.004,
-      "velocity": -3,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3236,7 +3236,7 @@
       "name": "Nedeljkovic",
       "team": 2,
       "net_transfers_pct": -0.004,
-      "velocity": -6,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3245,7 +3245,7 @@
       "name": "Bailey",
       "team": 2,
       "net_transfers_pct": -0.004,
-      "velocity": -2,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3254,7 +3254,7 @@
       "name": "Dennis",
       "team": 3,
       "net_transfers_pct": -0.004,
-      "velocity": -4,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3263,7 +3263,7 @@
       "name": "Diakité",
       "team": 3,
       "net_transfers_pct": -0.004,
-      "velocity": -2,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3272,7 +3272,7 @@
       "name": "Carvalho",
       "team": 4,
       "net_transfers_pct": 0.004,
-      "velocity": 3,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3281,16 +3281,7 @@
       "name": "Fredrick",
       "team": 4,
       "net_transfers_pct": 0.004,
-      "velocity": 0,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 109,
-      "name": "Verbruggen",
-      "team": 5,
-      "net_transfers_pct": -0.004,
-      "velocity": -1086,
+      "velocity": 9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3299,7 +3290,7 @@
       "name": "Kesler-Hayden",
       "team": 7,
       "net_transfers_pct": 0.004,
-      "velocity": -83,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3308,7 +3299,7 @@
       "name": "Woolfenden",
       "team": 7,
       "net_transfers_pct": -0.004,
-      "velocity": -1,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3317,7 +3308,7 @@
       "name": "Wright",
       "team": 7,
       "net_transfers_pct": -0.004,
-      "velocity": -3,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3326,7 +3317,7 @@
       "name": "Canvot",
       "team": 8,
       "net_transfers_pct": -0.004,
-      "velocity": -1,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3335,7 +3326,7 @@
       "name": "Aznou",
       "team": 9,
       "net_transfers_pct": -0.004,
-      "velocity": -5,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3344,7 +3335,7 @@
       "name": "Grealish",
       "team": 9,
       "net_transfers_pct": 0.004,
-      "velocity": 13,
+      "velocity": 7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3353,16 +3344,7 @@
       "name": "De Fougerolles",
       "team": 10,
       "net_transfers_pct": -0.004,
-      "velocity": -1,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 273,
-      "name": "Phillips",
-      "team": 11,
-      "net_transfers_pct": -0.004,
-      "velocity": 1,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3371,7 +3353,7 @@
       "name": "Núñez",
       "team": 12,
       "net_transfers_pct": -0.004,
-      "velocity": 0,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3389,7 +3371,16 @@
       "name": "Longstaff",
       "team": 13,
       "net_transfers_pct": -0.004,
-      "velocity": 0,
+      "velocity": -2,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 350,
+      "name": "A.Becker",
+      "team": 14,
+      "net_transfers_pct": 0.004,
+      "velocity": 51,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3398,7 +3389,7 @@
       "name": "Ramsay",
       "team": 14,
       "net_transfers_pct": -0.004,
-      "velocity": -2,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3407,7 +3398,16 @@
       "name": "Ekitiké",
       "team": 14,
       "net_transfers_pct": -0.004,
-      "velocity": -3,
+      "velocity": -7,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 131,
+      "name": "Baleba",
+      "team": 16,
+      "net_transfers_pct": 0.004,
+      "velocity": 15,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3416,7 +3416,7 @@
       "name": "Bendito Mantato",
       "team": 16,
       "net_transfers_pct": -0.004,
-      "velocity": 4,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3425,7 +3425,7 @@
       "name": "Fletcher",
       "team": 16,
       "net_transfers_pct": 0.004,
-      "velocity": 11,
+      "velocity": 9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3434,7 +3434,7 @@
       "name": "Touré",
       "team": 17,
       "net_transfers_pct": -0.004,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3443,7 +3443,7 @@
       "name": "O.Richards",
       "team": 18,
       "net_transfers_pct": -0.004,
-      "velocity": -2,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3452,7 +3452,7 @@
       "name": "Bindon",
       "team": 18,
       "net_transfers_pct": -0.004,
-      "velocity": -1,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3461,7 +3461,7 @@
       "name": "Tosin",
       "team": 19,
       "net_transfers_pct": -0.004,
-      "velocity": -1,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3470,7 +3470,7 @@
       "name": "Bergvall",
       "team": 19,
       "net_transfers_pct": -0.004,
-      "velocity": -1,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3488,7 +3488,7 @@
       "name": "Mudryk",
       "team": 19,
       "net_transfers_pct": -0.004,
-      "velocity": -2,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3497,7 +3497,7 @@
       "name": "Talbi",
       "team": 20,
       "net_transfers_pct": -0.004,
-      "velocity": -4,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3506,7 +3506,7 @@
       "name": "Kamara",
       "team": 2,
       "net_transfers_pct": -0.003,
-      "velocity": -9,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3524,7 +3524,7 @@
       "name": "Soler",
       "team": 3,
       "net_transfers_pct": -0.003,
-      "velocity": -7,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3533,7 +3533,16 @@
       "name": "Henry",
       "team": 4,
       "net_transfers_pct": -0.003,
-      "velocity": -2,
+      "velocity": -4,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 109,
+      "name": "Verbruggen",
+      "team": 5,
+      "net_transfers_pct": -0.003,
+      "velocity": 95,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3542,7 +3551,7 @@
       "name": "Yohanna",
       "team": 5,
       "net_transfers_pct": -0.003,
-      "velocity": -1,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3551,7 +3560,7 @@
       "name": "Henderson",
       "team": 6,
       "net_transfers_pct": 0.003,
-      "velocity": 1,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3569,7 +3578,7 @@
       "name": "Torp",
       "team": 7,
       "net_transfers_pct": -0.003,
-      "velocity": 0,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3578,7 +3587,7 @@
       "name": "Tchaouna",
       "team": 7,
       "net_transfers_pct": -0.003,
-      "velocity": 0,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3587,7 +3596,7 @@
       "name": "Hamer",
       "team": 7,
       "net_transfers_pct": -0.003,
-      "velocity": 0,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3596,7 +3605,7 @@
       "name": "Sarr",
       "team": 8,
       "net_transfers_pct": 0.003,
-      "velocity": -3,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3605,7 +3614,7 @@
       "name": "McNeil",
       "team": 8,
       "net_transfers_pct": -0.003,
-      "velocity": -1,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3623,7 +3632,7 @@
       "name": "Garner",
       "team": 9,
       "net_transfers_pct": -0.003,
-      "velocity": 1,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3632,7 +3641,16 @@
       "name": "Bobb",
       "team": 10,
       "net_transfers_pct": 0.003,
-      "velocity": 8,
+      "velocity": 29,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 273,
+      "name": "Phillips",
+      "team": 11,
+      "net_transfers_pct": -0.003,
+      "velocity": 9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3641,7 +3659,7 @@
       "name": "Zambrano",
       "team": 11,
       "net_transfers_pct": -0.003,
-      "velocity": -3,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3650,7 +3668,7 @@
       "name": "Stroud",
       "team": 11,
       "net_transfers_pct": -0.003,
-      "velocity": -1,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3659,7 +3677,7 @@
       "name": "Ansah",
       "team": 11,
       "net_transfers_pct": -0.003,
-      "velocity": -1,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3668,7 +3686,7 @@
       "name": "Lukić",
       "team": 12,
       "net_transfers_pct": -0.003,
-      "velocity": -1,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3677,7 +3695,7 @@
       "name": "Johnson",
       "team": 12,
       "net_transfers_pct": -0.003,
-      "velocity": -2,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3686,7 +3704,7 @@
       "name": "Al-Hamadi",
       "team": 12,
       "net_transfers_pct": -0.003,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3695,7 +3713,7 @@
       "name": "Palacios",
       "team": 12,
       "net_transfers_pct": -0.003,
-      "velocity": -7,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3704,7 +3722,7 @@
       "name": "James",
       "team": 13,
       "net_transfers_pct": -0.003,
-      "velocity": 1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3718,20 +3736,11 @@
       "confidence": "calibrated"
     },
     {
-      "id": 350,
-      "name": "A.Becker",
-      "team": 14,
-      "net_transfers_pct": 0.003,
-      "velocity": -112,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
       "id": 351,
       "name": "Mamardashvili",
       "team": 14,
       "net_transfers_pct": -0.003,
-      "velocity": -3,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3740,7 +3749,7 @@
       "name": "Tsimikas",
       "team": 14,
       "net_transfers_pct": -0.003,
-      "velocity": -2,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3749,7 +3758,7 @@
       "name": "McConnell",
       "team": 14,
       "net_transfers_pct": -0.003,
-      "velocity": -1,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3758,16 +3767,7 @@
       "name": "Kovačić",
       "team": 15,
       "net_transfers_pct": -0.003,
-      "velocity": 2,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 131,
-      "name": "Baleba",
-      "team": 16,
-      "net_transfers_pct": 0.003,
-      "velocity": 4,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3776,7 +3776,7 @@
       "name": "Amass",
       "team": 16,
       "net_transfers_pct": -0.003,
-      "velocity": -3,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3785,7 +3785,7 @@
       "name": "Schär",
       "team": 17,
       "net_transfers_pct": -0.003,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3794,7 +3794,7 @@
       "name": "Bamba",
       "team": 17,
       "net_transfers_pct": -0.003,
-      "velocity": -4,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3803,7 +3803,7 @@
       "name": "Fernandez-Pardo",
       "team": 17,
       "net_transfers_pct": 0.003,
-      "velocity": 8,
+      "velocity": 5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3812,7 +3812,7 @@
       "name": "Pivas",
       "team": 17,
       "net_transfers_pct": 0.003,
-      "velocity": 0,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3830,7 +3830,16 @@
       "name": "Hutchinson",
       "team": 18,
       "net_transfers_pct": -0.003,
-      "velocity": -3,
+      "velocity": -2,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 516,
+      "name": "Bentancur",
+      "team": 19,
+      "net_transfers_pct": -0.003,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3839,7 +3848,7 @@
       "name": "Danso",
       "team": 20,
       "net_transfers_pct": 0.003,
-      "velocity": 7,
+      "velocity": 5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3848,7 +3857,7 @@
       "name": "Patterson",
       "team": 20,
       "net_transfers_pct": -0.003,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3857,7 +3866,7 @@
       "name": "Digne",
       "team": 2,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3866,7 +3875,7 @@
       "name": "Mings",
       "team": 2,
       "net_transfers_pct": 0.002,
-      "velocity": 6,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3875,7 +3884,7 @@
       "name": "Bogarde",
       "team": 2,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3884,7 +3893,7 @@
       "name": "Lindelöf",
       "team": 2,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3893,7 +3902,16 @@
       "name": "Gomes",
       "team": 2,
       "net_transfers_pct": 0.002,
-      "velocity": 1,
+      "velocity": 2,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 596,
+      "name": "Ruggeri",
+      "team": 2,
+      "net_transfers_pct": 0.002,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3902,7 +3920,7 @@
       "name": "Mbaye",
       "team": 2,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3911,7 +3929,7 @@
       "name": "Gannon-Doak",
       "team": 3,
       "net_transfers_pct": -0.002,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3920,7 +3938,7 @@
       "name": "Sanchez",
       "team": 3,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3929,7 +3947,7 @@
       "name": "Van den Berg",
       "team": 4,
       "net_transfers_pct": -0.002,
-      "velocity": -4,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3938,7 +3956,7 @@
       "name": "Diouf",
       "team": 4,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3947,7 +3965,7 @@
       "name": "Igor",
       "team": 5,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3956,7 +3974,7 @@
       "name": "Ayari",
       "team": 5,
       "net_transfers_pct": 0.002,
-      "velocity": 6,
+      "velocity": 10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3965,7 +3983,7 @@
       "name": "Howell",
       "team": 5,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3974,7 +3992,7 @@
       "name": "Chalobah",
       "team": 6,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3983,7 +4001,7 @@
       "name": "Barco",
       "team": 6,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -3992,7 +4010,7 @@
       "name": "Nicoll-Jazuli",
       "team": 6,
       "net_transfers_pct": 0.002,
-      "velocity": 1,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4001,7 +4019,7 @@
       "name": "Onyeka",
       "team": 7,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4010,7 +4028,7 @@
       "name": "Rudoni",
       "team": 7,
       "net_transfers_pct": 0.002,
-      "velocity": 2,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4019,7 +4037,7 @@
       "name": "Sakamoto",
       "team": 7,
       "net_transfers_pct": -0.002,
-      "velocity": -2,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4028,7 +4046,7 @@
       "name": "Mason-Clark",
       "team": 7,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4037,7 +4055,7 @@
       "name": "Cherif",
       "team": 7,
       "net_transfers_pct": -0.002,
-      "velocity": 3,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4046,7 +4064,7 @@
       "name": "Benitez",
       "team": 8,
       "net_transfers_pct": 0.002,
-      "velocity": 2,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4055,7 +4073,7 @@
       "name": "Mingueza",
       "team": 8,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4073,7 +4091,7 @@
       "name": "Doucouré",
       "team": 8,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4082,7 +4100,7 @@
       "name": "Drakes-Thomas",
       "team": 8,
       "net_transfers_pct": -0.002,
-      "velocity": -2,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4091,7 +4109,7 @@
       "name": "Nørgaard",
       "team": 9,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4109,7 +4127,7 @@
       "name": "Palacios",
       "team": 10,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4118,7 +4136,7 @@
       "name": "Butland",
       "team": 11,
       "net_transfers_pct": -0.002,
-      "velocity": -4,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4136,7 +4154,7 @@
       "name": "McNair",
       "team": 11,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4145,7 +4163,7 @@
       "name": "Millar",
       "team": 11,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4154,7 +4172,7 @@
       "name": "Akintola",
       "team": 11,
       "net_transfers_pct": -0.002,
-      "velocity": -3,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4163,7 +4181,7 @@
       "name": "Burstow",
       "team": 11,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4172,7 +4190,7 @@
       "name": "Hjertø-Dahl",
       "team": 11,
       "net_transfers_pct": -0.002,
-      "velocity": -2,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4199,7 +4217,7 @@
       "name": "Humphreys",
       "team": 12,
       "net_transfers_pct": -0.002,
-      "velocity": -2,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4208,7 +4226,7 @@
       "name": "Lienou",
       "team": 13,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4217,7 +4235,7 @@
       "name": "Zetterer",
       "team": 13,
       "net_transfers_pct": 0.002,
-      "velocity": -5,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4226,7 +4244,7 @@
       "name": "Gomez",
       "team": 14,
       "net_transfers_pct": 0.002,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4253,7 +4271,7 @@
       "name": "Endo",
       "team": 14,
       "net_transfers_pct": -0.002,
-      "velocity": 3,
+      "velocity": -12,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4262,7 +4280,7 @@
       "name": "Nyoni",
       "team": 14,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4271,7 +4289,7 @@
       "name": "Elliott",
       "team": 14,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4280,7 +4298,7 @@
       "name": "Samba",
       "team": 15,
       "net_transfers_pct": -0.002,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4289,7 +4307,7 @@
       "name": "A.Murphy",
       "team": 17,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4298,7 +4316,7 @@
       "name": "Thompson",
       "team": 17,
       "net_transfers_pct": 0.002,
-      "velocity": 1,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4312,11 +4330,20 @@
       "confidence": "calibrated"
     },
     {
+      "id": 493,
+      "name": "Kalimuendo",
+      "team": 18,
+      "net_transfers_pct": -0.002,
+      "velocity": -8,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
       "id": 495,
       "name": "Austin",
       "team": 19,
       "net_transfers_pct": -0.002,
-      "velocity": 1,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4325,7 +4352,7 @@
       "name": "Romero",
       "team": 19,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4334,16 +4361,7 @@
       "name": "Rowswell",
       "team": 19,
       "net_transfers_pct": -0.002,
-      "velocity": -2,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 516,
-      "name": "Bentancur",
-      "team": 19,
-      "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4352,7 +4370,7 @@
       "name": "Diarra",
       "team": 20,
       "net_transfers_pct": -0.002,
-      "velocity": -1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4361,7 +4379,7 @@
       "name": "Adingra",
       "team": 20,
       "net_transfers_pct": -0.002,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4379,7 +4397,7 @@
       "name": "N.Angulo",
       "team": 20,
       "net_transfers_pct": -0.002,
-      "velocity": 2,
+      "velocity": -9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4388,7 +4406,7 @@
       "name": "Arrizabalaga",
       "team": 1,
       "net_transfers_pct": -0.001,
-      "velocity": -2,
+      "velocity": -8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4397,7 +4415,7 @@
       "name": "Meslier",
       "team": 1,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4406,7 +4424,7 @@
       "name": "Dowman",
       "team": 1,
       "net_transfers_pct": -0.001,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4415,16 +4433,7 @@
       "name": "Abraham",
       "team": 2,
       "net_transfers_pct": -0.001,
-      "velocity": 6,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 596,
-      "name": "Ruggeri",
-      "team": 2,
-      "net_transfers_pct": 0.001,
-      "velocity": 3,
+      "velocity": 8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4433,7 +4442,7 @@
       "name": "Smith",
       "team": 3,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4451,7 +4460,7 @@
       "name": "Hickey",
       "team": 4,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": 3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4460,7 +4469,7 @@
       "name": "Dasilva",
       "team": 4,
       "net_transfers_pct": -0.001,
-      "velocity": -1,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4469,7 +4478,7 @@
       "name": "Nunes",
       "team": 4,
       "net_transfers_pct": 0.001,
-      "velocity": 1,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4478,7 +4487,7 @@
       "name": "Minteh",
       "team": 5,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -5,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4487,7 +4496,7 @@
       "name": "O'Riley",
       "team": 5,
       "net_transfers_pct": -0.001,
-      "velocity": -7,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4496,7 +4505,7 @@
       "name": "Ferguson",
       "team": 5,
       "net_transfers_pct": -0.001,
-      "velocity": -1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4505,7 +4514,7 @@
       "name": "Ibrahim",
       "team": 5,
       "net_transfers_pct": 0.001,
-      "velocity": 1,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4514,7 +4523,7 @@
       "name": "M.Sarr",
       "team": 6,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4523,7 +4532,7 @@
       "name": "Quenda",
       "team": 6,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4532,7 +4541,7 @@
       "name": "Chavarria",
       "team": 6,
       "net_transfers_pct": -0.001,
-      "velocity": -1,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4541,7 +4550,7 @@
       "name": "Pinnock",
       "team": 7,
       "net_transfers_pct": 0.001,
-      "velocity": 3,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4568,7 +4577,7 @@
       "name": "Eccles",
       "team": 7,
       "net_transfers_pct": -0.001,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4586,7 +4595,7 @@
       "name": "Bassette",
       "team": 7,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4595,7 +4604,7 @@
       "name": "Guessand",
       "team": 8,
       "net_transfers_pct": -0.001,
-      "velocity": 2,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4604,7 +4613,7 @@
       "name": "Sosa",
       "team": 8,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4622,7 +4631,7 @@
       "name": "Kamada",
       "team": 8,
       "net_transfers_pct": 0.001,
-      "velocity": 3,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4640,7 +4649,7 @@
       "name": "M.França",
       "team": 8,
       "net_transfers_pct": -0.001,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4649,7 +4658,7 @@
       "name": "Timber",
       "team": 8,
       "net_transfers_pct": 0.001,
-      "velocity": -1,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4667,7 +4676,7 @@
       "name": "Kevin",
       "team": 10,
       "net_transfers_pct": -0.001,
-      "velocity": 2,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4676,7 +4685,7 @@
       "name": "Charles",
       "team": 10,
       "net_transfers_pct": 0.001,
-      "velocity": 9,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4685,7 +4694,7 @@
       "name": "Lo-Tutala",
       "team": 11,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4694,7 +4703,7 @@
       "name": "Coyle",
       "team": 11,
       "net_transfers_pct": 0.001,
-      "velocity": 1,
+      "velocity": -6,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4703,7 +4712,7 @@
       "name": "Gyabi",
       "team": 11,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4712,7 +4721,7 @@
       "name": "Morita",
       "team": 11,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4721,7 +4730,7 @@
       "name": "Gourna-Douath",
       "team": 11,
       "net_transfers_pct": -0.001,
-      "velocity": -2,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4730,7 +4739,7 @@
       "name": "Thomas",
       "team": 11,
       "net_transfers_pct": 0.001,
-      "velocity": 1,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4748,7 +4757,7 @@
       "name": "Kipré",
       "team": 12,
       "net_transfers_pct": 0.001,
-      "velocity": -15,
+      "velocity": -4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4757,7 +4766,7 @@
       "name": "Taylor",
       "team": 12,
       "net_transfers_pct": 0.001,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4784,7 +4793,7 @@
       "name": "Mehmeti",
       "team": 12,
       "net_transfers_pct": -0.001,
-      "velocity": 1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4802,7 +4811,7 @@
       "name": "Flemming",
       "team": 12,
       "net_transfers_pct": -0.001,
-      "velocity": 3,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4811,7 +4820,7 @@
       "name": "Gudmundsson",
       "team": 13,
       "net_transfers_pct": 0.001,
-      "velocity": -17,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4820,7 +4829,7 @@
       "name": "Tanaka",
       "team": 13,
       "net_transfers_pct": -0.001,
-      "velocity": 3,
+      "velocity": 8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4829,7 +4838,7 @@
       "name": "Mateo Joseph",
       "team": 13,
       "net_transfers_pct": -0.001,
-      "velocity": -1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4838,7 +4847,7 @@
       "name": "Cairns",
       "team": 13,
       "net_transfers_pct": 0.001,
-      "velocity": -1,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4847,7 +4856,7 @@
       "name": "Bahoya",
       "team": 13,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4856,7 +4865,7 @@
       "name": "Davies",
       "team": 14,
       "net_transfers_pct": -0.001,
-      "velocity": -4,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4865,7 +4874,7 @@
       "name": "Leoni",
       "team": 14,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4874,7 +4883,7 @@
       "name": "Vitor Reis",
       "team": 15,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4883,7 +4892,7 @@
       "name": "Reijnders",
       "team": 15,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4892,7 +4901,7 @@
       "name": "Allan",
       "team": 15,
       "net_transfers_pct": 0.001,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4901,7 +4910,7 @@
       "name": "Darlow",
       "team": 16,
       "net_transfers_pct": -0.001,
-      "velocity": -1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4910,7 +4919,7 @@
       "name": "Heaton",
       "team": 16,
       "net_transfers_pct": -0.001,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4919,7 +4928,7 @@
       "name": "Jaouen",
       "team": 17,
       "net_transfers_pct": -0.001,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4928,7 +4937,16 @@
       "name": "J.Murphy",
       "team": 17,
       "net_transfers_pct": 0.001,
-      "velocity": 4,
+      "velocity": 5,
+      "direction": "rising",
+      "confidence": "calibrated"
+    },
+    {
+      "id": 458,
+      "name": "Joelinton",
+      "team": 17,
+      "net_transfers_pct": -0.001,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4937,7 +4955,7 @@
       "name": "Steur",
       "team": 17,
       "net_transfers_pct": -0.001,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4946,7 +4964,7 @@
       "name": "Mills",
       "team": 17,
       "net_transfers_pct": 0.001,
-      "velocity": 1,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4955,7 +4973,7 @@
       "name": "John",
       "team": 18,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4964,16 +4982,7 @@
       "name": "Morato",
       "team": 18,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
-      "id": 493,
-      "name": "Kalimuendo",
-      "team": 18,
-      "net_transfers_pct": -0.001,
-      "velocity": 1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -4991,7 +5000,7 @@
       "name": "Byfield",
       "team": 19,
       "net_transfers_pct": -0.001,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5000,7 +5009,7 @@
       "name": "Gallagher",
       "team": 19,
       "net_transfers_pct": 0.001,
-      "velocity": 4,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5036,7 +5045,7 @@
       "name": "Fábio Vieira",
       "team": 1,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5072,7 +5081,7 @@
       "name": "Wan-Bissaka",
       "team": 2,
       "net_transfers_pct": 0.0,
-      "velocity": -1,
+      "velocity": 7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5090,7 +5099,7 @@
       "name": "Hill",
       "team": 3,
       "net_transfers_pct": 0.0,
-      "velocity": -12,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5099,7 +5108,7 @@
       "name": "Milosavljević",
       "team": 3,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5108,7 +5117,7 @@
       "name": "J.Araujo",
       "team": 3,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5135,7 +5144,7 @@
       "name": "Adli",
       "team": 3,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5144,7 +5153,7 @@
       "name": "Enes Ünal",
       "team": 3,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5153,7 +5162,7 @@
       "name": "Rodríguez",
       "team": 3,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": 8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5162,7 +5171,7 @@
       "name": "Jebbison",
       "team": 3,
       "net_transfers_pct": -0.0,
-      "velocity": 2,
+      "velocity": 8,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5171,7 +5180,7 @@
       "name": "Di Gregorio",
       "team": 3,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5180,7 +5189,7 @@
       "name": "Valdimarsson",
       "team": 4,
       "net_transfers_pct": -0.0,
-      "velocity": 1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5189,7 +5198,7 @@
       "name": "Ji-soo",
       "team": 4,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5216,7 +5225,7 @@
       "name": "Costinha",
       "team": 5,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": 4,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5252,7 +5261,7 @@
       "name": "Tzimas",
       "team": 5,
       "net_transfers_pct": -0.0,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5261,7 +5270,7 @@
       "name": "Struijk",
       "team": 5,
       "net_transfers_pct": -0.0,
-      "velocity": -9,
+      "velocity": -19,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5270,7 +5279,7 @@
       "name": "Osman",
       "team": 5,
       "net_transfers_pct": -0.0,
-      "velocity": 1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5279,7 +5288,7 @@
       "name": "Hadjam",
       "team": 5,
       "net_transfers_pct": -0.0,
-      "velocity": -2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5315,7 +5324,7 @@
       "name": "B.Badiashile",
       "team": 6,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5324,7 +5333,7 @@
       "name": "Gittens",
       "team": 6,
       "net_transfers_pct": -0.0,
-      "velocity": 1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5342,7 +5351,7 @@
       "name": "Anselmino",
       "team": 6,
       "net_transfers_pct": -0.0,
-      "velocity": 1,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5405,7 +5414,7 @@
       "name": "Gozo",
       "team": 8,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5414,7 +5423,7 @@
       "name": "Ahanor",
       "team": 8,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5441,7 +5450,7 @@
       "name": "King",
       "team": 9,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5450,7 +5459,7 @@
       "name": "Dibling",
       "team": 9,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5458,8 +5467,8 @@
       "id": 251,
       "name": "Lecomte",
       "team": 10,
-      "net_transfers_pct": 0.0,
-      "velocity": -9,
+      "net_transfers_pct": -0.0,
+      "velocity": -10,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5468,7 +5477,7 @@
       "name": "J.Cuenca",
       "team": 10,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5477,7 +5486,7 @@
       "name": "Iwobi",
       "team": 10,
       "net_transfers_pct": -0.0,
-      "velocity": 14,
+      "velocity": -7,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5486,7 +5495,7 @@
       "name": "Cairney",
       "team": 10,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5495,7 +5504,7 @@
       "name": "Larsson",
       "team": 10,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5504,7 +5513,7 @@
       "name": "Ángel",
       "team": 10,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5540,7 +5549,7 @@
       "name": "McCarthy",
       "team": 11,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5567,7 +5576,7 @@
       "name": "Kamara",
       "team": 11,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5585,7 +5594,7 @@
       "name": "Mouzakitis",
       "team": 11,
       "net_transfers_pct": -0.0,
-      "velocity": 1,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5612,7 +5621,7 @@
       "name": "Szmodics",
       "team": 12,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5621,7 +5630,7 @@
       "name": "Bornauw",
       "team": 13,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5657,7 +5666,7 @@
       "name": "Elvedi",
       "team": 13,
       "net_transfers_pct": -0.0,
-      "velocity": -18,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5666,7 +5675,7 @@
       "name": "Bard",
       "team": 13,
       "net_transfers_pct": 0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5684,7 +5693,7 @@
       "name": "Jaros",
       "team": 14,
       "net_transfers_pct": 0.0,
-      "velocity": -1,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5720,7 +5729,7 @@
       "name": "Koumas",
       "team": 14,
       "net_transfers_pct": -0.0,
-      "velocity": 2,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5729,7 +5738,7 @@
       "name": "Bettinelli",
       "team": 15,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5756,7 +5765,7 @@
       "name": "Echeverri",
       "team": 15,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5774,7 +5783,7 @@
       "name": "Monga",
       "team": 15,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5783,7 +5792,7 @@
       "name": "Rulli",
       "team": 15,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5792,7 +5801,7 @@
       "name": "Bayindir",
       "team": 16,
       "net_transfers_pct": -0.0,
-      "velocity": -1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5801,7 +5810,7 @@
       "name": "De Ligt",
       "team": 16,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -3,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5819,7 +5828,7 @@
       "name": "Mount",
       "team": 16,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5828,7 +5837,7 @@
       "name": "Ugarte",
       "team": 16,
       "net_transfers_pct": -0.0,
-      "velocity": 1,
+      "velocity": 0,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5837,7 +5846,7 @@
       "name": "J.Fletcher",
       "team": 16,
       "net_transfers_pct": -0.0,
-      "velocity": 1,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5846,7 +5855,7 @@
       "name": "Lacey",
       "team": 16,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": -2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5869,20 +5878,11 @@
       "confidence": "calibrated"
     },
     {
-      "id": 458,
-      "name": "Joelinton",
-      "team": 17,
-      "net_transfers_pct": -0.0,
-      "velocity": -1,
-      "direction": "rising",
-      "confidence": "calibrated"
-    },
-    {
       "id": 459,
       "name": "L.Miley",
       "team": 17,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": 2,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5891,7 +5891,7 @@
       "name": "Murillo",
       "team": 18,
       "net_transfers_pct": 0.0,
-      "velocity": -191,
+      "velocity": 9,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5918,7 +5918,7 @@
       "name": "Bakwa",
       "team": 18,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5927,7 +5927,7 @@
       "name": "Phillips",
       "team": 19,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5945,7 +5945,7 @@
       "name": "Odobert",
       "team": 19,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5954,7 +5954,7 @@
       "name": "Kulusevski",
       "team": 19,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5981,7 +5981,7 @@
       "name": "Jocelin.T",
       "team": 20,
       "net_transfers_pct": -0.0,
-      "velocity": 0,
+      "velocity": 1,
       "direction": "rising",
       "confidence": "calibrated"
     },
@@ -5999,12 +5999,12 @@
       "name": "Fofana",
       "team": 20,
       "net_transfers_pct": 0.0,
-      "velocity": 0,
+      "velocity": -1,
       "direction": "rising",
       "confidence": "calibrated"
     }
   ],
   "rise_threshold_pct": -0.758,
-  "fall_threshold_pct": 1.436,
+  "fall_threshold_pct": 1.467,
   "calibrated": true
 }
