@@ -56,7 +56,7 @@ export async function renderPriceAlerts() {
   let html = disclaimer + `<div class="table-wrap"><table><thead><tr>
     <th>שחקן</th><th>קבוצה</th><th>כיוון</th><th>נטו העברות</th>
   </tr></thead><tbody>`;
-  for (const a of data.alerts.slice(0, 15)) {
+  for (const a of data.alerts.slice(0, 8)) {
     const team = state.teamsById.get(a.team);
     const dirClass = a.direction === "rising" ? "rising" : "falling";
     const dirLabel = a.direction === "rising" ? "📈 צפוי לעלות" : "📉 צפוי לרדת";

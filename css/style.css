@@ -214,6 +214,41 @@ h2 {
   order: -1;
 }
 
+/* ---------- Collapsible sections: lower-priority gameweek-tab blocks
+   (price alerts / hot-players trend / top-players-by-position) start
+   closed so the tab opens on just FDR + injury news instead of five
+   full sections stacked - less to scroll past, still one click away. */
+
+.section-collapse { margin: 2rem 0 .9rem; }
+
+.section-collapse > summary.section-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: .01em;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+.section-collapse > summary.section-title::-webkit-details-marker { display: none; }
+.section-collapse > summary.section-title:hover { color: var(--accent); }
+.section-collapse > summary.section-title::after {
+  content: "▾ הצג";
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: .6rem;
+  font-size: .78rem;
+  font-family: var(--font-body);
+  color: var(--text-muted);
+}
+.section-collapse[open] > summary.section-title::after { content: "▴ הסתר"; }
+.section-collapse > *:not(summary) { margin-top: .9rem; }
+
 /* ---------- Tables ---------- */
 
 .table-wrap {

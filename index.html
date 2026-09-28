@@ -46,20 +46,26 @@
     <h2><span class="kicker">חדשות</span>פציעות ועדכוני זמינות</h2>
     <div id="newsFeed"></div>
 
-    <h2><span class="kicker">מגמות</span>שחקנים חמים (נטו העברות)</h2>
-    <div id="hotPlayersFeed"></div>
+    <details class="section-collapse">
+      <summary class="section-title"><span class="kicker">מגמות</span>שחקנים חמים (נטו העברות)</summary>
+      <div id="hotPlayersFeed"></div>
+    </details>
 
-    <h2><span class="kicker">שוק ההעברות</span>התראות שינוי מחיר</h2>
-    <div id="priceAlerts"></div>
+    <details class="section-collapse">
+      <summary class="section-title"><span class="kicker">שוק ההעברות</span>התראות שינוי מחיר</summary>
+      <div id="priceAlerts"></div>
+    </details>
 
-    <h2><span class="kicker">דירוג</span>שחקנים חמים לפי עמדה</h2>
-    <div class="position-tabs" id="posTabs">
-      <button class="pos-btn active" data-pos="1">שוערים</button>
-      <button class="pos-btn" data-pos="2">מגנים</button>
-      <button class="pos-btn" data-pos="3">קשרים</button>
-      <button class="pos-btn" data-pos="4">חלוצים</button>
-    </div>
-    <div id="topPlayers" class="table-wrap"></div>
+    <details class="section-collapse">
+      <summary class="section-title"><span class="kicker">דירוג</span>שחקנים חמים לפי עמדה</summary>
+      <div class="position-tabs" id="posTabs">
+        <button class="pos-btn active" data-pos="1">שוערים</button>
+        <button class="pos-btn" data-pos="2">מגנים</button>
+        <button class="pos-btn" data-pos="3">קשרים</button>
+        <button class="pos-btn" data-pos="4">חלוצים</button>
+      </div>
+      <div id="topPlayers" class="table-wrap"></div>
+    </details>
   </section>
 
   <section id="tab-live" class="tab-panel">

@@ -25,8 +25,13 @@ export async function renderNewsFeed() {
   if (!data.news.length) {
     newsContainer.innerHTML = `<p class="empty-state">אין כרגע עדכוני פציעות/זמינות.</p>`;
   } else {
+    // Capped well below what the pipeline collects (news_feed.py can
+    // surface up to 20) - this section is open by default, and a long
+    // wall of red-bordered warning boxes was the single biggest
+    // contributor to the "too much clutter" feel. The rest is one
+    // click away in the news_feed.json data itself if ever needed.
     let html = `<div class="warnings-list">`;
-    for (const n of data.news) {
+    for (const n of data.news.slice(0, 8)) {
       const team = state.teamsById.get(n.team);
       html += `<div class="warning-item severity-high">
         ${teamCrestImg(team)}<strong>${n.web_name}</strong> (${team?.short_name || "?"}): ${n.news}
@@ -43,7 +48,7 @@ export async function renderNewsFeed() {
     let html = `<div class="table-wrap"><table><thead><tr>
       <th>שחקן</th><th>קבוצה</th><th>פורם</th><th>נבחר ע"י</th><th>נטו העברות</th>
     </tr></thead><tbody>`;
-    for (const p of data.hot_players) {
+    for (const p of data.hot_players.slice(0, 6)) {
       const team = state.teamsById.get(p.team);
       html += `<tr>
         <td>${p.web_name}</td>
