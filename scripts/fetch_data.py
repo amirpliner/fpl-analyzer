@@ -10,6 +10,7 @@ Usage:
 import argparse
 import json
 import os
+import subprocess
 import urllib.request
 from datetime import datetime, timezone
 
@@ -92,6 +93,43 @@ def build_meta(bootstrap, gw, is_upcoming):
         "deadline_time": events_by_id.get(gw_next, {}).get("deadline_time") if gw_next else None,
         "season_state": season_state(bootstrap),
     }
+
+
+def arm_deadline_watch(meta, state):
+    """Kicks off deadline-watch.yml's own tight polling loop once a
+    deadline is within ~26h, so the 2h-before reminder and the
+    deadline-passed message fire on a real few-minute cadence instead
+    of waiting on this script's own cron slot. That matters because
+    GitHub's schedule cron isn't reliable at that precision in
+    practice - runs on this repo have landed hours later than their
+    cron time (observed directly: a "0 5 * * *" run once landed at
+    09:49 UTC) - which is exactly why deadline notifications were
+    showing up so late. See check_deadline.py's docstring for the
+    other half of this.
+
+    Re-arms once per deadline (tracked in notify_state.json) so a
+    normal daily run doesn't re-trigger the workflow every time.
+    Never raises - if `gh` isn't available or the dispatch call fails,
+    deadline-watch.yml's own daily safety-net cron will still pick this
+    deadline up eventually, just less precisely.
+    """
+    deadline_time = meta.get("deadline_time")
+    if not deadline_time:
+        return state
+    try:
+        deadline = datetime.fromisoformat(deadline_time.replace("Z", "+00:00"))
+    except ValueError:
+        return state
+    hours_left = (deadline - datetime.now(timezone.utc)).total_seconds() / 3600
+    if not (0 < hours_left <= 26) or state.get("deadline_watch_armed_for") == deadline_time:
+        return state
+    try:
+        subprocess.run(["gh", "workflow", "run", "deadline-watch.yml"], check=True, timeout=30)
+        print(f"armed deadline-watch.yml for deadline {deadline_time}")
+        state["deadline_watch_armed_for"] = deadline_time
+    except Exception as e:
+        print(f"could not arm deadline-watch.yml (will fall back to its daily safety-net cron): {e}")
+    return state
 
 
 def fetch_entry_picks(team_id, pick_gw):
@@ -214,6 +252,7 @@ def main():
 
     notify_state = check_deadline_reminder(meta, load_json_file("notify_state.json") or {})
     notify_state = check_deadline_passed(meta, notify_state)
+    notify_state = arm_deadline_watch(meta, notify_state)
     save("notify_state.json", notify_state)
 
     my_squad = resolve_my_squad(pick_gw)

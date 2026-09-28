@@ -1,0 +1,78 @@
+name: Deadline watch
+
+# Fires either directly (workflow_dispatch) - kicked off by
+# fetch_data.py's arm_deadline_watch() once a deadline is within ~26h
+# - or from the safety-net cron below in case that direct kickoff or
+# an earlier chain link ever fails silently. Once running, it polls on
+# its own internal `sleep` timer rather than depending on cron's
+# precision, which is why the notifications this powers (the 2h-before
+# reminder, the deadline-passed message) were showing up hours late:
+# GitHub's scheduled cron simply isn't reliable at that precision (see
+# scripts/check_deadline.py and arm_deadline_watch in fetch_data.py).
+on:
+  workflow_dispatch:
+    inputs:
+      budget_minutes:
+        description: "Minutes to loop before re-chaining (lower this for a quick manual smoke test)"
+        required: false
+        default: "320"
+  schedule:
+    - cron: "0 */4 * * *"
+
+concurrency:
+  group: deadline-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Poll the deadline every few minutes until it's handled
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.AMIRFPLBOT }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
+          BUDGET_MINUTES: ${{ github.event.inputs.budget_minutes || '320' }}
+        run: |
+          set -e
+          git config user.name "fpl-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          END=$(( $(date +%s) + BUDGET_MINUTES * 60 ))
+          HANDLED=0
+
+          while [ "$(date +%s)" -lt "$END" ]; do
+            OUT=$(python3 scripts/check_deadline.py)
+            echo "$OUT"
+
+            if ! git diff --quiet -- data/notify_state.json; then
+              git add data/notify_state.json
+              git commit -m "Deadline watch: update notify state"
+              git pull --rebase origin main
+              git push
+            fi
+
+            if echo "$OUT" | grep -q "DEADLINE_HANDLED"; then
+              echo "deadline fully handled - stopping"
+              HANDLED=1
+              break
+            fi
+
+            sleep 300
+          done
+
+          if [ "$HANDLED" -eq 0 ]; then
+            echo "time budget spent before the deadline was fully handled - re-chaining"
+            gh workflow run deadline-watch.yml
+          fi

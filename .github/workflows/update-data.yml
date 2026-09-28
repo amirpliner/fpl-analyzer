@@ -15,6 +15,11 @@ concurrency:
 
 permissions:
   contents: write
+  # Needed so fetch_data.py's arm_deadline_watch() can kick off
+  # deadline-watch.yml directly (via `gh workflow run`) the moment a
+  # deadline comes within ~26h, instead of waiting on this workflow's
+  # own coarse cron slot - see that function's docstring.
+  actions: write
 
 jobs:
   update:
@@ -31,6 +36,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.AMIRFPLBOT }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Calibrate price-change thresholds
         run: python3 scripts/calibrate_price_threshold.py
