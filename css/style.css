@@ -383,7 +383,11 @@ tbody tr:hover { background-color: color-mix(in srgb, var(--accent) 8%, transpar
   font-size: .95rem;
 }
 
-.position-tabs { display: flex; gap: .4rem; margin-bottom: .6rem; }
+/* flex-wrap - without it, these 4 buttons had no room to breathe on a
+   narrow phone (no overflow-x handling like .tabs has) and would just
+   get squeezed into unreadably cramped buttons instead of wrapping to
+   a second row. */
+.position-tabs { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .6rem; }
 .pos-btn {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -497,9 +501,10 @@ code {
 
 .plan-route-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
-  gap: .5rem;
+  gap: .3rem .5rem;
   font-weight: 700;
 }
 .plan-route-gain { color: var(--accent); font-size: .9rem; }
@@ -531,9 +536,10 @@ code {
 
 .transfer-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: .6rem;
+  gap: .3rem .6rem;
   font-weight: 700;
 }
 .transfer-arrow { color: var(--text-muted); font-weight: 400; }
