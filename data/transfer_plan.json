@@ -10,14 +10,14 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Dedić",
-              "in": "O'Reilly",
-              "cost_delta": 1.8
+              "out": "Konsa",
+              "in": "Bogle",
+              "cost_delta": 0.0
             }
           ],
           "hits": 0,
           "xi_score": 0.0,
-          "captain": "Tzolakis"
+          "captain": "Dedić"
         },
         {
           "week": 2,
@@ -29,11 +29,33 @@
             }
           ],
           "hits": 0,
-          "xi_score": 69.35,
+          "xi_score": 68.72,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
+          "transfers": [
+            {
+              "out": "Gibbs-White",
+              "in": "Saka",
+              "cost_delta": 1.5
+            }
+          ],
+          "hits": 0,
+          "xi_score": 72.79,
+          "captain": "Saka"
+        }
+      ],
+      "total_transfers": 3,
+      "total_hits": 0,
+      "final_bank": 0.9,
+      "total_xpts": 141.51,
+      "net_gain_vs_hold": 12.09
+    },
+    {
+      "weekly_plan": [
+        {
+          "week": 1,
           "transfers": [
             {
               "out": "Konsa",
@@ -42,30 +64,8 @@
             }
           ],
           "hits": 0,
-          "xi_score": 74.37,
-          "captain": "O'Reilly"
-        }
-      ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 0.8,
-      "total_xpts": 143.72,
-      "net_gain_vs_hold": 14.3
-    },
-    {
-      "weekly_plan": [
-        {
-          "week": 1,
-          "transfers": [
-            {
-              "out": "Dedić",
-              "in": "O'Reilly",
-              "cost_delta": 1.8
-            }
-          ],
-          "hits": 0,
           "xi_score": 0.0,
-          "captain": "Tzolakis"
+          "captain": "Dedić"
         },
         {
           "week": 2,
@@ -77,28 +77,28 @@
             }
           ],
           "hits": 0,
-          "xi_score": 69.35,
+          "xi_score": 68.46,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Hall",
-              "in": "Lewis",
-              "cost_delta": -0.9
+              "out": "Gibbs-White",
+              "in": "Saka",
+              "cost_delta": 1.5
             }
           ],
           "hits": 0,
-          "xi_score": 74.37,
-          "captain": "O'Reilly"
+          "xi_score": 72.96,
+          "captain": "Saka"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
-      "final_bank": 1.5,
-      "total_xpts": 143.72,
-      "net_gain_vs_hold": 14.3
+      "final_bank": 1.1,
+      "total_xpts": 141.42,
+      "net_gain_vs_hold": 12.0
     },
     {
       "weekly_plan": [
