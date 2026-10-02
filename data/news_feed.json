@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": 557,
+      "web_name": "Tzolis",
+      "team": 1,
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-10-02T15:00:11.091226Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 233,
       "web_name": "Mykolenko",
       "team": 9,
@@ -151,14 +159,6 @@
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-09-21T13:00:08.896379Z",
       "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 429,
-      "web_name": "Rashford",
-      "team": 16,
-      "news": "Unspecified injury - 75% chance of playing",
-      "news_added": "2026-09-21T10:30:09.221479Z",
-      "chance_of_playing_next_round": 75
     }
   ],
   "hot_players": [
@@ -166,15 +166,15 @@
       "id": 124,
       "web_name": "Groß",
       "team": 5,
-      "net_transfers": 784119,
+      "net_transfers": 791416,
       "form": 10.7,
-      "owned": 29.0
+      "owned": 29.1
     },
     {
       "id": 94,
       "web_name": "Schade",
       "team": 4,
-      "net_transfers": 370704,
+      "net_transfers": 374427,
       "form": 8.7,
       "owned": 11.6
     },
@@ -182,15 +182,15 @@
       "id": 138,
       "web_name": "Kostoulas",
       "team": 5,
-      "net_transfers": 297438,
+      "net_transfers": 300650,
       "form": 7.3,
-      "owned": 4.2
+      "owned": 4.3
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 280508,
+      "net_transfers": 282721,
       "form": 7.0,
       "owned": 27.8
     },
@@ -198,15 +198,15 @@
       "id": 449,
       "web_name": "Hall",
       "team": 17,
-      "net_transfers": 227070,
+      "net_transfers": 228841,
       "form": 5.7,
-      "owned": 17.3
+      "owned": 17.4
     },
     {
       "id": 229,
       "web_name": "Tarkowski",
       "team": 9,
-      "net_transfers": 214301,
+      "net_transfers": 216003,
       "form": 8.3,
       "owned": 16.6
     },
@@ -214,7 +214,7 @@
       "id": 552,
       "web_name": "Brobbey",
       "team": 20,
-      "net_transfers": 148702,
+      "net_transfers": 148200,
       "form": 6.7,
       "owned": 6.9
     },
@@ -222,15 +222,15 @@
       "id": 453,
       "web_name": "Barnes",
       "team": 17,
-      "net_transfers": 143063,
+      "net_transfers": 144899,
       "form": 7.7,
-      "owned": 5.7
+      "owned": 5.8
     },
     {
       "id": 572,
       "web_name": "Tzolakis",
       "team": 11,
-      "net_transfers": 103829,
+      "net_transfers": 104428,
       "form": 4.7,
       "owned": 12.8
     },
@@ -238,9 +238,9 @@
       "id": 330,
       "web_name": "Bogle",
       "team": 13,
-      "net_transfers": 100005,
+      "net_transfers": 101225,
       "form": 11.3,
-      "owned": 7.2
+      "owned": 7.3
     }
   ]
 }
