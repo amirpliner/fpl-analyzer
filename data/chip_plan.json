@@ -51,10 +51,10 @@
   },
   "wildcard": {
     "available": true,
-    "decay_score": 2.5,
+    "decay_score": 1.0,
     "weak_players": 1,
-    "injury_players": 1,
+    "injury_players": 0,
     "recommend": false,
-    "reason": "1 שחקנים עם xPts ממוצע חלש, 1 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "1 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }
