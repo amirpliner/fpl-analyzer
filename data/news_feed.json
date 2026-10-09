@@ -1,6 +1,22 @@
 {
   "news": [
     {
+      "id": 491,
+      "web_name": "Igor Jesus",
+      "team": 18,
+      "news": "Calf injury - Unknown return date",
+      "news_added": "2026-10-09T14:30:11.491800Z",
+      "chance_of_playing_next_round": 0
+    },
+    {
+      "id": 469,
+      "web_name": "N.Williams",
+      "team": 18,
+      "news": "Illness - 50% chance of playing",
+      "news_added": "2026-10-09T14:30:11.466887Z",
+      "chance_of_playing_next_round": 50
+    },
+    {
       "id": 254,
       "web_name": "Robinson",
       "team": 10,
@@ -25,22 +41,6 @@
       "chance_of_playing_next_round": 0
     },
     {
-      "id": 362,
-      "web_name": "Jacquet",
-      "team": 14,
-      "news": "Hamstring injury - 75% chance of playing",
-      "news_added": "2026-10-06T00:30:10.323830Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 20,
-      "web_name": "Dowman",
-      "team": 1,
-      "news": "Unspecified injury - 75% chance of playing",
-      "news_added": "2026-10-05T19:00:10.141532Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
       "id": 69,
       "web_name": "Scott",
       "team": 3,
@@ -54,14 +54,6 @@
       "team": 1,
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-05T09:30:09.853316Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 588,
-      "web_name": "Khalaili",
-      "team": 8,
-      "news": "Hamstring injury - 75% chance of playing",
-      "news_added": "2026-10-04T22:00:08.963040Z",
       "chance_of_playing_next_round": 75
     },
     {
@@ -84,9 +76,9 @@
       "id": 557,
       "web_name": "Tzolis",
       "team": 1,
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "Hamstring injury - Expected back 24 Oct",
       "news_added": "2026-10-02T15:00:11.091226Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 0
     },
     {
       "id": 233,
@@ -113,44 +105,36 @@
       "chance_of_playing_next_round": 75
     },
     {
-      "id": 112,
-      "web_name": "Van Hecke",
-      "team": 19,
-      "news": "Foot injury - 75% chance of playing",
-      "news_added": "2026-09-30T16:00:09.552205Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
       "id": 415,
       "web_name": "Dorgu",
       "team": 16,
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "Hamstring injury - Expected back 25 Oct",
       "news_added": "2026-09-27T21:30:07.831640Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 0
     },
     {
       "id": 367,
       "web_name": "Gakpo",
       "team": 14,
-      "news": "Ankle injury - 75% chance of playing",
+      "news": "Ankle injury - Unknown return date",
       "news_added": "2026-09-27T21:30:07.786183Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 0
     },
     {
       "id": 379,
       "web_name": "Isak",
       "team": 14,
-      "news": "Thigh injury - 75% chance of playing",
+      "news": "Thigh injury - Unknown return date",
       "news_added": "2026-09-27T10:30:09.051435Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 0
     },
     {
       "id": 158,
       "web_name": "Gittens",
       "team": 6,
-      "news": "Ankle injury - 75% chance of playing",
+      "news": "Ankle injury - Unknown return date",
       "news_added": "2026-09-26T05:30:09.245832Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 0
     },
     {
       "id": 532,
@@ -159,6 +143,22 @@
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-09-25T21:30:10.370384Z",
       "chance_of_playing_next_round": 0
+    },
+    {
+      "id": 26,
+      "web_name": "Havertz",
+      "team": 1,
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-09-24T22:00:09.120308Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 552,
+      "web_name": "Brobbey",
+      "team": 20,
+      "news": "Hamstring injury - Expected back 25 Oct",
+      "news_added": "2026-09-24T21:30:10.382142Z",
+      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 124,
       "web_name": "Groß",
       "team": 5,
-      "net_transfers": 1043066,
+      "net_transfers": 1254938,
       "form": 15.5,
-      "owned": 31.6
+      "owned": 33.7
     },
     {
       "id": 94,
       "web_name": "Schade",
       "team": 4,
-      "net_transfers": 532231,
+      "net_transfers": 665292,
       "form": 12.0,
-      "owned": 13.3
+      "owned": 14.6
     },
     {
       "id": 138,
       "web_name": "Kostoulas",
       "team": 5,
-      "net_transfers": 445258,
+      "net_transfers": 563113,
       "form": 10.0,
-      "owned": 5.9
+      "owned": 7.1
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 399877,
+      "net_transfers": 508979,
       "form": 8.5,
-      "owned": 29.0
+      "owned": 30.1
     },
     {
       "id": 449,
       "web_name": "Hall",
       "team": 17,
-      "net_transfers": 346731,
+      "net_transfers": 451631,
       "form": 6.5,
-      "owned": 18.6
+      "owned": 19.7
     },
     {
       "id": 229,
       "web_name": "Tarkowski",
       "team": 9,
-      "net_transfers": 284915,
+      "net_transfers": 333567,
       "form": 11.0,
-      "owned": 17.5
-    },
-    {
-      "id": 453,
-      "web_name": "Barnes",
-      "team": 17,
-      "net_transfers": 214785,
-      "form": 5.5,
-      "owned": 6.5
+      "owned": 18.1
     },
     {
       "id": 12,
       "web_name": "Saka",
       "team": 1,
-      "net_transfers": 199865,
+      "net_transfers": 296059,
       "form": 5.0,
-      "owned": 15.2
+      "owned": 16.2
+    },
+    {
+      "id": 453,
+      "web_name": "Barnes",
+      "team": 17,
+      "net_transfers": 290265,
+      "form": 5.5,
+      "owned": 7.3
+    },
+    {
+      "id": 569,
+      "web_name": "Gonzalo",
+      "team": 10,
+      "net_transfers": 243844,
+      "form": 2.0,
+      "owned": 6.0
     },
     {
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 180819,
+      "net_transfers": 240547,
       "form": 5.0,
-      "owned": 41.5
-    },
-    {
-      "id": 268,
-      "web_name": "King",
-      "team": 10,
-      "net_transfers": 156994,
-      "form": 2.5,
-      "owned": 3.4
+      "owned": 42.1
     }
   ]
 }

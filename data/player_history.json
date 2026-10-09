@@ -455,6 +455,63 @@
       "value": 7.4
     }
   ],
+  "14": [
+    {
+      "gw": 1,
+      "minutes": 14,
+      "xg": 0.04,
+      "xa": 0.0,
+      "ict": 0.1,
+      "opp": "COV",
+      "was_home": true,
+      "points": 1,
+      "value": 6.5
+    },
+    {
+      "gw": 2,
+      "minutes": 45,
+      "xg": 0.0,
+      "xa": 0.07,
+      "ict": 0.6,
+      "opp": "AVL",
+      "was_home": false,
+      "points": 1,
+      "value": 6.5
+    },
+    {
+      "gw": 3,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 0,
+      "value": 6.4
+    },
+    {
+      "gw": 4,
+      "minutes": 9,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.2,
+      "opp": "SUN",
+      "was_home": false,
+      "points": 1,
+      "value": 6.3
+    },
+    {
+      "gw": 5,
+      "minutes": 17,
+      "xg": 0.0,
+      "xa": 0.02,
+      "ict": 0.7,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 1,
+      "value": 6.3
+    }
+  ],
   "15": [
     {
       "gw": 1,
@@ -12138,63 +12195,6 @@
       "was_home": true,
       "points": 4,
       "value": 5.5
-    }
-  ],
-  "528": [
-    {
-      "gw": 1,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BRE",
-      "was_home": false,
-      "points": 0,
-      "value": 4.5
-    },
-    {
-      "gw": 2,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "NEW",
-      "was_home": true,
-      "points": 0,
-      "value": 4.5
-    },
-    {
-      "gw": 3,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "NFO",
-      "was_home": false,
-      "points": 0,
-      "value": 4.5
-    },
-    {
-      "gw": 4,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": true,
-      "points": 0,
-      "value": 4.5
-    },
-    {
-      "gw": 5,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "AVL",
-      "was_home": true,
-      "points": 0,
-      "value": 4.5
     }
   ],
   "529": [
