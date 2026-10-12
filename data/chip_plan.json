@@ -13,10 +13,22 @@
     "available": true,
     "recommendations": [
       {
-        "event": 7,
-        "score": 12.31,
+        "event": 6,
+        "score": 13.47,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.31 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.47 נק' (סף: 12.0)"
+      },
+      {
+        "event": 7,
+        "score": 13.39,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 13.39 נק' (סף: 12.0)"
+      },
+      {
+        "event": 10,
+        "score": 13.04,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 13.04 נק' (סף: 12.0)"
       }
     ]
   },
@@ -26,23 +38,23 @@
       {
         "event": 7,
         "player": "Haaland",
-        "score": 7.01,
+        "score": 7.03,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.01 xPts"
+        "reason": "Haaland צפוי 7.03 xPts"
       },
       {
         "event": 11,
         "player": "Haaland",
-        "score": 7.01,
+        "score": 7.03,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.01 xPts"
+        "reason": "Haaland צפוי 7.03 xPts"
       },
       {
         "event": 6,
         "player": "Mbeumo",
-        "score": 6.87,
+        "score": 6.88,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 6.87 xPts"
+        "reason": "Mbeumo צפוי 6.88 xPts"
       }
     ]
   },
@@ -52,10 +64,10 @@
   },
   "wildcard": {
     "available": true,
-    "decay_score": 1.0,
-    "weak_players": 1,
+    "decay_score": 0.0,
+    "weak_players": 0,
     "injury_players": 0,
     "recommend": false,
-    "reason": "1 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "0 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }
