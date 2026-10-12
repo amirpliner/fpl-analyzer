@@ -11,7 +11,14 @@
   "note": "יש שני Wildcard בעונה (WC1/WC2) עם דדליין נפרד לכל אחד - בדוק בעצמך את התאריך המדויק באתר FPL.",
   "bench_boost": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 7,
+        "score": 12.31,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.31 נק' (סף: 12.0)"
+      }
+    ]
   },
   "triple_captain": {
     "available": true,
@@ -19,23 +26,23 @@
       {
         "event": 7,
         "player": "Haaland",
-        "score": 7.37,
+        "score": 7.01,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.37 xPts"
+        "reason": "Haaland צפוי 7.01 xPts"
       },
       {
         "event": 11,
         "player": "Haaland",
-        "score": 7.37,
+        "score": 7.01,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.37 xPts"
+        "reason": "Haaland צפוי 7.01 xPts"
       },
       {
         "event": 6,
         "player": "Mbeumo",
-        "score": 7.23,
+        "score": 6.87,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 7.23 xPts"
+        "reason": "Mbeumo צפוי 6.87 xPts"
       }
     ]
   },

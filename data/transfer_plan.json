@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 6,
-  "baseline_xpts": 196.6,
+  "baseline_xpts": 196.76,
   "routes": [
     {
       "weekly_plan": [
@@ -11,51 +11,51 @@
           "transfers": [
             {
               "out": "Dedić",
-              "in": "Bogle",
-              "cost_delta": 0.1
+              "in": "Lewis",
+              "cost_delta": -0.1
             },
             {
-              "out": "Konsa",
-              "in": "Lewis",
-              "cost_delta": -0.2
+              "out": "Gomez",
+              "in": "Gelhardt",
+              "cost_delta": 0.0
             }
           ],
           "hits": 1,
-          "xi_score": 68.62,
-          "captain": "Mbeumo"
+          "xi_score": 72.06,
+          "captain": "Gelhardt"
         },
         {
           "week": 2,
           "transfers": [
             {
               "out": "Gibbs-White",
-              "in": "Saka",
-              "cost_delta": 1.6
+              "in": "Foden",
+              "cost_delta": -1.2
             }
           ],
           "hits": 0,
-          "xi_score": 73.36,
-          "captain": "Saka"
+          "xi_score": 77.24,
+          "captain": "Foden"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Hall",
-              "in": "Muñoz",
+              "out": "Konsa",
+              "in": "Bogle",
               "cost_delta": 0.1
             }
           ],
           "hits": 0,
-          "xi_score": 73.84,
-          "captain": "Saka"
+          "xi_score": 76.09,
+          "captain": "Gelhardt"
         }
       ],
       "total_transfers": 4,
       "total_hits": 1,
-      "final_bank": 0.3,
-      "total_xpts": 211.82,
-      "net_gain_vs_hold": 15.22
+      "final_bank": 3.1,
+      "total_xpts": 221.39,
+      "net_gain_vs_hold": 24.63
     },
     {
       "weekly_plan": [
@@ -64,51 +64,51 @@
           "transfers": [
             {
               "out": "Dedić",
-              "in": "Bogle",
-              "cost_delta": 0.1
+              "in": "Lewis",
+              "cost_delta": -0.1
             },
             {
-              "out": "Konsa",
-              "in": "Lewis",
-              "cost_delta": -0.2
+              "out": "Gomez",
+              "in": "Gelhardt",
+              "cost_delta": 0.0
             }
           ],
           "hits": 1,
-          "xi_score": 68.62,
-          "captain": "Mbeumo"
+          "xi_score": 72.06,
+          "captain": "Gelhardt"
         },
         {
           "week": 2,
           "transfers": [
             {
               "out": "Gibbs-White",
-              "in": "Saka",
-              "cost_delta": 1.6
+              "in": "Foden",
+              "cost_delta": -1.2
             }
           ],
           "hits": 0,
-          "xi_score": 73.36,
-          "captain": "Saka"
+          "xi_score": 77.24,
+          "captain": "Foden"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Gomez",
-              "in": "Yalcouyé",
-              "cost_delta": -0.5
+              "out": "Hall",
+              "in": "Bogle",
+              "cost_delta": -0.6
             }
           ],
           "hits": 0,
-          "xi_score": 73.77,
-          "captain": "Saka"
+          "xi_score": 76.09,
+          "captain": "Gelhardt"
         }
       ],
       "total_transfers": 4,
       "total_hits": 1,
-      "final_bank": 0.9,
-      "total_xpts": 211.75,
-      "net_gain_vs_hold": 15.15
+      "final_bank": 3.8,
+      "total_xpts": 221.39,
+      "net_gain_vs_hold": 24.63
     },
     {
       "weekly_plan": [
@@ -116,7 +116,7 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 65.62,
+          "xi_score": 65.68,
           "captain": "Mbeumo"
         },
         {
@@ -130,14 +130,14 @@
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 65.11,
+          "xi_score": 65.21,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 1.9,
-      "total_xpts": 196.6,
+      "total_xpts": 196.76,
       "net_gain_vs_hold": 0.0
     }
   ]
