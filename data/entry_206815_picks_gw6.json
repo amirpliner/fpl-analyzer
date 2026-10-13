@@ -1,20 +1,27 @@
 {
   "active_chip": null,
-  "automatic_subs": [],
+  "automatic_subs": [
+    {
+      "entry": 206815,
+      "element_in": 165,
+      "element_out": 368,
+      "event": 6
+    }
+  ],
   "entry_history": {
     "event": 6,
-    "points": 55,
-    "total_points": 434,
-    "rank": 5447442,
-    "rank_sort": 5449910,
-    "overall_rank": 280499,
-    "percentile_rank": 50,
-    "overall_rank_percentage": "2",
+    "points": 67,
+    "total_points": 446,
+    "rank": 2884916,
+    "rank_sort": 2888725,
+    "overall_rank": 132826,
+    "percentile_rank": 30,
+    "overall_rank_percentage": "1",
     "bank": 6,
     "value": 1017,
     "event_transfers": 0,
     "event_transfers_cost": 0,
-    "points_on_bench": 18
+    "points_on_bench": 6
   },
   "picks": [
     {
@@ -34,7 +41,7 @@
       "element_type": 2
     },
     {
-      "element": 8,
+      "element": 115,
       "position": 3,
       "multiplier": 1,
       "is_captain": false,
@@ -42,7 +49,7 @@
       "element_type": 2
     },
     {
-      "element": 115,
+      "element": 8,
       "position": 4,
       "multiplier": 1,
       "is_captain": false,
@@ -58,7 +65,7 @@
       "element_type": 3
     },
     {
-      "element": 124,
+      "element": 453,
       "position": 6,
       "multiplier": 1,
       "is_captain": false,
@@ -74,7 +81,7 @@
       "element_type": 3
     },
     {
-      "element": 453,
+      "element": 124,
       "position": 8,
       "multiplier": 1,
       "is_captain": false,
@@ -82,12 +89,12 @@
       "element_type": 3
     },
     {
-      "element": 368,
+      "element": 165,
       "position": 9,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 4
     },
     {
       "element": 411,
@@ -114,12 +121,12 @@
       "element_type": 1
     },
     {
-      "element": 165,
+      "element": 368,
       "position": 13,
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 3
     },
     {
       "element": 418,

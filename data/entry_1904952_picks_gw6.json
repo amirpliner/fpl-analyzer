@@ -1,20 +1,33 @@
 {
   "active_chip": null,
-  "automatic_subs": [],
+  "automatic_subs": [
+    {
+      "entry": 1904952,
+      "element_in": 605,
+      "element_out": 557,
+      "event": 6
+    },
+    {
+      "entry": 1904952,
+      "element_in": 173,
+      "element_out": 368,
+      "event": 6
+    }
+  ],
   "entry_history": {
     "event": 6,
-    "points": 62,
-    "total_points": 358,
-    "rank": 3532134,
-    "rank_sort": 3556674,
-    "overall_rank": 4328369,
-    "percentile_rank": 35,
-    "overall_rank_percentage": "39",
+    "points": 67,
+    "total_points": 363,
+    "rank": 2884916,
+    "rank_sort": 2912741,
+    "overall_rank": 4155243,
+    "percentile_rank": 30,
+    "overall_rank_percentage": "38",
     "bank": 2,
     "value": 1001,
     "event_transfers": 0,
     "event_transfers_cost": 0,
-    "points_on_bench": 5
+    "points_on_bench": 0
   },
   "picks": [
     {
@@ -26,18 +39,18 @@
       "element_type": 1
     },
     {
-      "element": 391,
+      "element": 4,
       "position": 2,
-      "multiplier": 1,
-      "is_captain": false,
+      "multiplier": 2,
+      "is_captain": true,
       "is_vice_captain": false,
       "element_type": 2
     },
     {
-      "element": 4,
+      "element": 391,
       "position": 3,
-      "multiplier": 2,
-      "is_captain": true,
+      "multiplier": 1,
+      "is_captain": false,
       "is_vice_captain": false,
       "element_type": 2
     },
@@ -50,15 +63,15 @@
       "element_type": 2
     },
     {
-      "element": 427,
+      "element": 173,
       "position": 5,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 2
     },
     {
-      "element": 368,
+      "element": 605,
       "position": 6,
       "multiplier": 1,
       "is_captain": false,
@@ -74,7 +87,7 @@
       "element_type": 3
     },
     {
-      "element": 557,
+      "element": 427,
       "position": 8,
       "multiplier": 1,
       "is_captain": false,
@@ -114,7 +127,7 @@
       "element_type": 1
     },
     {
-      "element": 605,
+      "element": 557,
       "position": 13,
       "multiplier": 0,
       "is_captain": false,
@@ -130,12 +143,12 @@
       "element_type": 2
     },
     {
-      "element": 173,
+      "element": 368,
       "position": 15,
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 3
     }
   ]
 }

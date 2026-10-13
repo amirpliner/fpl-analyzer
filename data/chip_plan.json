@@ -13,22 +13,22 @@
     "available": true,
     "recommendations": [
       {
-        "event": 6,
-        "score": 13.47,
-        "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.47 נק' (סף: 12.0)"
-      },
-      {
         "event": 7,
-        "score": 13.39,
+        "score": 12.94,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.39 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.94 נק' (סף: 12.0)"
       },
       {
         "event": 10,
-        "score": 13.04,
+        "score": 12.7,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.04 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.7 נק' (סף: 12.0)"
+      },
+      {
+        "event": 8,
+        "score": 12.41,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 12.41 נק' (סף: 12.0)"
       }
     ]
   },
@@ -38,29 +38,35 @@
       {
         "event": 7,
         "player": "Haaland",
-        "score": 7.03,
+        "score": 6.96,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.03 xPts"
+        "reason": "Haaland צפוי 6.96 xPts"
       },
       {
         "event": 11,
         "player": "Haaland",
-        "score": 7.03,
+        "score": 6.96,
         "is_dgw": false,
-        "reason": "Haaland צפוי 7.03 xPts"
+        "reason": "Haaland צפוי 6.96 xPts"
       },
       {
-        "event": 6,
-        "player": "Mbeumo",
-        "score": 6.88,
+        "event": 10,
+        "player": "Calafiori",
+        "score": 6.55,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 6.88 xPts"
+        "reason": "Calafiori צפוי 6.55 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 6,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 6"
+      }
+    ]
   },
   "wildcard": {
     "available": true,
