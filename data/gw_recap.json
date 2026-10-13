@@ -1,64 +1,62 @@
 {
-  "gw": 5,
-  "points": 43,
-  "points_on_bench": 14,
-  "overall_rank": 2732555,
-  "rank_change": -483489,
-  "event_transfers": 1,
+  "gw": 6,
+  "points": 68,
+  "points_on_bench": 18,
+  "overall_rank": 2377462,
+  "rank_change": 355093,
+  "event_transfers": 0,
   "event_transfers_cost": 0,
   "active_chip": null,
   "captain": {
-    "id": 480,
-    "web_name": "Gibbs-White",
-    "team": "NFO",
+    "id": 464,
+    "web_name": "Wissa",
+    "team": "NEW",
     "on_bench": false,
     "is_captain": true,
     "multiplier": 2,
     "base_points": 2,
     "points": 4,
-    "minutes": 90,
-    "chance_next": 100
+    "minutes": 77,
+    "chance_next": null
   },
   "best_possible_captain": {
-    "id": 449,
-    "web_name": "Hall",
-    "team": "NEW",
+    "id": 115,
+    "web_name": "De Cuyper",
+    "team": "BHA",
     "on_bench": false,
     "is_captain": false,
     "multiplier": 1,
-    "base_points": 13,
-    "points": 13,
-    "minutes": 90,
+    "base_points": 15,
+    "points": 15,
+    "minutes": 67,
     "chance_next": null
   },
   "captain_verdict": "suboptimal",
   "hauls": [
     {
-      "id": 449,
-      "web_name": "Hall",
-      "team": "NEW",
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team": "BHA",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 13,
-      "points": 13,
-      "minutes": 90,
+      "base_points": 15,
+      "points": 15,
+      "minutes": 67,
       "chance_next": null
     },
     {
-      "id": 127,
-      "web_name": "Gomez",
-      "team": "BHA",
-      "on_bench": true,
+      "id": 165,
+      "web_name": "João Pedro",
+      "team": "CHE",
+      "on_bench": false,
       "is_captain": false,
-      "multiplier": 0,
-      "base_points": 8,
-      "points": 0,
-      "minutes": 85,
-      "chance_next": null
-    }
-  ],
-  "busts": [
+      "multiplier": 1,
+      "base_points": 12,
+      "points": 12,
+      "minutes": 71,
+      "chance_next": 100
+    },
     {
       "id": 8,
       "web_name": "Calafiori",
@@ -66,26 +64,28 @@
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 1,
-      "points": 1,
-      "minutes": 90,
+      "base_points": 9,
+      "points": 9,
+      "minutes": 81,
       "chance_next": null
     },
     {
-      "id": 31,
-      "web_name": "Konsa",
-      "team": "ARS",
+      "id": 40,
+      "web_name": "Rogers",
+      "team": "CHE",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 1,
-      "points": 1,
-      "minutes": 90,
-      "chance_next": 100
-    },
+      "base_points": 9,
+      "points": 9,
+      "minutes": 83,
+      "chance_next": null
+    }
+  ],
+  "busts": [
     {
-      "id": 464,
-      "web_name": "Wissa",
+      "id": 449,
+      "web_name": "Hall",
       "team": "NEW",
       "on_bench": false,
       "is_captain": false,
@@ -94,38 +94,58 @@
       "points": 0,
       "minutes": 90,
       "chance_next": null
+    },
+    {
+      "id": 15,
+      "web_name": "Ødegaard",
+      "team": "ARS",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 89,
+      "chance_next": null
     }
   ],
   "keep": [
     {
-      "web_name": "Hall",
-      "reason": "הביא 13 נק' במחזור 5"
+      "web_name": "Calafiori",
+      "reason": "הביא 9 נק' במחזור 6"
     },
     {
-      "web_name": "Gomez",
-      "reason": "הביא 8 נק' במחזור 5"
+      "web_name": "De Cuyper",
+      "reason": "הביא 15 נק' במחזור 6"
+    },
+    {
+      "web_name": "Rogers",
+      "reason": "הביא 9 נק' במחזור 6"
+    },
+    {
+      "web_name": "Mbeumo",
+      "reason": "הביא 8 נק' במחזור 6"
+    },
+    {
+      "web_name": "João Pedro",
+      "reason": "הביא 12 נק' במחזור 6"
+    },
+    {
+      "web_name": "Verbruggen",
+      "reason": "הביא 9 נק' במחזור 6"
     }
   ],
   "change": [
     {
-      "web_name": "Calafiori",
-      "reason": "רק 1 נק' במחזור 5 · ריצת משחקים קשה"
+      "web_name": "Hall",
+      "reason": "רק 0 נק' במחזור 6 · ריצת משחקים קשה"
     },
     {
-      "web_name": "Konsa",
-      "reason": "רק 1 נק' במחזור 5 · ריצת משחקים קשה"
-    },
-    {
-      "web_name": "Wissa",
-      "reason": "רק 0 נק' במחזור 5 · ריצת משחקים קשה"
-    },
-    {
-      "web_name": "João Pedro",
-      "reason": "לא שיחק · ריצת משחקים קשה"
+      "web_name": "Ødegaard",
+      "reason": "רק 1 נק' במחזור 6 · ריצת משחקים קשה"
     },
     {
       "web_name": "Dedić",
-      "reason": "לא שיחק · ריצת משחקים קשה"
+      "reason": "רק 0 נק' במחזור 6 · ריצת משחקים קשה"
     }
   ]
 }
