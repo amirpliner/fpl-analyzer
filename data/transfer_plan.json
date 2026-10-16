@@ -2,8 +2,61 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 6,
-  "baseline_xpts": 130.96,
+  "baseline_xpts": 128.29,
   "routes": [
+    {
+      "weekly_plan": [
+        {
+          "week": 1,
+          "transfers": [
+            {
+              "out": "Gibbs-White",
+              "in": "Foden",
+              "cost_delta": -1.2
+            }
+          ],
+          "hits": 0,
+          "xi_score": 0.0,
+          "captain": "Dedić"
+        },
+        {
+          "week": 2,
+          "transfers": [
+            {
+              "out": "Gomez",
+              "in": "Hinshelwood",
+              "cost_delta": 0.9
+            },
+            {
+              "out": "Dedić",
+              "in": "Lewis",
+              "cost_delta": -0.2
+            }
+          ],
+          "hits": 1,
+          "xi_score": 91.35,
+          "captain": "Hinshelwood"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Rogers",
+              "in": "Gelhardt",
+              "cost_delta": -2.9
+            }
+          ],
+          "hits": 0,
+          "xi_score": 87.89,
+          "captain": "Hinshelwood"
+        }
+      ],
+      "total_transfers": 4,
+      "total_hits": 1,
+      "final_bank": 5.3,
+      "total_xpts": 175.24,
+      "net_gain_vs_hold": 46.95
+    },
     {
       "weekly_plan": [
         {
@@ -23,14 +76,14 @@
           "week": 2,
           "transfers": [
             {
-              "out": "Dedić",
-              "in": "Lewis",
-              "cost_delta": -0.2
-            },
-            {
               "out": "Gibbs-White",
               "in": "Gelhardt",
               "cost_delta": -3.0
+            },
+            {
+              "out": "Dedić",
+              "in": "Lewis",
+              "cost_delta": -0.2
             }
           ],
           "hits": 1,
@@ -55,60 +108,7 @@
       "total_hits": 1,
       "final_bank": 4.1,
       "total_xpts": 175.05,
-      "net_gain_vs_hold": 44.09
-    },
-    {
-      "weekly_plan": [
-        {
-          "week": 1,
-          "transfers": [
-            {
-              "out": "Gomez",
-              "in": "Hinshelwood",
-              "cost_delta": 0.9
-            }
-          ],
-          "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Dedić"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Dedić",
-              "in": "Lewis",
-              "cost_delta": -0.2
-            },
-            {
-              "out": "Gibbs-White",
-              "in": "Gelhardt",
-              "cost_delta": -3.0
-            }
-          ],
-          "hits": 1,
-          "xi_score": 92.09,
-          "captain": "Hinshelwood"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
-              "out": "Hall",
-              "in": "Bogle",
-              "cost_delta": -0.6
-            }
-          ],
-          "hits": 0,
-          "xi_score": 86.96,
-          "captain": "Hinshelwood"
-        }
-      ],
-      "total_transfers": 4,
-      "total_hits": 1,
-      "final_bank": 4.8,
-      "total_xpts": 175.05,
-      "net_gain_vs_hold": 44.09
+      "net_gain_vs_hold": 46.76
     },
     {
       "weekly_plan": [
@@ -123,21 +123,21 @@
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 66.01,
+          "xi_score": 64.81,
           "captain": "Haaland"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 64.95,
+          "xi_score": 63.48,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 1.9,
-      "total_xpts": 130.96,
+      "total_xpts": 128.29,
       "net_gain_vs_hold": 0.0
     }
   ]
