@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 7,
-  "baseline_xpts": 195.83,
+  "baseline_xpts": 195.84,
   "routes": [
     {
       "weekly_plan": [
@@ -21,7 +21,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 72.73,
+          "xi_score": 72.75,
           "captain": "Gelhardt"
         },
         {
@@ -34,7 +34,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 84.29,
+          "xi_score": 84.31,
           "captain": "Hinshelwood"
         },
         {
@@ -43,19 +43,19 @@
             {
               "out": "Cherki",
               "in": "Foden",
-              "cost_delta": -1.1
+              "cost_delta": -1.2
             }
           ],
           "hits": 0,
-          "xi_score": 82.39,
+          "xi_score": 82.4,
           "captain": "Hinshelwood"
         }
       ],
       "total_transfers": 4,
       "total_hits": 0,
-      "final_bank": 4.4,
-      "total_xpts": 239.41,
-      "net_gain_vs_hold": 43.58
+      "final_bank": 4.5,
+      "total_xpts": 239.46,
+      "net_gain_vs_hold": 43.62
     },
     {
       "weekly_plan": [
@@ -74,7 +74,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 72.73,
+          "xi_score": 72.75,
           "captain": "Gelhardt"
         },
         {
@@ -87,7 +87,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 84.29,
+          "xi_score": 84.31,
           "captain": "Hinshelwood"
         },
         {
@@ -100,15 +100,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 82.11,
+          "xi_score": 82.12,
           "captain": "Hinshelwood"
         }
       ],
       "total_transfers": 4,
       "total_hits": 0,
       "final_bank": 4.8,
-      "total_xpts": 239.13,
-      "net_gain_vs_hold": 43.3
+      "total_xpts": 239.18,
+      "net_gain_vs_hold": 43.34
     },
     {
       "weekly_plan": [
@@ -116,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 67.81,
+          "xi_score": 67.83,
           "captain": "Haaland"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 65.32,
+          "xi_score": 65.34,
           "captain": "Haaland"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 62.7,
+          "xi_score": 62.67,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0.7,
-      "total_xpts": 195.83,
+      "total_xpts": 195.84,
       "net_gain_vs_hold": 0.0
     }
   ]
