@@ -1,6 +1,6 @@
 {
   "horizon": 8,
-  "from_gameweek": 6,
+  "from_gameweek": 7,
   "chips_used": [
     {
       "name": "wildcard",
@@ -14,21 +14,21 @@
     "recommendations": [
       {
         "event": 7,
-        "score": 12.83,
+        "score": 14.18,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.83 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 14.18 נק' (סף: 12.0)"
       },
       {
         "event": 10,
-        "score": 12.59,
+        "score": 14.08,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.59 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 14.08 נק' (סף: 12.0)"
       },
       {
-        "event": 8,
-        "score": 12.41,
+        "event": 14,
+        "score": 13.9,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.41 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.9 נק' (סף: 12.0)"
       }
     ]
   },
@@ -38,35 +38,29 @@
       {
         "event": 7,
         "player": "Haaland",
-        "score": 6.96,
+        "score": 7.09,
         "is_dgw": false,
-        "reason": "Haaland צפוי 6.96 xPts"
+        "reason": "Haaland צפוי 7.09 xPts"
       },
       {
         "event": 11,
         "player": "Haaland",
-        "score": 6.96,
+        "score": 7.09,
         "is_dgw": false,
-        "reason": "Haaland צפוי 6.96 xPts"
+        "reason": "Haaland צפוי 7.09 xPts"
       },
       {
-        "event": 10,
-        "player": "Calafiori",
-        "score": 6.55,
+        "event": 14,
+        "player": "Mbeumo",
+        "score": 6.91,
         "is_dgw": false,
-        "reason": "Calafiori צפוי 6.55 xPts"
+        "reason": "Mbeumo צפוי 6.91 xPts"
       }
     ]
   },
   "free_hit": {
     "available": true,
-    "recommendations": [
-      {
-        "event": 6,
-        "blank_players": 15,
-        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 6"
-      }
-    ]
+    "recommendations": []
   },
   "wildcard": {
     "available": true,
