@@ -19,26 +19,26 @@
     "page": 1,
     "results": [
       {
+        "club_badge_src": null,
+        "entry": 916480,
+        "entry_name": "the rivlins",
+        "event_total": 50,
+        "last_rank": 1,
+        "player_name": "Ido Rivlin",
+        "rank": 1,
+        "rank_sort": 1,
+        "total": 511
+      },
+      {
         "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/1367096/d9dfb18d-bde6-4643-b0a2-7907e8633cb1.png",
         "entry": 1367096,
         "entry_name": "lidor",
         "event_total": 52,
         "last_rank": 2,
         "player_name": "Lidor Admoni",
-        "rank": 1,
-        "rank_sort": 1,
-        "total": 511
-      },
-      {
-        "club_badge_src": null,
-        "entry": 916480,
-        "entry_name": "the rivlins",
-        "event_total": 45,
-        "last_rank": 1,
-        "player_name": "Ido Rivlin",
         "rank": 2,
         "rank_sort": 2,
-        "total": 506
+        "total": 511
       },
       {
         "club_badge_src": null,
@@ -77,12 +77,23 @@
         "club_badge_src": null,
         "entry": 2133618,
         "entry_name": "Kinder Mbeumo",
-        "event_total": 65,
+        "event_total": 67,
         "last_rank": 10,
         "player_name": "Elad Prizant",
         "rank": 6,
         "rank_sort": 6,
-        "total": 471
+        "total": 473
+      },
+      {
+        "club_badge_src": null,
+        "entry": 959578,
+        "entry_name": "Konfeld",
+        "event_total": 65,
+        "last_rank": 13,
+        "player_name": "Ilay Konfeld",
+        "rank": 7,
+        "rank_sort": 7,
+        "total": 467
       },
       {
         "club_badge_src": null,
@@ -91,17 +102,6 @@
         "event_total": 57,
         "last_rank": 9,
         "player_name": "Dor Chen",
-        "rank": 7,
-        "rank_sort": 7,
-        "total": 465
-      },
-      {
-        "club_badge_src": null,
-        "entry": 959578,
-        "entry_name": "Konfeld",
-        "event_total": 63,
-        "last_rank": 13,
-        "player_name": "Ilay Konfeld",
         "rank": 8,
         "rank_sort": 8,
         "total": 465
@@ -119,13 +119,24 @@
       },
       {
         "club_badge_src": null,
+        "entry": 8227379,
+        "entry_name": "Big Y's",
+        "event_total": 49,
+        "last_rank": 14,
+        "player_name": "Yuval Yakobi",
+        "rank": 10,
+        "rank_sort": 10,
+        "total": 451
+      },
+      {
+        "club_badge_src": null,
         "entry": 1338773,
         "entry_name": "Lion's Team",
         "event_total": 35,
         "last_rank": 7,
         "player_name": "Lion Zocowitzky",
-        "rank": 10,
-        "rank_sort": 10,
+        "rank": 11,
+        "rank_sort": 11,
         "total": 449
       },
       {
@@ -135,17 +146,6 @@
         "event_total": 43,
         "last_rank": 11,
         "player_name": "Ziv Christoph",
-        "rank": 11,
-        "rank_sort": 11,
-        "total": 448
-      },
-      {
-        "club_badge_src": null,
-        "entry": 8227379,
-        "entry_name": "Big Y's",
-        "event_total": 46,
-        "last_rank": 14,
-        "player_name": "Yuval Yakobi",
         "rank": 12,
         "rank_sort": 12,
         "total": 448
@@ -187,12 +187,12 @@
         "club_badge_src": null,
         "entry": 595041,
         "entry_name": "heta paleeds",
-        "event_total": 39,
+        "event_total": 42,
         "last_rank": 12,
         "player_name": "Aviv Liefer",
         "rank": 16,
         "rank_sort": 16,
-        "total": 442
+        "total": 445
       },
       {
         "club_badge_src": null,
@@ -228,23 +228,23 @@
         "total": 437
       },
       {
-        "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/2528374/35ca6041-5877-4e53-ab6a-a9fb3e390dad.png",
-        "entry": 2528374,
-        "entry_name": "Amirs team",
-        "event_total": 41,
-        "last_rank": 18,
-        "player_name": "Amir Pliner",
-        "rank": 20,
-        "rank_sort": 20,
-        "total": 428
-      },
-      {
         "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/6166530/dd3cc077-6bcd-4981-b1d5-5cd62dbaaecd.png",
         "entry": 6166530,
         "entry_name": "Big Red Iraolas",
         "event_total": 48,
         "last_rank": 22,
         "player_name": "Guy Geva-Iluz",
+        "rank": 20,
+        "rank_sort": 20,
+        "total": 428
+      },
+      {
+        "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/2528374/35ca6041-5877-4e53-ab6a-a9fb3e390dad.png",
+        "entry": 2528374,
+        "entry_name": "Amirs team",
+        "event_total": 41,
+        "last_rank": 18,
+        "player_name": "Amir Pliner",
         "rank": 20,
         "rank_sort": 21,
         "total": 428
@@ -361,7 +361,7 @@
       }
     ]
   },
-  "last_updated_data": "2026-10-18T14:14:22Z",
+  "last_updated_data": "2026-10-18T14:18:48Z",
   "new_entries": {
     "has_next": false,
     "page": 1,
