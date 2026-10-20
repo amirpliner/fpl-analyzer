@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 7,
-  "baseline_xpts": 122.83,
+  "baseline_xpts": 127.08,
   "routes": [
     {
       "weekly_plan": [
@@ -39,7 +39,7 @@
             }
           ],
           "hits": 1,
-          "xi_score": 88.35,
+          "xi_score": 89.53,
           "captain": "Hinshelwood"
         },
         {
@@ -52,15 +52,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 86.07,
+          "xi_score": 87.75,
           "captain": "Hinshelwood"
         }
       ],
       "total_transfers": 5,
       "total_hits": 1,
       "final_bank": 3.7,
-      "total_xpts": 170.42,
-      "net_gain_vs_hold": 47.59
+      "total_xpts": 173.28,
+      "net_gain_vs_hold": 46.2
     },
     {
       "weekly_plan": [
@@ -92,7 +92,7 @@
             }
           ],
           "hits": 0,
-          "xi_score": 86.39,
+          "xi_score": 87.57,
           "captain": "Hinshelwood"
         },
         {
@@ -105,15 +105,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 83.9,
+          "xi_score": 85.58,
           "captain": "Hinshelwood"
         }
       ],
       "total_transfers": 4,
       "total_hits": 0,
       "final_bank": 3.2,
-      "total_xpts": 170.29,
-      "net_gain_vs_hold": 47.46
+      "total_xpts": 173.15,
+      "net_gain_vs_hold": 46.07
     },
     {
       "weekly_plan": [
@@ -128,21 +128,21 @@
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 62.88,
-          "captain": "Mbeumo"
+          "xi_score": 64.79,
+          "captain": "Haaland"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 59.95,
-          "captain": "Mbeumo"
+          "xi_score": 62.29,
+          "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 0.7,
-      "total_xpts": 122.83,
+      "total_xpts": 127.08,
       "net_gain_vs_hold": 0.0
     }
   ]
