@@ -7,7 +7,7 @@
       "league_ownership_pct": 100.0,
       "captain_count": 28,
       "eo_pct": 190.3,
-      "global_ownership_pct": 76.7,
+      "global_ownership_pct": 76.8,
       "is_template": true,
       "is_league_differential": false
     },
@@ -157,7 +157,7 @@
       "league_ownership_pct": 25.8,
       "captain_count": 0,
       "eo_pct": 25.8,
-      "global_ownership_pct": 14.1,
+      "global_ownership_pct": 14.0,
       "is_template": false,
       "is_league_differential": false
     },
@@ -177,7 +177,7 @@
       "league_ownership_pct": 19.4,
       "captain_count": 1,
       "eo_pct": 22.6,
-      "global_ownership_pct": 12.4,
+      "global_ownership_pct": 12.3,
       "is_template": false,
       "is_league_differential": true
     },
@@ -1142,14 +1142,14 @@
       "captain_name": "Haaland"
     },
     {
-      "manager": "Amit Mor",
-      "team_name": "FC MOR",
+      "manager": "Ziv Christoph",
+      "team_name": "bukagay",
       "captain_id": 411,
       "captain_name": "Haaland"
     },
     {
-      "manager": "Ziv Christoph",
-      "team_name": "bukagay",
+      "manager": "Amit Mor",
+      "team_name": "FC MOR",
       "captain_id": 411,
       "captain_name": "Haaland"
     },
@@ -2423,13 +2423,13 @@
     },
     {
       "a": "Dor Chen",
-      "b": "Amit Mor",
+      "b": "Ziv Christoph",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
     {
       "a": "Dor Chen",
-      "b": "Ziv Christoph",
+      "b": "Amit Mor",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
@@ -2620,6 +2620,12 @@
       "overlap_pct": 25.0
     },
     {
+      "a": "Ziv Christoph",
+      "b": "ido mor",
+      "shared_players": 6,
+      "overlap_pct": 25.0
+    },
+    {
       "a": "Amit Mor",
       "b": "Roei Eitan",
       "shared_players": 6,
@@ -2628,12 +2634,6 @@
     {
       "a": "Amit Mor",
       "b": "Neil Rosmann",
-      "shared_players": 6,
-      "overlap_pct": 25.0
-    },
-    {
-      "a": "Ziv Christoph",
-      "b": "ido mor",
       "shared_players": 6,
       "overlap_pct": 25.0
     },
@@ -3124,24 +3124,6 @@
       "overlap_pct": 20.0
     },
     {
-      "a": "Amit Mor",
-      "b": "ido mor",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "Amit Mor",
-      "b": "Adir Sabag",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
-      "a": "Amit Mor",
-      "b": "Liam rakin",
-      "shared_players": 5,
-      "overlap_pct": 20.0
-    },
-    {
       "a": "Ziv Christoph",
       "b": "Guy Geva-Iluz",
       "shared_players": 5,
@@ -3156,6 +3138,24 @@
     {
       "a": "Ziv Christoph",
       "b": "Adir Sabag",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "Amit Mor",
+      "b": "ido mor",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "Amit Mor",
+      "b": "Adir Sabag",
+      "shared_players": 5,
+      "overlap_pct": 20.0
+    },
+    {
+      "a": "Amit Mor",
+      "b": "Liam rakin",
       "shared_players": 5,
       "overlap_pct": 20.0
     },
@@ -3526,8 +3526,8 @@
       "overlap_pct": 15.4
     },
     {
-      "a": "Amit Mor",
-      "b": "Ziv Christoph",
+      "a": "Ziv Christoph",
+      "b": "Amit Mor",
       "shared_players": 4,
       "overlap_pct": 15.4
     },
@@ -3916,13 +3916,13 @@
       "overlap_pct": 7.1
     },
     {
-      "a": "Amit Mor",
+      "a": "Ziv Christoph",
       "b": "Guy Kol",
       "shared_players": 2,
       "overlap_pct": 7.1
     },
     {
-      "a": "Ziv Christoph",
+      "a": "Amit Mor",
       "b": "Guy Kol",
       "shared_players": 2,
       "overlap_pct": 7.1
