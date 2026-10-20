@@ -1,15 +1,22 @@
 {
   "active_chip": "bboost",
-  "automatic_subs": [],
+  "automatic_subs": [
+    {
+      "entry": 628989,
+      "element_in": 449,
+      "element_out": 399,
+      "event": 7
+    }
+  ],
   "entry_history": {
     "event": 7,
     "points": 80,
     "total_points": 464,
-    "rank": 480595,
-    "rank_sort": 482896,
-    "overall_rank": 1622115,
-    "percentile_rank": 5,
-    "overall_rank_percentage": "15",
+    "rank": 629113,
+    "rank_sort": 631727,
+    "overall_rank": 1714117,
+    "percentile_rank": 10,
+    "overall_rank_percentage": "16",
     "bank": 2,
     "value": 1010,
     "event_transfers": 2,
@@ -34,7 +41,7 @@
       "element_type": 2
     },
     {
-      "element": 115,
+      "element": 391,
       "position": 3,
       "multiplier": 1,
       "is_captain": false,
@@ -42,7 +49,7 @@
       "element_type": 2
     },
     {
-      "element": 391,
+      "element": 115,
       "position": 4,
       "multiplier": 1,
       "is_captain": false,
@@ -50,15 +57,15 @@
       "element_type": 2
     },
     {
-      "element": 12,
+      "element": 449,
       "position": 5,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 2
     },
     {
-      "element": 40,
+      "element": 124,
       "position": 6,
       "multiplier": 1,
       "is_captain": false,
@@ -66,7 +73,7 @@
       "element_type": 3
     },
     {
-      "element": 124,
+      "element": 12,
       "position": 7,
       "multiplier": 1,
       "is_captain": false,
@@ -74,7 +81,7 @@
       "element_type": 3
     },
     {
-      "element": 399,
+      "element": 40,
       "position": 8,
       "multiplier": 1,
       "is_captain": false,
@@ -114,12 +121,12 @@
       "element_type": 1
     },
     {
-      "element": 449,
+      "element": 399,
       "position": 13,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 3
     },
     {
       "element": 101,
