@@ -1,8 +1,8 @@
 {
   "horizon": 3,
   "beam_width": 50,
-  "from_gameweek": 7,
-  "baseline_xpts": 127.08,
+  "from_gameweek": 8,
+  "baseline_xpts": 191.42,
   "routes": [
     {
       "weekly_plan": [
@@ -15,14 +15,14 @@
               "cost_delta": 0.0
             },
             {
-              "out": "Wissa",
-              "in": "Mateta",
-              "cost_delta": 0.2
+              "out": "Konsa",
+              "in": "Bogle",
+              "cost_delta": 0.1
             }
           ],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Tzolakis"
+          "xi_score": 71.0,
+          "captain": "Gelhardt"
         },
         {
           "week": 2,
@@ -31,15 +31,10 @@
               "out": "Rogers",
               "in": "Hinshelwood",
               "cost_delta": -2.1
-            },
-            {
-              "out": "Konsa",
-              "in": "Bogle",
-              "cost_delta": 0.1
             }
           ],
-          "hits": 1,
-          "xi_score": 89.53,
+          "hits": 0,
+          "xi_score": 83.24,
           "captain": "Hinshelwood"
         },
         {
@@ -52,68 +47,68 @@
             }
           ],
           "hits": 0,
-          "xi_score": 87.75,
-          "captain": "Hinshelwood"
-        }
-      ],
-      "total_transfers": 5,
-      "total_hits": 1,
-      "final_bank": 3.7,
-      "total_xpts": 173.28,
-      "net_gain_vs_hold": 46.2
-    },
-    {
-      "weekly_plan": [
-        {
-          "week": 1,
-          "transfers": [
-            {
-              "out": "Hall",
-              "in": "Bogle",
-              "cost_delta": -0.6
-            }
-          ],
-          "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Tzolakis"
-        },
-        {
-          "week": 2,
-          "transfers": [
-            {
-              "out": "Gomez",
-              "in": "Hinshelwood",
-              "cost_delta": 0.9
-            },
-            {
-              "out": "Wissa",
-              "in": "Mateta",
-              "cost_delta": 0.2
-            }
-          ],
-          "hits": 0,
-          "xi_score": 87.57,
-          "captain": "Hinshelwood"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
-              "out": "Rogers",
-              "in": "Gelhardt",
-              "cost_delta": -3.0
-            }
-          ],
-          "hits": 0,
-          "xi_score": 85.58,
+          "xi_score": 93.42,
           "captain": "Hinshelwood"
         }
       ],
       "total_transfers": 4,
       "total_hits": 0,
-      "final_bank": 3.2,
-      "total_xpts": 173.15,
-      "net_gain_vs_hold": 46.07
+      "final_bank": 3.7,
+      "total_xpts": 247.66,
+      "net_gain_vs_hold": 56.24
+    },
+    {
+      "weekly_plan": [
+        {
+          "week": 1,
+          "transfers": [
+            {
+              "out": "Gomez",
+              "in": "Gelhardt",
+              "cost_delta": 0.0
+            },
+            {
+              "out": "Konsa",
+              "in": "Bogle",
+              "cost_delta": 0.1
+            }
+          ],
+          "hits": 0,
+          "xi_score": 71.0,
+          "captain": "Gelhardt"
+        },
+        {
+          "week": 2,
+          "transfers": [
+            {
+              "out": "Cherki",
+              "in": "Hinshelwood",
+              "cost_delta": -2.1
+            }
+          ],
+          "hits": 0,
+          "xi_score": 82.24,
+          "captain": "Hinshelwood"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Iwobi",
+              "in": "Foden",
+              "cost_delta": 1.4
+            }
+          ],
+          "hits": 0,
+          "xi_score": 94.03,
+          "captain": "Hinshelwood"
+        }
+      ],
+      "total_transfers": 4,
+      "total_hits": 0,
+      "final_bank": 1.1,
+      "total_xpts": 247.27,
+      "net_gain_vs_hold": 55.85
     },
     {
       "weekly_plan": [
@@ -121,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Tzolakis"
+          "xi_score": 64.66,
+          "captain": "Haaland"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 64.79,
+          "xi_score": 61.78,
           "captain": "Haaland"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 62.29,
+          "xi_score": 64.98,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
-      "final_bank": 0.7,
-      "total_xpts": 127.08,
+      "final_bank": 0.5,
+      "total_xpts": 191.42,
       "net_gain_vs_hold": 0.0
     }
   ]

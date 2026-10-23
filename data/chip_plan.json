@@ -1,6 +1,6 @@
 {
   "horizon": 8,
-  "from_gameweek": 7,
+  "from_gameweek": 8,
   "chips_used": [
     {
       "name": "wildcard",
@@ -14,21 +14,21 @@
     "recommendations": [
       {
         "event": 10,
-        "score": 14.02,
+        "score": 14.08,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.02 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 14.08 נק' (סף: 12.0)"
+      },
+      {
+        "event": 15,
+        "score": 13.85,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 13.85 נק' (סף: 12.0)"
       },
       {
         "event": 14,
-        "score": 13.75,
+        "score": 13.8,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.75 נק' (סף: 12.0)"
-      },
-      {
-        "event": 11,
-        "score": 13.51,
-        "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.51 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.8 נק' (סף: 12.0)"
       }
     ]
   },
@@ -45,9 +45,9 @@
       {
         "event": 14,
         "player": "Mbeumo",
-        "score": 6.93,
+        "score": 6.94,
         "is_dgw": false,
-        "reason": "Mbeumo צפוי 6.93 xPts"
+        "reason": "Mbeumo צפוי 6.94 xPts"
       },
       {
         "event": 8,
@@ -60,13 +60,7 @@
   },
   "free_hit": {
     "available": true,
-    "recommendations": [
-      {
-        "event": 7,
-        "blank_players": 15,
-        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 7"
-      }
-    ]
+    "recommendations": []
   },
   "wildcard": {
     "available": true,
