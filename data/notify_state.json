@@ -2,7 +2,7 @@
   "gw": 8,
   "players": {
     "1": {
-      "minutes": 3,
+      "minutes": 8,
       "total_points": 1,
       "bonus": 0,
       "bps": 3,
@@ -36,7 +36,7 @@
       "in_dreamteam": false
     },
     "261": {
-      "minutes": 3,
+      "minutes": 8,
       "total_points": 1,
       "bonus": 0,
       "bps": 3,
@@ -240,11 +240,11 @@
       "in_dreamteam": false
     },
     "31": {
-      "minutes": 3,
-      "total_points": 1,
+      "minutes": 8,
+      "total_points": 7,
       "bonus": 0,
-      "bps": 3,
-      "goals_scored": 0,
+      "bps": 20,
+      "goals_scored": 1,
       "assists": 0,
       "clean_sheets": 0,
       "goals_conceded": 0,
@@ -254,7 +254,7 @@
       "saves": 0,
       "penalties_saved": 0,
       "penalties_missed": 0,
-      "in_dreamteam": false
+      "in_dreamteam": true
     }
   },
   "last_locked_gw": 8,
