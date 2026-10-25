@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:30:06.227503+00:00",
+  "generated_at": "2026-10-25T16:34:27.396942+00:00",
   "gameweek": 8,
   "fixtures": [
     {
@@ -123,14 +123,14 @@
       "id": 80,
       "event": 8,
       "kickoff_time": "2026-10-25T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "finished_provisional": false,
-      "minutes": 0,
+      "minutes": 3,
       "team_h": 20,
       "team_a": 13,
-      "team_h_score": null,
-      "team_a_score": null
+      "team_h_score": 0,
+      "team_a_score": 0
     }
   ]
 }
