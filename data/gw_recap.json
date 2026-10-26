@@ -1,9 +1,9 @@
 {
-  "gw": 7,
-  "points": 66,
-  "points_on_bench": 18,
-  "overall_rank": 2314779,
-  "rank_change": 62683,
+  "gw": 8,
+  "points": 47,
+  "points_on_bench": 9,
+  "overall_rank": 2284895,
+  "rank_change": 29884,
   "event_transfers": 2,
   "event_transfers_cost": 0,
   "active_chip": null,
@@ -14,26 +14,25 @@
     "on_bench": false,
     "is_captain": true,
     "multiplier": 2,
-    "base_points": 13,
-    "points": 26,
+    "base_points": 8,
+    "points": 16,
     "minutes": 90,
     "chance_next": 100
   },
-  "best_possible_captain": null,
-  "captain_verdict": "optimal",
+  "best_possible_captain": {
+    "id": 31,
+    "web_name": "Konsa",
+    "team": "ARS",
+    "on_bench": false,
+    "is_captain": false,
+    "multiplier": 1,
+    "base_points": 14,
+    "points": 14,
+    "minutes": 90,
+    "chance_next": 100
+  },
+  "captain_verdict": "suboptimal",
   "hauls": [
-    {
-      "id": 411,
-      "web_name": "Haaland",
-      "team": "MCI",
-      "on_bench": false,
-      "is_captain": true,
-      "multiplier": 2,
-      "base_points": 13,
-      "points": 26,
-      "minutes": 90,
-      "chance_next": 100
-    },
     {
       "id": 31,
       "web_name": "Konsa",
@@ -41,37 +40,37 @@
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 9,
-      "points": 9,
+      "base_points": 14,
+      "points": 14,
       "minutes": 90,
       "chance_next": 100
     },
     {
-      "id": 427,
-      "web_name": "Mbeumo",
-      "team": "MUN",
+      "id": 411,
+      "web_name": "Haaland",
+      "team": "MCI",
       "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
+      "is_captain": true,
+      "multiplier": 2,
       "base_points": 8,
-      "points": 8,
+      "points": 16,
       "minutes": 90,
-      "chance_next": null
-    },
-    {
-      "id": 127,
-      "web_name": "Gomez",
-      "team": "BHA",
-      "on_bench": true,
-      "is_captain": false,
-      "multiplier": 0,
-      "base_points": 8,
-      "points": 0,
-      "minutes": 90,
-      "chance_next": null
+      "chance_next": 100
     }
   ],
   "busts": [
+    {
+      "id": 8,
+      "web_name": "Calafiori",
+      "team": "ARS",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 22,
+      "chance_next": 75
+    },
     {
       "id": 391,
       "web_name": "Gvardiol",
@@ -79,9 +78,45 @@
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team": "BHA",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 399,
+      "web_name": "Cherki",
+      "team": "MCI",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
       "base_points": 0,
       "points": 0,
-      "minutes": 29,
+      "minutes": 45,
+      "chance_next": null
+    },
+    {
+      "id": 40,
+      "web_name": "Rogers",
+      "team": "CHE",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
       "chance_next": null
     },
     {
@@ -93,39 +128,47 @@
       "multiplier": 1,
       "base_points": 1,
       "points": 1,
-      "minutes": 90,
+      "minutes": 13,
       "chance_next": null
     }
   ],
   "keep": [
     {
       "web_name": "Konsa",
-      "reason": "הביא 9 נק' במחזור 7"
-    },
-    {
-      "web_name": "Mbeumo",
-      "reason": "הביא 8 נק' במחזור 7"
+      "reason": "הביא 14 נק' במחזור 8"
     },
     {
       "web_name": "Haaland",
-      "reason": "הביא 13 נק' במחזור 7"
-    },
-    {
-      "web_name": "Gomez",
-      "reason": "הביא 8 נק' במחזור 7"
+      "reason": "הביא 8 נק' במחזור 8"
     }
   ],
   "change": [
     {
-      "web_name": "Gvardiol",
-      "reason": "רק 0 נק' במחזור 7 · ריצת משחקים קשה"
+      "web_name": "Calafiori",
+      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
     },
     {
-      "web_name": "Wissa",
-      "reason": "רק 1 נק' במחזור 7 · ריצת משחקים קשה"
+      "web_name": "Gvardiol",
+      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "De Cuyper",
+      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
     },
     {
       "web_name": "Cherki",
+      "reason": "רק 0 נק' במחזור 8 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Rogers",
+      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Wissa",
+      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "João Pedro",
       "reason": "לא שיחק · ריצת משחקים קשה"
     }
   ]
