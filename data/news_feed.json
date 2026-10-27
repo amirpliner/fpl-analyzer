@@ -1,10 +1,34 @@
 {
   "news": [
     {
+      "id": 89,
+      "web_name": "Henry",
+      "team": 4,
+      "news": "Hip injury - Unknown return date",
+      "news_added": "2026-10-27T16:30:09.444144Z",
+      "chance_of_playing_next_round": 0
+    },
+    {
+      "id": 459,
+      "web_name": "L.Miley",
+      "team": 17,
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-10-27T16:00:07.981816Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 208,
+      "web_name": "Sarr",
+      "team": 8,
+      "news": "Groin injury - 75% chance of playing",
+      "news_added": "2026-10-27T10:30:09.385934Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 639,
       "web_name": "Andrés",
       "team": 5,
-      "news": "Thigh injury - 75% chance of playing",
+      "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-25T17:30:10.276308Z",
       "chance_of_playing_next_round": 75
     },
@@ -68,9 +92,9 @@
       "id": 165,
       "web_name": "João Pedro",
       "team": 6,
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-24T16:30:09.687729Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 0
     },
     {
       "id": 238,
@@ -100,7 +124,7 @@
       "id": 222,
       "web_name": "Strand Larsen",
       "team": 8,
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Ankle injury - 75% chance of playing",
       "news_added": "2026-10-23T17:00:09.672494Z",
       "chance_of_playing_next_round": 75
     },
@@ -135,94 +159,70 @@
       "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-10-21T22:00:10.028638Z",
       "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 12,
-      "web_name": "Saka",
-      "team": 1,
-      "news": "Thigh injury - Unknown return date",
-      "news_added": "2026-10-21T20:30:09.540957Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 38,
-      "web_name": "A.García",
-      "team": 2,
-      "news": "Has joined Getafe on loan for the rest of the season",
-      "news_added": "2026-10-21T13:24:48.628998Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 429,
-      "web_name": "Rashford",
-      "team": 16,
-      "news": "Hip injury - 75% chance of playing",
-      "news_added": "2026-10-20T20:00:09.925594Z",
-      "chance_of_playing_next_round": 75
     }
   ],
   "hot_players": [
     {
-      "id": 68,
-      "web_name": "Tavernier",
-      "team": 3,
-      "net_transfers": 477881,
-      "form": 7.0,
-      "owned": 18.0
-    },
-    {
       "id": 166,
       "web_name": "N.Jackson",
       "team": 2,
-      "net_transfers": 457615,
+      "net_transfers": 681535,
       "form": 8.0,
-      "owned": 8.7
+      "owned": 10.8
+    },
+    {
+      "id": 68,
+      "web_name": "Tavernier",
+      "team": 3,
+      "net_transfers": 552502,
+      "form": 7.0,
+      "owned": 18.7
     },
     {
       "id": 379,
       "web_name": "Isak",
       "team": 14,
-      "net_transfers": 163908,
+      "net_transfers": 252230,
       "form": 6.0,
-      "owned": 15.5
-    },
-    {
-      "id": 31,
-      "web_name": "Konsa",
-      "team": 1,
-      "net_transfers": 150654,
-      "form": 9.0,
-      "owned": 20.0
+      "owned": 16.3
     },
     {
       "id": 79,
       "web_name": "Evanilson",
       "team": 3,
-      "net_transfers": 139299,
+      "net_transfers": 219167,
       "form": 8.3,
-      "owned": 7.4
+      "owned": 8.1
+    },
+    {
+      "id": 31,
+      "web_name": "Konsa",
+      "team": 1,
+      "net_transfers": 168359,
+      "form": 9.0,
+      "owned": 20.2
     },
     {
       "id": 4,
       "web_name": "Gabriel",
       "team": 1,
-      "net_transfers": 120247,
+      "net_transfers": 139740,
       "form": 9.0,
-      "owned": 22.4
+      "owned": 22.6
     },
     {
       "id": 53,
       "web_name": "Manzambi",
       "team": 2,
-      "net_transfers": 111233,
+      "net_transfers": 131373,
       "form": 5.7,
-      "owned": 4.1
+      "owned": 4.4
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 67495,
+      "net_transfers": 74577,
       "form": 7.3,
       "owned": 42.6
     },
@@ -230,17 +230,17 @@
       "id": 411,
       "web_name": "Haaland",
       "team": 15,
-      "net_transfers": 60188,
+      "net_transfers": 70360,
       "form": 9.0,
-      "owned": 78.0
+      "owned": 78.1
     },
     {
       "id": 112,
       "web_name": "Van Hecke",
       "team": 19,
-      "net_transfers": 55305,
+      "net_transfers": 69484,
       "form": 4.7,
-      "owned": 7.4
+      "owned": 7.6
     }
   ]
 }
