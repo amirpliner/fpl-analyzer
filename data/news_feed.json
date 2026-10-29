@@ -1,6 +1,62 @@
 {
   "news": [
     {
+      "id": 159,
+      "web_name": "Caicedo",
+      "team": 6,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-29T22:00:09.933708Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 148,
+      "web_name": "Hato",
+      "team": 6,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-29T22:00:09.909621Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 144,
+      "web_name": "Gusto",
+      "team": 6,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-29T22:00:09.886054Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 533,
+      "web_name": "Mukiele",
+      "team": 20,
+      "news": "Knock - 75% chance of playing",
+      "news_added": "2026-10-29T18:30:09.458031Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 147,
+      "web_name": "Tosin",
+      "team": 19,
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-10-29T17:00:09.335810Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 483,
+      "web_name": "Ndoye",
+      "team": 18,
+      "news": "Hamstring injury - 50% chance of playing",
+      "news_added": "2026-10-29T15:00:10.057610Z",
+      "chance_of_playing_next_round": 50
+    },
+    {
+      "id": 335,
+      "web_name": "Stach",
+      "team": 13,
+      "news": "Foot injury - 50% chance of playing",
+      "news_added": "2026-10-29T14:30:08.129193Z",
+      "chance_of_playing_next_round": 50
+    },
+    {
       "id": 650,
       "web_name": "Affengruber",
       "team": 10,
@@ -12,9 +68,9 @@
       "id": 200,
       "web_name": "Lacroix",
       "team": 6,
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "Hamstring injury - 50% chance of playing",
       "news_added": "2026-10-28T23:00:10.088612Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 50
     },
     {
       "id": 16,
@@ -60,9 +116,9 @@
       "id": 208,
       "web_name": "Sarr",
       "team": 8,
-      "news": "Groin injury - 75% chance of playing",
+      "news": "Groin injury - Expected back 8 Nov",
       "news_added": "2026-10-27T10:30:09.385934Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 0
     },
     {
       "id": 639,
@@ -81,27 +137,11 @@
       "chance_of_playing_next_round": 75
     },
     {
-      "id": 598,
-      "web_name": "Elvedi",
-      "team": 13,
-      "news": "Illness - 75% chance of playing",
-      "news_added": "2026-10-25T17:00:10.080582Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
       "id": 515,
       "web_name": "Maddison",
       "team": 19,
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-24T19:00:10.113555Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 233,
-      "web_name": "Mykolenko",
-      "team": 9,
-      "news": "Unspecified injury - 75% chance of playing",
-      "news_added": "2026-10-24T19:00:09.907289Z",
       "chance_of_playing_next_round": 75
     },
     {
@@ -116,49 +156,9 @@
       "id": 173,
       "web_name": "Thomas",
       "team": 7,
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Calf injury - 50% chance of playing",
       "news_added": "2026-10-24T17:00:09.115906Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 165,
-      "web_name": "João Pedro",
-      "team": 6,
-      "news": "Thigh injury - Unknown return date",
-      "news_added": "2026-10-24T16:30:09.687729Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 238,
-      "web_name": "Grealish",
-      "team": 9,
-      "news": "Illness - 75% chance of playing",
-      "news_added": "2026-10-24T14:30:09.610430Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 487,
-      "web_name": "Dominguez",
-      "team": 18,
-      "news": "Muscular injury - 75% chance of playing",
-      "news_added": "2026-10-24T13:00:08.751863Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 469,
-      "web_name": "N.Williams",
-      "team": 18,
-      "news": "Arm injury - 75% chance of playing",
-      "news_added": "2026-10-24T00:00:10.181593Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 222,
-      "web_name": "Strand Larsen",
-      "team": 8,
-      "news": "Ankle injury - 75% chance of playing",
-      "news_added": "2026-10-23T17:00:09.672494Z",
-      "chance_of_playing_next_round": 75
+      "chance_of_playing_next_round": 50
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 166,
       "web_name": "N.Jackson",
       "team": 2,
-      "net_transfers": 969949,
+      "net_transfers": 1095420,
       "form": 8.0,
-      "owned": 13.7
+      "owned": 15.0
     },
     {
       "id": 68,
       "web_name": "Tavernier",
       "team": 3,
-      "net_transfers": 681857,
+      "net_transfers": 749607,
       "form": 7.0,
-      "owned": 20.1
-    },
-    {
-      "id": 379,
-      "web_name": "Isak",
-      "team": 14,
-      "net_transfers": 358769,
-      "form": 6.0,
-      "owned": 17.3
+      "owned": 20.8
     },
     {
       "id": 79,
       "web_name": "Evanilson",
       "team": 3,
-      "net_transfers": 352863,
+      "net_transfers": 419404,
       "form": 8.3,
-      "owned": 9.5
+      "owned": 10.1
+    },
+    {
+      "id": 379,
+      "web_name": "Isak",
+      "team": 14,
+      "net_transfers": 399706,
+      "form": 6.0,
+      "owned": 17.6
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 197002,
+      "net_transfers": 212252,
       "form": 9.0,
-      "owned": 20.4
+      "owned": 20.5
     },
     {
       "id": 53,
       "web_name": "Manzambi",
       "team": 2,
-      "net_transfers": 171921,
+      "net_transfers": 192022,
       "form": 5.7,
-      "owned": 4.9
+      "owned": 5.2
     },
     {
       "id": 4,
       "web_name": "Gabriel",
       "team": 1,
-      "net_transfers": 171245,
+      "net_transfers": 188932,
       "form": 9.0,
-      "owned": 23.0
+      "owned": 23.2
     },
     {
       "id": 112,
       "web_name": "Van Hecke",
       "team": 19,
-      "net_transfers": 98077,
+      "net_transfers": 118454,
       "form": 4.7,
-      "owned": 8.1
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team": 5,
-      "net_transfers": 87133,
-      "form": 7.3,
-      "owned": 42.5
+      "owned": 8.4
     },
     {
       "id": 411,
       "web_name": "Haaland",
       "team": 15,
-      "net_transfers": 86673,
+      "net_transfers": 94135,
       "form": 9.0,
-      "owned": 78.3
+      "owned": 78.4
+    },
+    {
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team": 5,
+      "net_transfers": 93619,
+      "form": 7.3,
+      "owned": 42.5
     }
   ]
 }
