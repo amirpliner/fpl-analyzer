@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": 465,
+      "web_name": "Osula",
+      "team": 17,
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-10-29T23:00:08.575179Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 159,
       "web_name": "Caicedo",
       "team": 6,
@@ -151,14 +159,6 @@
       "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-24T18:30:08.735545Z",
       "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 173,
-      "web_name": "Thomas",
-      "team": 7,
-      "news": "Calf injury - 50% chance of playing",
-      "news_added": "2026-10-24T17:00:09.115906Z",
-      "chance_of_playing_next_round": 50
     }
   ],
   "hot_players": [
@@ -166,39 +166,39 @@
       "id": 166,
       "web_name": "N.Jackson",
       "team": 2,
-      "net_transfers": 1095420,
+      "net_transfers": 1129070,
       "form": 8.0,
-      "owned": 15.0
+      "owned": 15.3
     },
     {
       "id": 68,
       "web_name": "Tavernier",
       "team": 3,
-      "net_transfers": 749607,
+      "net_transfers": 768569,
       "form": 7.0,
-      "owned": 20.8
+      "owned": 21.0
     },
     {
       "id": 79,
       "web_name": "Evanilson",
       "team": 3,
-      "net_transfers": 419404,
+      "net_transfers": 438545,
       "form": 8.3,
-      "owned": 10.1
+      "owned": 10.3
     },
     {
       "id": 379,
       "web_name": "Isak",
       "team": 14,
-      "net_transfers": 399706,
+      "net_transfers": 409845,
       "form": 6.0,
-      "owned": 17.6
+      "owned": 17.7
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 212252,
+      "net_transfers": 216158,
       "form": 9.0,
       "owned": 20.5
     },
@@ -206,7 +206,7 @@
       "id": 53,
       "web_name": "Manzambi",
       "team": 2,
-      "net_transfers": 192022,
+      "net_transfers": 197394,
       "form": 5.7,
       "owned": 5.2
     },
@@ -214,7 +214,7 @@
       "id": 4,
       "web_name": "Gabriel",
       "team": 1,
-      "net_transfers": 188932,
+      "net_transfers": 193870,
       "form": 9.0,
       "owned": 23.2
     },
@@ -222,7 +222,7 @@
       "id": 112,
       "web_name": "Van Hecke",
       "team": 19,
-      "net_transfers": 118454,
+      "net_transfers": 124683,
       "form": 4.7,
       "owned": 8.4
     },
@@ -230,7 +230,7 @@
       "id": 411,
       "web_name": "Haaland",
       "team": 15,
-      "net_transfers": 94135,
+      "net_transfers": 95971,
       "form": 9.0,
       "owned": 78.4
     },
@@ -238,7 +238,7 @@
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 93619,
+      "net_transfers": 95284,
       "form": 7.3,
       "owned": 42.5
     }
