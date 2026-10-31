@@ -787,9 +787,9 @@
     },
     {
       "gw": 9,
-      "minutes": 33,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.02,
+      "xa": 0.16,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": true,
@@ -901,13 +901,13 @@
     },
     {
       "gw": 9,
-      "minutes": 39,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": true,
-      "points": 3,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -1072,13 +1072,13 @@
     },
     {
       "gw": 9,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 24,
+      "xg": 0.04,
+      "xa": 0.12,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.9
     }
   ],
@@ -1186,13 +1186,13 @@
     },
     {
       "gw": 9,
-      "minutes": 39,
+      "minutes": 86,
       "xg": 0.79,
-      "xa": 0.15,
+      "xa": 0.1,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": true,
-      "points": -1,
+      "points": 0,
       "value": 5.4
     }
   ],
@@ -1243,13 +1243,13 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
+      "minutes": 78,
       "xg": 0.0,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": true,
-      "points": 1,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -1300,13 +1300,13 @@
     },
     {
       "gw": 9,
-      "minutes": 39,
+      "minutes": 65,
       "xg": 0.1,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": true,
-      "points": 1,
+      "points": 7,
       "value": 6.1
     }
   ],
@@ -3411,7 +3411,7 @@
       "gw": 9,
       "minutes": 83,
       "xg": 0.06,
-      "xa": 0.03,
+      "xa": 0.04,
       "ict": 0.0,
       "opp": "MCI",
       "was_home": false,
@@ -3980,8 +3980,8 @@
     {
       "gw": 9,
       "minutes": 63,
-      "xg": 0.13,
-      "xa": 0.15,
+      "xg": 0.12,
+      "xa": 0.14,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
@@ -4264,13 +4264,13 @@
     },
     {
       "gw": 9,
-      "minutes": 39,
-      "xg": 0.1,
-      "xa": 0.0,
+      "minutes": 90,
+      "xg": 0.24,
+      "xa": 0.01,
       "ict": 0.0,
       "opp": "FUL",
       "was_home": true,
-      "points": 8,
+      "points": 9,
       "value": 6.9
     }
   ],
@@ -4322,7 +4322,7 @@
     {
       "gw": 9,
       "minutes": 64,
-      "xg": 0.17,
+      "xg": 0.18,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "BRE",
@@ -4550,7 +4550,7 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.18,
+      "xg": 0.19,
       "xa": 0.11,
       "ict": 0.0,
       "opp": "SUN",
@@ -5576,7 +5576,7 @@
     {
       "gw": 9,
       "minutes": 78,
-      "xg": 0.55,
+      "xg": 0.42,
       "xa": 0.02,
       "ict": 0.0,
       "opp": "BHA",
@@ -5690,7 +5690,7 @@
     {
       "gw": 9,
       "minutes": 76,
-      "xg": 0.17,
+      "xg": 0.28,
       "xa": 0.1,
       "ict": 0.0,
       "opp": "IPS",
@@ -5917,13 +5917,13 @@
     },
     {
       "gw": 9,
-      "minutes": 32,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -6031,9 +6031,9 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
-      "xg": 0.0,
-      "xa": 0.04,
+      "minutes": 90,
+      "xg": 0.15,
+      "xa": 0.2,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
@@ -6088,13 +6088,13 @@
     },
     {
       "gw": 9,
-      "minutes": 0,
+      "minutes": 11,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 4.4
     }
   ],
@@ -6145,9 +6145,9 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
+      "minutes": 90,
       "xg": 0.06,
-      "xa": 0.0,
+      "xa": 0.01,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
@@ -6202,13 +6202,13 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
+      "minutes": 86,
       "xg": 0.0,
-      "xa": 0.0,
+      "xa": 0.5,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -6373,13 +6373,13 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
-      "xg": 0.3,
-      "xa": 0.03,
+      "minutes": 74,
+      "xg": 0.65,
+      "xa": 0.12,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 6,
       "value": 5.4
     }
   ],
@@ -6430,13 +6430,13 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
-      "xg": 0.21,
-      "xa": 0.01,
+      "minutes": 78,
+      "xg": 0.24,
+      "xa": 0.15,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 2,
       "value": 5.5
     }
   ],
@@ -6487,13 +6487,13 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 2,
       "value": 4.9
     }
   ],
@@ -6544,13 +6544,13 @@
     },
     {
       "gw": 9,
-      "minutes": 41,
+      "minutes": 78,
       "xg": 0.0,
-      "xa": 0.0,
+      "xa": 0.2,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 2,
       "value": 5.6
     }
   ],
@@ -6716,7 +6716,7 @@
     {
       "gw": 9,
       "minutes": 45,
-      "xg": 0.14,
+      "xg": 0.12,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "IPS",
@@ -6887,7 +6887,7 @@
     {
       "gw": 9,
       "minutes": 76,
-      "xg": 0.03,
+      "xg": 0.06,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "IPS",
@@ -6945,7 +6945,7 @@
       "gw": 9,
       "minutes": 90,
       "xg": 0.0,
-      "xa": 0.09,
+      "xa": 0.03,
       "ict": 0.0,
       "opp": "IPS",
       "was_home": true,
@@ -7001,8 +7001,8 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.08,
-      "xa": 0.08,
+      "xg": 0.07,
+      "xa": 0.06,
       "ict": 0.0,
       "opp": "IPS",
       "was_home": true,
@@ -7058,8 +7058,8 @@
     {
       "gw": 9,
       "minutes": 89,
-      "xg": 0.02,
-      "xa": 0.13,
+      "xg": 0.01,
+      "xa": 0.1,
       "ict": 0.0,
       "opp": "IPS",
       "was_home": true,
@@ -7115,7 +7115,7 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.19,
+      "xg": 0.2,
       "xa": 0.01,
       "ict": 0.0,
       "opp": "IPS",
@@ -8882,8 +8882,8 @@
     {
       "gw": 9,
       "minutes": 26,
-      "xg": 0.21,
-      "xa": 0.35,
+      "xg": 0.18,
+      "xa": 0.08,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
@@ -8996,8 +8996,8 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.16,
-      "xa": 0.23,
+      "xg": 0.15,
+      "xa": 0.11,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
@@ -9167,12 +9167,12 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.07,
+      "xg": 0.06,
       "xa": 0.02,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
-      "points": 2,
+      "points": 4,
       "value": 5.3
     }
   ],
@@ -9339,7 +9339,7 @@
       "gw": 9,
       "minutes": 35,
       "xg": 0.07,
-      "xa": 0.1,
+      "xa": 0.07,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
@@ -9395,12 +9395,12 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.12,
-      "xa": 0.56,
+      "xg": 0.14,
+      "xa": 0.43,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
-      "points": 4,
+      "points": 2,
       "value": 7.5
     }
   ],
@@ -9566,8 +9566,8 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.56,
-      "xa": 0.16,
+      "xg": 0.47,
+      "xa": 0.08,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
@@ -10878,7 +10878,7 @@
       "gw": 9,
       "minutes": 90,
       "xg": 0.13,
-      "xa": 0.37,
+      "xa": 0.24,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
@@ -10935,7 +10935,7 @@
       "gw": 9,
       "minutes": 90,
       "xg": 0.0,
-      "xa": 0.23,
+      "xa": 0.22,
       "ict": 0.0,
       "opp": "BHA",
       "was_home": true,
@@ -11049,7 +11049,7 @@
       "gw": 9,
       "minutes": 90,
       "xg": 0.15,
-      "xa": 0.39,
+      "xa": 0.4,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
@@ -11960,7 +11960,7 @@
     {
       "gw": 9,
       "minutes": 74,
-      "xg": 0.08,
+      "xg": 0.12,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "COV",
@@ -12132,7 +12132,7 @@
       "gw": 9,
       "minutes": 90,
       "xg": 0.0,
-      "xa": 0.19,
+      "xa": 0.28,
       "ict": 0.0,
       "opp": "COV",
       "was_home": false,
@@ -12302,7 +12302,7 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.16,
+      "xg": 0.3,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "COV",
@@ -12587,7 +12587,7 @@
     {
       "gw": 9,
       "minutes": 20,
-      "xg": 0.08,
+      "xg": 0.09,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "HUL",
@@ -12814,13 +12814,13 @@
     },
     {
       "gw": 9,
-      "minutes": 34,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 86,
+      "xg": 0.39,
+      "xa": 0.01,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 2,
       "value": 6.0
     }
   ],
@@ -13042,13 +13042,13 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 90,
+      "xg": 0.69,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 1,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -13214,8 +13214,8 @@
     {
       "gw": 9,
       "minutes": 90,
-      "xg": 0.24,
-      "xa": 0.66,
+      "xg": 0.28,
+      "xa": 0.44,
       "ict": 0.0,
       "opp": "HUL",
       "was_home": false,
@@ -13272,7 +13272,7 @@
       "gw": 9,
       "minutes": 90,
       "xg": 0.04,
-      "xa": 0.22,
+      "xa": 0.28,
       "ict": 0.0,
       "opp": "HUL",
       "was_home": false,
@@ -13384,7 +13384,7 @@
     },
     {
       "gw": 9,
-      "minutes": 41,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
@@ -13897,13 +13897,13 @@
     },
     {
       "gw": 9,
-      "minutes": 36,
-      "xg": 0.01,
-      "xa": 0.0,
+      "minutes": 90,
+      "xg": 0.12,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "AVL",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 4.5
     }
   ],
