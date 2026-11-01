@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": 543,
+      "web_name": "Diarra",
+      "team": 20,
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-11-01T08:30:09.264068Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 32,
       "web_name": "Cash",
       "team": 2,
@@ -108,7 +116,7 @@
       "id": 533,
       "web_name": "Mukiele",
       "team": 20,
-      "news": "Knock - 75% chance of playing",
+      "news": "Concussion - 75% chance of playing",
       "news_added": "2026-10-29T18:30:09.458031Z",
       "chance_of_playing_next_round": 75
     },
@@ -151,14 +159,6 @@
       "news": "Suspended until 29 Nov",
       "news_added": "2026-10-27T22:30:09.534466Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 89,
-      "web_name": "Henry",
-      "team": 4,
-      "news": "Hip injury - Unknown return date",
-      "news_added": "2026-10-27T16:30:09.444144Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,63 +166,63 @@
       "id": 79,
       "web_name": "Evanilson",
       "team": 3,
-      "net_transfers": 131266,
+      "net_transfers": 172261,
       "form": 8.5,
-      "owned": 15.5
+      "owned": 15.9
     },
     {
       "id": 166,
       "web_name": "N.Jackson",
       "team": 2,
-      "net_transfers": 90852,
+      "net_transfers": 129415,
       "form": 8.2,
-      "owned": 23.8
-    },
-    {
-      "id": 379,
-      "web_name": "Isak",
-      "team": 14,
-      "net_transfers": 81619,
-      "form": 4.5,
-      "owned": 20.7
+      "owned": 24.2
     },
     {
       "id": 68,
       "web_name": "Tavernier",
       "team": 3,
-      "net_transfers": 80710,
+      "net_transfers": 105128,
       "form": 6.0,
-      "owned": 26.0
+      "owned": 26.2
+    },
+    {
+      "id": 379,
+      "web_name": "Isak",
+      "team": 14,
+      "net_transfers": 96922,
+      "form": 4.5,
+      "owned": 20.9
     },
     {
       "id": 40,
       "web_name": "Rogers",
       "team": 6,
-      "net_transfers": 55850,
+      "net_transfers": 71666,
       "form": 5.2,
-      "owned": 51.4
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team": 5,
-      "net_transfers": 48729,
-      "form": 7.8,
-      "owned": 44.0
+      "owned": 51.6
     },
     {
       "id": 112,
       "web_name": "Van Hecke",
       "team": 19,
-      "net_transfers": 39391,
+      "net_transfers": 67124,
       "form": 7.2,
-      "owned": 9.7
+      "owned": 10.0
+    },
+    {
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team": 5,
+      "net_transfers": 64647,
+      "form": 7.8,
+      "owned": 44.1
     },
     {
       "id": 154,
       "web_name": "Palmer",
       "team": 6,
-      "net_transfers": 31742,
+      "net_transfers": 40293,
       "form": 4.2,
       "owned": 27.6
     },
@@ -230,17 +230,17 @@
       "id": 4,
       "web_name": "Gabriel",
       "team": 1,
-      "net_transfers": 23190,
+      "net_transfers": 30284,
       "form": 6.8,
-      "owned": 24.0
+      "owned": 24.1
     },
     {
-      "id": 31,
-      "web_name": "Konsa",
-      "team": 1,
-      "net_transfers": 21189,
-      "form": 6.8,
-      "owned": 21.9
+      "id": 53,
+      "web_name": "Manzambi",
+      "team": 2,
+      "net_transfers": 30042,
+      "form": 6.0,
+      "owned": 6.4
     }
   ]
 }
