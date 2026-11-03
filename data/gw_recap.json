@@ -1,12 +1,12 @@
 {
-  "gw": 8,
-  "points": 47,
-  "points_on_bench": 9,
-  "overall_rank": 2284895,
-  "rank_change": 29884,
-  "event_transfers": 2,
+  "gw": 9,
+  "points": 69,
+  "points_on_bench": 19,
+  "overall_rank": 1489527,
+  "rank_change": 795368,
+  "event_transfers": 0,
   "event_transfers_cost": 0,
-  "active_chip": null,
+  "active_chip": "freehit",
   "captain": {
     "id": 411,
     "web_name": "Haaland",
@@ -14,98 +14,36 @@
     "on_bench": false,
     "is_captain": true,
     "multiplier": 2,
-    "base_points": 8,
-    "points": 16,
+    "base_points": 2,
+    "points": 4,
     "minutes": 90,
     "chance_next": 100
   },
   "best_possible_captain": {
-    "id": 31,
-    "web_name": "Konsa",
-    "team": "ARS",
+    "id": 112,
+    "web_name": "Van Hecke",
+    "team": "TOT",
     "on_bench": false,
     "is_captain": false,
     "multiplier": 1,
-    "base_points": 14,
-    "points": 14,
+    "base_points": 15,
+    "points": 15,
     "minutes": 90,
     "chance_next": 100
   },
   "captain_verdict": "suboptimal",
   "hauls": [
     {
-      "id": 31,
-      "web_name": "Konsa",
-      "team": "ARS",
+      "id": 112,
+      "web_name": "Van Hecke",
+      "team": "TOT",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 14,
-      "points": 14,
+      "base_points": 15,
+      "points": 15,
       "minutes": 90,
       "chance_next": 100
-    },
-    {
-      "id": 411,
-      "web_name": "Haaland",
-      "team": "MCI",
-      "on_bench": false,
-      "is_captain": true,
-      "multiplier": 2,
-      "base_points": 8,
-      "points": 16,
-      "minutes": 90,
-      "chance_next": 100
-    }
-  ],
-  "busts": [
-    {
-      "id": 8,
-      "web_name": "Calafiori",
-      "team": "ARS",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 1,
-      "points": 1,
-      "minutes": 22,
-      "chance_next": 100
-    },
-    {
-      "id": 391,
-      "web_name": "Gvardiol",
-      "team": "MCI",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 1,
-      "points": 1,
-      "minutes": 90,
-      "chance_next": null
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team": "BHA",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 1,
-      "points": 1,
-      "minutes": 90,
-      "chance_next": null
-    },
-    {
-      "id": 399,
-      "web_name": "Cherki",
-      "team": "MCI",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 0,
-      "points": 0,
-      "minutes": 45,
-      "chance_next": null
     },
     {
       "id": 40,
@@ -114,46 +52,88 @@
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
+      "base_points": 9,
+      "points": 9,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 106,
+      "web_name": "Thiago",
+      "team": "BRE",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 9,
+      "points": 9,
+      "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 166,
+      "web_name": "N.Jackson",
+      "team": "AVL",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 9,
+      "points": 9,
+      "minutes": 90,
+      "chance_next": null
+    }
+  ],
+  "busts": [
+    {
+      "id": 597,
+      "web_name": "Suzuki",
+      "team": "AVL",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
       "base_points": 1,
       "points": 1,
       "minutes": 90,
       "chance_next": null
     },
     {
-      "id": 464,
-      "web_name": "Wissa",
-      "team": "NEW",
+      "id": 499,
+      "web_name": "Pedro Porro",
+      "team": "TOT",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
       "base_points": 1,
       "points": 1,
-      "minutes": 13,
-      "chance_next": null
+      "minutes": 45,
+      "chance_next": 100
     }
   ],
   "keep": [
     {
-      "web_name": "Konsa",
-      "reason": "הביא 14 נק' במחזור 8"
+      "web_name": "Van Hecke",
+      "reason": "הביא 15 נק' במחזור 9"
     },
     {
-      "web_name": "Haaland",
-      "reason": "הביא 8 נק' במחזור 8 וגם הריצה הקרובה נוחה"
+      "web_name": "Silva",
+      "reason": "הביא 8 נק' במחזור 9"
+    },
+    {
+      "web_name": "Rogers",
+      "reason": "הביא 9 נק' במחזור 9 וגם הריצה הקרובה נוחה"
+    },
+    {
+      "web_name": "Thiago",
+      "reason": "הביא 9 נק' במחזור 9"
+    },
+    {
+      "web_name": "N.Jackson",
+      "reason": "הביא 9 נק' במחזור 9 וגם הריצה הקרובה נוחה"
     }
   ],
   "change": [
     {
-      "web_name": "Calafiori",
-      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
-    },
-    {
-      "web_name": "De Cuyper",
-      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
-    },
-    {
-      "web_name": "Wissa",
-      "reason": "רק 1 נק' במחזור 8 · ריצת משחקים קשה"
+      "web_name": "Pedro Porro",
+      "reason": "רק 1 נק' במחזור 9 · ריצת משחקים קשה"
     }
   ]
 }
