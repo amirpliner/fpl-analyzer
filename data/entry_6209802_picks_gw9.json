@@ -1,20 +1,27 @@
 {
   "active_chip": null,
-  "automatic_subs": [],
+  "automatic_subs": [
+    {
+      "entry": 6209802,
+      "element_in": 87,
+      "element_out": 10,
+      "event": 9
+    }
+  ],
   "entry_history": {
     "event": 9,
-    "points": 54,
-    "total_points": 527,
-    "rank": 2669511,
-    "rank_sort": 2719865,
-    "overall_rank": 3481542,
-    "percentile_rank": 25,
-    "overall_rank_percentage": "31",
+    "points": 62,
+    "total_points": 535,
+    "rank": 1395317,
+    "rank_sort": 1428466,
+    "overall_rank": 3162357,
+    "percentile_rank": 15,
+    "overall_rank_percentage": "28",
     "bank": 44,
     "value": 1025,
     "event_transfers": 1,
     "event_transfers_cost": 0,
-    "points_on_bench": 19
+    "points_on_bench": 11
   },
   "picks": [
     {
@@ -26,7 +33,7 @@
       "element_type": 1
     },
     {
-      "element": 10,
+      "element": 279,
       "position": 2,
       "multiplier": 1,
       "is_captain": false,
@@ -34,7 +41,7 @@
       "element_type": 2
     },
     {
-      "element": 31,
+      "element": 87,
       "position": 3,
       "multiplier": 1,
       "is_captain": false,
@@ -42,7 +49,7 @@
       "element_type": 2
     },
     {
-      "element": 279,
+      "element": 31,
       "position": 4,
       "multiplier": 1,
       "is_captain": false,
@@ -58,7 +65,7 @@
       "element_type": 3
     },
     {
-      "element": 53,
+      "element": 68,
       "position": 6,
       "multiplier": 1,
       "is_captain": false,
@@ -74,7 +81,7 @@
       "element_type": 3
     },
     {
-      "element": 68,
+      "element": 53,
       "position": 8,
       "multiplier": 1,
       "is_captain": false,
@@ -82,7 +89,7 @@
       "element_type": 3
     },
     {
-      "element": 295,
+      "element": 464,
       "position": 9,
       "multiplier": 1,
       "is_captain": false,
@@ -98,7 +105,7 @@
       "element_type": 4
     },
     {
-      "element": 464,
+      "element": 295,
       "position": 11,
       "multiplier": 1,
       "is_captain": false,
@@ -122,7 +129,7 @@
       "element_type": 3
     },
     {
-      "element": 87,
+      "element": 10,
       "position": 14,
       "multiplier": 0,
       "is_captain": false,

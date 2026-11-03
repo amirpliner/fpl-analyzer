@@ -25,25 +25,18 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "FUL",
-          "opponent_id": 10,
-          "is_home": true,
-          "difficulty": 2
-        },
-        {
           "event": 10,
           "opponent": "MUN",
           "opponent_id": 16,
           "is_home": false,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 11,
           "opponent": "SUN",
           "opponent_id": 20,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 12,
@@ -58,10 +51,17 @@
           "opponent_id": 9,
           "is_home": true,
           "difficulty": 3
+        },
+        {
+          "event": 14,
+          "opponent": "CRY",
+          "opponent_id": 8,
+          "is_home": true,
+          "difficulty": 2
         }
       ],
-      "has_easy_run": false,
-      "avg_fdr_next5": 2.8,
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.4,
       "minutes_trend": "flat",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -79,7 +79,7 @@
       "form": 7.2,
       "total_points": 53,
       "ppm": 10.6,
-      "ownership": 10.9,
+      "ownership": 11.1,
       "is_differential": false,
       "xgi_per_90": 0.26,
       "xgc_per_90": 1.11,
@@ -87,13 +87,6 @@
       "chance_next": 100,
       "prior_season_fallback": null,
       "fixture_run": [
-        {
-          "event": 9,
-          "opponent": "CRY",
-          "opponent_id": 8,
-          "is_home": true,
-          "difficulty": 2
-        },
         {
           "event": 10,
           "opponent": "LEE",
@@ -121,10 +114,17 @@
           "opponent_id": 10,
           "is_home": true,
           "difficulty": 2
+        },
+        {
+          "event": 14,
+          "opponent": "ARS",
+          "opponent_id": 1,
+          "is_home": true,
+          "difficulty": 4
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 2.4,
+      "avg_fdr_next5": 2.8,
       "minutes_trend": "flat",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -151,13 +151,6 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "CRY",
-          "opponent_id": 8,
-          "is_home": true,
-          "difficulty": 2
-        },
-        {
           "event": 10,
           "opponent": "LEE",
           "opponent_id": 13,
@@ -184,10 +177,17 @@
           "opponent_id": 10,
           "is_home": true,
           "difficulty": 2
+        },
+        {
+          "event": 14,
+          "opponent": "ARS",
+          "opponent_id": 1,
+          "is_home": true,
+          "difficulty": 4
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 2.4,
+      "avg_fdr_next5": 2.8,
       "minutes_trend": "up",
       "avg_minutes_last3": 23.3,
       "injury": null,
@@ -214,13 +214,6 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "LEE",
-          "opponent_id": 13,
-          "is_home": true,
-          "difficulty": 3
-        },
-        {
           "event": 10,
           "opponent": "IPS",
           "opponent_id": 12,
@@ -246,7 +239,14 @@
           "opponent": "BHA",
           "opponent_id": 5,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 4
+        },
+        {
+          "event": 14,
+          "opponent": "HUL",
+          "opponent_id": 11,
+          "is_home": true,
+          "difficulty": 2
         }
       ],
       "has_easy_run": false,
@@ -268,7 +268,7 @@
       "form": 6.0,
       "total_points": 55,
       "ppm": 8.33,
-      "ownership": 27.2,
+      "ownership": 27.4,
       "is_differential": false,
       "xgi_per_90": 0.61,
       "xgc_per_90": 1.13,
@@ -276,13 +276,6 @@
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
-        {
-          "event": 9,
-          "opponent": "LEE",
-          "opponent_id": 13,
-          "is_home": true,
-          "difficulty": 3
-        },
         {
           "event": 10,
           "opponent": "IPS",
@@ -309,7 +302,14 @@
           "opponent": "BHA",
           "opponent_id": 5,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 4
+        },
+        {
+          "event": 14,
+          "opponent": "HUL",
+          "opponent_id": 11,
+          "is_home": true,
+          "difficulty": 2
         }
       ],
       "has_easy_run": false,
@@ -331,7 +331,7 @@
       "form": 5.2,
       "total_points": 50,
       "ppm": 6.17,
-      "ownership": 52.2,
+      "ownership": 52.4,
       "is_differential": false,
       "xgi_per_90": 0.48,
       "xgc_per_90": 1.42,
@@ -339,13 +339,6 @@
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
-        {
-          "event": 9,
-          "opponent": "MUN",
-          "opponent_id": 16,
-          "is_home": true,
-          "difficulty": 4
-        },
         {
           "event": 10,
           "opponent": "SUN",
@@ -365,7 +358,7 @@
           "opponent": "NFO",
           "opponent_id": 18,
           "is_home": false,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 13,
@@ -373,10 +366,17 @@
           "opponent_id": 8,
           "is_home": true,
           "difficulty": 2
+        },
+        {
+          "event": 14,
+          "opponent": "LIV",
+          "opponent_id": 14,
+          "is_home": true,
+          "difficulty": 4
         }
       ],
-      "has_easy_run": false,
-      "avg_fdr_next5": 3.0,
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.8,
       "minutes_trend": "flat",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -394,7 +394,7 @@
       "form": 6.0,
       "total_points": 38,
       "ppm": 6.23,
-      "ownership": 6.9,
+      "ownership": 7.0,
       "is_differential": true,
       "xgi_per_90": 0.52,
       "xgc_per_90": 1.42,
@@ -403,25 +403,18 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "FUL",
-          "opponent_id": 10,
-          "is_home": true,
-          "difficulty": 2
-        },
-        {
           "event": 10,
           "opponent": "MUN",
           "opponent_id": 16,
           "is_home": false,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 11,
           "opponent": "SUN",
           "opponent_id": 20,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 12,
@@ -436,10 +429,17 @@
           "opponent_id": 9,
           "is_home": true,
           "difficulty": 3
+        },
+        {
+          "event": 14,
+          "opponent": "CRY",
+          "opponent_id": 8,
+          "is_home": true,
+          "difficulty": 2
         }
       ],
-      "has_easy_run": false,
-      "avg_fdr_next5": 2.8,
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.4,
       "minutes_trend": "down",
       "avg_minutes_last3": 67.0,
       "injury": null,
@@ -457,7 +457,7 @@
       "form": 1.5,
       "total_points": 45,
       "ppm": 7.26,
-      "ownership": 14.4,
+      "ownership": 14.3,
       "is_differential": false,
       "xgi_per_90": 0.32,
       "xgc_per_90": 1.4,
@@ -465,13 +465,6 @@
       "chance_next": 100,
       "prior_season_fallback": null,
       "fixture_run": [
-        {
-          "event": 9,
-          "opponent": "NFO",
-          "opponent_id": 18,
-          "is_home": true,
-          "difficulty": 3
-        },
         {
           "event": 10,
           "opponent": "BHA",
@@ -491,12 +484,19 @@
           "opponent": "MUN",
           "opponent_id": 16,
           "is_home": false,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 13,
           "opponent": "ARS",
           "opponent_id": 1,
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 14,
+          "opponent": "MCI",
+          "opponent_id": 15,
           "is_home": true,
           "difficulty": 4
         }
@@ -529,18 +529,11 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "BHA",
-          "opponent_id": 5,
-          "is_home": true,
-          "difficulty": 3
-        },
-        {
           "event": 10,
           "opponent": "NFO",
           "opponent_id": 18,
           "is_home": false,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 11,
@@ -562,9 +555,16 @@
           "opponent_id": 13,
           "is_home": true,
           "difficulty": 3
+        },
+        {
+          "event": 14,
+          "opponent": "BRE",
+          "opponent_id": 4,
+          "is_home": false,
+          "difficulty": 4
         }
       ],
-      "has_easy_run": false,
+      "has_easy_run": true,
       "avg_fdr_next5": 3.2,
       "minutes_trend": "flat",
       "avg_minutes_last3": 90.0,
@@ -592,13 +592,6 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "NFO",
-          "opponent_id": 18,
-          "is_home": true,
-          "difficulty": 3
-        },
-        {
           "event": 10,
           "opponent": "BHA",
           "opponent_id": 5,
@@ -617,12 +610,19 @@
           "opponent": "MUN",
           "opponent_id": 16,
           "is_home": false,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 13,
           "opponent": "ARS",
           "opponent_id": 1,
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 14,
+          "opponent": "MCI",
+          "opponent_id": 15,
           "is_home": true,
           "difficulty": 4
         }
@@ -646,7 +646,7 @@
       "form": 8.2,
       "total_points": 43,
       "ppm": 6.14,
-      "ownership": 25.5,
+      "ownership": 25.8,
       "is_differential": false,
       "xgi_per_90": 0.43,
       "xgc_per_90": 1.18,
@@ -655,25 +655,18 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "FUL",
-          "opponent_id": 10,
-          "is_home": true,
-          "difficulty": 2
-        },
-        {
           "event": 10,
           "opponent": "MUN",
           "opponent_id": 16,
           "is_home": false,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 11,
           "opponent": "SUN",
           "opponent_id": 20,
           "is_home": true,
-          "difficulty": 3
+          "difficulty": 2
         },
         {
           "event": 12,
@@ -688,10 +681,17 @@
           "opponent_id": 9,
           "is_home": true,
           "difficulty": 3
+        },
+        {
+          "event": 14,
+          "opponent": "CRY",
+          "opponent_id": 8,
+          "is_home": true,
+          "difficulty": 2
         }
       ],
-      "has_easy_run": false,
-      "avg_fdr_next5": 2.8,
+      "has_easy_run": true,
+      "avg_fdr_next5": 2.4,
       "minutes_trend": "flat",
       "avg_minutes_last3": 87.0,
       "injury": null,
@@ -718,13 +718,6 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "NFO",
-          "opponent_id": 18,
-          "is_home": true,
-          "difficulty": 3
-        },
-        {
           "event": 10,
           "opponent": "BHA",
           "opponent_id": 5,
@@ -743,12 +736,19 @@
           "opponent": "MUN",
           "opponent_id": 16,
           "is_home": false,
-          "difficulty": 4
+          "difficulty": 3
         },
         {
           "event": 13,
           "opponent": "ARS",
           "opponent_id": 1,
+          "is_home": true,
+          "difficulty": 4
+        },
+        {
+          "event": 14,
+          "opponent": "MCI",
+          "opponent_id": 15,
           "is_home": true,
           "difficulty": 4
         }
@@ -769,24 +769,17 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 5.0,
-      "total_points": 40,
-      "ppm": 6.06,
+      "form": 5.2,
+      "total_points": 41,
+      "ppm": 6.21,
       "ownership": 6.2,
       "is_differential": true,
       "xgi_per_90": 0.32,
-      "xgc_per_90": 1.44,
+      "xgc_per_90": 1.42,
       "starts_per_90": 1.01,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
-        {
-          "event": 9,
-          "opponent": "NEW",
-          "opponent_id": 17,
-          "is_home": false,
-          "difficulty": 3
-        },
         {
           "event": 10,
           "opponent": "COV",
@@ -799,7 +792,7 @@
           "opponent": "BRE",
           "opponent_id": 4,
           "is_home": false,
-          "difficulty": 3
+          "difficulty": 4
         },
         {
           "event": 12,
@@ -814,6 +807,13 @@
           "opponent_id": 2,
           "is_home": false,
           "difficulty": 3
+        },
+        {
+          "event": 14,
+          "opponent": "FUL",
+          "opponent_id": 10,
+          "is_home": true,
+          "difficulty": 2
         }
       ],
       "has_easy_run": false,
@@ -844,13 +844,6 @@
       "prior_season_fallback": null,
       "fixture_run": [
         {
-          "event": 9,
-          "opponent": "CRY",
-          "opponent_id": 8,
-          "is_home": true,
-          "difficulty": 2
-        },
-        {
           "event": 10,
           "opponent": "LEE",
           "opponent_id": 13,
@@ -877,10 +870,17 @@
           "opponent_id": 10,
           "is_home": true,
           "difficulty": 2
+        },
+        {
+          "event": 14,
+          "opponent": "ARS",
+          "opponent_id": 1,
+          "is_home": true,
+          "difficulty": 4
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 2.4,
+      "avg_fdr_next5": 2.8,
       "minutes_trend": "up",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -898,21 +898,14 @@
       "form": 2.8,
       "total_points": 42,
       "ppm": 7.92,
-      "ownership": 20.1,
+      "ownership": 20.0,
       "is_differential": false,
       "xgi_per_90": 0.14,
-      "xgc_per_90": 1.77,
+      "xgc_per_90": 1.79,
       "starts_per_90": 1.0,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
-        {
-          "event": 9,
-          "opponent": "EVE",
-          "opponent_id": 9,
-          "is_home": true,
-          "difficulty": 3
-        },
         {
           "event": 10,
           "opponent": "FUL",
@@ -939,11 +932,18 @@
           "opponent": "MUN",
           "opponent_id": 16,
           "is_home": true,
-          "difficulty": 4
+          "difficulty": 3
+        },
+        {
+          "event": 14,
+          "opponent": "SUN",
+          "opponent_id": 20,
+          "is_home": true,
+          "difficulty": 2
         }
       ],
       "has_easy_run": false,
-      "avg_fdr_next5": 3.6,
+      "avg_fdr_next5": 3.2,
       "minutes_trend": "flat",
       "avg_minutes_last3": 90.0,
       "injury": null,
@@ -979,109 +979,109 @@
   ],
   "captain_recommendations": [
     {
-      "id": 499,
-      "web_name": "Pedro Porro",
-      "xpts": 6.42,
+      "id": 411,
+      "web_name": "Haaland",
+      "xpts": 6.76,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
         "p60": 1.0,
         "p_cameo": 0.0,
         "appearance": 2.0,
-        "goals_pts": 1.28,
+        "goals_pts": 3.32,
         "assists_pts": 0.34,
-        "cs_pts": 2.3,
-        "bonus_est": 0.78,
-        "concede_penalty": 0.28,
+        "cs_pts": 0,
+        "bonus_est": 1.11,
+        "concede_penalty": 0,
         "attack_factor": 1.12,
         "defence_factor_against_us": 0.88,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 6.42, תרומה התקפית צפויה 1.62, סיכוי שער נקי 2.3, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
-    {
-      "id": 411,
-      "web_name": "Haaland",
-      "xpts": 6.27,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 2.96,
-        "assists_pts": 0.3,
-        "cs_pts": 0,
-        "bonus_est": 1.01,
-        "concede_penalty": 0,
-        "attack_factor": 1.0,
-        "defence_factor_against_us": 1.0,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 6.27, תרומה התקפית צפויה 3.26, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 6.76, תרומה התקפית צפויה 3.66, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 68,
       "web_name": "Tavernier",
-      "xpts": 6.11,
+      "xpts": 6.44,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
         "p60": 1.0,
         "p_cameo": 0.0,
         "appearance": 2.0,
-        "goals_pts": 2.25,
-        "assists_pts": 0.48,
-        "cs_pts": 0.32,
-        "bonus_est": 1.06,
+        "goals_pts": 2.52,
+        "assists_pts": 0.54,
+        "cs_pts": 0.37,
+        "bonus_est": 1.01,
+        "concede_penalty": 0,
+        "attack_factor": 1.12,
+        "defence_factor_against_us": 0.88,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 6.44, תרומה התקפית צפויה 3.06, סיכוי שער נקי 0.37, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
+      "id": 499,
+      "web_name": "Pedro Porro",
+      "xpts": 6.24,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 1.14,
+        "assists_pts": 0.3,
+        "cs_pts": 2.13,
+        "bonus_est": 0.98,
+        "concede_penalty": 0.32,
+        "attack_factor": 1.0,
+        "defence_factor_against_us": 1.0,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 6.24, תרומה התקפית צפויה 1.44, סיכוי שער נקי 2.13, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
+      "id": 53,
+      "web_name": "Manzambi",
+      "xpts": 5.64,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 1.9,
+        "assists_pts": 0.42,
+        "cs_pts": 0.24,
+        "bonus_est": 1.08,
         "concede_penalty": 0,
         "attack_factor": 1.0,
         "defence_factor_against_us": 1.0,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 6.11, תרומה התקפית צפויה 2.73, סיכוי שער נקי 0.32, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 5.64, תרומה התקפית צפויה 2.32, סיכוי שער נקי 0.24, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
-      "id": 53,
-      "web_name": "Manzambi",
-      "xpts": 5.97,
+      "id": 40,
+      "web_name": "Rogers",
+      "xpts": 5.27,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
         "p60": 1.0,
         "p_cameo": 0.0,
         "appearance": 2.0,
-        "goals_pts": 2.13,
-        "assists_pts": 0.47,
-        "cs_pts": 0.29,
-        "bonus_est": 1.08,
+        "goals_pts": 1.6,
+        "assists_pts": 0.48,
+        "cs_pts": 0.24,
+        "bonus_est": 0.95,
         "concede_penalty": 0,
-        "attack_factor": 1.12,
-        "defence_factor_against_us": 0.88,
+        "attack_factor": 1.0,
+        "defence_factor_against_us": 1.0,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 5.97, תרומה התקפית צפויה 2.6, סיכוי שער נקי 0.29, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
-    {
-      "id": 112,
-      "web_name": "Van Hecke",
-      "xpts": 5.47,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 1.21,
-        "assists_pts": 0.27,
-        "cs_pts": 1.51,
-        "bonus_est": 0.97,
-        "concede_penalty": 0.49,
-        "attack_factor": 1.12,
-        "defence_factor_against_us": 0.88,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 5.47, תרומה התקפית צפויה 1.48, סיכוי שער נקי 1.51, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 5.27, תרומה התקפית צפויה 2.08, סיכוי שער נקי 0.24, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     }
   ],
   "transfer_suggestions": [
@@ -1116,6 +1116,6 @@
   ],
   "rating": {
     "score": 5.2,
-    "reason": "PPM ממוצע 6.36, 1 שחקנים עם בעיית זמינות/דקות, 3 אזהרות חשיפה"
+    "reason": "PPM ממוצע 6.37, 1 שחקנים עם בעיית זמינות/דקות, 3 אזהרות חשיפה"
   }
 }
