@@ -1,6 +1,6 @@
 {
   "horizon": 8,
-  "from_gameweek": 9,
+  "from_gameweek": 10,
   "chips_used": [
     {
       "name": "wildcard",
@@ -19,21 +19,21 @@
     "recommendations": [
       {
         "event": 14,
-        "score": 14.38,
+        "score": 15.35,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.38 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 15.35 נק' (סף: 12.0)"
+      },
+      {
+        "event": 15,
+        "score": 14.9,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 14.9 נק' (סף: 12.0)"
       },
       {
         "event": 10,
-        "score": 14.35,
+        "score": 14.79,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.35 נק' (סף: 12.0)"
-      },
-      {
-        "event": 11,
-        "score": 14.33,
-        "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.33 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 14.79 נק' (סף: 12.0)"
       }
     ]
   },
@@ -65,13 +65,7 @@
   },
   "free_hit": {
     "available": false,
-    "recommendations": [
-      {
-        "event": 9,
-        "blank_players": 15,
-        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 9"
-      }
-    ]
+    "recommendations": []
   },
   "wildcard": {
     "available": true,
