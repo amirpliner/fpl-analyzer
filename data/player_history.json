@@ -46,13 +46,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.3,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 6.2
     }
   ],
@@ -103,13 +103,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 3.0,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 8,
       "value": 8.0
     }
   ],
@@ -160,13 +160,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 68,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 3.1,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 5.9
     }
   ],
@@ -388,13 +388,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 62,
+      "xg": 0.13,
+      "xa": 0.03,
+      "ict": 3.8,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 7.4
     }
   ],
@@ -445,13 +445,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 21,
+      "xg": 0.1,
+      "xa": 0.06,
+      "ict": 0.7,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 6.2
     }
   ],
@@ -502,14 +502,71 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.24,
+      "xa": 0.34,
+      "ict": 16.7,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 11,
       "value": 6.7
+    }
+  ],
+  "16": [
+    {
+      "gw": 6,
+      "minutes": 90,
+      "xg": 0.28,
+      "xa": 0.47,
+      "ict": 9.6,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 2,
+      "value": 6.2
+    },
+    {
+      "gw": 7,
+      "minutes": 45,
+      "xg": 0.06,
+      "xa": 0.03,
+      "ict": 5.9,
+      "opp": "NFO",
+      "was_home": false,
+      "points": 5,
+      "value": 6.2
+    },
+    {
+      "gw": 8,
+      "minutes": 90,
+      "xg": 0.16,
+      "xa": 0.06,
+      "ict": 4.4,
+      "opp": "EVE",
+      "was_home": true,
+      "points": 3,
+      "value": 6.2
+    },
+    {
+      "gw": 9,
+      "minutes": 90,
+      "xg": 0.03,
+      "xa": 0.54,
+      "ict": 6.9,
+      "opp": "LIV",
+      "was_home": false,
+      "points": 2,
+      "value": 6.2
+    },
+    {
+      "gw": 10,
+      "minutes": 90,
+      "xg": 0.37,
+      "xa": 0.39,
+      "ict": 14.6,
+      "opp": "HUL",
+      "was_home": true,
+      "points": 8,
+      "value": 6.2
     }
   ],
   "25": [
@@ -559,13 +616,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 27,
+      "xg": 0.03,
+      "xa": 0.01,
+      "ict": 2.3,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 7.0
     }
   ],
@@ -616,13 +673,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 62,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 0.5,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 7.4
     }
   ],
@@ -730,13 +787,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.03,
+      "xa": 0.01,
+      "ict": 3.1,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 8,
       "value": 4.8
     }
   ],
@@ -797,63 +854,6 @@
       "value": 4.3
     }
   ],
-  "33": [
-    {
-      "gw": 6,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 1.6,
-      "opp": "BRE",
-      "was_home": true,
-      "points": 1,
-      "value": 4.5
-    },
-    {
-      "gw": 7,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 3.1,
-      "opp": "NEW",
-      "was_home": false,
-      "points": 7,
-      "value": 4.5
-    },
-    {
-      "gw": 8,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "MCI",
-      "was_home": true,
-      "points": 0,
-      "value": 4.5
-    },
-    {
-      "gw": 9,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "FUL",
-      "was_home": true,
-      "points": 0,
-      "value": 4.5
-    },
-    {
-      "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "MUN",
-      "was_home": false,
-      "points": 0,
-      "value": 4.5
-    }
-  ],
   "37": [
     {
       "gw": 6,
@@ -901,13 +901,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 3.0,
       "opp": "MUN",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -1015,13 +1015,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.26,
+      "xa": 0.07,
+      "ict": 3.3,
       "opp": "SUN",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 8.2
     }
   ],
@@ -1129,13 +1129,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 65,
+      "xg": 0.29,
+      "xa": 0.09,
+      "ict": 12.0,
       "opp": "AVL",
       "was_home": true,
-      "points": 0,
+      "points": 7,
       "value": 5.7
     }
   ],
@@ -1186,13 +1186,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 70,
+      "xg": 0.79,
+      "xa": 0.18,
+      "ict": 10.1,
       "opp": "MUN",
       "was_home": false,
-      "points": 0,
+      "points": 10,
       "value": 5.4
     }
   ],
@@ -1243,14 +1243,71 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.04,
+      "xa": 0.03,
+      "ict": 1.5,
       "opp": "MUN",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 5.0
+    }
+  ],
+  "52": [
+    {
+      "gw": 6,
+      "minutes": 4,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.3,
+      "opp": "BRE",
+      "was_home": true,
+      "points": 1,
+      "value": 5.0
+    },
+    {
+      "gw": 7,
+      "minutes": 45,
+      "xg": 0.0,
+      "xa": 0.01,
+      "ict": 1.7,
+      "opp": "NEW",
+      "was_home": false,
+      "points": 0,
+      "value": 4.9
+    },
+    {
+      "gw": 8,
+      "minutes": 58,
+      "xg": 0.1,
+      "xa": 0.01,
+      "ict": 1.8,
+      "opp": "MCI",
+      "was_home": true,
+      "points": 1,
+      "value": 4.9
+    },
+    {
+      "gw": 9,
+      "minutes": 65,
+      "xg": 0.04,
+      "xa": 0.0,
+      "ict": 2.6,
+      "opp": "FUL",
+      "was_home": true,
+      "points": 2,
+      "value": 4.9
+    },
+    {
+      "gw": 10,
+      "minutes": 70,
+      "xg": 0.28,
+      "xa": 0.0,
+      "ict": 8.5,
+      "opp": "MUN",
+      "was_home": false,
+      "points": 16,
+      "value": 4.9
     }
   ],
   "53": [
@@ -1300,13 +1357,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 77,
+      "xg": 0.07,
+      "xa": 0.29,
+      "ict": 3.6,
       "opp": "MUN",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.2
     }
   ],
@@ -1414,13 +1471,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.6,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -1528,13 +1585,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.35,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.9,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 5.6
     }
   ],
@@ -1585,13 +1642,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.02,
+      "xa": 0.01,
+      "ict": 2.3,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.4
     }
   ],
@@ -1642,13 +1699,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 78,
+      "xg": 0.03,
+      "xa": 0.01,
+      "ict": 0.4,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 4.5
     }
   ],
@@ -1699,13 +1756,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 85,
+      "xg": 0.02,
+      "xa": 0.05,
+      "ict": 5.7,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.3
     }
   ],
@@ -1756,13 +1813,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.5,
+      "xa": 0.09,
+      "ict": 8.0,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 6.6
     }
   ],
@@ -1870,13 +1927,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 67,
+      "xg": 0.03,
+      "xa": 0.01,
+      "ict": 1.8,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 5.9
     }
   ],
@@ -1927,13 +1984,70 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 1.5,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 4,
+      "value": 5.0
+    }
+  ],
+  "75": [
+    {
+      "gw": 6,
+      "minutes": 72,
+      "xg": 0.03,
+      "xa": 0.4,
+      "ict": 3.7,
+      "opp": "CHE",
+      "was_home": false,
+      "points": 3,
+      "value": 5.0
+    },
+    {
+      "gw": 7,
+      "minutes": 90,
+      "xg": 0.3,
+      "xa": 0.21,
+      "ict": 8.2,
+      "opp": "SUN",
+      "was_home": true,
+      "points": 2,
+      "value": 5.0
+    },
+    {
+      "gw": 8,
+      "minutes": 15,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 2.2,
+      "opp": "MUN",
+      "was_home": false,
+      "points": 1,
+      "value": 5.0
+    },
+    {
+      "gw": 9,
+      "minutes": 67,
+      "xg": 0.07,
+      "xa": 0.03,
+      "ict": 2.7,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 4,
+      "value": 5.0
+    },
+    {
+      "gw": 10,
+      "minutes": 66,
+      "xg": 0.13,
+      "xa": 0.01,
+      "ict": 1.5,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 7,
       "value": 5.0
     }
   ],
@@ -1984,13 +2098,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 84,
+      "xg": 0.85,
+      "xa": 0.04,
+      "ict": 10.7,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 9,
       "value": 6.4
     }
   ],
@@ -2041,13 +2155,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 3.0,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -2098,13 +2212,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 58,
+      "xg": 0.01,
+      "xa": 0.12,
+      "ict": 2.0,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -2155,13 +2269,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.14,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.5,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -2212,13 +2326,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.3,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 4.5
     }
   ],
@@ -2272,7 +2386,7 @@
       "minutes": 90,
       "xg": 0.0,
       "xa": 0.11,
-      "ict": 0.0,
+      "ict": 4.7,
       "opp": "EVE",
       "was_home": false,
       "points": 3,
@@ -2383,13 +2497,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.32,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.3,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 6.2
     }
   ],
@@ -2440,71 +2554,14 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 45,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.5,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 6.2
-    }
-  ],
-  "96": [
-    {
-      "gw": 6,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "AVL",
-      "was_home": false,
-      "points": 0,
-      "value": 5.4
-    },
-    {
-      "gw": 7,
-      "minutes": 13,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 0.7,
-      "opp": "LIV",
-      "was_home": true,
-      "points": 1,
-      "value": 5.3
-    },
-    {
-      "gw": 8,
-      "minutes": 28,
-      "xg": 0.05,
-      "xa": 0.19,
-      "ict": 3.8,
-      "opp": "HUL",
-      "was_home": false,
-      "points": 1,
-      "value": 5.3
-    },
-    {
-      "gw": 9,
-      "minutes": 28,
-      "xg": 0.04,
-      "xa": 0.02,
-      "ict": 1.0,
-      "opp": "NFO",
-      "was_home": true,
-      "points": 1,
-      "value": 5.3
-    },
-    {
-      "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BHA",
-      "was_home": false,
-      "points": 0,
-      "value": 5.3
     }
   ],
   "98": [
@@ -2554,13 +2611,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 0.6,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -2611,13 +2668,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 86,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.06,
+      "ict": 1.6,
       "opp": "SUN",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.9
     }
   ],
@@ -2725,13 +2782,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 22,
+      "xg": 0.06,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.7,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": -2,
       "value": 7.8
     }
   ],
@@ -2782,13 +2839,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.6,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 4.6
     }
   ],
@@ -2842,7 +2899,7 @@
       "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 3.5,
       "opp": "EVE",
       "was_home": false,
       "points": 2,
@@ -2953,13 +3010,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.07,
+      "xa": 0.03,
+      "ict": 5.3,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 5.0
     }
   ],
@@ -3067,13 +3124,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.22,
+      "ict": 10.3,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 4.5
     }
   ],
@@ -3124,13 +3181,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 81,
+      "xg": 0.35,
+      "xa": 0.38,
+      "ict": 7.3,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 5.4
     }
   ],
@@ -3181,13 +3238,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.06,
+      "ict": 2.7,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 4.5
     }
   ],
@@ -3238,13 +3295,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 12,
+      "xg": 0.05,
+      "xa": 0.01,
+      "ict": 0.2,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.9
     }
   ],
@@ -3295,13 +3352,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.87,
+      "xa": 0.65,
+      "ict": 17.0,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 10,
       "value": 6.2
     }
   ],
@@ -3352,13 +3409,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.13,
+      "xa": 0.05,
+      "ict": 7.4,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 9,
       "value": 5.0
     }
   ],
@@ -3409,13 +3466,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 77,
+      "xg": 0.22,
+      "xa": 0.05,
+      "ict": 4.4,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 5.4
     }
   ],
@@ -3466,13 +3523,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 81,
+      "xg": 0.24,
+      "xa": 0.05,
+      "ict": 6.5,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.8
     }
   ],
@@ -3533,63 +3590,6 @@
       "value": 5.2
     }
   ],
-  "145": [
-    {
-      "gw": 6,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BOU",
-      "was_home": true,
-      "points": 0,
-      "value": 5.0
-    },
-    {
-      "gw": 7,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 0,
-      "value": 5.0
-    },
-    {
-      "gw": 8,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "TOT",
-      "was_home": true,
-      "points": 0,
-      "value": 5.0
-    },
-    {
-      "gw": 9,
-      "minutes": 90,
-      "xg": 0.13,
-      "xa": 0.02,
-      "ict": 4.4,
-      "opp": "MUN",
-      "was_home": true,
-      "points": 11,
-      "value": 5.0
-    },
-    {
-      "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "SUN",
-      "was_home": false,
-      "points": 0,
-      "value": 5.0
-    }
-  ],
   "148": [
     {
       "gw": 6,
@@ -3645,63 +3645,6 @@
       "was_home": false,
       "points": 0,
       "value": 4.5
-    }
-  ],
-  "149": [
-    {
-      "gw": 6,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 1.5,
-      "opp": "BOU",
-      "was_home": true,
-      "points": 2,
-      "value": 4.8
-    },
-    {
-      "gw": 7,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 1.9,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 6,
-      "value": 4.8
-    },
-    {
-      "gw": 8,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.17,
-      "ict": 3.1,
-      "opp": "TOT",
-      "was_home": true,
-      "points": 3,
-      "value": 4.8
-    },
-    {
-      "gw": 9,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.08,
-      "ict": 3.3,
-      "opp": "MUN",
-      "was_home": true,
-      "points": 6,
-      "value": 4.8
-    },
-    {
-      "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "SUN",
-      "was_home": false,
-      "points": 0,
-      "value": 4.8
     }
   ],
   "151": [
@@ -3808,13 +3751,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 61,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.14,
+      "ict": 2.9,
       "opp": "SUN",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.3
     }
   ],
@@ -3865,13 +3808,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.04,
+      "xa": 0.07,
+      "ict": 6.5,
       "opp": "SUN",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 9.8
     }
   ],
@@ -3922,13 +3865,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 77,
+      "xg": 0.58,
+      "xa": 0.08,
+      "ict": 4.2,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.9
     }
   ],
@@ -3979,71 +3922,14 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "SUN",
-      "was_home": false,
-      "points": 0,
-      "value": 6.6
-    }
-  ],
-  "159": [
-    {
-      "gw": 6,
-      "minutes": 71,
-      "xg": 0.01,
-      "xa": 0.0,
-      "ict": 2.5,
-      "opp": "BOU",
-      "was_home": true,
-      "points": 2,
-      "value": 5.3
-    },
-    {
-      "gw": 7,
-      "minutes": 90,
-      "xg": 0.04,
+      "minutes": 61,
+      "xg": 0.03,
       "xa": 0.02,
-      "ict": 2.2,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 3,
-      "value": 5.3
-    },
-    {
-      "gw": 8,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 2.2,
-      "opp": "TOT",
-      "was_home": true,
-      "points": 2,
-      "value": 5.3
-    },
-    {
-      "gw": 9,
-      "minutes": 86,
-      "xg": 0.0,
-      "xa": 0.03,
-      "ict": 1.4,
-      "opp": "MUN",
-      "was_home": true,
-      "points": 3,
-      "value": 5.3
-    },
-    {
-      "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.9,
       "opp": "SUN",
       "was_home": false,
-      "points": 0,
-      "value": 5.3
+      "points": 1,
+      "value": 6.6
     }
   ],
   "161": [
@@ -4093,13 +3979,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.02,
+      "xa": 0.02,
+      "ict": 1.9,
       "opp": "SUN",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -4207,13 +4093,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 85,
+      "xg": 1.3,
+      "xa": 0.02,
+      "ict": 11.4,
       "opp": "MUN",
       "was_home": false,
-      "points": 0,
+      "points": 11,
       "value": 7.0
     }
   ],
@@ -4264,13 +4150,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 86,
+      "xg": 0.24,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 10.7,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 13,
       "value": 5.4
     }
   ],
@@ -4381,7 +4267,7 @@
       "minutes": 90,
       "xg": 0.0,
       "xa": 0.1,
-      "ict": 0.0,
+      "ict": 3.5,
       "opp": "EVE",
       "was_home": false,
       "points": 1,
@@ -4438,7 +4324,7 @@
       "minutes": 90,
       "xg": 0.03,
       "xa": 0.05,
-      "ict": 0.0,
+      "ict": 3.4,
       "opp": "EVE",
       "was_home": false,
       "points": 1,
@@ -4495,68 +4381,11 @@
       "minutes": 85,
       "xg": 0.12,
       "xa": 0.26,
-      "ict": 0.0,
+      "ict": 7.4,
       "opp": "EVE",
       "was_home": false,
       "points": 2,
       "value": 4.9
-    }
-  ],
-  "184": [
-    {
-      "gw": 6,
-      "minutes": 82,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 0.7,
-      "opp": "NEW",
-      "was_home": true,
-      "points": 2,
-      "value": 4.9
-    },
-    {
-      "gw": 7,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 1.3,
-      "opp": "TOT",
-      "was_home": false,
-      "points": 2,
-      "value": 4.9
-    },
-    {
-      "gw": 8,
-      "minutes": 90,
-      "xg": 0.05,
-      "xa": 0.08,
-      "ict": 3.4,
-      "opp": "FUL",
-      "was_home": true,
-      "points": 2,
-      "value": 4.8
-    },
-    {
-      "gw": 9,
-      "minutes": 7,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.7,
-      "opp": "SUN",
-      "was_home": true,
-      "points": 1,
-      "value": 4.8
-    },
-    {
-      "gw": 10,
-      "minutes": 4,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 4.8
     }
   ],
   "194": [
@@ -4609,7 +4438,7 @@
       "minutes": 17,
       "xg": 0.04,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.5,
       "opp": "EVE",
       "was_home": false,
       "points": 1,
@@ -4720,13 +4549,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 64,
+      "xg": 0.02,
+      "xa": 0.01,
+      "ict": 3.2,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.3
     }
   ],
@@ -4777,13 +4606,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.06,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.9,
       "opp": "LIV",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 4.9
     }
   ],
@@ -4834,13 +4663,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.62,
+      "ict": 7.7,
       "opp": "LIV",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 4.5
     }
   ],
@@ -4891,13 +4720,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.23,
+      "xa": 0.16,
+      "ict": 5.0,
       "opp": "LIV",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.4
     }
   ],
@@ -4948,13 +4777,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 86,
+      "xg": 0.62,
+      "xa": 0.21,
+      "ict": 11.2,
       "opp": "LIV",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -5062,13 +4891,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.36,
+      "xa": 0.05,
+      "ict": 6.2,
       "opp": "LIV",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -5119,13 +4948,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 71,
+      "xg": 0.07,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.2,
       "opp": "LIV",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.9
     }
   ],
@@ -5236,7 +5065,7 @@
       "minutes": 90,
       "xg": 0.0,
       "xa": 0.01,
-      "ict": 0.0,
+      "ict": 2.1,
       "opp": "COV",
       "was_home": true,
       "points": 3,
@@ -5293,7 +5122,7 @@
       "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.3,
       "opp": "COV",
       "was_home": true,
       "points": 2,
@@ -5350,7 +5179,7 @@
       "minutes": 88,
       "xg": 0.0,
       "xa": 0.1,
-      "ict": 0.0,
+      "ict": 4.6,
       "opp": "COV",
       "was_home": true,
       "points": 3,
@@ -5407,7 +5236,7 @@
       "minutes": 90,
       "xg": 0.14,
       "xa": 0.19,
-      "ict": 0.0,
+      "ict": 9.8,
       "opp": "COV",
       "was_home": true,
       "points": 8,
@@ -5464,7 +5293,7 @@
       "minutes": 90,
       "xg": 0.18,
       "xa": 0.11,
-      "ict": 0.0,
+      "ict": 10.6,
       "opp": "COV",
       "was_home": true,
       "points": 9,
@@ -5518,13 +5347,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.09,
+      "ict": 5.4,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.8
     }
   ],
@@ -5578,7 +5407,7 @@
       "minutes": 90,
       "xg": 0.0,
       "xa": 0.05,
-      "ict": 0.0,
+      "ict": 3.3,
       "opp": "COV",
       "was_home": true,
       "points": 2,
@@ -5632,13 +5461,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 74,
+      "xg": 0.09,
+      "xa": 0.01,
+      "ict": 1.4,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -5692,7 +5521,7 @@
       "minutes": 89,
       "xg": 0.07,
       "xa": 0.51,
-      "ict": 0.0,
+      "ict": 8.3,
       "opp": "COV",
       "was_home": true,
       "points": 2,
@@ -5749,7 +5578,7 @@
       "minutes": 72,
       "xg": 0.04,
       "xa": 0.01,
-      "ict": 0.0,
+      "ict": 3.2,
       "opp": "COV",
       "was_home": true,
       "points": 2,
@@ -5806,7 +5635,7 @@
       "minutes": 90,
       "xg": 0.92,
       "xa": 0.1,
-      "ict": 0.0,
+      "ict": 16.7,
       "opp": "COV",
       "was_home": true,
       "points": 16,
@@ -5860,13 +5689,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 3.2,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 4.5
     }
   ],
@@ -5974,13 +5803,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.08,
+      "ict": 1.4,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 4.4
     }
   ],
@@ -6031,13 +5860,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 13,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.2,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 4.4
     }
   ],
@@ -6088,13 +5917,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 2.5,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -6145,13 +5974,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 76,
+      "xg": 0.09,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 5.0,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 7,
       "value": 4.5
     }
   ],
@@ -6202,13 +6031,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.3,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 3.9
     }
   ],
@@ -6259,13 +6088,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 13,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.5,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 6.2
     }
   ],
@@ -6316,13 +6145,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.18,
+      "ict": 7.2,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.4
     }
   ],
@@ -6373,13 +6202,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 76,
+      "xg": 0.09,
+      "xa": 0.04,
+      "ict": 5.9,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 5.5
     }
   ],
@@ -6430,13 +6259,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.06,
+      "xa": 0.01,
+      "ict": 3.0,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 4,
       "value": 4.9
     }
   ],
@@ -6487,13 +6316,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 71,
+      "xg": 0.15,
+      "xa": 0.02,
+      "ict": 2.5,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 5.5
     }
   ],
@@ -6658,13 +6487,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.06,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.7,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.1
     }
   ],
@@ -6772,13 +6601,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 68,
+      "xg": 0.12,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 4.3,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 6,
       "value": 4.2
     }
   ],
@@ -6829,13 +6658,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 60,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 5,
       "value": 4.0
     }
   ],
@@ -6886,13 +6715,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 15,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 1.2,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 4.0
     }
   ],
@@ -7000,13 +6829,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.05,
+      "ict": 4.8,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -7057,13 +6886,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 3.7,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.5
     }
   ],
@@ -7228,13 +7057,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 2.6,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 4.0
     }
   ],
@@ -7285,14 +7114,71 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.03,
+      "ict": 3.2,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": -1,
       "value": 4.0
+    }
+  ],
+  "313": [
+    {
+      "gw": 6,
+      "minutes": 27,
+      "xg": 0.0,
+      "xa": 0.03,
+      "ict": 4.1,
+      "opp": "FUL",
+      "was_home": true,
+      "points": 4,
+      "value": 5.3
+    },
+    {
+      "gw": 7,
+      "minutes": 1,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.5,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 1,
+      "value": 5.3
+    },
+    {
+      "gw": 8,
+      "minutes": 29,
+      "xg": 0.05,
+      "xa": 0.0,
+      "ict": 0.3,
+      "opp": "NFO",
+      "was_home": true,
+      "points": 1,
+      "value": 5.3
+    },
+    {
+      "gw": 9,
+      "minutes": 21,
+      "xg": 0.04,
+      "xa": 0.01,
+      "ict": 0.9,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 1,
+      "value": 5.3
+    },
+    {
+      "gw": 10,
+      "minutes": 37,
+      "xg": 0.79,
+      "xa": 0.01,
+      "ict": 5.3,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 8,
+      "value": 5.3
     }
   ],
   "316": [
@@ -7342,13 +7228,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 53,
+      "xg": 0.04,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.6,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -7513,13 +7399,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.11,
+      "xa": 0.21,
+      "ict": 5.8,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 7,
       "value": 4.8
     }
   ],
@@ -7570,13 +7456,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 45,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.05,
+      "ict": 1.8,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 4.5
     }
   ],
@@ -7627,13 +7513,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.11,
+      "ict": 2.3,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 9,
       "value": 4.5
     }
   ],
@@ -7684,13 +7570,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 3.1,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 10,
       "value": 5.1
     }
   ],
@@ -7798,13 +7684,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 13,
+      "xg": 0.53,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 5.8,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 5.8
     }
   ],
@@ -7855,13 +7741,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.14,
+      "xa": 0.03,
+      "ict": 3.0,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 5.3
     }
   ],
@@ -7912,13 +7798,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 76,
+      "xg": 0.33,
+      "xa": 0.01,
+      "ict": 1.7,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 4.9
     }
   ],
@@ -7969,13 +7855,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.34,
+      "xa": 0.24,
+      "ict": 4.5,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 6.1
     }
   ],
@@ -8026,13 +7912,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 4.3,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 5.5
     }
   ],
@@ -8083,13 +7969,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.06,
+      "xa": 0.1,
+      "ict": 5.1,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 6.4
     }
   ],
@@ -8197,13 +8083,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 0.5,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.3
     }
   ],
@@ -8254,13 +8140,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.23,
+      "xa": 0.01,
+      "ict": 6.8,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 5.1
     }
   ],
@@ -8311,13 +8197,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.32,
+      "xa": 0.14,
+      "ict": 12.0,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 13,
       "value": 7.2
     }
   ],
@@ -8368,13 +8254,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 75,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.05,
+      "ict": 2.1,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 7.1
     }
   ],
@@ -8425,13 +8311,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 68,
+      "xg": 0.02,
+      "xa": 0.49,
+      "ict": 12.3,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 7,
       "value": 6.7
     }
   ],
@@ -8482,13 +8368,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.22,
+      "xa": 0.04,
+      "ict": 8.1,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 9,
       "value": 5.4
     }
   ],
@@ -8539,10 +8425,10 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 21,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.08,
+      "ict": 2.8,
       "opp": "CRY",
       "was_home": false,
       "points": 0,
@@ -8596,13 +8482,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.53,
+      "xa": 0.02,
+      "ict": 9.0,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 8,
       "value": 9.2
     }
   ],
@@ -8653,13 +8539,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.7,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -8710,13 +8596,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 3.5,
       "opp": "TOT",
       "was_home": true,
-      "points": 0,
+      "points": 10,
       "value": 5.0
     }
   ],
@@ -8767,13 +8653,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 45,
+      "xg": 0.23,
+      "xa": 0.01,
+      "ict": 2.1,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 6.2
     }
   ],
@@ -8824,10 +8710,10 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 45,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.34,
+      "ict": 3.8,
       "opp": "NFO",
       "was_home": false,
       "points": 0,
@@ -8881,13 +8767,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 45,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.37,
+      "ict": 5.3,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.9
     }
   ],
@@ -8938,13 +8824,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 2.5,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -8995,10 +8881,10 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 45,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.1,
       "opp": "NFO",
       "was_home": false,
       "points": 0,
@@ -9052,13 +8938,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.19,
+      "ict": 4.0,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.3
     }
   ],
@@ -9166,13 +9052,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 12,
+      "xg": 0.04,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.9,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 6.8
     }
   ],
@@ -9223,13 +9109,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.16,
+      "xa": 0.05,
+      "ict": 9.6,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 9,
       "value": 7.9
     }
   ],
@@ -9280,13 +9166,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.16,
+      "xa": 0.05,
+      "ict": 2.8,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 7.5
     }
   ],
@@ -9337,13 +9223,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 64,
+      "xg": 0.16,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.6,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 7.0
     }
   ],
@@ -9394,13 +9280,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 60,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.3,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 5.5
     }
   ],
@@ -9451,13 +9337,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.5,
+      "xa": 0.02,
+      "ict": 4.2,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 15.8
     }
   ],
@@ -9508,14 +9394,71 @@
     },
     {
       "gw": 10,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 2.0,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 1,
+      "value": 4.8
+    }
+  ],
+  "415": [
+    {
+      "gw": 6,
       "minutes": 0,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
-      "opp": "AVL",
+      "opp": "TOT",
       "was_home": true,
       "points": 0,
-      "value": 4.8
+      "value": 5.8
+    },
+    {
+      "gw": 7,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "LEE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.7
+    },
+    {
+      "gw": 8,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 5.7
+    },
+    {
+      "gw": 9,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CHE",
+      "was_home": false,
+      "points": 0,
+      "value": 5.7
+    },
+    {
+      "gw": 10,
+      "minutes": 24,
+      "xg": 0.35,
+      "xa": 0.16,
+      "ict": 12.7,
+      "opp": "AVL",
+      "was_home": true,
+      "points": 11,
+      "value": 5.7
     }
   ],
   "417": [
@@ -9565,10 +9508,10 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 65,
+      "xg": 0.01,
+      "xa": 0.01,
+      "ict": 1.2,
       "opp": "AVL",
       "was_home": true,
       "points": 0,
@@ -9622,10 +9565,10 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 45,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.7,
       "opp": "AVL",
       "was_home": true,
       "points": 0,
@@ -9736,13 +9679,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.99,
+      "xa": 0.56,
+      "ict": 14.8,
       "opp": "AVL",
       "was_home": true,
-      "points": 0,
+      "points": 10,
       "value": 11.7
     }
   ],
@@ -9793,13 +9736,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 82,
+      "xg": 0.39,
+      "xa": 0.02,
+      "ict": 2.5,
       "opp": "AVL",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 7.9
     }
   ],
@@ -9850,13 +9793,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.1,
+      "xa": 0.27,
+      "ict": 10.0,
       "opp": "AVL",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 7.8
     }
   ],
@@ -9907,13 +9850,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.12,
+      "xa": 0.16,
+      "ict": 5.4,
       "opp": "AVL",
       "was_home": true,
-      "points": 0,
+      "points": 4,
       "value": 5.5
     }
   ],
@@ -9964,13 +9907,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 84,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.3,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.9
     }
   ],
@@ -10078,13 +10021,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.24,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 4.9,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 5.3
     }
   ],
@@ -10135,13 +10078,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 88,
+      "xg": 0.08,
+      "xa": 0.09,
+      "ict": 5.7,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 6.7
     }
   ],
@@ -10192,13 +10135,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.66,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 5.7,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.1
     }
   ],
@@ -10249,13 +10192,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 5,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 0.2,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 6.0
     }
   ],
@@ -10306,14 +10249,71 @@
     },
     {
       "gw": 10,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.03,
+      "ict": 1.1,
+      "opp": "LEE",
+      "was_home": false,
+      "points": 1,
+      "value": 5.3
+    }
+  ],
+  "457": [
+    {
+      "gw": 6,
+      "minutes": 58,
+      "xg": 0.26,
+      "xa": 0.15,
+      "ict": 5.1,
+      "opp": "COV",
+      "was_home": false,
+      "points": 1,
+      "value": 5.9
+    },
+    {
+      "gw": 7,
       "minutes": 0,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
-      "opp": "LEE",
-      "was_home": false,
+      "opp": "AVL",
+      "was_home": true,
       "points": 0,
-      "value": 5.3
+      "value": 5.9
+    },
+    {
+      "gw": 8,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.28,
+      "ict": 8.5,
+      "opp": "CRY",
+      "was_home": false,
+      "points": 6,
+      "value": 5.9
+    },
+    {
+      "gw": 9,
+      "minutes": 14,
+      "xg": 0.0,
+      "xa": 0.07,
+      "ict": 4.0,
+      "opp": "EVE",
+      "was_home": true,
+      "points": 1,
+      "value": 5.9
+    },
+    {
+      "gw": 10,
+      "minutes": 90,
+      "xg": 0.02,
+      "xa": 0.17,
+      "ict": 9.0,
+      "opp": "FUL",
+      "was_home": false,
+      "points": 10,
+      "value": 5.9
     }
   ],
   "460": [
@@ -10363,13 +10363,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 29,
+      "xg": 0.04,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.5,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.0
     }
   ],
@@ -10420,13 +10420,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 60,
+      "xg": 0.04,
+      "xa": 0.05,
+      "ict": 1.9,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.0
     }
   ],
@@ -10477,13 +10477,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.0,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -10534,13 +10534,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.8,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 4.9
     }
   ],
@@ -10591,13 +10591,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.1,
+      "xa": 0.06,
+      "ict": 5.3,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 4,
       "value": 5.5
     }
   ],
@@ -10658,6 +10658,63 @@
       "value": 4.2
     }
   ],
+  "474": [
+    {
+      "gw": 6,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "CRY",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    },
+    {
+      "gw": 7,
+      "minutes": 84,
+      "xg": 0.0,
+      "xa": 0.01,
+      "ict": 2.2,
+      "opp": "ARS",
+      "was_home": true,
+      "points": 2,
+      "value": 4.4
+    },
+    {
+      "gw": 8,
+      "minutes": 90,
+      "xg": 0.13,
+      "xa": 0.01,
+      "ict": 3.4,
+      "opp": "IPS",
+      "was_home": false,
+      "points": 2,
+      "value": 4.4
+    },
+    {
+      "gw": 9,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.05,
+      "ict": 5.9,
+      "opp": "BRE",
+      "was_home": false,
+      "points": 1,
+      "value": 4.4
+    },
+    {
+      "gw": 10,
+      "minutes": 90,
+      "xg": 0.47,
+      "xa": 0.0,
+      "ict": 8.7,
+      "opp": "MCI",
+      "was_home": true,
+      "points": 9,
+      "value": 4.4
+    }
+  ],
   "480": [
     {
       "gw": 6,
@@ -10705,13 +10762,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.08,
+      "ict": 6.9,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 7.8
     }
   ],
@@ -10762,13 +10819,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.09,
+      "xa": 0.24,
+      "ict": 5.5,
       "opp": "NFO",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.3
     }
   ],
@@ -10819,9 +10876,9 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 25,
       "xg": 0.0,
-      "xa": 0.0,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "MCI",
       "was_home": true,
@@ -10876,13 +10933,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 64,
+      "xg": 0.21,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.7,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -10933,10 +10990,10 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 3,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.2,
       "opp": "MCI",
       "was_home": true,
       "points": 0,
@@ -10990,13 +11047,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.1,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.4
     }
   ],
@@ -11161,13 +11218,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 64,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 2.5,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 5,
       "value": 5.3
     }
   ],
@@ -11218,13 +11275,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.13,
+      "ict": 4.1,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.3
     }
   ],
@@ -11275,13 +11332,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 1.8,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.0
     }
   ],
@@ -11332,13 +11389,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.01,
+      "xa": 0.04,
+      "ict": 2.9,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 12,
       "value": 5.2
     }
   ],
@@ -11389,13 +11446,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 82,
+      "xg": 0.04,
+      "xa": 0.04,
+      "ict": 3.6,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.6
     }
   ],
@@ -11446,13 +11503,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 42,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.07,
+      "ict": 1.5,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.6
     }
   ],
@@ -11503,13 +11560,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.07,
+      "xa": 0.02,
+      "ict": 3.7,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 4.9
     }
   ],
@@ -11560,13 +11617,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 64,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.03,
+      "ict": 2.5,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 5,
       "value": 5.6
     }
   ],
@@ -11617,13 +11674,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 47,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.1,
       "opp": "LEE",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.8
     }
   ],
@@ -11674,13 +11731,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.7,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 9,
       "value": 4.9
     }
   ],
@@ -11731,13 +11788,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.8,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 9,
       "value": 5.4
     }
   ],
@@ -11788,14 +11845,71 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.25,
+      "xa": 0.01,
+      "ict": 3.1,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 4.2
+    }
+  ],
+  "536": [
+    {
+      "gw": 6,
+      "minutes": 72,
+      "xg": 0.0,
+      "xa": 0.01,
+      "ict": 4.6,
+      "opp": "BHA",
+      "was_home": true,
+      "points": 2,
+      "value": 4.4
+    },
+    {
+      "gw": 7,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 2.4,
+      "opp": "BOU",
+      "was_home": false,
+      "points": 1,
+      "value": 4.4
+    },
+    {
+      "gw": 8,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.01,
+      "ict": 2.1,
+      "opp": "LEE",
+      "was_home": true,
+      "points": 5,
+      "value": 4.4
+    },
+    {
+      "gw": 9,
+      "minutes": 90,
+      "xg": 0.03,
+      "xa": 0.02,
+      "ict": 2.7,
+      "opp": "COV",
+      "was_home": false,
+      "points": 1,
+      "value": 4.4
+    },
+    {
+      "gw": 10,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 1.5,
+      "opp": "CHE",
+      "was_home": true,
+      "points": 6,
+      "value": 4.4
     }
   ],
   "539": [
@@ -11845,13 +11959,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.7,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 3.9
     }
   ],
@@ -11902,13 +12016,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 87,
+      "xg": 0.79,
+      "xa": 0.06,
+      "ict": 7.4,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 11,
       "value": 5.7
     }
   ],
@@ -11959,13 +12073,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 3,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.4
     }
   ],
@@ -12016,13 +12130,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.08,
+      "ict": 1.6,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 5,
       "value": 4.8
     }
   ],
@@ -12073,10 +12187,10 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 2,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 0.2,
       "opp": "CHE",
       "was_home": true,
       "points": 0,
@@ -12130,13 +12244,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 66,
+      "xg": 0.74,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.2,
       "opp": "CHE",
       "was_home": true,
-      "points": 0,
+      "points": 4,
       "value": 5.7
     }
   ],
@@ -12301,13 +12415,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 68,
+      "xg": 0.22,
+      "xa": 0.06,
+      "ict": 7.2,
       "opp": "HUL",
       "was_home": true,
-      "points": 0,
+      "points": 3,
       "value": 6.1
     }
   ],
@@ -12358,13 +12472,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 4.5,
       "opp": "MCI",
       "was_home": true,
-      "points": 0,
+      "points": 7,
       "value": 5.0
     }
   ],
@@ -12415,13 +12529,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 64,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 1.6,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.3
     }
   ],
@@ -12472,13 +12586,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 58,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.0,
       "opp": "BHA",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.4
     }
   ],
@@ -12529,13 +12643,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 3.6,
       "opp": "IPS",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 5.1
     }
   ],
@@ -12586,13 +12700,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 3.3,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 5.0
     }
   ],
@@ -12643,13 +12757,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 65,
+      "xg": 0.08,
+      "xa": 0.01,
+      "ict": 2.0,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.9
     }
   ],
@@ -12700,71 +12814,14 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 7.0,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 6,
       "value": 4.7
-    }
-  ],
-  "575": [
-    {
-      "gw": 6,
-      "minutes": 77,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 1.5,
-      "opp": "NEW",
-      "was_home": true,
-      "points": 4,
-      "value": 4.8
-    },
-    {
-      "gw": 7,
-      "minutes": 59,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 1.8,
-      "opp": "TOT",
-      "was_home": false,
-      "points": 0,
-      "value": 4.8
-    },
-    {
-      "gw": 8,
-      "minutes": 66,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.7,
-      "opp": "FUL",
-      "was_home": true,
-      "points": 3,
-      "value": 4.8
-    },
-    {
-      "gw": 9,
-      "minutes": 90,
-      "xg": 0.12,
-      "xa": 0.01,
-      "ict": 0.0,
-      "opp": "SUN",
-      "was_home": true,
-      "points": 2,
-      "value": 4.8
-    },
-    {
-      "gw": 10,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.02,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 4.8
     }
   ],
   "579": [
@@ -12814,13 +12871,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.8,
+      "xa": 0.05,
+      "ict": 5.5,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 7,
       "value": 5.4
     }
   ],
@@ -12871,13 +12928,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.05,
+      "ict": 3.2,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -12928,13 +12985,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 2.5,
       "opp": "ARS",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 4.1
     }
   ],
@@ -12985,13 +13042,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 3,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 1.3,
       "opp": "LIV",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.0
     }
   ],
@@ -13042,13 +13099,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 90,
+      "xg": 0.18,
+      "xa": 0.03,
+      "ict": 3.2,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -13099,13 +13156,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.02,
+      "ict": 2.9,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": 4,
       "value": 4.0
     }
   ],
@@ -13156,13 +13213,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.06,
+      "ict": 3.5,
       "opp": "FUL",
       "was_home": false,
-      "points": 0,
+      "points": 3,
       "value": 4.5
     }
   ],
@@ -13213,14 +13270,71 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
-      "ict": 0.0,
+      "ict": 3.6,
       "opp": "MUN",
       "was_home": false,
       "points": 0,
       "value": 5.0
+    }
+  ],
+  "598": [
+    {
+      "gw": 6,
+      "minutes": 85,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.8,
+      "opp": "ARS",
+      "was_home": false,
+      "points": 1,
+      "value": 4.5
+    },
+    {
+      "gw": 7,
+      "minutes": 90,
+      "xg": 0.12,
+      "xa": 0.02,
+      "ict": 4.3,
+      "opp": "MUN",
+      "was_home": true,
+      "points": 2,
+      "value": 4.5
+    },
+    {
+      "gw": 8,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "SUN",
+      "was_home": false,
+      "points": 0,
+      "value": 4.5
+    },
+    {
+      "gw": 9,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 2.4,
+      "opp": "BOU",
+      "was_home": false,
+      "points": 2,
+      "value": 4.5
+    },
+    {
+      "gw": 10,
+      "minutes": 90,
+      "xg": 0.27,
+      "xa": 0.01,
+      "ict": 2.8,
+      "opp": "TOT",
+      "was_home": true,
+      "points": 8,
+      "value": 4.5
     }
   ],
   "605": [
@@ -13270,13 +13384,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 1,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 4.5
     }
   ],
@@ -13384,13 +13498,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.05,
+      "ict": 3.2,
       "opp": "BOU",
       "was_home": true,
-      "points": 0,
+      "points": 4,
       "value": 5.0
     }
   ],
@@ -13555,71 +13669,14 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "minutes": 68,
+      "xg": 0.43,
+      "xa": 0.06,
+      "ict": 6.6,
       "opp": "CRY",
       "was_home": false,
-      "points": 0,
+      "points": 5,
       "value": 8.1
-    }
-  ],
-  "639": [
-    {
-      "gw": 6,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 1.1,
-      "opp": "SUN",
-      "was_home": false,
-      "points": 3,
-      "value": 5.5
-    },
-    {
-      "gw": 7,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.02,
-      "ict": 1.6,
-      "opp": "CRY",
-      "was_home": true,
-      "points": 2,
-      "value": 5.5
-    },
-    {
-      "gw": 8,
-      "minutes": 53,
-      "xg": 0.02,
-      "xa": 0.01,
-      "ict": 1.6,
-      "opp": "LIV",
-      "was_home": false,
-      "points": 1,
-      "value": 5.5
-    },
-    {
-      "gw": 9,
-      "minutes": 63,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 1.2,
-      "opp": "MCI",
-      "was_home": false,
-      "points": 2,
-      "value": 5.5
-    },
-    {
-      "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BRE",
-      "was_home": true,
-      "points": 0,
-      "value": 5.5
     }
   ],
   "649": [
@@ -13726,13 +13783,13 @@
     },
     {
       "gw": 10,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
+      "xa": 0.01,
+      "ict": 2.1,
       "opp": "NEW",
       "was_home": true,
-      "points": 0,
+      "points": 2,
       "value": 4.5
     }
   ],
@@ -13791,63 +13848,6 @@
       "was_home": false,
       "points": 0,
       "value": 4.4
-    }
-  ],
-  "656": [
-    {
-      "gw": 6,
-      "minutes": 7,
-      "xg": 0.21,
-      "xa": 0.0,
-      "ict": 8.7,
-      "opp": "NEW",
-      "was_home": true,
-      "points": 7,
-      "value": 4.0
-    },
-    {
-      "gw": 7,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "TOT",
-      "was_home": false,
-      "points": 0,
-      "value": 4.0
-    },
-    {
-      "gw": 8,
-      "minutes": 30,
-      "xg": 0.09,
-      "xa": 0.01,
-      "ict": 4.5,
-      "opp": "FUL",
-      "was_home": true,
-      "points": 1,
-      "value": 4.0
-    },
-    {
-      "gw": 9,
-      "minutes": 90,
-      "xg": 0.03,
-      "xa": 0.0,
-      "ict": 3.4,
-      "opp": "SUN",
-      "was_home": true,
-      "points": 4,
-      "value": 4.0
-    },
-    {
-      "gw": 10,
-      "minutes": 90,
-      "xg": 0.03,
-      "xa": 0.01,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 1,
-      "value": 4.0
     }
   ]
 }

@@ -19,21 +19,21 @@
     "recommendations": [
       {
         "event": 14,
-        "score": 15.35,
+        "score": 14.58,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 15.35 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 14.58 נק' (סף: 12.0)"
+      },
+      {
+        "event": 11,
+        "score": 14.14,
+        "is_dgw": false,
+        "reason": "הספסל צפוי לתרום 14.14 נק' (סף: 12.0)"
       },
       {
         "event": 15,
-        "score": 14.9,
+        "score": 14.14,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.9 נק' (סף: 12.0)"
-      },
-      {
-        "event": 10,
-        "score": 14.79,
-        "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.79 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 14.14 נק' (סף: 12.0)"
       }
     ]
   },
@@ -41,31 +41,37 @@
     "available": true,
     "recommendations": [
       {
-        "event": 10,
-        "player": "Haaland",
-        "score": 6.76,
-        "is_dgw": false,
-        "reason": "Haaland צפוי 6.76 xPts"
-      },
-      {
         "event": 11,
         "player": "Haaland",
-        "score": 6.76,
+        "score": 6.43,
         "is_dgw": false,
-        "reason": "Haaland צפוי 6.76 xPts"
+        "reason": "Haaland צפוי 6.43 xPts"
       },
       {
         "event": 16,
         "player": "Haaland",
-        "score": 6.76,
+        "score": 6.43,
         "is_dgw": false,
-        "reason": "Haaland צפוי 6.76 xPts"
+        "reason": "Haaland צפוי 6.43 xPts"
+      },
+      {
+        "event": 14,
+        "player": "Mbeumo",
+        "score": 6.18,
+        "is_dgw": false,
+        "reason": "Mbeumo צפוי 6.18 xPts"
       }
     ]
   },
   "free_hit": {
     "available": false,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 10,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 10"
+      }
+    ]
   },
   "wildcard": {
     "available": true,
