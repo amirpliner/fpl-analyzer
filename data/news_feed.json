@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": 552,
+      "web_name": "Brobbey",
+      "team": 20,
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-11-10T11:30:10.818854Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 356,
       "web_name": "Virgil",
       "team": 14,
@@ -151,14 +159,6 @@
       "news": "Knock - Expected back 23 Nov",
       "news_added": "2026-10-30T14:30:09.456391Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 148,
-      "web_name": "Hato",
-      "team": 6,
-      "news": "Unspecified injury - Unknown return date",
-      "news_added": "2026-10-29T22:00:09.909621Z",
-      "chance_of_playing_next_round": 0
     }
   ],
   "hot_players": [
@@ -166,63 +166,63 @@
       "id": 166,
       "web_name": "N.Jackson",
       "team": 2,
-      "net_transfers": 240490,
+      "net_transfers": 253863,
       "form": 8.8,
-      "owned": 30.6
+      "owned": 30.7
     },
     {
       "id": 249,
       "web_name": "Barry",
       "team": 9,
-      "net_transfers": 177766,
-      "form": 7.0,
+      "net_transfers": 182206,
+      "form": 7.2,
       "owned": 10.5
     },
     {
       "id": 79,
       "web_name": "Evanilson",
       "team": 3,
-      "net_transfers": 156674,
+      "net_transfers": 165503,
       "form": 9.0,
-      "owned": 23.4
+      "owned": 23.5
     },
     {
       "id": 112,
       "web_name": "Van Hecke",
       "team": 19,
-      "net_transfers": 143849,
+      "net_transfers": 149462,
       "form": 7.5,
       "owned": 14.4
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team": 5,
-      "net_transfers": 116689,
-      "form": 5.5,
-      "owned": 47.6
     },
     {
       "id": 504,
       "web_name": "Vuskovic",
       "team": 5,
-      "net_transfers": 114957,
+      "net_transfers": 122800,
       "form": 7.5,
-      "owned": 8.9
+      "owned": 9.0
+    },
+    {
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team": 5,
+      "net_transfers": 122398,
+      "form": 5.5,
+      "owned": 47.6
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 103334,
+      "net_transfers": 108236,
       "form": 10.2,
-      "owned": 24.3
+      "owned": 24.4
     },
     {
       "id": 379,
       "web_name": "Isak",
       "team": 14,
-      "net_transfers": 81118,
+      "net_transfers": 85299,
       "form": 5.6,
       "owned": 24.9
     },
@@ -230,7 +230,7 @@
       "id": 68,
       "web_name": "Tavernier",
       "team": 3,
-      "net_transfers": 80211,
+      "net_transfers": 84394,
       "form": 6.5,
       "owned": 31.2
     },
@@ -238,9 +238,9 @@
       "id": 124,
       "web_name": "Groß",
       "team": 5,
-      "net_transfers": 73740,
+      "net_transfers": 78298,
       "form": 4.2,
-      "owned": 47.9
+      "owned": 48.0
     }
   ]
 }
