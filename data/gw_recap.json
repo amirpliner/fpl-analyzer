@@ -1,12 +1,12 @@
 {
-  "gw": 9,
-  "points": 69,
-  "points_on_bench": 19,
-  "overall_rank": 1489527,
-  "rank_change": 795368,
-  "event_transfers": 0,
+  "gw": 10,
+  "points": 63,
+  "points_on_bench": 14,
+  "overall_rank": 1431320,
+  "rank_change": 58207,
+  "event_transfers": 1,
   "event_transfers_cost": 0,
-  "active_chip": "freehit",
+  "active_chip": null,
   "captain": {
     "id": 411,
     "web_name": "Haaland",
@@ -20,55 +20,19 @@
     "chance_next": 100
   },
   "best_possible_captain": {
-    "id": 112,
-    "web_name": "Van Hecke",
-    "team": "TOT",
+    "id": 166,
+    "web_name": "N.Jackson",
+    "team": "AVL",
     "on_bench": false,
     "is_captain": false,
     "multiplier": 1,
-    "base_points": 15,
-    "points": 15,
-    "minutes": 90,
-    "chance_next": 100
+    "base_points": 11,
+    "points": 11,
+    "minutes": 85,
+    "chance_next": null
   },
   "captain_verdict": "suboptimal",
   "hauls": [
-    {
-      "id": 112,
-      "web_name": "Van Hecke",
-      "team": "TOT",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 15,
-      "points": 15,
-      "minutes": 90,
-      "chance_next": 100
-    },
-    {
-      "id": 40,
-      "web_name": "Rogers",
-      "team": "CHE",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 9,
-      "points": 9,
-      "minutes": 90,
-      "chance_next": null
-    },
-    {
-      "id": 106,
-      "web_name": "Thiago",
-      "team": "BRE",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 9,
-      "points": 9,
-      "minutes": 90,
-      "chance_next": 0
-    },
     {
       "id": 166,
       "web_name": "N.Jackson",
@@ -76,64 +40,84 @@
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
+      "base_points": 11,
+      "points": 11,
+      "minutes": 85,
+      "chance_next": null
+    },
+    {
+      "id": 127,
+      "web_name": "Gomez",
+      "team": "BHA",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
       "base_points": 9,
       "points": 9,
       "minutes": 90,
       "chance_next": null
-    }
-  ],
-  "busts": [
+    },
     {
-      "id": 597,
-      "web_name": "Suzuki",
-      "team": "AVL",
+      "id": 399,
+      "web_name": "Cherki",
+      "team": "MCI",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 1,
-      "points": 1,
+      "base_points": 9,
+      "points": 9,
       "minutes": 90,
       "chance_next": null
     },
     {
-      "id": 499,
-      "web_name": "Pedro Porro",
-      "team": "TOT",
+      "id": 31,
+      "web_name": "Konsa",
+      "team": "ARS",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 1,
-      "points": 1,
-      "minutes": 45,
+      "base_points": 8,
+      "points": 8,
+      "minutes": 90,
       "chance_next": 100
+    }
+  ],
+  "busts": [
+    {
+      "id": 391,
+      "web_name": "Gvardiol",
+      "team": "MCI",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 0,
+      "points": 0,
+      "minutes": 45,
+      "chance_next": 75
     }
   ],
   "keep": [
     {
-      "web_name": "Van Hecke",
-      "reason": "הביא 15 נק' במחזור 9"
+      "web_name": "Konsa",
+      "reason": "הביא 8 נק' במחזור 10"
     },
     {
-      "web_name": "Silva",
-      "reason": "הביא 8 נק' במחזור 9"
+      "web_name": "Gomez",
+      "reason": "הביא 9 נק' במחזור 10"
     },
     {
-      "web_name": "Rogers",
-      "reason": "הביא 9 נק' במחזור 9 וגם הריצה הקרובה נוחה"
-    },
-    {
-      "web_name": "Thiago",
-      "reason": "הביא 9 נק' במחזור 9"
+      "web_name": "Cherki",
+      "reason": "הביא 9 נק' במחזור 10"
     },
     {
       "web_name": "N.Jackson",
-      "reason": "הביא 9 נק' במחזור 9 וגם הריצה הקרובה נוחה"
+      "reason": "הביא 11 נק' במחזור 10 וגם הריצה הקרובה נוחה"
     }
   ],
   "change": [
     {
-      "web_name": "Pedro Porro",
-      "reason": "רק 1 נק' במחזור 9 · ריצת משחקים קשה"
+      "web_name": "Gvardiol",
+      "reason": "רק 0 נק' במחזור 10 · ריצת משחקים קשה"
     }
   ]
 }
