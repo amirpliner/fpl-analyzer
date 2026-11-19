@@ -1,6 +1,38 @@
 {
   "news": [
     {
+      "id": 159,
+      "web_name": "Caicedo",
+      "team": 6,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-19T20:30:06.307481Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 575,
+      "web_name": "Yirenkyi",
+      "team": 7,
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-19T19:00:05.972580Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 186,
+      "web_name": "Mason-Clark",
+      "team": 7,
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-11-19T19:00:05.701445Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
+      "id": 482,
+      "web_name": "Hudson-Odoi",
+      "team": 18,
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-11-19T15:30:05.816247Z",
+      "chance_of_playing_next_round": 0
+    },
+    {
       "id": 90,
       "web_name": "Hickey",
       "team": 4,
@@ -127,38 +159,6 @@
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-11-09T18:00:09.325472Z",
       "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 151,
-      "web_name": "Acheampong",
-      "team": 6,
-      "news": "Unspecified injury - 75% chance of playing",
-      "news_added": "2026-11-08T15:00:09.230933Z",
-      "chance_of_playing_next_round": 75
-    },
-    {
-      "id": 544,
-      "web_name": "Xhaka",
-      "team": 20,
-      "news": "Calf injury - Unknown return date",
-      "news_added": "2026-11-08T14:30:09.504002Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 106,
-      "web_name": "Thiago",
-      "team": 4,
-      "news": "Suspended until 5 Dec",
-      "news_added": "2026-11-08T14:30:09.097484Z",
-      "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 331,
-      "web_name": "Gudmundsson",
-      "team": 13,
-      "news": "Hamstring injury - 75% chance of playing",
-      "news_added": "2026-11-08T12:30:09.622622Z",
-      "chance_of_playing_next_round": 75
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 166,
       "web_name": "N.Jackson",
       "team": 2,
-      "net_transfers": 418610,
+      "net_transfers": 458583,
       "form": 11.0,
-      "owned": 32.3
-    },
-    {
-      "id": 79,
-      "web_name": "Evanilson",
-      "team": 3,
-      "net_transfers": 260356,
-      "form": 8.0,
-      "owned": 24.4
+      "owned": 32.6
     },
     {
       "id": 112,
       "web_name": "Van Hecke",
       "team": 19,
-      "net_transfers": 246775,
+      "net_transfers": 277421,
       "form": 8.7,
-      "owned": 15.4
+      "owned": 15.7
+    },
+    {
+      "id": 79,
+      "web_name": "Evanilson",
+      "team": 3,
+      "net_transfers": 276665,
+      "form": 8.0,
+      "owned": 24.5
     },
     {
       "id": 249,
       "web_name": "Barry",
       "team": 9,
-      "net_transfers": 222659,
+      "net_transfers": 229302,
       "form": 9.0,
-      "owned": 11.0
+      "owned": 11.1
     },
     {
       "id": 504,
       "web_name": "Vuskovic",
       "team": 5,
-      "net_transfers": 212051,
+      "net_transfers": 228444,
       "form": 6.3,
-      "owned": 9.9
+      "owned": 10.1
     },
     {
       "id": 115,
       "web_name": "De Cuyper",
       "team": 5,
-      "net_transfers": 196597,
+      "net_transfers": 213341,
       "form": 5.3,
-      "owned": 48.3
+      "owned": 48.4
     },
     {
       "id": 31,
       "web_name": "Konsa",
       "team": 1,
-      "net_transfers": 164009,
+      "net_transfers": 173700,
       "form": 10.7,
-      "owned": 25.0
+      "owned": 25.1
     },
     {
       "id": 68,
       "web_name": "Tavernier",
       "team": 3,
-      "net_transfers": 135224,
+      "net_transfers": 144741,
       "form": 5.3,
-      "owned": 31.7
+      "owned": 31.8
     },
     {
       "id": 379,
       "web_name": "Isak",
       "team": 14,
-      "net_transfers": 133224,
+      "net_transfers": 143096,
       "form": 6.3,
-      "owned": 25.4
+      "owned": 25.5
     },
     {
       "id": 124,
       "web_name": "Groß",
       "team": 5,
-      "net_transfers": 130366,
+      "net_transfers": 140829,
       "form": 4.0,
-      "owned": 48.4
+      "owned": 48.5
     }
   ]
 }
