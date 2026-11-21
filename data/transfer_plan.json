@@ -1,8 +1,8 @@
 {
   "horizon": 3,
   "beam_width": 50,
-  "from_gameweek": 10,
-  "baseline_xpts": 123.37,
+  "from_gameweek": 11,
+  "baseline_xpts": 188.36,
   "routes": [
     {
       "weekly_plan": [
@@ -16,41 +16,41 @@
             }
           ],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Wissa"
+          "xi_score": 68.79,
+          "captain": "Hinshelwood"
         },
         {
           "week": 2,
           "transfers": [
             {
               "out": "Wissa",
-              "in": "Nketiah",
-              "cost_delta": -0.5
+              "in": "Barry",
+              "cost_delta": -0.2
             }
           ],
           "hits": 0,
-          "xi_score": 69.68,
+          "xi_score": 66.24,
           "captain": "Hinshelwood"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Hall",
-              "in": "Bogle",
-              "cost_delta": -0.4
+              "out": "Rogers",
+              "in": "Foden",
+              "cost_delta": -1.4
             }
           ],
           "hits": 0,
-          "xi_score": 67.3,
-          "captain": "Hinshelwood"
+          "xi_score": 69.19,
+          "captain": "Foden"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
-      "final_bank": 1.2,
-      "total_xpts": 136.98,
-      "net_gain_vs_hold": 13.61
+      "final_bank": 2.4,
+      "total_xpts": 204.22,
+      "net_gain_vs_hold": 15.86
     },
     {
       "weekly_plan": [
@@ -64,8 +64,8 @@
             }
           ],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Wissa"
+          "xi_score": 68.79,
+          "captain": "Hinshelwood"
         },
         {
           "week": 2,
@@ -77,28 +77,28 @@
             }
           ],
           "hits": 0,
-          "xi_score": 69.68,
+          "xi_score": 66.44,
           "captain": "Hinshelwood"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Gvardiol",
-              "in": "Bogle",
-              "cost_delta": -0.8
+              "out": "Rogers",
+              "in": "Foden",
+              "cost_delta": -1.4
             }
           ],
           "hits": 0,
-          "xi_score": 67.3,
-          "captain": "Hinshelwood"
+          "xi_score": 68.25,
+          "captain": "Foden"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
-      "final_bank": 1.6,
-      "total_xpts": 136.98,
-      "net_gain_vs_hold": 13.61
+      "final_bank": 2.7,
+      "total_xpts": 203.48,
+      "net_gain_vs_hold": 15.12
     },
     {
       "weekly_plan": [
@@ -106,28 +106,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Wissa"
+          "xi_score": 64.67,
+          "captain": "Haaland"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 63.57,
-          "captain": "Haaland"
+          "xi_score": 61.0,
+          "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 59.8,
-          "captain": "Mbeumo"
+          "xi_score": 62.69,
+          "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
-      "final_bank": 1.1,
-      "total_xpts": 123.37,
+      "final_bank": 1.6,
+      "total_xpts": 188.36,
       "net_gain_vs_hold": 0.0
     }
   ]
