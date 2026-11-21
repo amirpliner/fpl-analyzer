@@ -13,15 +13,15 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 4.5,
-      "total_points": 60,
-      "ppm": 9.52,
-      "ownership": 47.8,
+      "form": 4.8,
+      "total_points": 61,
+      "ppm": 9.68,
+      "ownership": 47.6,
       "is_differential": false,
       "xgi_per_90": 0.0,
-      "xgc_per_90": 0.76,
-      "starts_per_90": 1.0,
-      "chance_next": null,
+      "xgc_per_90": 0.84,
+      "starts_per_90": 1.02,
+      "chance_next": 75,
       "prior_season_fallback": null,
       "fixture_run": [
         {
@@ -63,8 +63,12 @@
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
       "minutes_trend": "down",
-      "avg_minutes_last3": 60.0,
-      "injury": null,
+      "avg_minutes_last3": 83.0,
+      "injury": {
+        "status": "d",
+        "chance_of_playing_next_round": 75,
+        "news": "Shoulder injury - 75% chance of playing"
+      },
       "is_dead": false
     },
     {
@@ -76,14 +80,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 3.2,
-      "total_points": 57,
-      "ppm": 9.66,
+      "form": 3.5,
+      "total_points": 58,
+      "ppm": 9.83,
       "ownership": 48.6,
       "is_differential": false,
-      "xgi_per_90": 0.26,
-      "xgc_per_90": 0.81,
-      "starts_per_90": 1.06,
+      "xgi_per_90": 0.24,
+      "xgc_per_90": 0.91,
+      "starts_per_90": 1.05,
       "chance_next": 100,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -125,8 +129,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
-      "minutes_trend": "down",
-      "avg_minutes_last3": 52.7,
+      "minutes_trend": "up",
+      "avg_minutes_last3": 82.7,
       "injury": null,
       "is_dead": false
     },
@@ -139,13 +143,13 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 6.5,
-      "total_points": 57,
-      "ppm": 11.18,
-      "ownership": 18.1,
+      "form": 8.0,
+      "total_points": 63,
+      "ppm": 12.35,
+      "ownership": 18.3,
       "is_differential": false,
-      "xgi_per_90": 0.24,
-      "xgc_per_90": 1.19,
+      "xgi_per_90": 0.23,
+      "xgc_per_90": 1.13,
       "starts_per_90": 1.0,
       "chance_next": 100,
       "prior_season_fallback": null,
@@ -188,8 +192,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 2.6,
-      "minutes_trend": "down",
-      "avg_minutes_last3": 60.0,
+      "minutes_trend": "flat",
+      "avg_minutes_last3": 90.0,
       "injury": null,
       "is_dead": false
     },
@@ -202,14 +206,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 8.0,
-      "total_points": 57,
-      "ppm": 11.63,
+      "form": 8.2,
+      "total_points": 58,
+      "ppm": 11.84,
       "ownership": 25.5,
       "is_differential": false,
       "xgi_per_90": 0.08,
-      "xgc_per_90": 0.87,
-      "starts_per_90": 0.98,
+      "xgc_per_90": 0.96,
+      "starts_per_90": 0.99,
       "chance_next": 100,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -251,8 +255,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
-      "minutes_trend": "down",
-      "avg_minutes_last3": 60.0,
+      "minutes_trend": "flat",
+      "avg_minutes_last3": 90.0,
       "injury": null,
       "is_dead": false
     },
@@ -331,7 +335,7 @@
       "form": 3.5,
       "total_points": 51,
       "ppm": 10.0,
-      "ownership": 4.6,
+      "ownership": 4.7,
       "is_differential": true,
       "xgi_per_90": 0.26,
       "xgc_per_90": 1.35,
@@ -391,13 +395,13 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 3.0,
-      "total_points": 52,
-      "ppm": 6.34,
+      "form": 4.2,
+      "total_points": 57,
+      "ppm": 6.95,
       "ownership": 54.6,
       "is_differential": false,
-      "xgi_per_90": 0.46,
-      "xgc_per_90": 1.52,
+      "xgi_per_90": 0.44,
+      "xgc_per_90": 1.63,
       "starts_per_90": 1.02,
       "chance_next": null,
       "prior_season_fallback": null,
@@ -440,8 +444,8 @@
       ],
       "has_easy_run": true,
       "avg_fdr_next5": 3.2,
-      "minutes_trend": "down",
-      "avg_minutes_last3": 60.0,
+      "minutes_trend": "flat",
+      "avg_minutes_last3": 90.0,
       "injury": null,
       "is_dead": false
     },
@@ -517,14 +521,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": false,
-      "form": 2.5,
-      "total_points": 54,
-      "ppm": 6.84,
-      "ownership": 33.7,
+      "form": 2.8,
+      "total_points": 55,
+      "ppm": 6.96,
+      "ownership": 33.3,
       "is_differential": false,
-      "xgi_per_90": 0.61,
-      "xgc_per_90": 1.21,
-      "starts_per_90": 1.12,
+      "xgi_per_90": 0.59,
+      "xgc_per_90": 1.2,
+      "starts_per_90": 1.08,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -566,10 +570,10 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.6,
-      "minutes_trend": "flat",
-      "avg_minutes_last3": 41.7,
+      "minutes_trend": "up",
+      "avg_minutes_last3": 48.3,
       "injury": null,
-      "is_dead": true
+      "is_dead": false
     },
     {
       "id": 411,
@@ -580,14 +584,14 @@
       "is_captain": false,
       "is_vice": true,
       "on_bench": false,
-      "form": 3.2,
-      "total_points": 71,
-      "ppm": 4.49,
-      "ownership": 78.9,
+      "form": 3.5,
+      "total_points": 72,
+      "ppm": 4.56,
+      "ownership": 78.6,
       "is_differential": false,
-      "xgi_per_90": 0.87,
+      "xgi_per_90": 0.82,
       "xgc_per_90": 1.23,
-      "starts_per_90": 1.06,
+      "starts_per_90": 1.01,
       "chance_next": 100,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -629,8 +633,8 @@
       ],
       "has_easy_run": false,
       "avg_fdr_next5": 3.6,
-      "minutes_trend": "down",
-      "avg_minutes_last3": 75.0,
+      "minutes_trend": "flat",
+      "avg_minutes_last3": 90.0,
       "injury": null,
       "is_dead": false
     },
@@ -643,14 +647,14 @@
       "is_captain": true,
       "is_vice": false,
       "on_bench": false,
-      "form": 8.2,
-      "total_points": 54,
-      "ppm": 7.5,
-      "ownership": 35.7,
+      "form": 8.8,
+      "total_points": 56,
+      "ppm": 7.78,
+      "ownership": 35.9,
       "is_differential": false,
       "xgi_per_90": 0.54,
-      "xgc_per_90": 1.33,
-      "starts_per_90": 1.12,
+      "xgc_per_90": 1.22,
+      "starts_per_90": 1.13,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -692,8 +696,8 @@
       ],
       "has_easy_run": true,
       "avg_fdr_next5": 2.2,
-      "minutes_trend": "down",
-      "avg_minutes_last3": 58.3,
+      "minutes_trend": "flat",
+      "avg_minutes_last3": 82.3,
       "injury": null,
       "is_dead": false
     },
@@ -769,14 +773,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 2.8,
-      "total_points": 40,
-      "ppm": 7.41,
+      "form": 3.0,
+      "total_points": 41,
+      "ppm": 7.59,
       "ownership": 1.4,
       "is_differential": true,
-      "xgi_per_90": 0.45,
-      "xgc_per_90": 1.44,
-      "starts_per_90": 1.14,
+      "xgi_per_90": 0.44,
+      "xgc_per_90": 1.42,
+      "starts_per_90": 1.11,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -819,7 +823,7 @@
       "has_easy_run": false,
       "avg_fdr_next5": 3.4,
       "minutes_trend": "flat",
-      "avg_minutes_last3": 69.7,
+      "avg_minutes_last3": 77.7,
       "injury": null,
       "is_dead": false
     },
@@ -832,14 +836,14 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 1.0,
-      "total_points": 22,
-      "ppm": 3.73,
-      "ownership": 7.6,
+      "form": 1.2,
+      "total_points": 23,
+      "ppm": 3.9,
+      "ownership": 7.5,
       "is_differential": true,
       "xgi_per_90": 0.45,
-      "xgc_per_90": 1.44,
-      "starts_per_90": 1.02,
+      "xgc_per_90": 1.43,
+      "starts_per_90": 1.01,
       "chance_next": null,
       "prior_season_fallback": null,
       "fixture_run": [
@@ -882,7 +886,7 @@
       "has_easy_run": true,
       "avg_fdr_next5": 3.0,
       "minutes_trend": "up",
-      "avg_minutes_last3": 28.7,
+      "avg_minutes_last3": 31.0,
       "injury": null,
       "is_dead": true
     },
@@ -895,15 +899,15 @@
       "is_captain": false,
       "is_vice": false,
       "on_bench": true,
-      "form": 2.8,
-      "total_points": 46,
-      "ppm": 8.85,
+      "form": 3.0,
+      "total_points": 47,
+      "ppm": 9.04,
       "ownership": 16.9,
       "is_differential": false,
       "xgi_per_90": 0.15,
-      "xgc_per_90": 1.68,
+      "xgc_per_90": 1.66,
       "starts_per_90": 1.0,
-      "chance_next": null,
+      "chance_next": 75,
       "prior_season_fallback": null,
       "fixture_run": [
         {
@@ -944,9 +948,13 @@
       ],
       "has_easy_run": true,
       "avg_fdr_next5": 3.0,
-      "minutes_trend": "down",
-      "avg_minutes_last3": 60.0,
-      "injury": null,
+      "minutes_trend": "flat",
+      "avg_minutes_last3": 90.0,
+      "injury": {
+        "status": "d",
+        "chance_of_playing_next_round": 75,
+        "news": "Unspecified injury - 75% chance of playing"
+      },
       "is_dead": false
     }
   ],
@@ -966,58 +974,53 @@
   ],
   "dead_players": [
     {
-      "id": 399,
-      "web_name": "Cherki",
-      "reason": "ממוצע 41.7 דקות ב-3 המשחקים האחרונים"
-    },
-    {
       "id": 464,
       "web_name": "Wissa",
-      "reason": "ממוצע 28.7 דקות ב-3 המשחקים האחרונים"
+      "reason": "ממוצע 31.0 דקות ב-3 המשחקים האחרונים"
     }
   ],
   "captain_recommendations": [
     {
       "id": 411,
       "web_name": "Haaland",
-      "xpts": 6.73,
+      "xpts": 6.55,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
         "p60": 1.0,
         "p_cameo": 0.0,
         "appearance": 2.0,
-        "goals_pts": 3.54,
+        "goals_pts": 3.32,
         "assists_pts": 0.27,
         "cs_pts": 0,
-        "bonus_est": 0.92,
+        "bonus_est": 0.97,
         "concede_penalty": 0,
         "attack_factor": 1.12,
         "defence_factor_against_us": 0.88,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 6.73, תרומה התקפית צפויה 3.81, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 6.55, תרומה התקפית צפויה 3.59, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 399,
       "web_name": "Cherki",
-      "xpts": 6.24,
+      "xpts": 6.16,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
         "p60": 1.0,
         "p_cameo": 0.0,
         "appearance": 2.0,
-        "goals_pts": 1.74,
-        "assists_pts": 1.01,
-        "cs_pts": 0.34,
-        "bonus_est": 1.15,
+        "goals_pts": 1.68,
+        "assists_pts": 0.97,
+        "cs_pts": 0.35,
+        "bonus_est": 1.16,
         "concede_penalty": 0,
         "attack_factor": 1.12,
         "defence_factor_against_us": 0.88,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 6.24, תרומה התקפית צפויה 2.75, סיכוי שער נקי 0.34, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 6.16, תרומה התקפית צפויה 2.65, סיכוי שער נקי 0.35, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
       "id": 115,
@@ -1041,30 +1044,9 @@
       "reason": "xPts משוער: 6.08, תרומה התקפית צפויה 2.35, סיכוי שער נקי 1.2, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     },
     {
-      "id": 8,
-      "web_name": "Calafiori",
-      "xpts": 5.5,
-      "confidence": 85,
-      "breakdown": {
-        "p_play": 1.0,
-        "p60": 1.0,
-        "p_cameo": 0.0,
-        "appearance": 2.0,
-        "goals_pts": 0.84,
-        "assists_pts": 0.36,
-        "cs_pts": 1.78,
-        "bonus_est": 0.93,
-        "concede_penalty": 0.41,
-        "attack_factor": 1.0,
-        "defence_factor_against_us": 1.0,
-        "used_fdr_fallback": true
-      },
-      "reason": "xPts משוער: 5.5, תרומה התקפית צפויה 1.2, סיכוי שער נקי 1.78, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
-    },
-    {
       "id": 427,
       "web_name": "Mbeumo",
-      "xpts": 5.46,
+      "xpts": 5.48,
       "confidence": 85,
       "breakdown": {
         "p_play": 1.0,
@@ -1074,16 +1056,51 @@
         "goals_pts": 2.07,
         "assists_pts": 0.34,
         "cs_pts": 0.13,
-        "bonus_est": 0.91,
+        "bonus_est": 0.94,
         "concede_penalty": 0,
         "attack_factor": 0.88,
         "defence_factor_against_us": 1.12,
         "used_fdr_fallback": true
       },
-      "reason": "xPts משוער: 5.46, תרומה התקפית צפויה 2.41, סיכוי שער נקי 0.13, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+      "reason": "xPts משוער: 5.48, תרומה התקפית צפויה 2.41, סיכוי שער נקי 0.13, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
+    },
+    {
+      "id": 112,
+      "web_name": "Van Hecke",
+      "xpts": 5.39,
+      "confidence": 85,
+      "breakdown": {
+        "p_play": 1.0,
+        "p60": 1.0,
+        "p_cameo": 0.0,
+        "appearance": 2.0,
+        "goals_pts": 1.08,
+        "assists_pts": 0.24,
+        "cs_pts": 1.48,
+        "bonus_est": 1.1,
+        "concede_penalty": 0.5,
+        "attack_factor": 1.12,
+        "defence_factor_against_us": 0.88,
+        "used_fdr_fallback": true
+      },
+      "reason": "xPts משוער: 5.39, תרומה התקפית צפויה 1.32, סיכוי שער נקי 1.48, מבוסס FDR - נתוני חוזק קבוצה עדיין לא זמינים העונה"
     }
   ],
   "transfer_suggestions": [
+    {
+      "out": {
+        "id": 1,
+        "web_name": "Raya",
+        "price": 6.3
+      },
+      "in": {
+        "id": 529,
+        "web_name": "Roefs",
+        "price": 4.8
+      },
+      "cost_delta": -1.5,
+      "reason": "בעיית זמינות (d)"
+    },
     {
       "out": {
         "id": 427,
@@ -1091,26 +1108,12 @@
         "price": 7.8
       },
       "in": {
-        "id": 366,
-        "web_name": "Wirtz",
-        "price": 7.3
+        "id": 183,
+        "web_name": "Rudoni",
+        "price": 4.9
       },
-      "cost_delta": -0.5,
+      "cost_delta": -2.9,
       "reason": "פורם נמוך (1.2)"
-    },
-    {
-      "out": {
-        "id": 399,
-        "web_name": "Cherki",
-        "price": 7.9
-      },
-      "in": {
-        "id": 366,
-        "web_name": "Wirtz",
-        "price": 7.3
-      },
-      "cost_delta": -0.6,
-      "reason": "דקות משחק נמוכות"
     },
     {
       "out": {
@@ -1119,16 +1122,16 @@
         "price": 5.9
       },
       "in": {
-        "id": 249,
-        "web_name": "Barry",
-        "price": 5.7
+        "id": 79,
+        "web_name": "Evanilson",
+        "price": 6.5
       },
-      "cost_delta": -0.2,
-      "reason": "פורם נמוך (1.0) · דקות משחק נמוכות"
+      "cost_delta": 0.6,
+      "reason": "פורם נמוך (1.2) · דקות משחק נמוכות"
     }
   ],
   "rating": {
     "score": 5.2,
-    "reason": "PPM ממוצע 8.59, 2 שחקנים עם בעיית זמינות/דקות, 2 אזהרות חשיפה"
+    "reason": "PPM ממוצע 8.81, 1 שחקנים עם בעיית זמינות/דקות, 2 סימני שאלה לפציעה, 2 אזהרות חשיפה"
   }
 }
