@@ -19,21 +19,21 @@
     "recommendations": [
       {
         "event": 14,
-        "score": 14.09,
+        "score": 13.17,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.09 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.17 נק' (סף: 12.0)"
       },
       {
         "event": 15,
-        "score": 14.04,
+        "score": 13.12,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 14.04 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 13.12 נק' (סף: 12.0)"
       },
       {
-        "event": 17,
-        "score": 13.64,
+        "event": 18,
+        "score": 12.69,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.64 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.69 נק' (סף: 12.0)"
       }
     ]
   },
@@ -69,10 +69,10 @@
   },
   "wildcard": {
     "available": true,
-    "decay_score": 0.0,
-    "weak_players": 0,
+    "decay_score": 1.0,
+    "weak_players": 1,
     "injury_players": 0,
     "recommend": false,
-    "reason": "0 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
+    "reason": "1 שחקנים עם xPts ממוצע חלש, 0 עם בעיית זמינות. הסגל עדיין בריא יחסית - אין צורך דחוף ב-Wildcard."
   }
 }
