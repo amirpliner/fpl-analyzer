@@ -19,21 +19,21 @@
     "recommendations": [
       {
         "event": 14,
-        "score": 13.19,
+        "score": 12.92,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.19 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.92 נק' (סף: 12.0)"
       },
       {
         "event": 15,
-        "score": 13.14,
+        "score": 12.92,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 13.14 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.92 נק' (סף: 12.0)"
       },
       {
         "event": 18,
-        "score": 12.72,
+        "score": 12.46,
         "is_dgw": false,
-        "reason": "הספסל צפוי לתרום 12.72 נק' (סף: 12.0)"
+        "reason": "הספסל צפוי לתרום 12.46 נק' (סף: 12.0)"
       }
     ]
   },
@@ -41,31 +41,37 @@
     "available": true,
     "recommendations": [
       {
-        "event": 11,
-        "player": "Haaland",
-        "score": 6.62,
-        "is_dgw": false,
-        "reason": "Haaland צפוי 6.62 xPts"
-      },
-      {
         "event": 16,
         "player": "Haaland",
-        "score": 6.62,
+        "score": 6.58,
         "is_dgw": false,
-        "reason": "Haaland צפוי 6.62 xPts"
+        "reason": "Haaland צפוי 6.58 xPts"
       },
       {
         "event": 13,
         "player": "Haaland",
-        "score": 6.24,
+        "score": 6.19,
         "is_dgw": false,
-        "reason": "Haaland צפוי 6.24 xPts"
+        "reason": "Haaland צפוי 6.19 xPts"
+      },
+      {
+        "event": 17,
+        "player": "Haaland",
+        "score": 6.19,
+        "is_dgw": false,
+        "reason": "Haaland צפוי 6.19 xPts"
       }
     ]
   },
   "free_hit": {
     "available": false,
-    "recommendations": []
+    "recommendations": [
+      {
+        "event": 11,
+        "blank_players": 15,
+        "reason": "15 משחקנים בסגל שלך ללא משחק במחזור 11"
+      }
+    ]
   },
   "wildcard": {
     "available": true,

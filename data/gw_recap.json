@@ -1,60 +1,97 @@
 {
-  "gw": 10,
-  "points": 63,
-  "points_on_bench": 14,
-  "overall_rank": 1431320,
-  "rank_change": 58207,
+  "gw": 11,
+  "points": 26,
+  "points_on_bench": 5,
+  "overall_rank": 1831711,
+  "rank_change": -400391,
   "event_transfers": 1,
   "event_transfers_cost": 0,
   "active_chip": null,
   "captain": {
-    "id": 411,
-    "web_name": "Haaland",
-    "team": "MCI",
+    "id": 166,
+    "web_name": "N.Jackson",
+    "team": "AVL",
     "on_bench": false,
     "is_captain": true,
     "multiplier": 2,
     "base_points": 2,
     "points": 4,
-    "minutes": 90,
-    "chance_next": 100
+    "minutes": 72,
+    "chance_next": null
   },
   "best_possible_captain": {
-    "id": 166,
-    "web_name": "N.Jackson",
-    "team": "AVL",
+    "id": 112,
+    "web_name": "Van Hecke",
+    "team": "TOT",
     "on_bench": false,
     "is_captain": false,
     "multiplier": 1,
-    "base_points": 11,
-    "points": 11,
-    "minutes": 85,
-    "chance_next": null
+    "base_points": 6,
+    "points": 6,
+    "minutes": 90,
+    "chance_next": 100
   },
   "captain_verdict": "suboptimal",
-  "hauls": [
+  "hauls": [],
+  "busts": [
     {
-      "id": 166,
-      "web_name": "N.Jackson",
-      "team": "AVL",
+      "id": 1,
+      "web_name": "Raya",
+      "team": "ARS",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 11,
-      "points": 11,
-      "minutes": 85,
-      "chance_next": null
+      "base_points": 1,
+      "points": 1,
+      "minutes": 69,
+      "chance_next": 50
     },
     {
-      "id": 127,
-      "web_name": "Gomez",
+      "id": 8,
+      "web_name": "Calafiori",
+      "team": "ARS",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
+      "chance_next": 100
+    },
+    {
+      "id": 31,
+      "web_name": "Konsa",
+      "team": "ARS",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 90,
+      "chance_next": 100
+    },
+    {
+      "id": 115,
+      "web_name": "De Cuyper",
       "team": "BHA",
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 9,
-      "points": 9,
+      "base_points": 1,
+      "points": 1,
       "minutes": 90,
+      "chance_next": null
+    },
+    {
+      "id": 427,
+      "web_name": "Mbeumo",
+      "team": "MUN",
+      "on_bench": false,
+      "is_captain": false,
+      "multiplier": 1,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 21,
       "chance_next": null
     },
     {
@@ -64,64 +101,37 @@
       "on_bench": false,
       "is_captain": false,
       "multiplier": 1,
-      "base_points": 9,
-      "points": 9,
-      "minutes": 90,
+      "base_points": 1,
+      "points": 1,
+      "minutes": 20,
       "chance_next": null
-    },
-    {
-      "id": 31,
-      "web_name": "Konsa",
-      "team": "ARS",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 8,
-      "points": 8,
-      "minutes": 90,
-      "chance_next": 100
     }
   ],
-  "busts": [
-    {
-      "id": 391,
-      "web_name": "Gvardiol",
-      "team": "MCI",
-      "on_bench": false,
-      "is_captain": false,
-      "multiplier": 1,
-      "base_points": 0,
-      "points": 0,
-      "minutes": 45,
-      "chance_next": 100
-    }
-  ],
-  "keep": [
-    {
-      "web_name": "Konsa",
-      "reason": "הביא 8 נק' במחזור 10"
-    },
-    {
-      "web_name": "Gomez",
-      "reason": "הביא 9 נק' במחזור 10"
-    },
-    {
-      "web_name": "Cherki",
-      "reason": "הביא 9 נק' במחזור 10"
-    },
-    {
-      "web_name": "N.Jackson",
-      "reason": "הביא 11 נק' במחזור 10 וגם הריצה הקרובה נוחה"
-    }
-  ],
+  "keep": [],
   "change": [
     {
       "web_name": "Raya",
-      "reason": "50% סיכוי לשחק במחזור הבא · ריצת משחקים קשה"
+      "reason": "רק 1 נק' במחזור 11 · 50% סיכוי לשחק במחזור הבא · ריצת משחקים קשה"
     },
     {
-      "web_name": "Gvardiol",
-      "reason": "רק 0 נק' במחזור 10 · ריצת משחקים קשה"
+      "web_name": "Calafiori",
+      "reason": "רק 1 נק' במחזור 11 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Konsa",
+      "reason": "רק 1 נק' במחזור 11 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "De Cuyper",
+      "reason": "רק 1 נק' במחזור 11 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Cherki",
+      "reason": "רק 1 נק' במחזור 11 · ריצת משחקים קשה"
+    },
+    {
+      "web_name": "Iwobi",
+      "reason": "רק 1 נק' במחזור 11 · ריצת משחקים קשה"
     }
   ]
 }
