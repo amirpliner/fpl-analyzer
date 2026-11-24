@@ -2,7 +2,7 @@
   "horizon": 3,
   "beam_width": 50,
   "from_gameweek": 11,
-  "baseline_xpts": 184.87,
+  "baseline_xpts": 185.43,
   "routes": [
     {
       "weekly_plan": [
@@ -16,11 +16,24 @@
             }
           ],
           "hits": 0,
-          "xi_score": 74.46,
+          "xi_score": 74.64,
           "captain": "Williams-Barnett"
         },
         {
           "week": 2,
+          "transfers": [
+            {
+              "out": "Raya",
+              "in": "Sharman-Lowe",
+              "cost_delta": -2.3
+            }
+          ],
+          "hits": 0,
+          "xi_score": 70.58,
+          "captain": "Williams-Barnett"
+        },
+        {
+          "week": 3,
           "transfers": [
             {
               "out": "Gomez",
@@ -29,28 +42,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 71.23,
-          "captain": "Williams-Barnett"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
-              "out": "Raya",
-              "in": "Gunter",
-              "cost_delta": -2.3
-            }
-          ],
-          "hits": 0,
-          "xi_score": 75.82,
+          "xi_score": 75.94,
           "captain": "Williams-Barnett"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
       "final_bank": 3.2,
-      "total_xpts": 221.51,
-      "net_gain_vs_hold": 36.64
+      "total_xpts": 221.16,
+      "net_gain_vs_hold": 35.73
     },
     {
       "weekly_plan": [
@@ -64,11 +64,24 @@
             }
           ],
           "hits": 0,
-          "xi_score": 74.46,
+          "xi_score": 74.64,
           "captain": "Williams-Barnett"
         },
         {
           "week": 2,
+          "transfers": [
+            {
+              "out": "Raya",
+              "in": "Gunter",
+              "cost_delta": -2.3
+            }
+          ],
+          "hits": 0,
+          "xi_score": 70.56,
+          "captain": "Williams-Barnett"
+        },
+        {
+          "week": 3,
           "transfers": [
             {
               "out": "Gomez",
@@ -77,28 +90,15 @@
             }
           ],
           "hits": 0,
-          "xi_score": 71.23,
-          "captain": "Williams-Barnett"
-        },
-        {
-          "week": 3,
-          "transfers": [
-            {
-              "out": "Raya",
-              "in": "Sharman-Lowe",
-              "cost_delta": -2.3
-            }
-          ],
-          "hits": 0,
-          "xi_score": 75.82,
+          "xi_score": 75.94,
           "captain": "Williams-Barnett"
         }
       ],
       "total_transfers": 3,
       "total_hits": 0,
       "final_bank": 3.2,
-      "total_xpts": 221.51,
-      "net_gain_vs_hold": 36.64
+      "total_xpts": 221.14,
+      "net_gain_vs_hold": 35.71
     },
     {
       "weekly_plan": [
@@ -106,28 +106,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 63.66,
+          "xi_score": 63.85,
           "captain": "Haaland"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 60.04,
+          "xi_score": 60.21,
           "captain": "Mbeumo"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 61.17,
+          "xi_score": 61.37,
           "captain": "Haaland"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
       "final_bank": 1.6,
-      "total_xpts": 184.87,
+      "total_xpts": 185.43,
       "net_gain_vs_hold": 0.0
     }
   ]

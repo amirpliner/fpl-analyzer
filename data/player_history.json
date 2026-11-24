@@ -2212,13 +2212,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 5.0
     }
   ],
@@ -2269,13 +2269,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 73,
+      "xg": 0.8,
+      "xa": 0.05,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 16,
       "value": 5.5
     }
   ],
@@ -2326,13 +2326,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
-      "xa": 0.0,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 4.5
     }
   ],
@@ -2383,13 +2383,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 90,
+      "xg": 0.41,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 6,
       "value": 4.5
     }
   ],
@@ -2554,13 +2554,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 24,
+      "xg": 0.1,
+      "xa": 0.01,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 6.1
     }
   ],
@@ -2611,14 +2611,71 @@
     },
     {
       "gw": 11,
+      "minutes": 65,
+      "xg": 0.17,
+      "xa": 0.02,
+      "ict": 0.0,
+      "opp": "EVE",
+      "was_home": true,
+      "points": 3,
+      "value": 6.2
+    }
+  ],
+  "96": [
+    {
+      "gw": 7,
+      "minutes": 13,
+      "xg": 0.0,
+      "xa": 0.01,
+      "ict": 0.7,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 1,
+      "value": 5.3
+    },
+    {
+      "gw": 8,
+      "minutes": 28,
+      "xg": 0.05,
+      "xa": 0.19,
+      "ict": 3.8,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 1,
+      "value": 5.3
+    },
+    {
+      "gw": 9,
+      "minutes": 28,
+      "xg": 0.04,
+      "xa": 0.02,
+      "ict": 1.0,
+      "opp": "NFO",
+      "was_home": true,
+      "points": 1,
+      "value": 5.3
+    },
+    {
+      "gw": 10,
       "minutes": 0,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 5.3
+    },
+    {
+      "gw": 11,
+      "minutes": 90,
+      "xg": 0.06,
+      "xa": 0.77,
+      "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
-      "value": 6.2
+      "points": 3,
+      "value": 5.3
     }
   ],
   "98": [
@@ -2668,13 +2725,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 81,
+      "xg": 0.02,
+      "xa": 0.17,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 10,
       "value": 5.0
     }
   ],
@@ -2782,13 +2839,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
+      "minutes": 80,
+      "xg": 0.04,
+      "xa": 0.17,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 10,
       "value": 5.9
     }
   ],
@@ -3645,63 +3702,6 @@
       "was_home": true,
       "points": 0,
       "value": 5.2
-    }
-  ],
-  "145": [
-    {
-      "gw": 7,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "EVE",
-      "was_home": false,
-      "points": 0,
-      "value": 5.0
-    },
-    {
-      "gw": 8,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "TOT",
-      "was_home": true,
-      "points": 0,
-      "value": 5.0
-    },
-    {
-      "gw": 9,
-      "minutes": 90,
-      "xg": 0.13,
-      "xa": 0.02,
-      "ict": 4.4,
-      "opp": "MUN",
-      "was_home": true,
-      "points": 11,
-      "value": 5.0
-    },
-    {
-      "gw": 10,
-      "minutes": 90,
-      "xg": 0.06,
-      "xa": 0.02,
-      "ict": 2.0,
-      "opp": "SUN",
-      "was_home": false,
-      "points": 1,
-      "value": 5.0
-    },
-    {
-      "gw": 11,
-      "minutes": 90,
-      "xg": 0.0,
-      "xa": 0.01,
-      "ict": 0.0,
-      "opp": "LEE",
-      "was_home": true,
-      "points": 2,
-      "value": 5.0
     }
   ],
   "148": [
@@ -5176,13 +5176,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -5233,13 +5233,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 39,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": -4,
       "value": 6.2
     }
   ],
@@ -5290,13 +5290,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.5
     }
   ],
@@ -5347,13 +5347,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 90,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 4.6
     }
   ],
@@ -5404,13 +5404,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 68,
+      "xg": 0.02,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 6.7
     }
   ],
@@ -5518,13 +5518,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 84,
       "xg": 0.0,
-      "xa": 0.0,
+      "xa": 0.02,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 4,
       "value": 6.0
     }
   ],
@@ -5632,13 +5632,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 45,
       "xg": 0.0,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 1,
       "value": 5.5
     }
   ],
@@ -5689,13 +5689,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 90,
+      "xg": 0.02,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.0
     }
   ],
@@ -5746,13 +5746,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
+      "minutes": 68,
+      "xg": 0.12,
       "xa": 0.0,
       "ict": 0.0,
       "opp": "BRE",
       "was_home": false,
-      "points": 0,
+      "points": 2,
       "value": 5.7
     }
   ],
@@ -12472,13 +12472,13 @@
     },
     {
       "gw": 11,
-      "minutes": 0,
+      "minutes": 8,
       "xg": 0.0,
-      "xa": 0.0,
+      "xa": 0.03,
       "ict": 0.0,
       "opp": "EVE",
       "was_home": true,
-      "points": 0,
+      "points": 1,
       "value": 5.4
     }
   ],
