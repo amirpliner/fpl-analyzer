@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": 377,
+      "web_name": "Munoz",
+      "team": 14,
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-11-26T03:30:05.640103Z",
+      "chance_of_playing_next_round": 75
+    },
+    {
       "id": 114,
       "web_name": "Boscagli",
       "team": 5,
@@ -151,14 +159,6 @@
       "news": "Achilles injury - Unknown return date",
       "news_added": "2026-11-20T11:30:05.525769Z",
       "chance_of_playing_next_round": 0
-    },
-    {
-      "id": 575,
-      "web_name": "Yirenkyi",
-      "team": 7,
-      "news": "Unspecified injury - 75% chance of playing",
-      "news_added": "2026-11-19T19:00:05.972580Z",
-      "chance_of_playing_next_round": 75
     }
   ],
   "hot_players": [
@@ -166,81 +166,81 @@
       "id": 366,
       "web_name": "Wirtz",
       "team": 14,
-      "net_transfers": 407561,
+      "net_transfers": 478228,
       "form": 9.7,
-      "owned": 10.8
+      "owned": 11.5
     },
     {
       "id": 79,
       "web_name": "Evanilson",
       "team": 3,
-      "net_transfers": 173567,
+      "net_transfers": 184689,
       "form": 8.0,
-      "owned": 27.6
+      "owned": 27.7
     },
     {
       "id": 112,
       "web_name": "Van Hecke",
       "team": 19,
-      "net_transfers": 155114,
+      "net_transfers": 171710,
       "form": 8.3,
-      "owned": 19.7
+      "owned": 19.9
     },
     {
       "id": 385,
       "web_name": "Trafford",
       "team": 13,
-      "net_transfers": 127314,
+      "net_transfers": 139625,
       "form": 4.7,
-      "owned": 8.1
-    },
-    {
-      "id": 68,
-      "web_name": "Tavernier",
-      "team": 3,
-      "net_transfers": 124321,
-      "form": 4.7,
-      "owned": 33.7
-    },
-    {
-      "id": 60,
-      "web_name": "Hill",
-      "team": 3,
-      "net_transfers": 114749,
-      "form": 8.0,
-      "owned": 4.6
-    },
-    {
-      "id": 336,
-      "web_name": "Okafor",
-      "team": 13,
-      "net_transfers": 112696,
-      "form": 6.7,
-      "owned": 1.4
+      "owned": 8.3
     },
     {
       "id": 379,
       "web_name": "Isak",
       "team": 14,
-      "net_transfers": 110940,
+      "net_transfers": 135628,
       "form": 5.0,
-      "owned": 27.3
+      "owned": 27.6
+    },
+    {
+      "id": 68,
+      "web_name": "Tavernier",
+      "team": 3,
+      "net_transfers": 130893,
+      "form": 4.7,
+      "owned": 33.7
     },
     {
       "id": 346,
       "web_name": "Calvert-Lewin",
       "team": 13,
-      "net_transfers": 109024,
+      "net_transfers": 125443,
       "form": 4.3,
-      "owned": 17.5
+      "owned": 17.7
+    },
+    {
+      "id": 60,
+      "web_name": "Hill",
+      "team": 3,
+      "net_transfers": 123024,
+      "form": 8.0,
+      "owned": 4.7
+    },
+    {
+      "id": 336,
+      "web_name": "Okafor",
+      "team": 13,
+      "net_transfers": 122984,
+      "form": 6.7,
+      "owned": 1.5
     },
     {
       "id": 166,
       "web_name": "N.Jackson",
       "team": 2,
-      "net_transfers": 92708,
+      "net_transfers": 98737,
       "form": 7.3,
-      "owned": 36.6
+      "owned": 36.7
     }
   ]
 }
