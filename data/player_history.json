@@ -4559,6 +4559,63 @@
       "value": 5.0
     }
   ],
+  "198": [
+    {
+      "gw": 7,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BHA",
+      "was_home": false,
+      "points": 0,
+      "value": 4.9
+    },
+    {
+      "gw": 8,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NEW",
+      "was_home": true,
+      "points": 0,
+      "value": 4.9
+    },
+    {
+      "gw": 9,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 5.5,
+      "opp": "TOT",
+      "was_home": false,
+      "points": 3,
+      "value": 4.9
+    },
+    {
+      "gw": 10,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 3.9,
+      "opp": "LIV",
+      "was_home": true,
+      "points": 2,
+      "value": 4.9
+    },
+    {
+      "gw": 11,
+      "minutes": 90,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 3.0,
+      "opp": "COV",
+      "was_home": false,
+      "points": 2,
+      "value": 4.9
+    }
+  ],
   "200": [
     {
       "gw": 7,
@@ -7179,6 +7236,63 @@
       "was_home": false,
       "points": 1,
       "value": 4.0
+    }
+  ],
+  "306": [
+    {
+      "gw": 7,
+      "minutes": 90,
+      "xg": 0.02,
+      "xa": 0.02,
+      "ict": 3.2,
+      "opp": "MCI",
+      "was_home": false,
+      "points": 1,
+      "value": 3.9
+    },
+    {
+      "gw": 8,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "NFO",
+      "was_home": true,
+      "points": 0,
+      "value": 3.9
+    },
+    {
+      "gw": 9,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "HUL",
+      "was_home": false,
+      "points": 0,
+      "value": 3.9
+    },
+    {
+      "gw": 10,
+      "minutes": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.0,
+      "opp": "BOU",
+      "was_home": true,
+      "points": 0,
+      "value": 3.9
+    },
+    {
+      "gw": 11,
+      "minutes": 7,
+      "xg": 0.0,
+      "xa": 0.0,
+      "ict": 0.1,
+      "opp": "TOT",
+      "was_home": false,
+      "points": 1,
+      "value": 3.9
     }
   ],
   "313": [
@@ -12252,63 +12366,6 @@
       "was_home": false,
       "points": 0,
       "value": 4.0
-    }
-  ],
-  "556": [
-    {
-      "gw": 7,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "FUL",
-      "was_home": false,
-      "points": 0,
-      "value": 3.9
-    },
-    {
-      "gw": 8,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BRE",
-      "was_home": true,
-      "points": 0,
-      "value": 3.9
-    },
-    {
-      "gw": 9,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "IPS",
-      "was_home": true,
-      "points": 0,
-      "value": 3.9
-    },
-    {
-      "gw": 10,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "ARS",
-      "was_home": false,
-      "points": 0,
-      "value": 3.9
-    },
-    {
-      "gw": 11,
-      "minutes": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "ict": 0.0,
-      "opp": "BHA",
-      "was_home": true,
-      "points": 0,
-      "value": 3.9
     }
   ],
   "557": [
