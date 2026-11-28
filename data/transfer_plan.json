@@ -1,8 +1,8 @@
 {
   "horizon": 3,
   "beam_width": 50,
-  "from_gameweek": 11,
-  "baseline_xpts": 120.82,
+  "from_gameweek": 12,
+  "baseline_xpts": 181.32,
   "routes": [
     {
       "weekly_plan": [
@@ -10,66 +10,23 @@
           "week": 1,
           "transfers": [
             {
-              "out": "Iwobi",
+              "out": "Rogers",
               "in": "Williams-Barnett",
-              "cost_delta": -1.0
+              "cost_delta": -3.9
             }
           ],
           "hits": 0,
-          "xi_score": 0.0,
+          "xi_score": 70.15,
           "captain": "Williams-Barnett"
         },
         {
           "week": 2,
-          "transfers": [
-            {
-              "out": "Gomez",
-              "in": "Foden",
-              "cost_delta": 1.7
-            }
-          ],
-          "hits": 0,
-          "xi_score": 72.14,
-          "captain": "Williams-Barnett"
-        },
-        {
-          "week": 3,
           "transfers": [
             {
               "out": "Hall",
-              "in": "Pedro Porro",
-              "cost_delta": 0.1
-            }
-          ],
-          "hits": 0,
-          "xi_score": 76.82,
-          "captain": "Williams-Barnett"
-        }
-      ],
-      "total_transfers": 3,
-      "total_hits": 0,
-      "final_bank": 0.8,
-      "total_xpts": 148.96,
-      "net_gain_vs_hold": 28.14
-    },
-    {
-      "weekly_plan": [
-        {
-          "week": 1,
-          "transfers": [
-            {
-              "out": "Iwobi",
-              "in": "Williams-Barnett",
-              "cost_delta": -1.0
-            }
-          ],
-          "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Williams-Barnett"
-        },
-        {
-          "week": 2,
-          "transfers": [
+              "in": "O'Reilly",
+              "cost_delta": 1.1
+            },
             {
               "out": "Gomez",
               "in": "Foden",
@@ -77,28 +34,81 @@
             }
           ],
           "hits": 0,
-          "xi_score": 72.14,
+          "xi_score": 76.24,
           "captain": "Williams-Barnett"
         },
         {
           "week": 3,
           "transfers": [
             {
-              "out": "Konsa",
-              "in": "Pedro Porro",
-              "cost_delta": 0.4
+              "out": "Iwobi",
+              "in": "Tavernier",
+              "cost_delta": 1.4
             }
           ],
           "hits": 0,
-          "xi_score": 76.82,
+          "xi_score": 74.0,
           "captain": "Williams-Barnett"
         }
       ],
-      "total_transfers": 3,
+      "total_transfers": 4,
       "total_hits": 0,
-      "final_bank": 0.5,
-      "total_xpts": 148.96,
-      "net_gain_vs_hold": 28.14
+      "final_bank": 1.5,
+      "total_xpts": 220.39,
+      "net_gain_vs_hold": 39.07
+    },
+    {
+      "weekly_plan": [
+        {
+          "week": 1,
+          "transfers": [
+            {
+              "out": "Rogers",
+              "in": "Williams-Barnett",
+              "cost_delta": -3.9
+            }
+          ],
+          "hits": 0,
+          "xi_score": 70.15,
+          "captain": "Williams-Barnett"
+        },
+        {
+          "week": 2,
+          "transfers": [
+            {
+              "out": "Hall",
+              "in": "O'Reilly",
+              "cost_delta": 1.1
+            },
+            {
+              "out": "Gomez",
+              "in": "Foden",
+              "cost_delta": 1.7
+            }
+          ],
+          "hits": 0,
+          "xi_score": 76.24,
+          "captain": "Williams-Barnett"
+        },
+        {
+          "week": 3,
+          "transfers": [
+            {
+              "out": "Wirtz",
+              "in": "Tavernier",
+              "cost_delta": -0.8
+            }
+          ],
+          "hits": 0,
+          "xi_score": 74.0,
+          "captain": "Williams-Barnett"
+        }
+      ],
+      "total_transfers": 4,
+      "total_hits": 0,
+      "final_bank": 3.7,
+      "total_xpts": 220.39,
+      "net_gain_vs_hold": 39.07
     },
     {
       "weekly_plan": [
@@ -106,28 +116,28 @@
           "week": 1,
           "transfers": [],
           "hits": 0,
-          "xi_score": 0.0,
-          "captain": "Wissa"
+          "xi_score": 59.65,
+          "captain": "Haaland"
         },
         {
           "week": 2,
           "transfers": [],
           "hits": 0,
-          "xi_score": 59.85,
-          "captain": "Mbeumo"
+          "xi_score": 60.73,
+          "captain": "Haaland"
         },
         {
           "week": 3,
           "transfers": [],
           "hits": 0,
-          "xi_score": 60.97,
-          "captain": "Haaland"
+          "xi_score": 60.94,
+          "captain": "De Cuyper"
         }
       ],
       "total_transfers": 0,
       "total_hits": 0,
-      "final_bank": 1.6,
-      "total_xpts": 120.82,
+      "final_bank": 1.8,
+      "total_xpts": 181.32,
       "net_gain_vs_hold": 0.0
     }
   ]
